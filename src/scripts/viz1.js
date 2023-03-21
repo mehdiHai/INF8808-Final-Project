@@ -1,28 +1,22 @@
-/**
- * Draws a legend in the area at the bottom of the screen, corresponding to the bars' colors
- *
- * @param {string[]} data The data to be used to draw the legend elements
- * @param {*} color The color scale used throughout the visualisation
- */
-export function draw (data, color) {
+d3.csv('./volsQuebec2022.csv').then(function (data) {
+  console.log(data)
 
-  var d = d3.select('.legend')
-  .selectAll('div')
-  .data(data)
-  .enter()
-  .append('div')
-  .attr('class', 'legend-element')
+  const bigCompanies = getBigCompanies(data);
+})
 
-d.append('div')
-  .attr('class', 'legend-element')
-  .style('width', 15)
-  .style('height', 15)
-  .style('background-color', name => color(name))
-  .style('border', "1px solid black")
-  .style('display', 'inline-block')
-  .style('margin-right', '3px')
 
-d.append('text')
-  .text(name => name);
-
+function getBigCompanies(data) {
+  const bigCompanies = new Map()
+  data.forEach((d) => {
+    if(!bigCompanies.get(d.opérateur)) {
+      bigCompanies.set(d.opérateur, 1)
+    }
+    else {
+      bigCompanies.set(d.opérateur, bigCompanies.get(d.opérateur) + 1)
+    }
+  })
+  bigCompanies.delete('NULL')
+  bigCompanies.delete('')
+  console.log(bigCompanies);
+  return [...bigCompanies.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5)
 }
