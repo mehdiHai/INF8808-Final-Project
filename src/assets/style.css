@@ -114,3 +114,11 @@ button:hover, button:active {
 .tooltip-value {
     font-weight: normal;
 }
+
+.viz {
+    width: 33%;
+    height: 400px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+  }
