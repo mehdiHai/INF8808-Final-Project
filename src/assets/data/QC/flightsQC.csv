@@ -1,0 +1,2960 @@
+,airportIn,airportOut,company,number
+13,CYUL,CYUL,Bombardier Inc.,512
+30,CNV9,CYUL,Jazz Aviation Lp,324
+41,CYUL,CYUL,Jazz Aviation Lp,264
+44,CNV9,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",252
+48,CYUL,CYUL,Air Transat A T Inc.,234
+50,CNV9,CYUL,PAL Airlines Ltd.,260
+51,CYQB,CYUL,Air Canada Rouge Lp,253
+56,CYUL,CYUL,Air Canada,214
+61,CYUL,CYUY,Jazz Aviation Lp,285
+73,CYUL,CYUL,Rolland Barbeau,166
+74,CNV9,CYUL,Air Inuit Ltd. Air Inuit Ltee,164
+87,CTR6,CYUL,Air Canada Rouge Lp,147
+95,CNV9,CYUL,Air Canada Rouge Lp,180
+96,CYUL,CYUY,Hydro-Québec,169
+103,CYUL,CYUL,Sunwing Airlines Inc.,124
+121,CTR6,CYUL,Jazz Aviation Lp,102
+126,CYQB,CYUL,Jazz Aviation Lp,99
+151,CYQB,CYUL,PAL Airlines Ltd.,83
+154,CYUL,CYUL,Air Canada Rouge Lp,74
+156,CYQB,CYUL,Air Inuit Ltd. Air Inuit Ltee,75
+175,CST7,CYHU,Chrono Aviation Inc.,64
+188,CTR6,CYUL,PAL Airlines Ltd.,55
+193,CYUL,CYUL,Kruger Inc.,52
+199,CNV9,CYUL,Air Transat A T Inc.,54
+206,CSR3,CYHU,Cascades Inc.,95
+229,CYUL,CYUY,"Gouvernement Du Québec, Service Aérien Gouvernemental",45
+235,CTR6,CYUL,Air Inuit Ltd. Air Inuit Ltee,42
+236,CES2,CYHU,9456-0000 Québec Inc.,42
+244,CNV9,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,45
+250,CYUL,CYUY,Air Georgian Limited,60
+252,CNV9,CYUL,Hydro-Québec,40
+254,CNV9,CYUL,Chrono Aviation Inc.,43
+256,CNV9,CYUL,Glencore Canada Corporation,38
+264,CYHU,CYUL,Max Aviation Inc.,59
+265,CYJN,CYUL,Rolland Barbeau,69
+268,CSH5,CYHU,Chrono Aviation Inc.,35
+269,CYUL,CYUY,Glencore Canada Corporation,53
+277,CYUL,CYUL,Air Inuit Ltd. Air Inuit Ltee,34
+290,CSK5,CYUL,Jazz Aviation Lp,31
+291,CSM3,CYHU,Aviation Cmp Inc.,31
+292,CYQB,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",33
+300,CTR6,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",30
+304,CYUL,CZBM,Transcanada Pipelines Limited,34
+309,CYHU,CYUL,9736140 Canada Inc. - Pascan,40
+315,CNV9,CYUL,Ignacio Victor Aguero,28
+321,CYUL,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,26
+326,CYUL,CYUL,International Air Services Inc Trustee,26
+328,CNV9,CYUL,Air Georgian Limited,26
+334,CTR6,CYUL,Air Transat A T Inc.,25
+345,CYMX,CYUL,Les Investissements Nolinor Inc.,45
+347,CNV9,CYUL,9736140 Canada Inc. - Pascan,26
+360,CNV9,CYUL,Francis Molloy,23
+363,CNV9,CYHU,Chrono Aviation Inc.,42
+365,CNV9,CYUL,Air Bravo Corp.,23
+366,CYUL,CYUL,Aviation Starlink Inc.,22
+367,CSN3,CYUL,Kruger Inc.,37
+368,CYHU,CYRQ,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,43
+370,CTR6,CYUL,Sunwing Airlines Inc.,22
+372,CSK4,CYHU,Corporation Hélico.Store inc.,22
+375,CNV9,CYMX,Les Investissements Nolinor Inc.,27
+377,CYHU,CYUL,Panorama Fixed Wings Ltd.,38
+380,CYQB,CYUL,Air Transat A T Inc.,21
+391,CYHU,CYMX,Panorama Fixed Wings Ltd.,30
+394,CLA2,CSA2,Québec Hélicoptères Inc./Quebec Helicopters Inc.,20
+395,CST7,CYHU,Air Bravo Corp.,20
+396,CTR6,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,20
+402,CNV9,CYUL,Aviation Starlink Inc.,23
+409,CNV9,CYUL,Sunwing Airlines Inc.,22
+413,CTE5,CYUL,Kruger Inc.,19
+415,CYHU,CZBM,Frazer Andiel,33
+416,CYHU,CZBM,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",37
+421,CYUL,CYUL,PAL Airlines Ltd.,18
+426,CTR6,CYUL,Air Georgian Limited,18
+430,CYUL,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,18
+451,CYHU,CYVB,9736140 Canada Inc. - Pascan,30
+452,CYHU,CYVB,Francis Molloy,27
+454,CST7,CYHU,9736140 Canada Inc. - Pascan,16
+475,CSA2,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,27
+478,CSC3,CSQ3,9225-5009 Québec Inc.,25
+487,CST7,CYHU,Air Georgian Limited,15
+488,CTR6,CYUL,Glencore Canada Corporation,15
+494,CSC3,CYHU,Max Aviation Inc.,26
+497,CYUL,CYUL,Eagle Copters Ltd.,14
+499,CYUL,CYUL,"Government Of Canada, Department Of Transport",14
+500,CYFJ,CYUL,Aviation Starlink Inc.,23
+503,CNV9,CYUL,Air Canada,16
+504,CNV9,CYUL,Black Bear Portage Camp,14
+505,CYHU,CYUL,Chrono Aviation Inc.,23
+507,CTR6,CYUL,Chrono Aviation Inc.,14
+508,CTR6,CYUL,9736140 Canada Inc. - Pascan,14
+511,CYHU,CYRQ,Transvalair-express Inc.,28
+514,CSZ4,CYHU,Chrono Aviation Inc.,14
+520,CSC3,CYSC,"The Kinsmen Club Of Chatham, Ontario",27
+521,CST7,CYHU,Francis Molloy,14
+522,CST7,CYHU,Max Aviation Inc.,14
+526,CSJ4,CYRQ,"Government Of Canada, Department Of Transport",16
+529,CYHU,CZBM,Transvalair-express Inc.,25
+531,CYJN,CYUL,Aviation Cozach Inc.,17
+533,CYSC,CZBM,Salim Abounehme,23
+539,CTR6,CYMX,Les Investissements Nolinor Inc.,13
+541,CSG3,CYHU,Frazer Andiel,25
+543,CYMX,CYUL,Air Canada,18
+550,CYRQ,CYUL,"Government Of Canada, Department Of Transport",13
+551,CSR3,CZBM,9911162 Canada Inc.,22
+564,CYHU,CYVB,Air Bravo Corp.,22
+569,CSB3,CYUL,Estrie Hélicoptères Inc.,23
+570,CYUL,CYUL,Bank Of Utah Trustee,12
+573,CYUL,CYUL,Estrie Hélicoptères Inc.,12
+574,CSH5,CYHU,Max Aviation Inc.,12
+578,CYUL,CYUL,Flightpath Charter Airways Inc.,12
+585,CSN3,CYUL,William Christian,12
+586,CYMX,CYUL,Air Inuit Ltd. Air Inuit Ltee,23
+590,CYUL,CZBM,I.M.P. Group Limited (Execaire),24
+592,CYUL,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,12
+593,CYMX,CYQB,Les Investissements Nolinor Inc.,12
+594,CYUL,CYUL,Costar Field Research Llc,12
+600,CYHU,CYMW,Aviation Unlimited (1990) Inc.,20
+602,CSG3,CSM5,10851019 Canada Inc.,11
+605,CSJ5,CYUL,"Government Of Canada, Department Of Transport",14
+608,CSY3,CYHU,Frazer Andiel,20
+611,CSA2,CYJN,Martini Aviation Ltd.,21
+613,CYHU,CZBM,Danny Sirignano,22
+614,CYHU,CZBM,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,22
+625,CSA2,CSZ3,Asaph Fipke,18
+638,CDD3,CYCC,Guardian Aviation Limited,11
+641,CYUL,CYUY,Air Inuit Ltd. Air Inuit Ltee,15
+646,CST3,CYCC,James M Kennah,20
+657,CYHU,CZBM,Corporation Hélico.Store inc.,10
+659,CSG3,CYMX,10851019 Canada Inc.,19
+665,CYUL,CYUL,Glen Mair,10
+666,CSR3,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,10
+669,CSA2,CSJ4,Québec Hélicoptères Inc./Quebec Helicopters Inc.,14
+672,CYRQ,CYUL,Samara Aviation Inc.,10
+673,CSA2,CSY4,Asaph Fipke,17
+675,CSE4,CYHU,Pierre Drapeau,18
+680,CYUL,CYUL,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,10
+683,CYUL,CYUL,Harold Douglas Stead,10
+688,CYUL,CYUL,Image Air Charter Ltd.,10
+691,CYHU,CYUL,Francis Molloy,13
+696,CYQB,CYUL,Hydro-Québec,10
+697,CSC3,CSR3,Dominique Roberge,16
+698,CYUL,CYUL,Air Georgian Limited,10
+701,CYHU,CYUL,Airsprint Inc.,11
+702,CYHU,CYUL,Air Partners Corp.,11
+703,CSH5,CYHU,Air Georgian Limited,9
+706,CYMX,CYRQ,Ross Runciman,13
+707,CYMX,CYUL,Rolland Barbeau,17
+710,CSA2,CSG3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,17
+714,CYFJ,CYMX,Raynald Marcotte,9
+715,CSA2,CSY3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,17
+716,CSA2,CSY3,Martini Aviation Ltd.,11
+718,CSB3,CYSC,Atelier Hangar Inc.,14
+721,CSA2,CSJ4,Martini Aviation Ltd.,11
+722,CYHU,CYUL,Air Bravo Corp.,14
+723,CYQB,CYUL,Ignacio Victor Aguero,10
+724,CSR3,CZBM,Daniel Pépin,15
+727,CYUL,CYZV,PAL Airlines Ltd.,12
+730,CYHU,CZBM,Martin Gauthier,17
+732,CTA4,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",10
+735,CYQB,CYUL,Sunwing Airlines Inc.,11
+736,CTR6,CYUL,Aviation Starlink Inc.,9
+737,CSB3,CSM3,Gestion Matthieu Delorme Inc.,10
+739,CSC3,CYHU,Maule Air Of Canada Inc.,9
+742,CNV9,CYUL,Max Aviation Inc.,9
+747,CSM5,CYUL,Corporation Hélico.Store inc.,11
+751,CSZ3,CYUL,Aviation Cozach Inc.,14
+753,CYHU,CYRQ,Jean-luc Filion,17
+755,CSQ3,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,9
+757,CLA2,CYMX,10851019 Canada Inc.,17
+762,CYHU,CZBM,Jean-luc Filion,13
+769,CYUL,CYUL,Transcanada Pipelines Limited,8
+776,CYHU,CZBM,Gestion C-gbck Inc,14
+779,CNV9,CYHU,9736140 Canada Inc. - Pascan,13
+780,CSD4,CYUL,Les Machines Roger Ltée,11
+781,CSC3,CYND,"The Kinsmen Club Of Chatham, Ontario",16
+782,CSA2,CSE3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,13
+786,CSJ4,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",11
+787,CYHU,CYRQ,9736140 Canada Inc. - Pascan,15
+789,CSN3,CYUL,Héli Olymbec Inc. Olymbec Heli Inc.,8
+800,CSG3,CSM5,Québec Hélicoptères Inc./Quebec Helicopters Inc.,8
+801,CSG3,CSM5,Ian E. Lancaster,9
+803,CYUL,CYUL,Global Flight Inc,8
+806,CYUL,CYUL,Héli Olymbec Inc. Olymbec Heli Inc.,8
+807,CYUL,CYUL,I.M.P. Group Limited (Execaire),8
+809,CSK5,CYUL,PAL Airlines Ltd.,8
+810,CSL5,CYHU,Aviation Cmp Inc.,11
+811,CNV9,CYUL,Kudlik Aviation Inc.,8
+814,CYUL,CYUL,8031851 Canada Inc.,8
+835,CYHU,CZBM,John Henderson Scott,14
+836,CYHU,CZBM,Tvpx Aircraft Solutions Inc Trustee,7
+837,CST7,CYUL,Jazz Aviation Lp,7
+856,CSJ5,CYVB,9164-1050 Québec Inc.,10
+859,CYMX,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,14
+861,CYQB,CYUL,Glencore Canada Corporation,8
+862,CSC3,CTR6,"The Kinsmen Club Of Chatham, Ontario",7
+864,CST7,CYHU,Kerry Nickel,7
+865,CSA2,CSN3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,9
+870,CSA2,CSZ3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,13
+873,CSQ3,CZBM,Salim Abounehme,7
+875,CYUL,CYZV,Jazz Aviation Lp,9
+879,CYRQ,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,10
+881,CSA2,CSY4,Québec Hélicoptères Inc./Quebec Helicopters Inc.,10
+888,CTG3,CYHU,9359-0784 Québec Inc.,7
+892,CSY3,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",12
+897,CSZ3,CYUL,9929711 Canada Inc.,10
+900,CYRQ,CYUL,Air Inuit Ltd. Air Inuit Ltee,11
+902,CYPN,CYUL,Air Inuit Ltd. Air Inuit Ltee,12
+904,CYHU,CYUL,Aviation Cmp Inc.,13
+913,CYHU,CYUL,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",10
+914,CYHU,CYUL,Air Georgian Limited,13
+915,CSY4,CYHU,Claude Sanfacon,13
+916,CSA2,CSC3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,12
+919,CSB3,CYHU,Claude Sanfacon,12
+921,CSH5,CYHU,Charles Vaillancourt,9
+932,CSA2,CSZ3,Blais Capital Inc.,10
+939,CYRQ,CYVB,9164-1050 Québec Inc.,7
+941,CYUL,CYVB,"Gouvernement Du Québec, Service Aérien Gouvernemental",7
+943,CSZ3,CYMX,Montel Equipement Minier Inc.,8
+944,CSZ3,CYMX,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,11
+947,CST3,CYMX,Martin Toutant,9
+949,CYHU,CYRQ,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",12
+953,CNV9,CTR6,Chrono Aviation Inc.,8
+954,CSA2,CSY4,Claude Sanfacon,8
+955,CYHU,CYVB,Max Aviation Inc.,10
+959,CYUL,CYUL,Trebora Aviation Services Inc,6
+968,CSA2,CYMX,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,11
+970,CYGP,CYUL,Air Bravo Corp.,7
+971,CST7,CYHU,Aviation Cmp Inc.,6
+972,CNV9,CYMX,Chrono Aviation Inc.,10
+974,CST7,CYHU,Panorama Fixed Wings Ltd.,6
+976,CSA2,CYUL,Claude Sanfacon,8
+981,CYHU,CYMX,Les Investissements Nolinor Inc.,12
+984,CSR3,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,7
+986,CSR3,CYHU,Chrono Aviation Inc.,7
+990,CSY3,CYMX,9094-6039 Quebec Inc,6
+991,CYHU,CYUL,Kudlik Aviation Inc.,11
+992,CSE4,CYHU,13798020 Canada Inc.,8
+994,CYUL,CYUL,Vista Jet Malta,6
+998,CSB3,CYMX,Accurex Technology Corporation,10
+999,CYUL,CYUL,Summit Air,6
+1002,CSJ4,CYUL,Kruger Inc.,8
+1003,CTR6,CYUL,Ignacio Victor Aguero,6
+1004,CSE4,CYCC,Guy Côte,11
+1005,CNV9,CYUL,Les Investissements Nolinor Inc.,6
+1008,CYHU,CYMX,Kudlik Aviation Inc.,8
+1009,CYHU,CYQB,Chrono Aviation Inc.,8
+1012,CYQB,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,6
+1013,CSM5,CYMX,10851019 Canada Inc.,9
+1016,CSM3,CYHU,Charles Vaillancourt,8
+1017,CYHU,CYMX,Max Aviation Inc.,11
+1018,CSC3,CYHU,Soucy Aviation Inc.,7
+1021,CSE4,CYUL,Les Machines Roger Ltée,11
+1022,CTR6,CYUL,Francis Molloy,6
+1023,CNV9,CYUL,"Government Of Canada, Department Of Transport",6
+1024,CSE4,CYJN,Ohc International Consulting Inc.,10
+1025,CYUL,CYUL,Aviation Jolina S.E.C.,6
+1026,CSM3,CYUL,Aviation Cmp Inc.,6
+1031,CSZ4,CYHU,Max Aviation Inc.,6
+1034,CYUL,CYUL,Flightexec,6
+1037,CSY4,CYUL,Claude Sanfacon,8
+1038,CYUL,CYUL,Future Electronics Inc./future Electronique Inc.,6
+1040,CSD4,CSE4,Les Machines Roger Ltée,8
+1041,CNV9,CYUL,Kerry Nickel,7
+1045,CSK5,CYUL,Air Canada Rouge Lp,6
+1046,CYUL,CYUL,Hydro-Québec,6
+1050,CYRQ,CYUL,Air Canada Rouge Lp,7
+1052,CYHU,CYUL,Cowboy Air Services Ltd.,9
+1055,CSB3,CYSC,G. Roch Consultant Ltee,10
+1059,CSR3,CZBM,Novatem Aviation Incorporée / Novatem Aviation Incorporated,9
+1060,CDD3,CYCC,Dico Reijers Family Holdings Ltd.,5
+1063,CSM3,CYHU,Aviation CMP Inc.,5
+1065,CSQ3,CYSC,Pierre Sirois,8
+1072,CYGP,CYUL,Black Bear Portage Camp,7
+1078,CST3,CYCC,Dragos Stefanescu,7
+1086,CSM3,CYHU,Nware Aviation Inc,6
+1088,CYHU,CYUL,Bank Of Utah Trustee,5
+1093,CYHU,CYRQ,Air Partners Corp.,5
+1097,CYHU,CYRQ,Frazer Andiel,7
+1102,CYRQ,CYUL,P2 Aviation Management Llc,5
+1106,CSP5,CSZ3,Maule Air Of Canada Inc.,10
+1108,CSA2,CYRQ,Martini Aviation Ltd.,5
+1110,CNV9,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,9
+1111,CYHU,CYRQ,Max Aviation Inc.,7
+1113,CYHU,CYSC,9736140 Canada Inc. - Pascan,9
+1114,CYHU,CYRQ,Chrono Aviation Inc.,8
+1118,CSC3,CSQ3,Dominique Roberge,5
+1119,CSA2,CSM5,Martini Aviation Ltd.,5
+1120,CYHU,CYMX,9736140 Canada Inc. - Pascan,8
+1121,CYQB,CYUL,Aviation Starlink Inc.,6
+1122,CYHU,CYMX,Chrono Aviation Inc.,10
+1132,CYQB,CYUL,Air Bravo Corp.,6
+1133,CSH5,CYHU,9736140 Canada Inc. - Pascan,5
+1134,CNV9,CSJ5,Chrono Aviation Inc.,7
+1135,CSH5,CYHU,Kudlik Aviation Inc.,5
+1138,CSH5,CYHU,Francis Molloy,5
+1139,CSH5,CYHU,Air Bravo Corp.,5
+1141,CYHU,CYND,Jean-François Tessier,9
+1142,CSC3,CSJ5,Dominique Roberge,8
+1144,CNV9,CYUL,Acass Canada Ltd.,5
+1149,CSB3,CYRQ,Gabor Galter,9
+1152,CSZ3,CYUL,Héli Olymbec Inc. Olymbec Heli Inc.,9
+1156,CSD4,CYHU,Aviation Unlimited (1990) Inc.,5
+1157,CSZ4,CYHU,9736140 Canada Inc. - Pascan,5
+1158,CSZ4,CYHU,Air Georgian Limited,5
+1159,CSZ4,CYHU,Francis Molloy,5
+1160,CYUL,CYUY,"Government Of Canada, Department Of Transport",9
+1162,CSY3,CYMX,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,8
+1170,CSE4,CSR3,Les Machines Roger Ltée,8
+1172,CSY3,CYMX,Martin Toutant,9
+1175,CSY4,CYMX,Martin Toutant,10
+1178,CTR6,CYUL,Kerry Nickel,5
+1181,CSC3,CYJN,Air Canada Rouge Lp,6
+1182,CTR6,CYUL,Air Bravo Corp.,5
+1184,CTR6,CYUL,Hydro-Québec,5
+1189,CTR6,CYUL,Sky Jet M.g. Inc.,5
+1192,CSC3,CYHU,9202-7564 Québec Inc.,7
+1194,CSC3,CYND,Amir Paz,9
+1195,CTR6,CYMX,Ross Runciman,5
+1200,CSE4,CZBM,Morris Bock,9
+1203,CSE4,CYCC,Pierre Rémillard,10
+1204,CSR3,CYUL,Cascades Inc.,9
+1206,CSC3,CYND,Jean-claude Poirier,8
+1209,CSB3,CSY3,G. Roch Consultant Ltee,10
+1215,CSU3,CYHU,Académie De L'aviation De Saint-hyacinthe Inc.,9
+1216,CYMX,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,8
+1223,CYHU,CZBM,11004875 Canada Inc.,9
+1224,CSU3,CYRQ,Académie De L'aviation De Saint-hyacinthe Inc.,6
+1230,CYHU,CZBM,9736140 Canada Inc. - Pascan,7
+1234,CYHU,CZBM,Association Récréative C-gbzy,8
+1236,CYHU,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,7
+1238,CSM5,CYHU,Sylvain St-georges,8
+1240,CSE4,CYCC,Rolland Barbeau,4
+1241,CYQB,CYUL,9736140 Canada Inc. - Pascan,4
+1245,CYCC,CYUL,Transcanada Pipelines Limited,5
+1249,CYHU,CYND,Charles Vaillancourt,7
+1251,CTG3,CYVB,9736140 Canada Inc. - Pascan,4
+1252,CYHU,CYPN,Max Aviation Inc.,6
+1257,CSA2,CYHU,Province Of Manitoba,6
+1261,CSR3,CZBM,Francois Desruisseaux,6
+1262,CSM5,CSY4,Jean-guy Jalbert,7
+1264,CSB3,CYHU,Gabor Galter,8
+1267,CSS3,CYCC,James M Kennah,8
+1268,CST3,CYMX,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,5
+1271,CYHU,CYND,Danny Sirignano,6
+1272,CAA2,CSE4,Estrie Hélicoptères Inc.,4
+1279,CYMX,CYZV,Les Investissements Nolinor Inc.,6
+1280,CTR6,CYUL,Les Investissements Nolinor Inc.,4
+1284,CSU3,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,6
+1286,CYGP,CYHU,Air Bravo Corp.,4
+1287,CSK4,CYUL,Samara Aviation Inc.,4
+1290,CYUL,CZBM,Kasi Aviation Services Inc.,5
+1296,CTR6,CYUL,Acass Canada Ltd.,4
+1298,CYHU,CYMX,Air Georgian Limited,6
+1299,CTR6,CYMX,Federal Express Corporation,4
+1302,CYQB,CYUL,Francis Molloy,4
+1303,CST7,CYHU,Black Bear Portage Camp,4
+1305,CSJ4,CYHU,Frazer Andiel,6
+1306,CSJ4,CYHU,"Government Of Canada, Department Of Transport",7
+1308,CYJN,CZBM,Michel Drouin,7
+1309,CSM3,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,6
+1310,CSM3,CYHU,Chrono Aviation Inc.,4
+1311,CYQB,CYUL,Les Investissements Nolinor Inc.,4
+1313,CSM3,CYHU,Aviation Pgd Inc.,6
+1314,CYJN,CYND,Normand Prenoveau,5
+1315,CYJN,CYMX,Ohc International Consulting Inc.,7
+1316,CYJN,CYMX,Martini Aviation Ltd.,8
+1318,CCP3,CYHU,The Richberry Management Group Ltd,7
+1320,CSM3,CYHU,9115-9996 Québec Inc,4
+1321,CNV9,CYHU,Max Aviation Inc.,8
+1323,CSE4,CSN3,Seneque Usa Inc,4
+1325,CSC3,CSR3,Daniel Bélanger,5
+1326,CSY4,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,6
+1328,CSY4,CYMX,Ross Runciman,8
+1333,CYHU,CYUL,Pratt & Whitney Canada Corp./pratt & Whitney Canada Cie,4
+1334,CSY4,CSZ3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,7
+1337,CLA2,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",7
+1338,CSQ3,CYJN,9225-5009 Québec Inc.,4
+1340,CSR3,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,7
+1341,CYUL,CYZV,Air Inuit Ltd. Air Inuit Ltee,4
+1342,CSZ3,CYMX,Asaph Fipke,5
+1343,CSY4,CYMX,Accurex Technology Corporation,5
+1344,CSR3,CYHU,Jean-luc Filion,4
+1346,CYHU,CYMX,Province Of Manitoba,7
+1347,CSY3,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,4
+1350,CSY3,CYUL,Transcanada Pipelines Limited,5
+1352,CSR3,CYHU,Aviation Pgd Inc.,4
+1354,CSR3,CYHU,9359-0784 Québec Inc.,4
+1360,CSR3,CSU3,Académie De L'aviation De Saint-hyacinthe Inc.,5
+1363,CYHU,CYUL,9368-2011 Québec Inc.,4
+1364,CSR3,CYUL,Samara Aviation Inc.,5
+1374,CSZ4,CYHU,Air Bravo Corp.,4
+1375,CSE4,CSP5,13798020 Canada Inc.,6
+1377,CYHU,CYRQ,Danny Sirignano,8
+1381,CSZ4,CYHU,Kerry Nickel,4
+1384,CSA2,CST3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,8
+1391,CSQ3,CYHU,Marbina Interests Office Llc,4
+1393,CYHU,CYSC,Comertech Design Ltd.,8
+1394,CSZ3,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,6
+1397,CYQB,CYVB,"Gouvernement Du Québec, Service Aérien Gouvernemental",5
+1399,CYHU,CYSC,11004875 Canada Inc.,8
+1404,CYUL,CYUY,Chrono Aviation Inc.,7
+1408,CSJ5,CTR6,Chrono Aviation Inc.,4
+1410,CSE4,CYMX,Tom R. Bennett,6
+1413,CSA2,CZBM,Québec Hélicoptères Inc./Quebec Helicopters Inc.,7
+1416,CYUL,CYUL,Acass Canada Ltd.,4
+1417,CYUL,CYUL,Aaron Francis Archibald,4
+1419,CSB3,CYJN,Gerald Julian,7
+1420,CYUL,CYUL,9929711 Canada Inc.,4
+1422,CSJ4,CYHU,Martin Gauthier,4
+1424,CYUL,CYUL,Société En Commandite Développement Mondou,4
+1425,CSJ4,CYMX,Ross Runciman,4
+1426,CSB3,CZBM,Gestion Matthieu Delorme Inc.,6
+1427,CNV9,CYMX,Federal Express Corporation,4
+1430,CYUL,CYUY,Propair Inc.,4
+1433,CSC3,CYSC,Dominique Roberge,8
+1434,CSJ4,CYUL,"Government Of Canada, Department Of Transport",7
+1436,CYUL,CYUL,Airmédic Inc.,4
+1437,CSB3,CYSC,Gestion Matthieu Delorme Inc.,5
+1438,CSB3,CYRQ,Sylvain Gosselin,6
+1439,CSA2,CYJN,Ohc International Consulting Inc.,6
+1441,CYUL,CYUL,Air Creebec Inc.,4
+1443,CYUL,CYUL,Inconnu,4
+1444,CNV9,CYMX,Kudlik Aviation Inc.,7
+1449,CYUL,CYUL,Les Investissements Nolinor Inc.,4
+1454,CSE4,CSG3,Guy Côte,8
+1457,CYUL,CYUL,Tvpx Aircraft Solutions Inc Trustee,4
+1458,CYSC,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,6
+1460,CYHU,CYRQ,Jean-pierre St-jacques,5
+1464,CSE4,CSP6,Richard Machin,6
+1466,CSJ4,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,4
+1468,CSC3,CYRQ,Aviation Cvo Inc.,4
+1470,CSH5,CYHU,Frazer Andiel,4
+1471,CSC3,CYRQ,Rolland Barbeau,6
+1473,CYUL,CYUL,Wilmington Trust Co Trustee,4
+1478,CYUL,CYUL,Porter Airlines Inc.,4
+1481,CYUL,CYUL,Federal Express Corporation,4
+1484,CSA2,CSZ3,Gestion Japal S.c.c.,4
+1485,CSE4,CYUL,Columbia Av8ors Inc,4
+1486,CYUL,CYUL,Bradley Air Services Limited,4
+1487,CYUL,CYUL,Murphy Oil Usa Inc,4
+1488,CNV9,CYUL,Airsprint Inc.,4
+1489,CYUL,CYUL,Regency Aero Lease Inc,4
+1490,CYUL,CYUL,Skytoy Llc,4
+1491,CSJ5,CYUL,P2 Aviation Management Llc,4
+1492,CSC3,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",5
+1493,CYUL,CYUL,Corporation Hélico.Store inc.,4
+1501,CYHU,CYSC,Gestion C-gbck Inc,7
+1502,CYSC,CYUL,"Government Of Canada, Department Of Transport",4
+1503,CSC3,CSJ5,Stéphane Hémond,6
+1505,CYHU,CYUL,Aviation Starlink Inc.,7
+1506,CYUL,CYUL,Erissa Yong-wilson,4
+1507,CYHU,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,6
+1508,CYGV,CYUL,Air Inuit Ltd. Air Inuit Ltee,7
+1509,CSC3,CSR3,Aviation Cvo Inc.,4
+1510,CSE4,CYUL,Rolland Barbeau,7
+1513,CSE4,CYCC,Anastasios Kostelidis,6
+1514,CSY3,CYHU,Martin Gauthier,4
+1515,CYHU,CYUL,Netjets Sales Inc,4
+1519,CST7,CYUL,Air Canada Rouge Lp,3
+1520,CNV9,CYHU,Inconnu,3
+1522,CST7,CYUL,Air Inuit Ltd. Air Inuit Ltee,3
+1526,CYHU,CYZV,Air Partners Corp.,3
+1527,CNV9,CYHU,Francis Molloy,6
+1530,CYHU,CYMX,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,6
+1535,CSA2,CSG3,Sasha Gagné,6
+1538,CYND,CYUL,Aviation Starlink Inc.,6
+1543,CSB3,CSE4,Gerald Julian,4
+1547,CYMX,CYSC,Raynald Marcotte,4
+1552,CYHU,CZBM,Chrono Aviation Inc.,4
+1555,CSE4,CSP6,Paul Fréchette,6
+1562,CST3,CSY4,Québec Hélicoptères Inc./Quebec Helicopters Inc.,3
+1563,CYHU,CYMX,9123024 Canada Inc.,6
+1567,CYSC,CYUL,I.M.P. Group Limited (Execaire),3
+1568,CYMX,CYND,Charles Tremblay,4
+1570,CSU3,CYRQ,Robert Robin,4
+1577,CSU3,CZBM,Jimmy Turcotte,6
+1578,CYSC,CZBM,Mathieu Béland,6
+1579,CSU3,CZBM,Patrick Remy,6
+1585,CSJ4,CSU3,Aviation Rou-air Inc.,6
+1590,CYHU,CYUY,Air Partners Corp.,3
+1594,CSU3,CYHU,Danny Sirignano,5
+1595,CNV9,CYMX,Morningstar Air Express Inc.,3
+1599,CSU3,CYJN,Jean Messier,5
+1605,CYMX,CYSC,Ross Runciman,4
+1606,CSY4,CYUL,William Christian,3
+1609,CSE4,CYJN,Martini Aviation Ltd.,4
+1611,CSG3,CSY3,Sylvain Lareau,6
+1612,CSJ4,CSY3,"Government Of Canada, Department Of Transport",4
+1619,CSY3,CYHU,Airmédic Inc.,3
+1620,CSE4,CYHU,Jean-pierre St-jacques,6
+1621,CNV9,CYHU,Panorama Fixed Wings Ltd.,4
+1626,CYHU,CYUY,Air Georgian Limited,4
+1630,CAA2,CYND,Divine Supercars Inc.,3
+1635,CYHU,CYUY,9736140 Canada Inc. - Pascan,4
+1644,CYCC,CZBM,Gérald Robert,6
+1646,CTR6,CYND,10613592 Canada Inc.,3
+1647,CYJN,CZBM,4347943 Canada Inc.,5
+1649,CTR6,CYND,Erik Moyneur,4
+1650,CYJN,CYUL,Ohc International Consulting Inc.,6
+1655,CYJN,CYRQ,Rolland Barbeau,4
+1660,CSC3,CYJN,Rolland Barbeau,4
+1664,CTR6,CYRQ,Aviation Cvo Inc.,3
+1666,CYHU,CYJN,Tremlease Leasing Inc.,5
+1668,CSC3,CYND,Marlin Airstrip Management Corp,3
+1674,CSE4,CTR6,Inconnu,3
+1676,CSC3,CYUL,9202-7564 Québec Inc.,6
+1678,CYJN,CZBM,Association Des Constructeurs D'avions Expérimentaux De Québec Inc.,5
+1681,CSC3,CYRQ,Dominique Roberge,4
+1696,CSC3,CSU3,Académie De L'aviation De Saint-hyacinthe Inc.,4
+1697,CSC3,CSS3,9131-6471 Québec Inc,3
+1702,CSC3,CSG3,9771956 Canada Inc.,5
+1703,CSC3,CSG3,Daniel Bélanger,6
+1707,CSC3,CSE4,13798020 Canada Inc.,3
+1709,CTR6,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,3
+1711,CYRQ,CZBM,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,6
+1712,CSB3,CYCC,Webaoo (Québec) Inc.,5
+1720,CTR6,CYUL,Black Bear Portage Camp,3
+1721,CTR6,CYUL,Cougar Helicopters,3
+1722,CYUL,CZBM,Eon Airborne Inc / Eon Aéroporté Inc.,4
+1723,CTR6,CYUL,Eagle Copters Ltd.,3
+1725,CTR6,CYUL,"Government Of Canada, Department Of Transport",3
+1735,CSZ3,CYND,9929711 Canada Inc.,5
+1736,CNV9,CYHU,Air Bravo Corp.,4
+1737,CYMX,CYUL,A Brock Allison,5
+1738,CSG3,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,6
+1739,CSG3,CYMX,Martin Toutant,5
+1748,CYFJ,CYMX,Ross Runciman,3
+1760,CSB3,CSS3,Gabor Galter,6
+1762,CYCC,CYMX,Raynald Marcotte,5
+1764,CYMX,CYUL,Kruger Inc.,4
+1765,CYCC,CYMX,Martin Toutant,4
+1768,CSE4,CSZ3,Asaph Fipke,3
+1769,CSE4,CSZ3,Eric A Munzer,4
+1771,CSB3,CSJ4,Delastek Inc.,4
+1773,CSY4,CSZ3,Asaph Fipke,5
+1776,CSZ3,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",4
+1780,CSZ3,CYMX,Charles Tremblay,5
+1781,CSZ4,CYHU,Panorama Fixed Wings Ltd.,3
+1787,CSC3,CZBM,Marlin Airstrip Management Corp,4
+1788,CTG3,CYVB,Francis Molloy,3
+1791,CSQ3,CZBM,Aircité Aviation Inc.,4
+1795,CSB3,CYND,Amir Paz,6
+1800,CST3,CZBM,Dragos Stefanescu,6
+1804,CSB3,CYHU,Danny Sirignano,6
+1806,CYUL,CYUY,Air Canada,5
+1816,CSZ3,CYFJ,Asaph Fipke,4
+1818,CSB3,CYFJ,Gerald Julian,3
+1826,CYHU,CYND,10613592 Canada Inc.,5
+1832,CYHU,CYND,Paul Fréchette,6
+1834,CYHU,CYVB,Aviation Cmp Inc.,4
+1835,CNV9,CYUL,Flightexec,3
+1836,CSB3,CSQ3,Atelier Hangar Inc.,4
+1843,CSJ4,CYHU,Airmédic Inc.,4
+1847,CSJ4,CYMX,9916288 Canada Inc.,3
+1848,CSN7,CSP5,Parachutisme Nouvel Air Inc.,4
+1850,CSJ4,CYHU,Pierre Harvey,3
+1851,CSN7,CYJN,Knut Zitzke,3
+1852,CSG3,CYHU,Maule Air Of Canada Inc.,5
+1853,CSJ4,CYHU,Jean-luc Filion,3
+1854,CLA2,CSY4,Québec Hélicoptères Inc./Quebec Helicopters Inc.,5
+1857,CSP5,CSU3,Aipc Groupe Conseils Ltée / Aipc Consulting Group Ltd.,4
+1858,CSG3,CYHU,Association Récréative C-gbzy,4
+1860,CSA2,CYRQ,Québec Hélicoptères Inc./Quebec Helicopters Inc.,3
+1861,CYUL,CYVB,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,4
+1863,CNV9,CYHU,Air Georgian Limited,5
+1865,CSH5,CYHU,Stéphane Le Bouyonnec,3
+1866,CSH5,CYHU,Pierre Drapeau,3
+1867,CSQ3,CZBM,Pierre Sirois,5
+1868,CSH5,CYHU,Panorama Fixed Wings Ltd.,3
+1869,CNV9,CYHU,Kudlik Aviation Inc.,4
+1870,CNV9,CYHU,Kerry Nickel,3
+1871,CSA2,CSR3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,3
+1875,CSB3,CSR3,Sylvain Gosselin,5
+1879,CSH5,CYHU,Kerry Nickel,3
+1881,CSC3,CSR3,Stéphane Hémond,3
+1882,CNV9,CYHU,Black Bear Portage Camp,5
+1883,CSQ3,CZBM,Comertech Design Ltd.,5
+1887,CSQ3,CYHU,Comertech Design Ltd.,4
+1889,CSQ3,CYHU,Inconnu,3
+1891,CYSC,CYUL,Airsprint Inc.,4
+1895,CSQ3,CYMX,Esj Aviation Inc.,3
+1897,CSH5,CZBM,Francois Desruisseaux,3
+1899,CSH5,CYSC,Salim Abounehme,3
+1902,CSQ3,CYUL,Kruger Inc.,4
+1904,CYHU,CYRQ,John Henderson Scott,6
+1907,CSM3,CYHU,1431128 Alberta Ltd,3
+1908,CSJ5,CYSC,"Government Of Canada, Department Of Transport",3
+1910,CSM3,CYHU,Air Canada,3
+1911,CSJ5,CYRQ,Pierre Harvey,3
+1913,CSJ5,CYRQ,Chrono Aviation Inc.,5
+1915,CSM3,CYHU,Inconnu,3
+1918,CYQB,CYUL,"Government Of Canada, Department Of Transport",3
+1922,CYQB,CYUL,Black Bear Portage Camp,3
+1924,CSN3,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",6
+1925,CSB3,CSM3,Sylvain Gosselin,4
+1934,CSK5,CYUL,Air Inuit Ltd. Air Inuit Ltee,3
+1943,CYQB,CYUL,Air Georgian Limited,5
+1945,CSJ4,CYUL,Aviation Starlink Inc.,3
+1946,CSM3,CYHU,Pierre Drapeau,3
+1947,CSM5,CSN7,Gilles Berthiaume,4
+1949,CSJ4,CYRQ,Pierre Harvey,3
+1951,CSM5,CYHU,Province Of Manitoba,3
+1953,CSJ4,CYRQ,Air Canada,3
+1957,CSJ4,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,4
+1971,CSA2,CSM5,Québec Hélicoptères Inc./Quebec Helicopters Inc.,3
+1975,CSJ4,CYUL,Samara Aviation Inc.,3
+1977,CSJ4,CYUL,P2 Aviation Management Llc,3
+1980,CYHU,CYRQ,9368-2011 Québec Inc.,3
+1981,CSJ4,CSP5,Cliffert Peschlow,3
+1982,CYRQ,CYUL,Chrono Aviation Inc.,5
+1986,CSG3,CYMX,Ross Runciman,5
+1987,CYHU,CYSC,Inconnu,5
+1988,CYHU,CYSC,Max Aviation Inc.,6
+1989,CSR3,CYJN,Jacques Roberge,4
+1990,CSR3,CYSC,Daniel Pépin,4
+1992,CYHU,CYSC,Michel Pâquet,6
+1994,CSG3,CYND,Sabiston Aviation Ltd.,5
+1995,CYHU,CYSC,Air Partners Corp.,6
+1997,CSG5,CYUL,PAL Airlines Ltd.,3
+1999,CYRQ,CYUL,Transcanada Pipelines Limited,3
+2006,CYRQ,CZBM,Transvalair-express Inc.,5
+2013,CYHU,CYSC,Pierre Drapeau,5
+2015,CST3,CYND,Mark Scullion,5
+2021,CSG3,CYHU,Martin Gauthier,5
+2022,CYHU,CYSC,2737-5633 Quebec Inc.,5
+2025,CSG3,CYHU,Danny Sirignano,5
+2028,CYQB,CYUL,Chrono Aviation Inc.,4
+2033,CYHU,CYSC,Aviation Pgd Inc.,4
+2035,CYHU,CYSC,Danny Sirignano,5
+2036,CYHU,CYRQ,Pierre Harvey,3
+2040,CSH5,CSR3,Cascades Inc.,3
+2041,CES2,CSP5,Parachutisme Nouvel Air Inc.,5
+2042,CNV9,CYUL,Cowboy Air Services Ltd.,3
+2043,CYMX,CYND,Bruno Dionne,3
+2045,CSR3,CYHU,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",3
+2049,CSR3,CYHU,Transvalair-express Inc.,3
+2050,CYUL,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,5
+2061,CYUL,CYUL,The Craig Evan Corporation,2
+2065,CYUL,CYUL,Pjk Aviation Llc,2
+2066,CYHU,CYUL,Swift Air Llc,2
+2070,CYHU,CYJN,11033689 Canada Inc.,4
+2071,CYHU,CZBM,Exploits Valley Air Services Ltd.,4
+2072,CYUL,CYVB,Francis Molloy,3
+2074,CYUL,CYUY,Sunwest Aviation Ltd.,3
+2076,CYHU,CYJN,Claude Sanfacon,4
+2078,CYUL,CYUL,B & R Farms Ltd.,2
+2080,CYHU,CYUL,Wheels Up Partners Llc,2
+2083,CYUL,CYUL,Aviation Fox Inc.,2
+2089,CYUL,CYUL,Lone Star Air Llc,2
+2094,CYHU,CZBM,Inconnu,3
+2096,CYND,CYUL,Future Electronics Inc./future Electronique Inc.,3
+2097,CYUL,CYUL,Skywest Airlines Inc,2
+2101,CYUL,CYUY,Max Aviation Inc.,3
+2112,CYUL,CYUY,PAL Airlines Ltd.,2
+2122,CYHU,CYUL,Flexjet Llc,3
+2123,CYUL,CYUL,Brady Risk Holdings Llc,2
+2128,CYHU,CYUL,4259556 Canada Inc.,4
+2129,CYUL,CYUL,Northern Air Charter (p. R.) Inc.,2
+2130,CYFJ,CYHU,Pierre Drapeau,3
+2131,CYUL,CYUL,Fox Flight Inc.,2
+2136,CYUL,CYUL,Fast Air Ltd.,2
+2139,CYUL,CYUL,Executive Airshare Llc,2
+2141,CYHU,CYUL,Black Bear Portage Camp,2
+2144,CYCC,CYHU,11004875 Canada Inc.,4
+2146,CYHU,CYUL,Airmédic Inc.,2
+2151,CYUL,CYUL,Global 5500 Llc,2
+2153,CYCC,CYHU,Pierre Drapeau,4
+2155,CYHU,CZBM,Aviation Pgd Inc.,4
+2157,CYUL,CYUL,New Prime Inc,2
+2161,CYUL,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+2173,CYUL,CYUL,Pine Falls Technical Services Ltd.,2
+2178,CYUL,CYUL,Conair Group Inc.,2
+2180,CYUL,CYUL,N143bl Llc,2
+2182,CYUL,CYUL,Netjets Sales Inc,2
+2183,CYUL,CYUL,Sv Solutions Llc,2
+2188,CYUL,CYUL,Paul Sissons,2
+2189,CYUL,CYUL,Phénom S.e.c.,2
+2194,CYGV,CYHU,Max Aviation Inc.,3
+2201,CYUL,CYUY,Aviation Starlink Inc.,3
+2203,CYUL,CYUL,Kelowna Flightcraft Air Charter Ltd.,2
+2207,CYHU,CYND,Martin Gauthier,3
+2208,CYHU,CYND,Max Aviation Inc.,3
+2210,CYHU,CYND,Panorama Fixed Wings Ltd.,3
+2213,CYHU,CYRQ,Martin Gauthier,4
+2217,CYUL,CYUL,Sonas Aviation,2
+2218,CYHU,CYRQ,École De Pilotage Saint-hubert Inc. Saint-hubert Flying School Inc.,3
+2222,CYHU,CYUY,Max Aviation Inc.,3
+2223,CYUL,CYUL,J C Bamford (Excavators) Ltd,2
+2230,CYRQ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2231,CYHU,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,3
+2232,CYHU,CYQB,Air Bravo Corp.,3
+2240,CYUL,CYUL,Sl Global Llc,2
+2245,CYMX,CYUL,Aviation Starlink Inc.,3
+2247,CYMX,CYUL,Inconnu,4
+2255,CYMX,CYUL,Estrie Hélicoptères Inc.,4
+2262,CYMX,CYUL,Airsprint Inc.,2
+2282,CYHU,CYSC,9394-2985 Québec Inc,4
+2285,CYMX,CYUL,William Christian,4
+2287,CYHU,CZBM,Michel Pâquet,4
+2288,CYHU,CYMX,4259556 Canada Inc.,4
+2291,CYHU,CYMX,9394-2985 Québec Inc,4
+2292,CYJN,CYUL,Transcanada Pipelines Limited,4
+2294,CYHU,CYSC,Les Chantiers De Chibougamau Ltee.,3
+2298,CYHU,CYSC,John Henderson Scott,4
+2299,CYUL,CYUL,Aerogroup Inc.,2
+2303,CYUL,CYUL,Marila Leasing Llc,2
+2305,CYND,CYUL,9736140 Canada Inc. - Pascan,2
+2306,CYHU,CZBM,Kasi Aviation Services Inc.,4
+2308,CYUL,CYUL,Air Saguenay,2
+2309,CYUL,CYUL,Air France,2
+2311,CYUL,CYUY,Air Partners Corp.,2
+2316,CYUL,CYUL,Air Bravo Corp.,2
+2319,CYND,CYUL,"Beaver Air Services Limited Partnership, By Its General Partner, Missinippi Management Ltd.",4
+2320,CYHU,CYSC,Panorama Fixed Wings Ltd.,4
+2325,CYHU,CYVB,Black Bear Portage Camp,2
+2329,CYUL,CYUL,ACASS Canada Ltd.,2
+2334,CYUL,CYUL,Mesa Airlines Inc,2
+2339,CYHU,CYSC,Andre Joseph Georges Bourbonnais,3
+2342,CYHU,CYRQ,Logistique Opti-nord Inc.,3
+2350,CYHU,CZBM,Pierre Drapeau,4
+2352,CYHU,CYMX,9916288 Canada Inc.,4
+2357,CYHU,CYMX,Astute Bird Inc Trustee,3
+2358,CYUL,CYUL,718mb Aviation Llc,2
+2360,CYHU,CYMX,Dash Aviation Group Inc.,3
+2362,CYHU,CYSC,Dynamitage Castonguay Ltée,2
+2376,CSU3,CYSC,Patrick Remy,4
+2377,CSU3,CYSC,Jean Messier,4
+2378,CSC3,CYND,Dominique Roberge,3
+2380,CSE4,CYND,Pierre Morin,4
+2381,CSG3,CYND,Amir Paz,2
+2382,CSC3,CYSC,Félix-andre Lussier,2
+2385,CSU3,CYND,Erik Moyneur,4
+2387,CYHU,CYSC,Michel Lalande,3
+2400,CYUL,CZBM,Flightpath Charter Airways Inc.,4
+2401,CYMX,CYND,Martin Toutant,3
+2402,CYRQ,CYSC,Patrice Ricard,3
+2408,CYUL,CZBM,Airsprint Inc.,4
+2410,CYMX,CYRQ,9453-2322 Québec Inc.,2
+2417,CYCC,CYND,Gérald Robert,4
+2419,CSB3,CYSC,Gabor Galter,2
+2420,CSB3,CYSC,Comertech Design Ltd.,4
+2423,CYRQ,CZBM,Francois Desruisseaux,2
+2427,CYRQ,CYUL,William Christian,2
+2441,CYMX,CZBM,9215-7536 Québec Inc.,4
+2442,CYSC,CZBM,Comertech Design Ltd.,4
+2443,CYMX,CZBM,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,4
+2444,CYMX,CZBM,Ross Runciman,4
+2452,CYMX,CYUL,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,2
+2456,CYMX,CYUY,Les Investissements Nolinor Inc.,4
+2463,CYMX,CYSC,Bruno Dionne,2
+2475,CYJN,CYSC,Normand Prenoveau,2
+2476,CYJN,CYSC,Michel Drouin,4
+2478,CYJN,CYSC,Alain Dufresne,4
+2481,CYMX,CYSC,Martin Toutant,2
+2483,CYSC,CYUY,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+2485,CYSC,CYUL,Bedford Partners Llc,2
+2497,CYJN,CYRQ,Pierre Harvey,4
+2505,CYGV,CYQB,Air Inuit Ltd. Air Inuit Ltee,2
+2506,CYHU,CYQB,Panorama Fixed Wings Ltd.,2
+2543,CYQB,CYZV,PAL Airlines Ltd.,2
+2552,CYQB,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,2
+2553,CYQB,CYUL,Conair Group Inc.,2
+2556,CYQB,CYUL,Flightexec,2
+2570,CYUL,CYVO,Jazz Aviation Lp,2
+2575,CST3,CYRQ,6039901 Canada Inc,4
+2578,CYSC,CYVB,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+2584,CYUL,CYZV,Air Georgian Limited,2
+2585,CYND,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+2591,CYND,CZBM,Kasi Aviation Services Inc.,2
+2592,CYHU,CYRQ,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+2593,CYPN,CYVB,Max Aviation Inc.,3
+2596,CYUL,CYUY,9736140 Canada Inc. - Pascan,2
+2609,CSE4,CYRQ,Logistique Opti-nord Inc.,4
+2610,CSG3,CYRQ,Martin Gauthier,2
+2611,CSG3,CYRQ,Logistique Opti-nord Inc.,4
+2615,CNV9,CYVB,"Gouvernement Du Québec, Service Aérien Gouvernemental",4
+2617,CSC3,CYRQ,Stéphane Hémond,2
+2619,CYUL,CYUY,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+2627,CSD3,CYUL,Héli Olymbec Inc. Olymbec Heli Inc.,4
+2628,CSC3,CYUL,Samara Aviation Inc.,2
+2633,CSU3,CZBM,Robert Robin,4
+2635,CSU3,CZBM,Académie De L'aviation De Saint-hyacinthe Inc.,4
+2637,CSU3,CZBM,11119702 Canada Inc.,3
+2638,CSJ5,CYUL,Aviation Starlink Inc.,3
+2640,CSS3,CYUL,Rolland Barbeau,3
+2641,CYHU,CZBM,Lung Biotechnology Pbc,2
+2642,CYJN,CZBM,Rolland Barbeau,2
+2645,CSR3,CYUL,Aviation Starlink Inc.,4
+2648,CSN7,CYUL,Héli Olymbec Inc. Olymbec Heli Inc.,4
+2650,CYHU,CZBM,Cmc Electronics Inc. / Cmc Électronique Inc.,3
+2652,CSB3,CZBM,Services Immobiliers Werner Inc.,3
+2653,CSB3,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,4
+2654,CSB3,CZBM,Atelier Hangar Inc.,4
+2660,CYMW,CYMX,Ross Runciman,2
+2661,CYMW,CYND,Amir Paz,2
+2665,CSC3,CZBM,Novatem Aviation Incorporée / Novatem Aviation Incorporated,4
+2666,CSR3,CZBM,Kasi Aviation Services Inc.,2
+2667,CSC3,CZBM,Québec Hélicoptères Inc./Quebec Helicopters Inc.,2
+2669,CSA2,CYUL,Québec Hélicoptères Inc./Quebec Helicopters Inc.,2
+2671,CSK4,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,2
+2675,CSE4,CZBM,Guy Côte,4
+2676,CSE4,CZBM,Edward Martin (ed) Small,4
+2677,CYJN,CZBM,Aviation Cozach Inc.,4
+2678,CSS4,CYUL,Claude Sanfacon,2
+2679,CSB3,CYJN,Webaoo (Québec) Inc.,4
+2680,CSC3,CYJN,Aviation Cozach Inc.,4
+2682,CYFJ,CYUL,I.M.P. Group Limited (Execaire),3
+2683,CYFJ,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+2687,CYSC,CZBM,Paul Renny,2
+2690,CYRQ,CZBM,Jean-luc Filion,2
+2691,CYRQ,CZBM,Chrono Aviation Inc.,3
+2704,CYUL,CZBM,Héli Olymbec Inc. Olymbec Heli Inc.,3
+2707,CYJN,CZBM,Alain Dufresne,4
+2709,CYJN,CZBM,Auto Meilleur Ltee,3
+2710,CSY4,CYUL,Nancy Laroche,3
+2711,CYJN,CZBM,Aircité Aviation Inc.,2
+2712,CYJN,CZBM,Air Canada Rouge Lp,3
+2715,CYJN,CYUL,Tremlease Leasing Inc.,2
+2716,CSZ3,CYUL,Asaph Fipke,4
+2720,CYRQ,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,3
+2724,CYCC,CYJN,Waterloo-wellington Flying Club,2
+2726,CYHU,CYJN,9225-5009 Québec Inc.,3
+2727,CYHU,CYJN,Auto Meilleur Ltee,3
+2728,CYMX,CZBM,Martin Toutant,2
+2729,CYMX,CZBM,Bruno Dionne,2
+2731,CYJN,CYMX,Tom R. Bennett,4
+2739,CYHU,CYMX,Martin Lachapelle,3
+2766,CYMX,CYRQ,Hangar 83 Inc.,2
+2770,CYJN,CYMX,Bank Of Utah Trustee,3
+2789,CSA2,CYMX,9453-2322 Québec Inc.,4
+2790,CSA2,CYMX,Access Helicopters Ltd,2
+2793,CSA2,CYMX,Cargojet Airways Ltd.,2
+2794,CSA2,CYMX,Martini Aviation Ltd.,2
+2796,CSC3,CYMX,9453-2322 Québec Inc.,2
+2797,CSC3,CYMX,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,3
+2805,CLA2,CYMX,Accurex Technology Corporation,4
+2815,CST3,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,2
+2816,CST3,CYMX,Ross Runciman,4
+2822,CSY3,CYMX,Ross Runciman,3
+2830,CSP6,CYMX,Martin Toutant,4
+2835,CSG3,CYMX,Air Georgian Limited,4
+2841,CSJ5,CYMX,Stace-Électrique Inc. Stace-Electric Inc.,3
+2844,CLA2,CSY3,"Government Of Canada, Department Of Transport",3
+2846,CNV9,CYRQ,Sky Jet M.g. Inc.,2
+2848,CSC3,CYHU,Dominique Roberge,4
+2850,CNV9,CYRQ,Aviation Starlink Inc.,2
+2851,CNV9,CYQB,Sky Jet M.g. Inc.,2
+2852,CYFJ,CYMX,Bruno Dionne,2
+2853,CYFJ,CYMX,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,2
+2854,CCP3,CSB3,Gerald Julian,2
+2856,CSP6,CSZ3,Association Des Constructeurs D'avions Expérimentaux De Québec Inc.,4
+2858,CNV9,CYND,Chrono Aviation Inc.,2
+2859,CNV9,CYND,10613592 Canada Inc.,2
+2860,CSC3,CSE4,Alain Nantel,3
+2861,CSP6,CYJN,Association Des Constructeurs D'avions Expérimentaux De Québec Inc.,3
+2862,CCP3,CYHU,Gestion C-gbck Inc,2
+2863,CYFJ,CYHU,The Richberry Management Group Ltd,2
+2864,CYFJ,CYHU,Stéphane Le Bouyonnec,3
+2865,CCP3,CYHU,Jean Morin,3
+2868,CSC3,CYHU,International Air Services Inc Trustee,2
+2869,CSE4,CSM3,Marco Roy,4
+2870,CYFJ,CYUL,Datto Inc,2
+2878,CSC3,CYHU,Claude Sanfacon,2
+2881,CNV9,CYUL,Eagle Copters Ltd.,3
+2882,CSC3,CYHU,Corporation Hélico.Store inc.,2
+2884,CSE4,CSS3,Pierre Rémillard,4
+2887,CNV9,CYUL,Bank Of Utah Trustee,3
+2890,CNV9,CYUL,Air Nunavut Ltd.,2
+2892,CYFJ,CYHU,Raymond Beausejour (1989) Inc.,2
+2893,CCP3,CYHU,Pierre Drapeau,2
+2894,CSA2,CSP5,Sasha Gagné,2
+2895,CSC3,CYHU,Michel Pâquet,4
+2896,CST3,CYCC,6039901 Canada Inc,4
+2898,CST3,CSZ3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,2
+2900,CSE4,CYFJ,Robert M Peacock,2
+2901,CSA2,CSQ3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,2
+2902,CSE4,CYFJ,Marco Roy,4
+2905,CNV9,CSE4,13798020 Canada Inc.,2
+2906,CNV9,CSB3,Sylvain Gosselin,2
+2907,CNV9,CSB3,Gerald Julian,4
+2909,CSB3,CSQ3,Gestion Matthieu Delorme Inc.,2
+2910,CSB3,CTR6,Atelier Hangar Inc.,2
+2912,CSA2,CYFJ,Asaph Fipke,2
+2913,CST3,CSY4,9220-7877 Quebec Inc.,2
+2917,CNV9,CSU3,Académie De L'aviation De Saint-hyacinthe Inc.,2
+2918,CNV9,CYFJ,Kudlik Aviation inc.,3
+2922,CCP3,CYHU,Raymond Beausejour (1989) Inc.,3
+2923,CNV9,CYMX,Martin Lachapelle,2
+2927,CCP3,CYUL,Les Machines Roger Ltée,3
+2930,CSA2,CSE4,Ohc International Consulting Inc.,3
+2936,CNV9,CYUL,Glen Mair,2
+2937,CSC3,CSU3,691042 N.-b. Inc,2
+2938,CSB3,CSC3,Sylvain Gosselin,3
+2940,CSC3,CSG3,9225-5009 Québec Inc.,2
+2942,CSS3,CTE5,Cliffert Peschlow,2
+2943,CSM5,CSN3,9453-2322 Québec Inc.,2
+2950,CST7,CYSC,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+2953,CSC3,CSQ3,Marlin Airstrip Management Corp,3
+2957,CSE4,CYHU,Danny Sirignano,4
+2958,CSM5,CYMX,Pratt & Whitney Canada Corp./pratt & Whitney Canada Cie,2
+2959,CTE5,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+2962,CSB3,CSC3,Richard Roy,4
+2964,CYGP,CYHU,9736140 Canada Inc. - Pascan,2
+2965,CSE4,CYMX,Alain Nantel,2
+2970,CSB3,CSC3,1143303 B.c. Ltd.,4
+2971,CSB3,CSC3,9131-6471 Québec Inc,3
+2978,CSB3,CSC3,Marlin Airstrip Management Corp,4
+2979,CTE5,CYHU,Province Of Manitoba,2
+2980,CST7,CYHU,Kudlik Aviation Inc.,2
+2981,CNV9,CYUL,Harold Douglas Stead,2
+2982,CNV9,CYUL,Wilbur & Orville Inc,2
+2984,CSN7,CYHU,Corporation Hélico.Store inc.,2
+2986,CTG3,CYQB,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+2988,CSC3,CYHU,Aviation Cozach Inc.,2
+2989,CSN7,CZBM,Parachutisme Nouvel Air Inc.,2
+2990,CAA2,CYHU,Province Of Manitoba,2
+2991,CSE4,CSY4,Jean-guy Jalbert,4
+2993,CAA2,CYMX,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,2
+2997,CTG3,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",3
+2998,CYFJ,CYUL,Gf Management Company Llc,2
+2999,CSC3,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,3
+3000,CNV9,CYUL,London Soaring Society,2
+3001,CYFJ,CYUL,Flightpath Charter Airways Inc.,3
+3003,CST3,CYUL,Transcanada Pipelines Limited,3
+3004,CYFJ,CYUL,Tvpx Ars Inc Trustee,3
+3005,CSE4,CSZ3,Daniel Roy,3
+3006,CSC3,CYHU,691042 N.-b. Inc,2
+3008,CYFJ,CZBM,Géosphair Aviation Inc.,2
+3009,CSE4,CYHU,9180-2116 Québec Inc.,3
+3011,CST7,CYHU,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",2
+3012,CSE4,CYCC,Vigen Shahbazian,4
+3014,CNV9,CTG3,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+3015,CSE4,CYCC,Morris Bock,4
+3016,CSC3,CSU3,Aviation Rou-air Inc.,3
+3018,CSC3,CSU3,Robert E. Evans,4
+3019,CSC3,CYCC,Marlin Airstrip Management Corp,3
+3022,CSN3,CYMX,William Christian,2
+3031,CSR3,CYHU,Kerry Nickel,2
+3032,CSA2,CTY5,Québec Hélicoptères Inc./Quebec Helicopters Inc.,4
+3047,CSE4,CSS3,Rolland Barbeau,3
+3056,CTR6,CYMX,Morningstar Air Express Inc.,2
+3064,CSR3,CYHU,Association Récréative C-gbzy,2
+3065,CSR3,CYHU,Charles Vaillancourt,2
+3067,CSR3,CYHU,Frazer Andiel,3
+3068,CSR3,CYJN,4347943 Canada Inc.,3
+3071,CSC3,CYUL,Soucy Aviation Inc.,3
+3072,CSR3,CZBM,Apex Helicopters Inc.,3
+3074,CSC3,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+3077,CSC3,CYUL,Marlin Airstrip Management Corp,3
+3079,CTR6,CYRQ,Sky Jet M.g. Inc.,2
+3080,CTR6,CYUL,Les Machines Roger Ltée,2
+3082,CSR3,CZBM,Géosphair Aviation Inc.,3
+3084,CTR6,CYUL,Flightexec,2
+3093,CTR6,CYUL,Aviation Cmp Inc.,2
+3099,CSD3,CSS3,Cliffert Peschlow,2
+3100,CSC3,CZBM,Kasi Aviation Services Inc.,2
+3102,CSC3,CZBM,Jacques Bougie,3
+3109,CTR6,CYRQ,Chrono Aviation Inc.,2
+3111,CTR6,CYRQ,Inconnu,2
+3113,CSR8,CYUL,Panorama Fixed Wings Ltd.,2
+3116,CSR3,CYUL,International Air Services Inc Trustee,2
+3117,CTR6,CYMX,Chrono Aviation Inc.,2
+3120,CSQ3,CYHU,Pierre Drapeau,2
+3126,CSQ3,CYHU,Sylvain St-georges,2
+3129,CTR6,CYFJ,Kudlik Aviation Inc.,2
+3132,CSQ3,CYSC,Patrice Ricard,2
+3133,CSQ3,CYSC,Paul Renny,2
+3134,CSQ3,CYSC,Salim Abounehme,2
+3135,CSE3,CYMX,Accurex Technology Corporation,2
+3139,CSQ3,CYUL,Marbina Interests Office Llc,2
+3146,CSE4,CTR6,13798020 Canada Inc.,3
+3147,CSE4,CTR6,Guy Côte,2
+3149,CDD3,CYCC,Gérald Robert,2
+3154,CSG3,CTR6,Sabiston Aviation Ltd.,2
+3157,CSQ3,CYHU,Jean-pierre St-jacques,3
+3160,CSE3,CSU3,Aviation Rou-air Inc.,2
+3161,CSE3,CSS3,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,3
+3165,CLA2,CYUL,Transcanada Pipelines Limited,2
+3166,CSS4,CYHU,Aviation Cozach Inc.,2
+3167,CSB3,CSR3,Gerald Julian,2
+3170,CSB3,CSR3,Gestion Matthieu Delorme Inc.,3
+3175,CSD3,CYUL,Corporation Hélico.Store inc.,2
+3176,CTR6,CYMX,10851019 Canada Inc.,2
+3181,CSE4,CSR3,Pierre Rémillard,3
+3186,CSS4,CZBM,Jacques Bougie,2
+3188,CSQ3,CZBM,Francois Desruisseaux,2
+3190,CSQ3,CZBM,Kuby's Aircraft Ltd,2
+3191,CSS4,CYMX,9225-5009 Québec Inc.,2
+3195,CSQ3,CZBM,Paul Renny,2
+3198,CLA2,CSA2,Groupe Geyser - Elivation Inc. / Elivation - Geyser Group Inc.,2
+3199,CTR6,CYHU,Chrono Aviation Inc.,2
+3200,CSD4,CYHU,Raymond Beausejour (1989) Inc.,2
+3201,CSS4,CYHU,Kudlik Aviation Inc.,2
+3202,CTR6,CYHU,Frazer Andiel,2
+3204,CSB3,CSU3,Gabor Galter,4
+3209,CSU7,CYVB,9164-1050 Québec Inc.,2
+3210,CSA2,CSE4,Martini Aviation Ltd.,3
+3211,CSZ3,CYHU,Airmédic Inc.,3
+3213,CSB3,CYND,Sylvain Gosselin,3
+3214,CNV9,CSG3,Sabiston Aviation Ltd.,3
+3220,CSJ5,CYMX,10851019 Canada Inc.,2
+3221,CSZ3,CYHU,Pierre Drapeau,2
+3223,CNV9,CYHU,Aviation Cmp Inc.,3
+3225,CSB3,CSG3,Gerald Julian,3
+3226,CSB3,CYHU,9184-2989 Québec Inc.,2
+3227,CSJ4,CSJ5,"Government Of Canada, Department Of Transport",3
+3230,CSE4,CSZ3,Seneque Usa Inc,2
+3238,CSG3,CSJ4,Sabiston Aviation Ltd.,3
+3239,CSG3,CYRQ,Sabiston Aviation Ltd.,3
+3242,CSZ3,CYJN,Aviation Cozach Inc.,3
+3243,CNV9,CYHU,9115-9996 Québec Inc,2
+3247,CSB3,CYRQ,André Archambault,3
+3248,CSY3,CYHU,Danny Sirignano,4
+3249,CSY3,CYHU,Corporation Hélico.Store inc.,3
+3251,CSB3,CYRQ,Gestion Matthieu Delorme Inc.,2
+3258,CSZ3,CYUL,Aviation Starlink Inc.,3
+3260,CSB3,CYSC,Gerald Julian,3
+3261,CSB3,CSY3,Gerald Julian,4
+3264,CSJ5,CYUL,Air Inuit Ltd. Air Inuit Ltee,2
+3269,CSJ5,CYRQ,Air Canada Rouge Lp,2
+3270,CSB3,CSC3,Samara Aviation Inc.,2
+3273,CSZ3,CYMX,9453-2322 Québec Inc.,3
+3276,CST3,CYHU,6039901 Canada Inc,3
+3277,CSY3,CYHU,Groupe OGE Inc.,2
+3278,CSA2,CSJ4,Groupe Geyser - Elivation Inc. / Elivation - Geyser Group Inc.,2
+3281,CSJ4,CYMX,Accurex Technology Corporation,2
+3282,CSA2,CYMX,Province Of Manitoba,2
+3288,CSJ4,CYMX,Lauretta Nordstrom,2
+3292,CSY4,CTR6,Tvpx Aircraft Solutions Inc Trustee,3
+3295,CSB3,CYHU,Dany Lapointe,4
+3298,CSJ4,CYHU,Transvalair-express Inc.,2
+3299,CSC3,CSJ5,Daniel Bélanger,2
+3300,CSE4,CSY4,9220-7877 Quebec Inc.,2
+3305,CSJ4,CYHU,Air Partners Corp.,2
+3310,CSJ4,CYHU,Claude Sanfacon,2
+3312,CSJ4,CYHU,Heli Source Ltd.,2
+3313,CSJ4,CYHU,Logistique Opti-nord Inc.,3
+3314,CSG3,CSY4,9220-7877 Quebec Inc.,4
+3317,CSJ4,CYUL,Chrono Aviation Inc.,2
+3318,CSU3,CZBM,Jean Messier,2
+3319,CSC3,CYHU,Danny Sirignano,3
+3320,CSY3,CYUL,Aviation Cozach Inc.,2
+3321,CSA2,CYFJ,Blais Capital Inc.,2
+3323,CSA2,CSZ3,Martini Aviation Ltd.,4
+3324,CSG3,CSY3,9225-5009 Québec Inc.,2
+3325,CSJ4,CSU3,Robert Robin,2
+3326,CSC3,CYHU,9359-0784 Québec Inc.,3
+3327,CSG3,CSU3,Académie De L'aviation De Saint-hyacinthe Inc.,4
+3328,CSA2,CSJ5,Martini Aviation Ltd.,2
+3329,CSB3,CSJ5,Gestion Matthieu Delorme Inc.,2
+3330,CSJ4,CSS3,Cliffert Peschlow,2
+3332,CSY4,CYHU,Martin Gauthier,3
+3335,CSJ4,CYRQ,Sky Jet M.g. Inc.,2
+3336,CSY4,CYMX,10851019 Canada Inc.,2
+3337,CSY4,CYND,Jean-guy Jalbert,2
+3343,CSJ4,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,2
+3344,CSB3,CSY3,Gabor Galter,4
+3349,CSG5,CYUL,Air Inuit Ltd. Air Inuit Ltee,2
+3353,CSM3,CYND,Thomas Redmond,3
+3354,CSE4,CSY3,Anthony Spino,3
+3358,CSS4,CSU3,Académie De L'aviation De Saint-hyacinthe Inc.,2
+3361,CSZ4,CZBM,Mathieu Béland,2
+3363,CSE4,CYRQ,13798020 Canada Inc.,2
+3365,CSE4,CYRQ,Guy Côte,2
+3371,CSU3,CSY3,Académie De L'aviation De Saint-hyacinthe Inc.,2
+3378,CSB3,CSH5,Sylvain Gosselin,2
+3381,CSH5,CYHU,9115-9996 Québec Inc,2
+3382,CSB3,CSH5,Gestion Matthieu Delorme Inc.,2
+3384,CYGP,CYVB,Francis Molloy,2
+3386,CSH5,CSU3,François Marquis,2
+3387,CYGP,CYUL,PAL Airlines Ltd.,2
+3392,CSB3,CZBM,Gerald Julian,3
+3394,CSH5,CYHU,Exact Air Inc.,2
+3395,CSB3,CSY3,Delastek Inc.,2
+3399,CSH5,CYHU,Black Bear Portage Camp,2
+3400,CSH5,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,2
+3409,CSM3,CYHU,Air Georgian Limited,2
+3410,CSK5,CYUL,Glencore Canada Corporation,2
+3412,CSK4,CZBM,Aircité Aviation Inc.,2
+3414,CSK4,CZBM,Eon Airborne Inc / Eon Aéroporté Inc.,2
+3415,CSK4,CZBM,Martin Gauthier,3
+3420,CSL3,CTR6,Kasi Aviation Services Inc.,2
+3423,CSU3,CYHU,Kudlik Aviation Inc.,2
+3428,CSH5,CZBM,Eon Airborne Inc / Eon Aéroporté Inc.,2
+3429,CSU3,CYHU,Corporation Hélico.Store inc.,4
+3433,CLA2,CYHU,Danny Sirignano,3
+3436,CSE4,CYUL,Robert Béland,2
+3437,CSZ3,CYUL,I.M.P. Group Limited (Execaire),2
+3438,CSB3,CSJ2,Gerald Julian,2
+3445,CSU3,CYHU,Transvalair-express Inc.,2
+3447,CSU3,CYHU,Robert E. Evans,3
+3449,CSJ4,CYHU,9736140 Canada Inc. - Pascan,2
+3454,CSL5,CYUL,Aviation Cmp Inc.,2
+3455,CSY3,CYHU,Aviation Cozach Inc.,3
+3457,CSU7,CYHU,Airmédic Inc.,3
+3461,CSZ4,CYHU,9115-9996 Québec Inc,2
+5383,CSZ3,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,1
+5386,CSU3,CZBM,Robert E. Evans,2
+5388,CSX3,CZBM,Martin Gauthier,2
+5389,CSX5,CZBM,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+5391,CYCC,CZBM,Novatem Aviation Incorporée / Novatem Aviation Incorporated,2
+5393,CTR6,CZBM,Richard Noel,1
+5394,CTY5,CZBM,Novatem Aviation Incorporée / Novatem Aviation Incorporated,2
+5396,CYCC,CZBM,Brampton Flying Club,1
+5397,CSU3,CZBM,Francois Desruisseaux,2
+5398,CSU3,CZBM,Daniel Pépin,1
+5400,CSU3,CZBM,9215-7536 Québec Inc.,1
+5403,CSR3,CZBM,Valiair Ltd Co Trustee,2
+5409,CSR3,CZBM,Inconnu,2
+5414,CSR3,CZBM,Denis Guérette,2
+5417,CYHU,CZBM,Claude Sanfacon,2
+5420,CYHU,CZBM,Comertech Design Ltd.,1
+5421,CYHU,CZBM,Elodie Gironne,2
+5425,CYHU,CZBM,Grondin Transport Inc.,1
+5431,CYHU,CZBM,Anthony Barker,2
+5433,CYHU,CZBM,Aircité Aviation Inc.,2
+5443,CYHU,CZBM,Kbm Forestry Consultants Inc. (kbm Resources Group),1
+5444,CSB3,CZBM,Air Canada,2
+5451,CSB3,CZBM,André Archambault,2
+5455,CSB3,CZBM,Dany Lapointe,2
+5456,CSB3,CZBM,G. Roch Consultant Ltee,2
+5457,CSB3,CZBM,Gabor Galter,2
+5476,CSC3,CZBM,9911162 Canada Inc.,2
+5478,CSR3,CZBM,4347943 Canada Inc.,1
+5479,CSK4,CZBM,Mathieu Béland,1
+5480,CSM3,CZBM,Mathieu Béland,1
+5482,CSQ3,CZBM,Tl Sierra Properties Llc,1
+5483,CSC3,CZBM,Félix-andre Lussier,2
+5484,CSR3,CZBM,Association Des Constructeurs D'avions Expérimentaux De Québec Inc.,1
+5487,CSR3,CZBM,Cascades Inc.,1
+5489,CSK4,CZBM,Amalgamated Industries Limited,1
+5490,CSJ5,CZBM,Francois Desruisseaux,1
+5491,CSJ4,CZBM,Apex Helicopters Inc.,2
+5492,CSH5,CZBM,9911162 Canada Inc.,1
+5493,CSG3,CZBM,3457265 Canada Inc.,1
+5494,CSE4,CZBM,Pierre Drapeau,2
+5495,CSE4,CZBM,George Ariss,2
+5497,CSD3,CZBM,Héli Olymbec Inc. Olymbec Heli Inc.,2
+5498,CSC3,CZBM,Richard D Williams,1
+5503,CYHU,CZBM,Kudlik Aviation Inc.,1
+5507,CYUL,CZBM,Aviation Cozach Inc.,1
+5508,CYUL,CZBM,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+5509,CYUL,CZBM,Corporation Hélico.Store inc.,2
+5511,CYUL,CZBM,Flygta Inc.,1
+5513,CYUL,CZBM,Ftc-llc,1
+5514,CYUL,CZBM,"Government Of Canada, Department Of Transport",2
+5515,CYUL,CZBM,Géosphair Aviation Inc.,1
+5520,CYSC,CZBM,Tvpx Aircraft Solutions Inc Trustee,1
+5522,CYSC,CZBM,Rolland Barbeau,1
+5523,CYSC,CZBM,Francois Desruisseaux,2
+5524,CYSC,CZBM,Eon Airborne Inc / Eon Aéroporté Inc.,1
+5525,CYSC,CZBM,Edward Martin (ed) Small,2
+5527,CYSC,CZBM,Aircraft Registration Inc Trustee,1
+5528,CYSC,CZBM,9223-8724 Québec Inc.,2
+5529,CYSC,CZBM,11004875 Canada Inc.,1
+5550,CYUL,CZBM,Waylawn Limited,1
+5551,CYUL,CZBM,Tvpx Aircraft Solutions Inc Trustee,1
+5554,CYUL,CZBM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+5555,CYUL,CZBM,Silver Maple Construction Llc,1
+5556,CYUL,CZBM,Sandell Scott D,1
+5557,CYUL,CZBM,Samara Aviation Inc.,2
+5558,CYUL,CZBM,Rigi Inc,1
+5559,CYUL,CZBM,Nadeau Air Service Inc.,1
+5560,CYRQ,CZBM,Kasi Aviation Services Inc.,1
+5561,CYRQ,CZBM,Dominique Roberge,1
+5564,CYHU,CZBM,Sylvain St-georges,2
+5565,CYHU,CZBM,The Richberry Management Group Ltd,1
+5567,CYJN,CZBM,9225-5009 Québec Inc.,1
+5569,CYJN,CZBM,Martini Aviation Ltd.,1
+5572,CYJN,CZBM,Bank Of Utah Trustee,2
+5574,CYJN,CZBM,Jacques Roberge,2
+5575,CYHU,CZBM,Silver Maple Construction Llc,1
+5576,CYHU,CZBM,Rigi Inc,1
+5577,CYHU,CZBM,Richard D Williams,1
+5578,CYHU,CZBM,R David Hawthorne,1
+5581,CYHU,CZBM,Québec Hélicoptères Inc./Quebec Helicopters Inc.,2
+5583,CYHU,CZBM,Province Of Manitoba,1
+5587,CYHU,CZBM,Nicola Prioletta,2
+5589,CYHU,CZBM,Max Aviation Inc.,2
+5590,CYJN,CZBM,Knut Zitzke,2
+5593,CYND,CZBM,Kbm Forestry Consultants Inc. (kbm Resources Group),2
+5600,CYJN,CZBM,Transcanada Pipelines Limited,1
+5605,CYQB,CZBM,Chrono Aviation Inc.,1
+5607,CYND,CZBM,Gord O. Sloan,1
+5608,CYND,CZBM,Frazer Andiel,2
+5610,CYMX,CZBM,Raynald Marcotte,2
+5615,CYMX,CZBM,9345-9626 Québec Inc.,2
+5617,CYMX,CZBM,9225-5009 Québec Inc.,1
+5623,CYJN,CZBM,Tremlease Leasing Inc.,2
+6167,CNV9,CYUY,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+6169,CTA4,CYUY,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+6172,CYHU,CYUY,Cowboy Air Services Ltd.,1
+6174,CYMX,CYUY,Air Georgian Limited,1
+6188,CYMX,CYUY,Panorama Fixed Wings Ltd.,1
+6191,CYUL,CYUY,Air Central Inc.,2
+6199,CYUL,CYUY,Wal-mart Canada Corp./la Compagnie Wal-mart Du Canada,1
+6205,CYSC,CYUY,9736140 Canada Inc. - Pascan,1
+6206,CYRQ,CYUY,Max Aviation Inc.,1
+6207,CYQB,CYUY,Air Georgian Limited,1
+6330,CYHU,CYVB,Panorama Fixed Wings Ltd.,1
+6332,CYHU,CYVB,Airsprint Inc.,1
+6341,CYPN,CYVB,Panorama Fixed Wings Ltd.,2
+6343,CYHU,CYVB,Air Inuit Ltd. Air Inuit Ltee,2
+6346,CYHU,CYVB,9184-2989 Québec Inc.,2
+6348,CYGV,CYVB,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+6350,CSU3,CYVB,Robert Robin,2
+6351,CSU3,CYVB,François Marquis,2
+6353,CSC3,CYVB,Max Aviation Inc.,1
+6367,CYUL,CYVB,Airsprint Inc.,1
+6377,CYVB,CYZV,Max Aviation Inc.,1
+6378,CYVB,CYZV,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+6385,CYUL,CYVB,Panorama Fixed Wings Ltd.,1
+6387,CYUL,CYVB,Aviation Starlink Inc.,1
+6711,CYGP,CYZV,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+6737,CYGV,CYZV,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+6753,CYQB,CYZV,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+6754,CYPN,CYZV,Max Aviation Inc.,2
+6755,CYPN,CYZV,Air Inuit Ltd. Air Inuit Ltee,1
+6756,CYHU,CYZV,Chrono Aviation Inc.,1
+6757,CYGV,CYZV,Max Aviation Inc.,2
+7053,CSU7,CYSC,Patrice Ricard,1
+7054,CSA2,CSX5,Québec Hélicoptères Inc./Quebec Helicopters Inc.,2
+7055,CSS3,CSX5,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+7056,CSU3,CSX5,Transvalair-express Inc.,1
+7057,CSX5,CYHU,Transvalair-express Inc.,1
+7060,CSA2,CSY3,Asaph Fipke,1
+7061,CSB3,CSY3,Aipc Groupe Conseils Ltée / Aipc Consulting Group Ltd.,1
+7063,CSU7,CYRQ,Chrono Aviation Inc.,1
+7064,CSB3,CSY3,Corporation Hélico.Store inc.,1
+7068,CSU3,CYUL,11119702 Canada Inc.,1
+7069,CSU3,CYUL,Héli Olymbec Inc. Olymbec Heli Inc.,2
+7070,CSU3,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,1
+7071,CSU7,CYMX,Ross Runciman,1
+7072,CSB3,CSU7,Gerald Julian,1
+7073,CSC3,CSU7,Daniel Bélanger,2
+7074,CSC3,CSU7,Stéphane Hémond,1
+7075,CSE4,CSU7,2581676 Ontario Inc.,1
+7076,CSU7,CYFJ,Jcr Aviation Llc,1
+7077,CSU7,CYHU,Chrono Aviation Inc.,2
+7078,CSU7,CYJN,Tremlease Leasing Inc.,1
+7079,CSB3,CSY3,André Archambault,2
+7080,CSB3,CSY3,Gestion Matthieu Delorme Inc.,2
+7081,CSB3,CSY4,Dany Lapointe,2
+7082,CSY3,CYUL,Estrie Hélicoptères Inc.,2
+7083,CSY3,CYMX,Transcanada Pipelines Limited,1
+7084,CSY3,CYND,10613592 Canada Inc.,1
+7085,CSY3,CYRQ,Daniel Le Hesran,1
+7086,CSY3,CYRQ,Frazer Andiel,1
+7087,CSY3,CYRQ,Gabor Galter,1
+7088,CSY3,CYRQ,"Government Of Canada, Department Of Transport",2
+7089,CSY3,CYRQ,Ross Runciman,1
+7090,CSY3,CYUL,10770582 Canada Inc,1
+7091,CSY3,CYUL,"Government Of Canada, Department Of Transport",2
+7092,CSY3,CYMX,Montel Equipement Minier Inc.,2
+7094,CSY3,CZBM,9911162 Canada Inc.,1
+7095,CSY3,CZBM,Martin Toutant,1
+7102,CSY3,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+7103,CSY3,CYMX,Bruno Dionne,1
+7104,CSE4,CSY3,Alain Nantel,2
+7105,CSY3,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,1
+7106,CSG3,CSY3,Frazer Andiel,1
+7107,CSG3,CSY3,Sasha Gagné,1
+7108,CSR3,CSY3,Pierre Rémillard,1
+7109,CSU3,CSY3,Aviation Rou-air Inc.,1
+7110,CSY3,CYFJ,Jean-pierre St-jacques,2
+7111,CSY3,CYHU,8317445 Canada Inc.,1
+7112,CSY3,CYHU,9202-7564 Québec Inc.,1
+7113,CSY3,CYHU,9456-0000 Québec Inc.,1
+7114,CSY3,CYHU,Association Récréative C-gbzy,2
+7115,CSY3,CYHU,Claude Sanfacon,1
+7116,CSY3,CYMX,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,1
+7117,CSY3,CYHU,"Government Of Canada, Department Of Transport",2
+7118,CSY3,CYHU,Jean-pierre St-jacques,2
+7119,CSY3,CYHU,Lauretta Nordstrom,1
+7120,CSY3,CYHU,Province Of Manitoba,2
+7121,CSY3,CYHU,Transvalair-express Inc.,1
+7122,CSY3,CYJN,Rolland Barbeau,2
+7123,CSY3,CYMX,9215-7536 Québec Inc.,1
+7124,CSY3,CYMX,9916288 Canada Inc.,2
+7125,CSY3,CYMX,Accurex Technology Corporation,1
+7127,CSU3,CYSC,Guy Courchesne,2
+7128,CSU3,CYSC,11119702 Canada Inc.,1
+7129,CST7,CYUL,Black Bear Portage Camp,1
+7130,CST7,CYHU,Michel Pâquet,1
+7131,CST7,CYHU,Pierre Drapeau,1
+7132,CST7,CYHU,Ronald Tremblay,1
+7133,CST7,CYHU,Sky Jet M.g. Inc.,1
+7134,CST7,CYQB,Chrono Aviation Inc.,1
+7135,CST7,CYSC,Atelier Hangar Inc.,1
+7136,CST7,CYUL,9736140 Canada Inc. - Pascan,1
+7137,CST7,CYUL,Air Georgian Limited,1
+7138,CST7,CYUL,Air Transat A T Inc.,1
+7139,CST7,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7140,CST7,CYHU,Hunter Aviation International Inc,1
+7141,CST7,CYUL,Hydro-Québec,1
+7142,CST7,CYUL,Ignacio Victor Aguero,1
+7143,CST7,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+7144,CST7,CZBM,Netjets Sales Inc,1
+7150,CST7,CYHU,Les Chantiers De Chibougamau Ltee.,1
+7151,CST7,CYHU,Cowboy Air Services Ltd.,1
+7152,CSU3,CYRQ,Aipc Groupe Conseils Ltée / Aipc Consulting Group Ltd.,1
+7153,CST3,CYUL,Héli Olymbec Inc. Olymbec Heli Inc.,1
+7157,CST3,CYRQ,Dragos Stefanescu,1
+7160,CST3,CYUL,Corporation Hélico.Store inc.,2
+7161,CST3,CYUL,Gord O. Sloan,1
+7162,CST3,CZBM,Kuby's Aircraft Ltd,1
+7163,CST7,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,1
+7164,CST3,CZBM,Transcanada Pipelines Limited,1
+7166,CSB3,CST7,Atelier Hangar Inc.,1
+7167,CSB3,CST7,Gestion Matthieu Delorme Inc.,1
+7168,CSC3,CST7,1143303 B.c. Ltd.,1
+7169,CSC3,CST7,13798020 Canada Inc.,1
+7170,CSE4,CST7,Alain Berube,1
+7171,CST7,CYHU,9115-9996 Québec Inc,1
+7172,CST7,CYHU,Aviation CMP Inc.,1
+7176,CSU3,CYJN,Aviation Cozach Inc.,2
+7178,CSU3,CYFJ,Aipc Groupe Conseils Ltée / Aipc Consulting Group Ltd.,1
+7179,CSU3,CYHU,11119702 Canada Inc.,1
+7180,CSU3,CYHU,Aipc Groupe Conseils Ltée / Aipc Consulting Group Ltd.,1
+7181,CSU3,CYHU,Association Récréative C-gbzy,2
+7182,CSU3,CYHU,Aviation Rou-air Inc.,1
+7183,CSU3,CYHU,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,2
+7184,CSU3,CYHU,Jean Messier,1
+7185,CSU3,CYJN,11119702 Canada Inc.,1
+7186,CSU3,CYJN,Aviation Rou-air Inc.,2
+7187,CNV9,CSU3,Aipc Groupe Conseils Ltée / Aipc Consulting Group Ltd.,2
+7188,CSU3,CYJN,Inconnu,2
+7190,CSU3,CYMX,9215-7536 Québec Inc.,1
+7191,CSU3,CYMX,Accurex Technology Corporation,2
+7192,CSU3,CYMX,Ross Runciman,2
+7193,CSU3,CYND,11119702 Canada Inc.,2
+7194,CSU3,CYND,François Marquis,1
+7196,CSU3,CYRQ,11119702 Canada Inc.,2
+7197,CSU3,CSY4,Erik Moyneur,1
+7198,CSR3,CSU3,Guy Courchesne,2
+7199,CSR3,CSU3,Daniel Pépin,1
+7200,CSR3,CSU3,Daniel Le Hesran,2
+7203,CSB3,CSU3,Académie De L'aviation De Saint-hyacinthe Inc.,1
+7204,CSB3,CSU3,Atelier Hangar Inc.,1
+7205,CSB3,CSU3,Estrie Hélicoptères Inc.,1
+7206,CSC3,CSU3,9131-6471 Québec Inc,2
+7207,CSC3,CSU3,Amir Paz,1
+7208,CSC3,CSU3,Guy Courchesne,2
+7209,CSC3,CSU3,Jean Messier,1
+7210,CSC3,CSU3,Philippe Esterez,1
+7211,CSE4,CSU3,Aipc Groupe Conseils Ltée / Aipc Consulting Group Ltd.,2
+7213,CSG3,CSU3,Jean-louis Jr Auger,2
+7214,CSJ5,CSU3,Robert Robin,2
+7215,CSP5,CSU3,Sasha Gagné,1
+7217,CSG3,CSY4,Jean-guy Jalbert,2
+7218,CSK4,CSZ3,Corporation Hélico.Store inc.,1
+7219,CSE4,CTE5,Anthony Spino,1
+7220,CSA2,CTE5,Kruger Inc.,1
+7221,CSA2,CTE5,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+7222,CSB3,CTE5,Atelier Hangar Inc.,1
+7223,CSB3,CTE5,Dany Lapointe,1
+7224,CSB3,CTE5,Gestion Matthieu Delorme Inc.,1
+7225,CSB3,CTE5,R David Hawthorne,1
+7226,CSC3,CTE5,9377-1004 Québec Inc.,1
+7227,CSE4,CTE5,Delreit Llc,1
+7228,CTA4,CYQB,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7229,CSG3,CTE5,Airmédic Inc.,1
+7230,CSG3,CTE5,Kruger Inc.,1
+7231,CSP6,CTE5,Paul Fréchette,2
+7232,CSR3,CTE5,Jalbert John E,1
+7233,CSZ3,CTE5,Asaph Fipke,1
+7234,CTE5,CYHU,Airmédic Inc.,1
+7235,CTE5,CYHU,Danny Sirignano,1
+7236,CTE5,CYHU,Frazer Andiel,1
+7237,CTE5,CYHU,Groupe OGE Inc.,1
+7238,CTA4,CYUL,9736140 Canada Inc. - Pascan,2
+7239,CTA4,CYND,"Beaver Air Services Limited Partnership, By Its General Partner, Missinippi Management Ltd.",2
+7240,CTE5,CYJN,9173-3295 Québec Inc.,1
+7242,CSZ4,CYHU,Mvp60 Fly High Llc,1
+7243,CSZ4,CYHU,Pierre Drapeau,1
+7244,CSZ4,CYSC,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7245,CSZ4,CZBM,Chrono Aviation Inc.,1
+7252,CTA4,CYHU,Jean-pierre Charbonneau,2
+7260,CTA3,CZBM,Géosphair Aviation Inc.,1
+7261,CNV9,CTA4,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7262,CTE5,CYHU,Guy Lambert,1
+7263,CTE5,CYJN,Alain Dufresne,1
+7264,CSG3,CSY4,Nancy Laroche,1
+7265,CTQ6,CYVB,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7273,CTQ6,CYHU,9368-2011 Québec Inc.,1
+7274,CTQ6,CYHU,Air Bravo Corp.,1
+7280,CNV9,CTR6,Kerry Nickel,1
+7281,CNV9,CTR6,Kudlik Aviation Inc.,1
+7282,CNV9,CTR6,Sky Jet M.g. Inc.,2
+7283,CSA2,CTR6,Asaph Fipke,1
+7284,CSB3,CTR6,Daniel Le Hesran,1
+7285,CSB3,CTR6,Gestion Matthieu Delorme Inc.,1
+7288,CTE5,CYMX,10851019 Canada Inc.,1
+7289,CTG3,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+7290,CTE5,CYMX,Ace Fly Boy Llc,1
+7291,CTE5,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+7292,CSY4,CTG3,Manan Air Services Inc.,1
+7293,CTG3,CYGV,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7294,CTG3,CYHU,9736140 Canada Inc. - Pascan,1
+7295,CTG3,CYHU,Chrono Aviation Inc.,1
+7296,CTG3,CYHU,Panorama Fixed Wings Ltd.,2
+7297,CTG3,CYND,Jean-François Tessier,1
+7298,CTG3,CYUL,Francis Molloy,1
+7299,CTG3,CYVB,9164-1050 Québec Inc.,1
+7301,CTG3,CYVB,Air Bravo Corp.,1
+7302,CTG3,CYVB,Max Aviation Inc.,1
+7304,CTK6,CYHU,Air Partners Corp.,1
+7309,CSZ4,CYHU,Les Chantiers De Chibougamau Ltee.,1
+7310,CSZ4,CYHU,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+7311,CSZ4,CYHU,Aviation Starlink Inc.,1
+7312,CSE4,CSZ3,Marco Roy,1
+7314,CNV9,CSZ3,Aviation Cvo Inc.,1
+7316,CSA2,CSZ3,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7317,CSA2,CSZ3,Groupe Geyser - Elivation Inc. / Elivation - Geyser Group Inc.,2
+7318,CSE4,CSZ3,9180-2116 Québec Inc.,2
+7319,CSE4,CSZ3,Dynamitage Castonguay Ltée,1
+7320,CSE4,CSZ3,Les Machines Roger Ltée,1
+7322,CSN3,CSZ3,9453-2322 Québec Inc.,1
+7323,CSQ3,CSZ3,Asaph Fipke,2
+7324,CSS3,CSZ3,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+7325,CSU3,CSZ3,Aipc Groupe Conseils Ltée / Aipc Consulting Group Ltd.,1
+7326,CSZ3,CTE5,Jcr Aviation Llc,1
+7327,CSZ3,CYCC,Guy Côte,1
+7328,CSZ3,CYHU,Aviation Cmp Inc.,1
+7329,CSZ3,CYHU,Claude Sanfacon,1
+7332,CSZ4,CYHU,Aviation Cmp Inc.,1
+7333,CSY4,CYHU,9456-0000 Québec Inc.,1
+7334,CSM5,CSY4,Nancy Laroche,1
+7335,CSN3,CSY4,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+7336,CSP6,CSY4,Jean-guy Jalbert,1
+7337,CSS4,CSY4,Montel Equipement Minier Inc.,1
+7338,CSY4,CSZ3,Rolland Barbeau,1
+7339,CSY4,CTE5,Jcr Aviation Llc,1
+7340,CSY4,CYCC,Miljour Jack A,1
+7341,CSY4,CYCC,Nancy Laroche,1
+7342,CSY4,CYCC,Tiger 818 Llc,1
+7343,CSY4,CYHU,Airmédic Inc.,1
+7344,CSY4,CYRQ,Manan Air Services Inc.,1
+7345,CSY4,CYHU,Corporation Hélico.Store inc.,1
+7346,CSY4,CYHU,Heli Source Ltd.,1
+7347,CSY4,CYJN,Aviation Cozach Inc.,1
+7348,CSY4,CYJN,Michel Drouin,2
+7349,CSY4,CYJN,Ohc International Consulting Inc.,1
+7350,CSY4,CYMX,9916288 Canada Inc.,1
+7351,CSY4,CYND,Erik Moyneur,1
+7352,CSY4,CYND,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+7354,CSZ3,CYHU,Corporation Hélico.Store inc.,1
+7355,CSZ3,CYHU,Frazer Andiel,2
+7356,CSZ3,CYHU,John Henderson Scott,1
+7358,CSZ3,CYUL,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+7359,CSZ3,CYUL,"Éric Audet, Sylvain Rouleau",1
+7360,CSZ3,CZBM,Svk Software Corporation,1
+7368,CSZ3,CYHU,Martin Gauthier,1
+7376,CSZ4,CYHU,9368-2011 Québec Inc.,1
+7377,CSZ4,CYHU,Acass Canada Ltd.,1
+7378,CSZ3,CYUL,Massair Ltd,1
+7379,CSZ3,CYUL,Corporation Hélico.Store inc.,2
+7380,CSZ3,CYUL,Alain Nantel,1
+7382,CSZ3,CYHU,"Éric Audet, Sylvain Rouleau",2
+7383,CSZ3,CYJN,Martini Aviation Ltd.,1
+7384,CSZ3,CYJN,Normand Prenoveau,1
+7385,CSZ3,CYJN,Ohc International Consulting Inc.,1
+7387,CSZ3,CYMX,3457265 Canada Inc.,1
+7388,CSZ3,CYMX,9215-7536 Québec Inc.,1
+7389,CSZ3,CYMX,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+7390,CSZ3,CYMX,Chartright Air Inc.,1
+7391,CSZ3,CYMX,Martin Toutant,2
+7392,CSZ3,CYMX,Nicholas Christopher,1
+7393,CSZ3,CYMX,Raynald Marcotte,1
+7394,CSZ3,CYMX,Richard Sirois,1
+7395,CSZ3,CYND,6565441 Canada Inc.,1
+7396,CSZ3,CYND,Charles Tremblay,2
+7401,CST3,CYND,Martin Gauthier,1
+7402,CST3,CYND,6039901 Canada Inc,1
+7403,CST3,CYMX,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+7404,CSN3,CYMX,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7405,CSG3,CSN3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+7406,CSM5,CSN3,Seneque Usa Inc,1
+7407,CSN3,CSN7,Héli Olymbec Inc. Olymbec Heli Inc.,1
+7408,CSN3,CSS3,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,2
+7409,CSN3,CSY4,William Christian,1
+7410,CSN3,CSZ3,Asaph Fipke,1
+7411,CSN3,CSZ3,Héli Olymbec Inc. Olymbec Heli Inc.,1
+7412,CSN3,CYHU,4259556 Canada Inc.,1
+7413,CSN3,CYMX,Air Georgian Limited,1
+7414,CSN3,CYMX,Ross Runciman,2
+7415,CSG3,CSN3,9453-2322 Québec Inc.,2
+7417,CSN5,CYSC,Patrice Ricard,1
+7418,CES2,CSN7,Parachutisme Nouvel Air Inc.,2
+7422,CSD3,CSN7,Héli Olymbec Inc. Olymbec Heli Inc.,2
+7423,CSN7,CSU3,Gilles Berthiaume,1
+7424,CSG3,CSN3,9771956 Canada Inc.,1
+7425,CSE4,CSN3,Robert M Peacock,1
+7427,CSM5,CYFJ,Bombardier Inc.,1
+7428,CSA2,CSM5,Bombardier Inc.,1
+7429,CSA2,CSM5,Robert Tessier,1
+7430,CSC3,CSM5,Stéphane Hémond,1
+7431,CSG3,CSM5,Bombardier Inc.,1
+7432,CSG3,CSM5,Corporation Hélico.Store inc.,1
+7433,CSJ5,CSM5,Les Machines Roger Ltée,1
+7434,CSM5,CSP5,Maule Air Of Canada Inc.,1
+7435,CSM5,CSS3,Cliffert Peschlow,1
+7436,CSM5,CSY4,3457265 Canada Inc.,1
+7437,CSM5,CYHU,Association Récréative C-gbzy,1
+7438,CSA2,CSN3,Sasha Gagné,1
+7439,CSM5,CYHU,John Henderson Scott,1
+7440,CSM5,CYJN,9225-5009 Québec Inc.,1
+7441,CSM5,CYJN,Tremlease Leasing Inc.,1
+7442,CSM5,CYMX,101247591 Saskatchewan Ltd.,1
+7443,CSM5,CYMX,High Peaks Aviation Llc,1
+7444,CSM5,CYMX,Ross Runciman,1
+7445,CSM5,CYRQ,9911162 Canada Inc.,1
+7446,CSM5,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,1
+7447,CSA2,CSN3,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7448,CSN7,CSX5,Parachutisme Nouvel Air Inc.,1
+7452,CSP6,CSS3,Cliffert Peschlow,2
+7453,CSP6,CST3,Association Des Constructeurs D'avions Expérimentaux De Québec Inc.,1
+7454,CSP6,CYJN,Alain Dufresne,2
+7455,CSP6,CYMX,Estrie Hélicoptères Inc.,2
+7456,CSP6,CYMX,Ohc International Consulting Inc.,1
+7457,CSP6,CYND,Paul Fréchette,1
+7461,CSP5,CSP6,Paul Fréchette,2
+7470,CSA2,CSQ3,Asaph Fipke,1
+7471,CSP6,CSQ3,Paul Fréchette,1
+7473,CSN7,CZBM,Knut Zitzke,1
+7474,CSP5,CYHU,9456-0000 Québec Inc.,1
+7478,CSB3,CSP5,Trevor W Hicks,1
+7479,CSC3,CSP5,9771956 Canada Inc.,1
+7480,CSE4,CSP5,Les Machines Roger Ltée,2
+7481,CSP5,CSS3,Cliffert Peschlow,1
+7482,CSP5,CYHU,Gestion C-gbck Inc,2
+7484,CSP5,CYHU,Maule Air Of Canada Inc.,1
+7485,CSP5,CYJN,4347943 Canada Inc.,1
+7486,CSP5,CYJN,Timo J. Haapamaki,1
+7487,CSP5,CYMX,Inconnu,1
+7488,CSP5,CYRQ,Cliffert Peschlow,1
+7491,CAA2,CSP6,Paul Fréchette,2
+7492,CES2,CSM5,Corporation Hélico.Store inc.,1
+7495,CSM3,CYHU,Air Bravo Corp.,1
+7497,CNV9,CSM3,Kudlik Aviation Inc.,1
+7498,CSC3,CSM3,Richard Kasowski,1
+7499,CSM3,CSR3,Chrono Aviation Inc.,1
+7500,CSM3,CST3,Mark Scullion,2
+7502,CSM3,CYHU,9368-2011 Québec Inc.,1
+7503,CSM3,CYHU,9736140 Canada Inc. - Pascan,1
+7504,CSM3,CYHU,Adrian Cooper,1
+7505,CSM3,CYHU,Aviation Cvo Inc.,1
+7507,CSM3,CYHU,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+7508,CSM3,CYHU,Exact Air Inc.,1
+7509,CSM3,CYHU,Francis Molloy,1
+7510,CSM3,CYHU,Frazer Andiel,1
+7511,CSM3,CYHU,Jean-luc Filion,1
+7512,CSM3,CYHU,Kasi Aviation Services Inc.,1
+7513,CSM3,CYHU,Max Aviation Inc.,1
+7514,CSM3,CYHU,Stéphane Le Bouyonnec,1
+7515,CSM3,CYJN,Gilles Lessard,1
+7517,CSL5,CZBM,Mathieu Béland,1
+7519,CSK5,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7520,CSK4,CYJN,Corporation Hélico.Store inc.,1
+7521,CSK4,CYJN,Ohc International Consulting Inc.,1
+7522,CSK4,CYJN,United States Dept Of The Interior,1
+7523,CSK4,CYSC,Andre Joseph Georges Bourbonnais,1
+7524,CSK4,CYUL,Corporation Hélico.Store inc.,1
+7525,CSJ5,CSK5,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+7526,CSK5,CYMX,10851019 Canada Inc.,1
+7527,CSK5,CYUL,9736140 Canada Inc. - Pascan,1
+7528,CSK5,CYUL,Air Bravo Corp.,1
+7529,CSK5,CYUY,Chrono Aviation Inc.,1
+7530,CSL5,CYHU,Inconnu,1
+7531,CSJ5,CSL3,Louis Bouchard,1
+7532,CSL3,CYHU,André Riverin,1
+7533,CSB3,CSL5,Gestion Matthieu Delorme Inc.,1
+7534,CSB3,CSL5,Sylvain Gosselin,1
+7535,CSC3,CSL5,Alain Nantel,1
+7536,CSL5,CYHU,1431128 Alberta Ltd,1
+7537,CSL5,CYHU,Air Canada,1
+7538,CSL5,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,1
+7539,CSL5,CYHU,"Government Of Canada, Department Of Transport",1
+7540,CSM3,CYJN,Normand Prenoveau,1
+7554,CSM3,CYMX,Bruno Dionne,1
+7567,CSM3,CZBM,Michel G. Bourbeau,1
+7568,CSM3,CYMX,Martin Toutant,1
+7569,CSM3,CYMX,Max Aviation Inc.,1
+7570,CSM3,CYMX,Raynald Marcotte,1
+7574,CSM3,CYRQ,Apex Helicopters Inc.,1
+7575,CSM3,CYSC,Gilles Lessard,1
+7576,CSM3,CYSC,Salim Abounehme,1
+7579,CSM3,CYUL,Aviation CMP Inc.,1
+7580,CSM3,CYUL,Flightpath Charter Airways Inc.,1
+7581,CSM3,CYUL,Nware Aviation Inc,1
+7584,CSM3,CZBM,Aviation Cmp Inc.,1
+7585,CSM3,CZBM,Bombardier Inc.,1
+7586,CSM3,CZBM,Gestion Matthieu Delorme Inc.,1
+7587,CSB3,CSQ3,André Archambault,2
+7588,CSB3,CSQ3,Gabor Galter,1
+7589,CSB3,CSQ3,Gerald Julian,2
+7591,CSR3,CZBM,Eon Airborne Inc / Eon Aéroporté Inc.,1
+7592,CSR3,CZBM,Jean Couture,1
+7593,CSR3,CZBM,Silver Maple Construction Llc,1
+7598,CSR3,CZBM,Chrono Aviation Inc.,1
+7602,CSA2,CSS3,Cliffert Peschlow,2
+7603,CSB3,CSS3,Comertech Design Ltd.,2
+7604,CSC3,CSS3,1143303 B.c. Ltd.,2
+7605,CSD3,CSS3,Gabor Galter,2
+7606,CSE4,CSS3,Anthony Spino,2
+7607,CSR3,CZBM,Danny Sirignano,1
+7608,CSR3,CZBM,Cannistra Steven,1
+7609,CSR3,CYJN,Alain Dufresne,1
+7611,CSR3,CYJN,Martin Merritt,1
+7612,CSR3,CYJN,Marven M. Cherniwchan,1
+7613,CSR3,CYJN,Normand Prenoveau,2
+7614,CSR3,CYJN,Rolland Barbeau,1
+7616,CSR3,CYND,Chrono Aviation Inc.,2
+7617,CSR3,CYND,Lawrence Dyke,1
+7619,CSR3,CYQB,Chrono Aviation Inc.,1
+7622,CSR3,CYRQ,Cascades Inc.,1
+7623,CSR3,CYRQ,Daniel Pépin,1
+7624,CSR3,CYRQ,Pierre Harvey,1
+7625,CSR3,CYSC,Comertech Design Ltd.,1
+7628,CSR3,CYUL,Airsprint Inc.,2
+7630,CSL3,CSS3,Cliffert Peschlow,1
+7631,CSN3,CST3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+7636,CSB3,CST3,Gabor Galter,2
+7637,CSD3,CST3,Ernesto Cadenas De Frutos,2
+7638,CSE4,CST3,9162771 Canada Inc.,1
+7639,CSE4,CST3,Dragos Stefanescu,1
+7640,CSP5,CST3,13798020 Canada Inc.,1
+7641,CSS3,CSY3,"Government Of Canada, Department Of Transport",1
+7642,CSS3,CST3,6039901 Canada Inc,1
+7643,CST3,CSX3,Jeffrey Russell Orr,1
+7644,CST3,CTE5,Jeffrey Russell Orr,1
+7645,CST3,CYCC,Air Maresca Llc,1
+7646,CST3,CYCC,Montauk Catamaran Co Llc,1
+7647,CST3,CYHU,2737-5633 Quebec Inc.,2
+7648,CST3,CYJN,9225-5009 Québec Inc.,2
+7654,CSS3,CTY5,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+7655,CSS3,CYCC,6039901 Canada Inc,2
+7656,CSS3,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+7657,CSS3,CYHU,Maule Air Of Canada Inc.,2
+7658,CSS3,CYJN,Rolland Barbeau,2
+7659,CSS3,CYMX,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,2
+7660,CSS3,CYMX,Montel Equipement Minier Inc.,2
+7661,CSA2,CSS4,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+7662,CSP5,CSS4,9094-6039 Quebec Inc,1
+7663,CSS4,CSU3,Association Récréative C-gbzy,1
+7664,CSS4,CSY3,Association Récréative C-gbzy,1
+7665,CSS4,CYHU,Association Récréative C-gbzy,2
+7666,CSS4,CYHU,Corporation Hélico.Store inc.,1
+7667,CSS4,CYHU,Exploits Valley Air Services Ltd.,1
+7668,CSS4,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+7669,CSS4,CYJN,9225-5009 Québec Inc.,1
+7670,CSS4,CYMX,Montel Equipement Minier Inc.,1
+7671,CSS4,CZBM,Apex Helicopters Inc.,1
+7672,CSR3,CYJN,Association Des Constructeurs D'avions Expérimentaux De Québec Inc.,1
+7673,CSR3,CYHU,Textron Aviation Inc,1
+7674,CSB3,CSQ3,Kuby's Aircraft Ltd,1
+7675,CSQ3,CYMX,Ross Runciman,1
+7676,CSQ3,CYHU,Province Of Manitoba,2
+7677,CSQ3,CYHU,Transvalair-express Inc.,1
+7678,CSQ3,CYJN,Kuby's Aircraft Ltd,1
+7679,CSQ3,CYJN,Ohc International Consulting Inc.,1
+7680,CSQ3,CYJN,Tremlease Leasing Inc.,1
+7682,CSQ3,CYMX,Bruno Dionne,1
+7683,CSQ3,CYMX,Raynald Marcotte,2
+7684,CSQ3,CYMX,Richard Sirois,1
+7685,CSQ3,CYND,10613592 Canada Inc.,1
+7686,CSQ3,CYHU,Max Aviation Inc.,1
+7689,CSQ3,CYRQ,Dominique Roberge,1
+7691,CSQ3,CYUL,Aviation Cozach Inc.,1
+7692,CSQ3,CYUL,Bedford Partners Llc,1
+7693,CSQ3,CYUL,I.M.P. Group Limited (Execaire),1
+7694,CSQ3,CYUL,M. Cross Enterprises Ltd.,1
+7695,CSQ3,CYUL,Netjets Sales Inc,1
+7696,CSQ3,CYHU,Michel Lalande,1
+7697,CSQ3,CYHU,Kuby's Aircraft Ltd,2
+7698,CSR3,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+7699,CSQ3,CSU3,Robert Robin,1
+7700,CSB3,CSQ3,Philippe Esterez,1
+7701,CSC3,CSQ3,Jean-claude Poirier,1
+7702,CSC3,CSQ3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+7703,CSG3,CSQ3,9225-5009 Québec Inc.,1
+7704,CSG3,CSQ3,Comertech Design Ltd.,1
+7705,CSG3,CSQ3,Kruger Inc.,1
+7706,CSH5,CSQ3,Daniel Le Hesran,1
+7707,CSJ4,CSQ3,9225-5009 Québec Inc.,2
+7708,CSQ3,CSY3,Aviation Cozach Inc.,1
+7709,CSQ3,CYHU,Guy Lambert,1
+7710,CSQ3,CYCC,9122-8999 Québec Inc,2
+7711,CSQ3,CYCC,Kuby's Aircraft Ltd,1
+7712,CSQ3,CYCC,Peter James Butorac,1
+7713,CSQ3,CYHU,9225-5009 Québec Inc.,1
+7714,CSQ3,CYHU,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+7715,CSQ3,CYHU,Danny Sirignano,1
+7716,CSQ3,CYHU,Frazer Andiel,1
+7717,CSQ3,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7720,CSR3,CYHU,Danny Sirignano,1
+7721,CSR3,CSU3,Jean Messier,1
+7722,CSR3,CSU3,Martin Hivon,1
+7723,CSR3,CSU3,Mirko Zgela,1
+7724,CSR3,CTR6,Kudlik Aviation Inc.,1
+7725,CSR3,CTY5,Private Air Inc.,1
+7727,CSR3,CYHU,4259556 Canada Inc.,1
+7728,CSR3,CYHU,Exact Air Inc.,1
+7729,CSQ3,CZBM,Apex Helicopters Inc.,1
+7730,CSR3,CYHU,Gestion C-gbck Inc,1
+7731,CSR3,CYHU,Gestion Matthieu Delorme Inc.,1
+7732,CSR3,CYHU,Guy Lambert,1
+7733,CSR3,CYHU,Gv Air Inc,1
+7734,CSR3,CYHU,Kasi Aviation Services Inc.,2
+7735,CSR3,CYHU,Kudlik Aviation Inc.,1
+7736,CSR3,CYHU,Max Aviation Inc.,2
+7737,CSR3,CYHU,Michel Pâquet,1
+7738,CSR3,CYHU,Pierre Drapeau,1
+7739,CSR3,CSU3,691042 N.-b. Inc,1
+7740,CSQ3,CSR3,Pierre Sirois,1
+7741,CSQ3,CSR3,Daniel Le Hesran,1
+7742,CSQ3,CZBM,Daniel Pépin,1
+7743,CSQ3,CZBM,Marbina Interests Office Llc,1
+7744,CSQ3,CZBM,Mathieu Béland,1
+7745,CSQ3,CZBM,Patrice Ricard,1
+7748,CNV9,CSR3,Kerry Nickel,1
+7749,CSA2,CSR3,Asaph Fipke,1
+7750,CSA2,CSR3,Robert Tessier,2
+7751,CSB3,CSR3,G. Roch Consultant Ltee,1
+7752,CSB3,CSR3,Gabor Galter,1
+7753,CSC3,CSR3,9377-1004 Québec Inc.,1
+7754,CSC3,CSR3,Chrono Aviation Inc.,1
+7755,CSC3,CSR3,Jean-claude Poirier,1
+7756,CSC3,CSR3,Marlin Airstrip Management Corp,1
+7757,CSE3,CSR3,Daniel Pépin,1
+7758,CSE4,CSR3,13798020 Canada Inc.,1
+7759,CSJ5,CSR3,Daniel Le Hesran,1
+7760,CSP6,CSR3,Paul Fréchette,1
+7761,CSE4,CTR6,9307-9259 Québec Inc.,1
+7762,CSE4,CTR6,Les Machines Roger Ltée,1
+7763,CSG3,CTR6,9771956 Canada Inc.,1
+7764,CSA2,CYHU,Claude Sanfacon,2
+7774,CSA2,CYHU,Corporation Hélico.Store inc.,2
+7775,CNV9,CYHU,Transvalair-express Inc.,1
+7776,CSB3,CYHU,4259556 Canada Inc.,2
+7777,CSB3,CYHU,Atelier Hangar Inc.,1
+7778,CSB3,CYHU,Charles Vaillancourt,1
+7779,CSB3,CYHU,Province Of Manitoba,2
+7780,CSC3,CYHU,1143303 B.c. Ltd.,2
+7781,CSC3,CYHU,9456-0000 Québec Inc.,1
+7782,CSC3,CYHU,Chrono Aviation Inc.,2
+7783,CSC3,CYHU,Exploits Valley Air Services Ltd.,1
+7785,CNV9,CYHU,Stéphane Le Bouyonnec,1
+7786,CSC3,CYHU,Kudlik Aviation Inc.,2
+7797,CNV9,CYHU,Private Air Inc.,1
+7798,CNV9,CYHU,9368-2011 Québec Inc.,1
+7799,CNV9,CYHU,Acass Canada Ltd.,1
+7800,CNV9,CYHU,Aviation Cvo Inc.,1
+7801,CNV9,CYHU,Aviation Starlink Inc.,1
+7802,CNV9,CYHU,Elodie Gironne,2
+7803,CNV9,CYHU,Gv Air Inc,2
+7804,CNV9,CYHU,Pierre Drapeau,1
+7805,CSC3,CYHU,Martin Gauthier,2
+7806,CYGV,CYPN,Grondin Transport Inc.,1
+7807,CSJ5,CYHU,9736140 Canada Inc. - Pascan,2
+7808,CSJ5,CYHU,Chrono Aviation Inc.,1
+7809,CSJ5,CYHU,Cmc Electronics Inc. / Cmc Électronique Inc.,1
+7810,CSJ5,CYHU,Danny Sirignano,2
+7811,CSJ5,CYHU,Heli Source Ltd.,1
+7812,CSL5,CYHU,Aviation CMP Inc.,1
+7813,CSM3,CYHU,Jean Morin,1
+7814,CSM3,CYHU,Michel Pâquet,1
+7815,CSN5,CYHU,Jp Saul Medical Flight Services Consulting Llc,1
+7816,CSJ4,CYHU,Chrono Aviation Inc.,2
+7817,CSN7,CYHU,Danny Sirignano,1
+7818,CSP5,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,1
+7819,CSQ3,CYHU,Association Récréative C-gbzy,1
+7820,CSJ4,CYHU,Danny Sirignano,1
+7821,CSJ4,CYHU,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+7822,CSE4,CYHU,John Henderson Scott,1
+7823,CSC3,CYHU,Stéphane Hémond,2
+7824,CSC3,CYHU,"The Kinsmen Club Of Chatham, Ontario",2
+7825,CSE3,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+7826,CSE3,CYHU,Martin Gauthier,2
+7827,CSE4,CYHU,11004875 Canada Inc.,2
+7828,CSE4,CYHU,Alain Berube,2
+7829,CSE4,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+7830,CSE4,CYHU,Jean Morin,2
+7831,CSE4,CYHU,Logistique Opti-nord Inc.,1
+7832,CSE4,CYHU,Martini Aviation Ltd.,1
+7833,CSE4,CYHU,Max Aviation Inc.,2
+7834,CSE4,CYHU,Transvalair-express Inc.,1
+7835,CSG3,CYHU,11004875 Canada Inc.,2
+7836,CSG3,CYHU,9456-0000 Québec Inc.,1
+7837,CSH5,CYHU,Transvalair-express Inc.,2
+7838,CSJ4,CYHU,2737-5633 Quebec Inc.,1
+7839,CSJ4,CYHU,9184-2989 Québec Inc.,2
+7840,CSJ4,CYHU,9368-2011 Québec Inc.,2
+7865,CYGV,CYUL,PAL Airlines Ltd.,2
+7866,CYGV,CYUY,Propair Inc.,1
+7887,CLA2,CYHU,Groupe OGE Inc.,2
+7888,CLA2,CYHU,John Henderson Scott,2
+7889,CLA2,CYHU,Province Of Manitoba,2
+7907,CCP3,CYHU,Stéphane Le Bouyonnec,1
+7908,CCP3,CYHU,Max Aviation Inc.,1
+7925,CCP3,CYHU,Académie De L'aviation De Saint-hyacinthe Inc.,1
+7926,CCP3,CYHU,Les Machines Roger Ltée,1
+7927,CYHU,CYMW,Kudlik Aviation Inc.,1
+7936,CYHU,CYMW,Pierre Bourgie,2
+7938,CYHU,CYMX,9215-7536 Québec Inc.,2
+7939,CYHU,CYMX,9225-5009 Québec Inc.,2
+7940,CYHU,CYMX,9345-9626 Québec Inc.,2
+7941,CYHU,CYMX,9368-2011 Québec Inc.,1
+7942,CYHU,CYMX,Airbus Helicopters Canada Limited,1
+7943,CYHU,CYMX,Bank Of Utah Trustee,2
+7944,CYHU,CYMX,Cowboy Air Services Ltd.,2
+7945,CYHU,CYMX,Estrie Hélicoptères Inc.,2
+7946,CYHU,CYMX,Hangar 83 Inc.,2
+7949,CYHU,CYJN,Nicola Prioletta,2
+7951,CYHU,CYJN,Richard D Williams,1
+7952,CYHU,CYJN,Southern Aircraft Consultancy Inc Trustee,1
+7953,CYHU,CYJN,Transvalair-express Inc.,2
+7969,CYHU,CYMX,Ross Runciman,1
+7970,CYHU,CYNA,Air Partners Corp.,1
+7981,CYHU,CYND,514744 Ontario Limited,1
+7987,CYHU,CYQB,9115-9996 Québec Inc,1
+7988,CYHU,CYQB,Black Bear Portage Camp,2
+7995,CYHU,CYND,9736140 Canada Inc. - Pascan,1
+7996,CYHU,CYND,Amir Paz,2
+7997,CYHU,CYND,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",2
+7998,CYHU,CYND,Charles Desjardins,2
+7999,CYHU,CYND,Frazer Andiel,2
+8000,CYHU,CYND,Gestion C-gbck Inc,2
+8001,CYHU,CYND,Jean-pierre Charbonneau,2
+8002,CYHU,CYND,John Henderson Scott,2
+8003,CYHU,CYND,Pierre Drapeau,2
+8004,CYHU,CYND,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+8005,CYHU,CYND,"The Kinsmen Club Of Chatham, Ontario",2
+8006,CYHU,CYND,The Richberry Management Group Ltd,2
+8013,CYHU,CYJN,Peregrine Aerial Surveys Incorporated,2
+8014,CYHU,CYJN,Jean-luc Filion,1
+8015,CSZ3,CYHU,Dynamitage Castonguay Ltée,1
+8020,CTE5,CYHU,Corporation Hélico.Store inc.,1
+8021,CTR6,CYHU,Propair Inc.,1
+8022,CTY5,CYHU,Stéphane Hémond,1
+8024,CYCC,CYHU,4259556 Canada Inc.,1
+8025,CYCC,CYHU,Association Récréative C-gbzy,1
+8026,CYCC,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,1
+8027,CYCC,CYHU,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",2
+8028,CYCC,CYHU,John Henderson Scott,2
+8029,CSY4,CYHU,Nancy Laroche,1
+8030,CSY4,CYHU,9220-7877 Quebec Inc.,1
+8031,CYHU,CYJN,Gestion C-gbck Inc,1
+8032,CSS3,CYHU,Gabor Galter,1
+8033,CST3,CYHU,Martin Gauthier,1
+8034,CSU3,CYHU,691042 N.-b. Inc,1
+8035,CSU3,CYHU,Gestion C-gbck Inc,1
+8036,CSY3,CYHU,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+8037,CYCC,CYHU,R David Hawthorne,1
+8038,CYCC,CYHU,Utiliplex Llc,1
+8051,CYHU,CYJN,10770582 Canada Inc,1
+8052,CYHU,CYJN,Association Récréative C-gbzy,2
+8053,CYHU,CYJN,Aviation Cozach Inc.,1
+8054,CYHU,CYJN,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,1
+8055,CYHU,CYJN,Brent Van Moorsel,1
+8060,CYFJ,CYHU,9736140 Canada Inc. - Pascan,1
+8061,CYFJ,CYHU,Airmédic Inc.,1
+8062,CYFJ,CYHU,Aviation Cmp Inc.,1
+8063,CYFJ,CYHU,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,2
+8064,CYFJ,CYHU,Kudlik Aviation Inc.,1
+8065,CYFJ,CYHU,Panorama Fixed Wings Ltd.,1
+8066,CYFJ,CYHU,Tvpx Aircraft Solutions Inc Trustee,1
+8067,CYFJ,CYHU,Vipjet Ltd,1
+8073,CYGP,CYHU,Aviation Cmp Inc.,1
+8074,CYGV,CYHU,9736140 Canada Inc. - Pascan,2
+8075,CYGV,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",2
+8076,CSG3,CTR6,Ross Runciman,1
+8096,CTY5,CYHU,Aviation Cozach Inc.,1
+8097,CTY5,CYHU,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+8100,CTY5,CYHU,Transvalair-express Inc.,1
+8122,CTY5,CYHU,Jean-luc Filion,1
+8123,CYCC,CYHU,Seneca College Of Applied Arts And Technology,1
+8124,CST3,CYCC,Transcanada Pipelines Limited,1
+8125,CSU3,CYCC,Aviation Rou-air Inc.,1
+8126,CSY3,CYCC,Transcanada Pipelines Limited,1
+8127,CYCC,CYHU,2115828 Ontario Inc.,1
+8128,CYCC,CYHU,514744 Ontario Limited,1
+8129,CYCC,CYHU,Craig W Chapman,1
+8130,CYCC,CYHU,Imf Holdings Inc.,1
+8131,CYCC,CYHU,Transvalair-express Inc.,1
+8132,CSS3,CYCC,Pierre Rémillard,1
+8133,CYCC,CYJN,784199 Ontario Limited,1
+8134,CYCC,CYJN,Association Des Constructeurs D'avions Expérimentaux De Québec Inc.,2
+8135,CYCC,CYJN,Inconnu,1
+8136,CYCC,CYJN,Larry Johnston,1
+8137,CYCC,CYMX,Ross Runciman,2
+8138,CYCC,CYND,7903812 Canada Inc.,1
+8139,CYCC,CYND,9911162 Canada Inc.,2
+8140,CYCC,CYRQ,Douglas William Gerhart,1
+8141,CST3,CYCC,Martin Toutant,1
+8143,CSB3,CYCC,Philippe Esterez,2
+8150,CYBG,CYUL,Jazz Aviation Lp,1
+8153,CSC3,CYCC,Félix-andre Lussier,2
+8154,CSD3,CYCC,Académie De L'aviation De Saint-hyacinthe Inc.,1
+8155,CSD3,CYCC,Jonathan Mark Van Keulen,1
+8156,CSE4,CYCC,13798020 Canada Inc.,2
+8157,CSE4,CYCC,9122-8999 Québec Inc,2
+8158,CSE4,CYCC,9162771 Canada Inc.,2
+8159,CSE4,CYCC,Columbia Av8ors Inc,2
+8160,CSP5,CYCC,Aipc Groupe Conseils Ltée / Aipc Consulting Group Ltd.,1
+8161,CSP5,CYCC,Timo J. Haapamaki,1
+8165,CTR6,CYMX,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+8171,CTR6,CYMX,101247591 Saskatchewan Ltd.,1
+8172,CTR6,CYMX,9215-7536 Québec Inc.,1
+8173,CTR6,CYMX,Aviation Cvo Inc.,2
+8174,CTR6,CYMX,Gold Star Aviation Inc,1
+8175,CTR6,CYMX,Gv Air Inc,1
+8176,CTR6,CYJN,Ohc International Consulting Inc.,1
+8177,CTR6,CYMX,Kudlik Aviation Inc.,1
+8178,CTR6,CYMX,Panorama Fixed Wings Ltd.,1
+8179,CTR6,CYND,9115-9996 Québec Inc,1
+8180,CTR6,CYND,"Beaver Air Services Limited Partnership, By Its General Partner, Missinippi Management Ltd.",1
+8181,CTR6,CYND,Chrono Aviation Inc.,1
+8182,CTR6,CYND,Docteur Mathieu Côté Inc.,1
+8183,CTR6,CYND,Exact Air Inc.,1
+8184,CTR6,CYND,Ian N Dewhirst,1
+8185,CTR6,CYND,Jean-François Tessier,1
+8187,CTR6,CYHU,Province Of Manitoba,1
+8190,CSJ5,CTR6,Aviation Cvo Inc.,1
+8191,CSJ5,CTR6,Kerry Nickel,1
+8192,CSJ5,CTR6,Peregrine Aerial Surveys Incorporated,1
+8193,CSJ5,CTR6,Raymond Beausejour (1989) Inc.,1
+8194,CSU3,CTR6,11119702 Canada Inc.,1
+8195,CSU3,CTR6,Andre Goguen,1
+8199,CTR6,CYHU,Jean-pierre Charbonneau,1
+8202,CTR6,CYHU,9456-0000 Québec Inc.,1
+8203,CTR6,CYHU,Air Bravo Corp.,1
+8204,CTR6,CYHU,Aviation Cvo Inc.,1
+8205,CTR6,CYHU,Aviation Pgd Inc.,1
+8206,CTR6,CYHU,Collège iFly inc. / iFly College inc.,1
+8207,CTR6,CYHU,Corporation Hélico.Store inc.,1
+8208,CTR6,CYHU,Gv Air Inc,1
+8209,CTR6,CYND,Philippe Tremblay,1
+8210,CTR6,CYND,Tvpx Aircraft Solutions Inc Trustee,1
+8212,CTR6,CYUL,Grondin Transport Inc.,1
+8215,CTR6,CYUL,10770582 Canada Inc,1
+8216,CTR6,CYUL,Air Nunavut Ltd.,1
+8217,CTR6,CYUL,Aviation Jolina S.E.C.,1
+8218,CTR6,CYUL,Conair Group Inc.,1
+8219,CTR6,CYUL,Exact Air Inc.,1
+8220,CTR6,CYUL,Flexflight APS,1
+8221,CTR6,CYUL,Flexjet Llc,1
+8222,CTR6,CYUL,I.M.P. Group Limited (Execaire),1
+8224,CTR6,CYUL,Max Aviation Inc.,1
+8225,CTR6,CYUL,Republic Airways Inc,1
+8226,CTR6,CYUL,Samara Aviation Inc.,1
+8227,CTR6,CYUL,Summit Air,1
+8228,CTR6,CYUL,Tvpx Aircraft Solutions Inc Trustee,1
+8229,CTR6,CYUY,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+8230,CTR6,CYUY,Glencore Canada Corporation,1
+8231,CTR6,CYUY,"Government Of Canada, Department Of Transport",1
+8251,CTR6,CYRQ,10770582 Canada Inc,1
+8252,CTR6,CYRQ,10851019 Canada Inc.,2
+8253,CTR6,CYRQ,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+8254,CTR6,CYRQ,Kerry Nickel,1
+8255,CTR6,CYRQ,Kudlik Aviation Inc.,1
+8256,CYCC,CYSC,Smiths Falls Flying Club,1
+8257,CYCC,CZBM,R David Hawthorne,1
+8259,CYFJ,CZBM,Inconnu,1
+8260,CYFJ,CZBM,Novatem Aviation Incorporée / Novatem Aviation Incorporated,1
+8272,CYFJ,CZBM,Francois Desruisseaux,1
+8275,CYFJ,CYUL,Rigi Inc,1
+8276,CYFJ,CYUL,Dp Ownership Montana Llc,1
+8277,CYFJ,CYUL,Driscolls Inc,1
+8278,CYFJ,CYUL,Fast Air Ltd.,1
+8279,CYFJ,CYUL,G 137 Llc,1
+8280,CYFJ,CYUL,Gf Management Co Llc,1
+8281,CYFJ,CYUL,London Soaring Society,1
+8282,CYFJ,CYUL,Netjets Sales Inc,2
+8283,CYFJ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+8285,CYFJ,CYUL,Sunnyfield Aviation Associates Llc,1
+8286,CYFJ,CYUL,Wheels Up Partners Llc,1
+8301,CYGP,CYGV,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+8302,CYGP,CYHU,Max Aviation Inc.,1
+8303,CYGP,CYQB,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+8305,CYGP,CYUL,9736140 Canada Inc. - Pascan,1
+8306,CYGP,CYUL,Air Inuit Ltd. Air Inuit Ltee,1
+8307,CYGP,CYUL,Airsprint Inc.,1
+8308,CYGP,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+8309,CYGP,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+8310,CYGP,CYVB,Air Inuit Ltd. Air Inuit Ltee,1
+8311,CYGP,CYVB,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+8313,CSE4,CYGV,Guy Côte,2
+8334,CYEY,CYUL,Hydro-Québec,1
+8367,CSA2,CYFJ,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+8368,CYFJ,CYMX,Asaph Fipke,1
+8369,CYFJ,CYHU,Dynamitage Castonguay Ltée,1
+8370,CYFJ,CYHU,Gestion C-gbck Inc,1
+8371,CYFJ,CYHU,Jean-pierre Charbonneau,1
+8374,CYFJ,CYMX,9215-7536 Québec Inc.,2
+8375,CYFJ,CYMX,9916288 Canada Inc.,1
+8376,CYFJ,CYMX,Martin Toutant,1
+8377,CSB3,CYFJ,Atelier Hangar Inc.,1
+8378,CYFJ,CYMX,Richard Sirois,1
+8386,CYFJ,CYRQ,Martin Lachapelle,1
+8387,CYFJ,CYHU,Association Récréative C-gbzy,1
+8388,CYFJ,CYHU,9394-2985 Québec Inc,1
+8389,CYFJ,CYHU,1174578 Ontario Inc.,1
+8391,CSB3,CYFJ,G. Roch Consultant Ltee,1
+8392,CSB3,CYFJ,Gestion Matthieu Delorme Inc.,1
+8393,CSE4,CYFJ,Anthony Spino,1
+8394,CSE4,CYFJ,Claude Bouchard,1
+8395,CSG3,CYFJ,Sylvain Lareau,1
+8396,CSJ5,CYFJ,Mag Aerospace Canada Corp.,1
+8397,CSL3,CYFJ,Mag Aerospace Canada Corp.,1
+8398,CSP5,CYFJ,Maule Air Of Canada Inc.,1
+8399,CSP6,CYFJ,Paul Fréchette,1
+8400,CSY4,CYFJ,Heli Source Ltd.,1
+8401,CSZ3,CYFJ,Charles Tremblay,1
+8402,CTR6,CYFJ,Canadian Energy Services L. P.,1
+8403,CTR6,CYFJ,Mag Aerospace Canada Corp.,1
+8408,CSK4,CYJN,Aviation Cozach Inc.,1
+8409,CSK4,CSZ3,Aviation Cozach Inc.,1
+8502,CES2,CLA2,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+8503,CLA2,CSA2,Air Canada Rouge Lp,1
+8504,CLA2,CSA2,Transcanada Pipelines Limited,1
+8505,CLA2,CSB3,Gabor Galter,1
+8506,CLA2,CSB3,Trevor W Hicks,2
+8507,CLA2,CSE4,13798020 Canada Inc.,1
+8508,CLA2,CSY3,Groupe Geyser - Elivation Inc. / Elivation - Geyser Group Inc.,1
+8510,CLA2,CSY3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+8511,CLA2,CYJN,Martini Aviation Ltd.,2
+8512,CLA2,CYMX,9453-2322 Québec Inc.,1
+8513,CLA2,CYUL,J R S Sky Inc,1
+8580,CSK4,CSN7,Corporation Hélico.Store inc.,1
+8581,CNV9,CYHU,Frazer Andiel,1
+8582,CNV9,CYFJ,Kudlik Aviation Inc.,1
+8583,CNV9,CYFJ,Precision Gradall Services Ltd.,1
+8584,CNV9,CYHU,11004875 Canada Inc.,1
+8585,CNV9,CYHU,Air Partners Corp.,1
+8586,CNV9,CYHU,Corporation Hélico.Store inc.,1
+8587,CNV9,CYHU,Danny Sirignano,1
+8588,CNV9,CYHU,Exact Air Inc.,1
+8589,CNV9,CYHU,"Government Of Canada, Royal Canadian Mounted Police",1
+8590,CNV9,CTY5,Helico Service Inc.,1
+8591,CNV9,CYHU,Green Feather Aviation Inc,1
+8592,CNV9,CYHU,Jean-pierre Charbonneau,1
+8593,CNV9,CYHU,Martin Hivon,1
+8594,CNV9,CYHU,Province Of Manitoba,1
+8595,CNV9,CYMW,Chrono Aviation Inc.,1
+8596,CNV9,CYMX,Esj Aviation Inc.,1
+8597,CNV9,CYMX,Kudlik Aviation inc.,1
+8598,CNV9,CYFJ,1867829 Alberta Ltd,1
+8599,CNV9,CYMX,Raynald Marcotte,1
+8600,CNV9,CSB3,Dany Lapointe,1
+8608,CNV9,CSB3,Atelier Hangar Inc.,2
+8609,CNV9,CSB3,Gestion Matthieu Delorme Inc.,1
+8610,CNV9,CTR6,10770582 Canada Inc,1
+8611,CNV9,CSC3,"The Kinsmen Club Of Chatham, Ontario",1
+8612,CNV9,CSE4,Les Machines Roger Ltée,2
+8613,CNV9,CSE4,Pierre Morin,1
+8614,CNV9,CSG3,Gerald Julian,1
+8615,CNV9,CSJ5,Jean-luc Filion,1
+8616,CNV9,CSR3,Kudlik Aviation Inc.,1
+8617,CNV9,CST3,Dragos Stefanescu,1
+8618,CNV9,CYMX,Panorama Fixed Wings Ltd.,1
+8619,CNV9,CYMX,Ross Runciman,1
+8621,CNV9,CYUL,Woodbine Aviation Llc,1
+8622,CNV9,CYUL,M. Cross Enterprises Ltd.,1
+8623,CNV9,CYUL,Netjets Sales Inc,1
+8624,CNV9,CYUL,Paccar Inc,1
+8625,CNV9,CYUL,Phoenix Air Group Inc,1
+8626,CNV9,CYUL,Randolph Aviation Llc,1
+8627,CNV9,CYUL,Rcr 6 Llc,1
+8628,CNV9,CYUL,Rubeseb Aviation Corp,1
+8629,CNV9,CYUL,Société En Commandite Développement Mondou,1
+8630,CNV9,CYUL,Sunwest Aviation Ltd.,1
+8631,CNV9,CYUY,Chrono Aviation Inc.,1
+8632,CNV9,CYUL,Joelle Jet Llc,1
+8633,CNV9,CYUY,"Government Of Canada, Department Of Transport",1
+8634,CNV9,CYUY,Sky Jet M.g. Inc.,1
+8635,CNV9,CYZV,Air Inuit Ltd. Air Inuit Ltee,1
+8636,CNV9,CYZV,Les Investissements Nolinor Inc.,1
+8637,CNV9,CZBM,Jean Couture,1
+8642,CNV9,CYUL,Kudlik Aviation inc.,1
+8643,CNV9,CYUL,Inconnu,1
+8644,CNV9,CYND,Exact Air Inc.,1
+8645,CNV9,CYUL,Aqua Sun Investments Llc,1
+8646,CNV9,CYND,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+8647,CNV9,CYPN,Air Inuit Ltd. Air Inuit Ltee,1
+8648,CNV9,CYPN,Kerry Nickel,1
+8649,CNV9,CYRQ,Chrono Aviation Inc.,1
+8650,CNV9,CYRQ,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+8651,CNV9,CYRQ,Kudlik Aviation Inc.,1
+8652,CNV9,CYUL,10770582 Canada Inc,2
+8653,CNV9,CYUL,9368-2011 Québec Inc.,1
+8654,CNV9,CYUL,A Brock Allison,1
+8655,CNV9,CYUL,Aviation Cmp Inc.,1
+8656,CNV9,CYUL,Image Air Charter Ltd.,1
+8657,CNV9,CYUL,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,1
+8658,CNV9,CYUL,Calm Air International Ltd,1
+8659,CNV9,CYUL,Corporate,1
+8660,CNV9,CYUL,Dietech Automation Equipment Ltd.,1
+8661,CNV9,CYUL,Exact Air Inc.,1
+8662,CNV9,CYUL,Flightpath Charter Airways Inc.,1
+8663,CNV9,CYUL,Gestion Aeronautique Richardson,1
+8664,CNV9,CYUL,Grondin Transport Inc.,1
+8665,CNV9,CYUL,I.M.P. Group Limited (Execaire),1
+8938,CCP3,CYMX,10851019 Canada Inc.,2
+8939,CCP3,CYMX,Air Georgian Limited,1
+8940,CCP3,CYMX,Martin Lachapelle,1
+8941,CCP3,CYMX,Martin Toutant,1
+8942,CCP3,CYND,Amir Paz,1
+8943,CCP3,CZBM,The Richberry Management Group Ltd,1
+8948,CCP3,CYHU,Elodie Gironne,1
+8958,CCP3,CYHU,Jean-pierre Charbonneau,1
+8959,CCP3,CYHU,9736140 Canada Inc. - Pascan,1
+8961,CCP3,CSB3,Atelier Hangar Inc.,1
+8970,CCP3,CSA2,13798020 Canada Inc.,1
+8971,CCP3,CSB3,Charles Antoine Leopold,1
+8972,CCP3,CYHU,9394-2985 Québec Inc,1
+8973,CCP3,CSB3,G. Roch Consultant Ltee,1
+8974,CCP3,CSB3,Gestion Matthieu Delorme Inc.,1
+8975,CCP3,CSE4,Anthony Spino,1
+8976,CCP3,CSE4,Les Machines Roger Ltée,1
+8977,CCP3,CSE4,Marco Roy,1
+8978,CCP3,CSG3,Ian E. Lancaster,1
+8979,CCP3,CSR3,Daniel Pépin,1
+8980,CCP3,CYHU,11004875 Canada Inc.,1
+8981,CCP3,CYHU,9359-0784 Québec Inc.,1
+8985,CES2,CSS3,Royal Canadian Air Force,1
+8993,CES2,CSG3,9456-0000 Québec Inc.,1
+8994,CES2,CSY4,9456-0000 Québec Inc.,1
+8996,CES2,CSY4,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+8997,CES2,CSZ3,9456-0000 Québec Inc.,1
+8998,CES2,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+8999,CES2,CYHU,Province Of Manitoba,1
+9000,CES2,CYMX,9453-2322 Québec Inc.,2
+9001,CES2,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+9002,CES2,CYUL,Corporation Hélico.Store inc.,1
+9078,CAA2,CYND,Martin Gauthier,1
+9079,CAA2,CYMX,Bruno Dionne,2
+9080,CAA2,CYMX,Charles Tremblay,2
+9081,CAA2,CYMX,Chartright Air Inc.,1
+9082,CAA2,CYMX,Martin Toutant,2
+9083,CAA2,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+9084,CAA2,CYMX,Raynald Marcotte,2
+9085,CAA2,CYND,9929711 Canada Inc.,1
+9086,CAA2,CYND,"Beaver Air Services Limited Partnership, By Its General Partner, Missinippi Management Ltd.",1
+9087,CAA2,CYND,Gord O. Sloan,1
+9099,CAA2,CYMX,Accurex Technology Corporation,1
+9100,CAA2,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+9101,CAA2,CYHU,Corporation Hélico.Store inc.,1
+9102,CAA2,CSZ3,Charles Tremblay,1
+9108,CAA2,CSB3,Aviation Rou-air Inc.,2
+9109,CAA2,CSC3,9377-1004 Québec Inc.,1
+9110,CAA2,CSE4,Anthony Spino,2
+9111,CAA2,CSE4,Bank Of Utah Trustee,1
+9112,CAA2,CSE4,Claude Bouchard,2
+9113,CAA2,CSE4,Les Machines Roger Ltée,1
+9114,CAA2,CSE4,Pierre Morin,1
+9115,CAA2,CSJ4,Asaph Fipke,1
+9116,CAA2,CST3,Kuby's Aircraft Ltd,1
+9117,CAA2,CSY4,Corporation Hélico.Store inc.,1
+9118,CAA2,CSY4,Jean-guy Jalbert,1
+9123,CSE4,CYUL,Wallis Steel C,1
+9126,CSE4,CZBM,Bruno Dionne,1
+9127,CSE4,CZBM,Robert Béland,1
+9140,CSE4,CYND,Michel Roy,1
+9141,CSE4,CYND,Morris Bock,1
+9147,CSE4,CYPN,13798020 Canada Inc.,1
+9156,CSE4,CYRQ,Les Machines Roger Ltée,1
+9160,CAA2,CSG3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+9161,CNV9,CSG3,9771956 Canada Inc.,1
+9162,CSG3,CYRQ,Association Récréative C-gbzy,1
+9163,CSG3,CYHU,John Henderson Scott,1
+9164,CSG3,CYHU,Nancy Laroche,1
+9165,CSG3,CYHU,Roadside Aviation Llc,1
+9166,CSG3,CYHU,Sabiston Aviation Ltd.,1
+9167,CSG3,CYHU,Seneca College Of Applied Arts And Technology,1
+9169,CSG3,CYMX,9345-9626 Québec Inc.,2
+9170,CSG3,CYND,3457265 Canada Inc.,1
+9171,CSG3,CYRQ,9771956 Canada Inc.,2
+9172,CSG3,CYRQ,Ian E. Lancaster,1
+9173,CSG3,CYRQ,Martin Toutant,1
+9174,CSG3,CYRQ,Normand Prenoveau,1
+9175,CSG3,CYRQ,Pierre Brunet,2
+9176,CSG3,CYRQ,Pierre Olivier,1
+9177,CSG3,CYSC,Sabiston Aviation Ltd.,2
+9180,CSG3,CYUL,Chrono Aviation Inc.,1
+9181,CSG3,CYUL,Kruger Inc.,1
+9182,CSG3,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+9185,CSB3,CSG3,Gabor Galter,2
+9186,CSB3,CSG3,Richard Roy,2
+9187,CSB3,CSG3,Sylvain Gosselin,2
+9188,CSC3,CSG3,Sylvain Lareau,2
+9189,CSE4,CSG3,Anthony Spino,1
+9190,CSE4,CSG3,Ian E. Lancaster,2
+9191,CSG3,CSJ4,9094-6039 Quebec Inc,1
+9192,CSG3,CSJ4,Martin Gauthier,1
+9193,CSG3,CYFJ,Ian E. Lancaster,1
+9194,CSG3,CSP5,9771956 Canada Inc.,1
+9195,CSG3,CSP5,Maule Air Of Canada Inc.,1
+9196,CSG3,CSP5,Sasha Gagné,1
+9197,CSG3,CSU3,Sasha Gagné,1
+9198,CSG3,CSZ3,Charles Tremblay,1
+9199,CSG3,CYFJ,Association Récréative C-gbzy,1
+9200,CSE4,CYND,Martin Toutant,1
+9201,CSE4,CYND,Columbia Av8ors Inc,2
+9202,CSE4,CYND,Clement Benjamin,1
+9203,CSE4,CSM5,Seneque Usa Inc,1
+9204,CSC3,CSE4,Dominique Roberge,2
+9205,CSC3,CSE4,Eric A Munzer,1
+9206,CSE4,CSJ4,Anthony Spino,1
+9207,CSE4,CSJ4,Ohc International Consulting Inc.,1
+9208,CSE4,CSJ5,13798020 Canada Inc.,1
+9209,CSE4,CSJ5,Inconnu,1
+9210,CSE4,CSL3,2581676 Ontario Inc.,1
+9211,CSE4,CSM5,High Peaks Aviation Llc,1
+9212,CSE4,CSN7,Morris Bock,1
+9213,CSB3,CSE4,Richard Roy,2
+9214,CSE4,CSQ3,Bruno Dionne,1
+9215,CSE4,CSS3,Wallis Steel C,1
+9216,CSE4,CST3,13798020 Canada Inc.,1
+9217,CSE4,CST3,9220-7877 Quebec Inc.,1
+9218,CSE4,CST3,Michel L Boucher,1
+9219,CSC3,CSE4,Bruno Dionne,1
+9220,CSB3,CSE4,Guy Côte,2
+9221,CSE4,CYND,Anthony Spino,1
+9229,CSB3,CSE4,G. Roch Consultant Ltee,2
+9234,CSA2,CSE4,Asaph Fipke,1
+9235,CSA2,CSE4,Québec Hélicoptères Inc./Quebec Helicopters Inc.,2
+9236,CSB3,CSE4,Alain Nantel,2
+9237,CSE4,CSU3,André Archambault,1
+9239,CSE4,CYHU,Les Machines Roger Ltée,1
+9240,CSE4,CYHU,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+9241,CSE4,CYJN,Bank Of Utah Trustee,2
+9242,CSE4,CYJN,Jacques Dionne,2
+9243,CSE4,CYJN,Morris Bock,2
+9244,CSE4,CYJN,Peregrine Aerial Surveys Incorporated,1
+9245,CSE4,CYJN,Pierre Rémillard,2
+9249,CSE4,CYMX,101247591 Saskatchewan Ltd.,1
+9250,CSE4,CYMX,13798020 Canada Inc.,1
+9251,CSE4,CYMX,9215-7536 Québec Inc.,2
+9252,CSE4,CYMX,9453-2322 Québec Inc.,1
+9253,CSE4,CYMX,Anthony Spino,1
+9254,CSE4,CYMX,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,2
+9255,CSE4,CYMX,Ross Runciman,2
+9256,CSE4,CYND,Anastasios Kostelidis,1
+9257,CSE4,CYHU,9220-7877 Quebec Inc.,1
+9258,CSE4,CSY3,Bruno Dionne,1
+9259,CSE4,CSY3,Pierre Rémillard,1
+9260,CSE4,CSZ3,Guy Côte,1
+9261,CSE4,CSZ3,John Henderson Scott,1
+9262,CSE4,CSZ3,Ohc International Consulting Inc.,1
+9264,CSE4,CYCC,Claude Bouchard,1
+9265,CSE4,CYCC,Seneque Usa Inc,1
+9266,CSE4,CYCC,Transvalair-express Inc.,1
+9268,CSG3,CYUL,Transcanada Pipelines Limited,1
+9269,CSG5,CYHU,Air Georgian Limited,1
+9270,CSJ5,CSR3,Pierre Harvey,1
+9271,CSJ5,CTR6,Warren Ross Cresswell,1
+9273,CSJ5,CYHU,4259556 Canada Inc.,1
+9274,CSJ5,CYHU,9359-0784 Québec Inc.,1
+9275,CSJ5,CYHU,9368-2011 Québec Inc.,1
+9276,CSJ5,CYHU,Air Partners Corp.,1
+9277,CSJ5,CYHU,Geert Verellen,1
+9278,CSE3,CSJ5,Roadside Aviation Llc,1
+9279,CSJ5,CYHU,Logistique Opti-nord Inc.,1
+9280,CSJ5,CYHU,Max Aviation Inc.,1
+9281,CSJ5,CYHU,P2 Aviation Management Llc,1
+9282,CSJ5,CYHU,Panorama Fixed Wings Ltd.,1
+9283,CSJ5,CYHU,Province Of Manitoba,1
+9286,CSJ5,CYMX,Air Georgian Limited,1
+9287,CSJ5,CYMX,Chartright Air Inc.,1
+9288,CSJ4,CSJ5,Novatem Aviation Incorporée / Novatem Aviation Incorporated,1
+9289,CSB3,CSJ5,Sylvain Gosselin,1
+9290,CSJ4,CYMX,Martin Lachapelle,1
+9291,CSJ4,CYUL,Héli Olymbec Inc. Olymbec Heli Inc.,1
+9292,CSJ4,CYMX,Richard Sirois,1
+9293,CSJ4,CYMX,Stace-Électrique Inc. Stace-Electric Inc.,1
+9294,CSJ4,CYND,Jean-François Tessier,1
+9295,CSJ4,CYND,Sabiston Aviation Ltd.,1
+9296,CSJ4,CYQB,Sky Jet M.g. Inc.,1
+9297,CSJ4,CYRQ,Apex Helicopters Inc.,1
+9298,CSJ4,CYUL,Acass Canada Ltd.,1
+9299,CSJ4,CYUL,Air Canada,1
+9300,CSJ4,CYUL,Air Inuit Ltd. Air Inuit Ltee,1
+9301,CSJ4,CYUL,Kerry Nickel,1
+9302,CNV9,CSJ5,Les Machines Roger Ltée,1
+9303,CSJ4,CYUL,Logistique Opti-nord Inc.,1
+9304,CSJ4,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+9305,CSJ4,CYUL,William Christian,1
+9306,CSJ4,CZBM,Martin O'bomsawin,1
+9309,CNV9,CSJ5,10770582 Canada Inc,1
+9310,CNV9,CSJ5,Exact Air Inc.,1
+9311,CSJ5,CYMX,Hangar 83 Inc.,1
+9312,CSJ5,CYMX,Les Investissements Nolinor Inc.,1
+9313,CSJ5,CYMX,P2 Aviation Management Llc,1
+9316,CSJ5,CZBM,Chrono Aviation Inc.,1
+9330,CSA2,CSK4,Asaph Fipke,1
+9331,CSA2,CSK4,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+9332,CSB3,CSK4,R David Hawthorne,1
+9333,CSC3,CSK4,9202-7564 Québec Inc.,2
+9334,CSJ5,CYVB,P2 Aviation Management Llc,1
+9335,CSJ5,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+9336,CSJ5,CYUL,Samara Aviation Inc.,1
+9337,CSJ5,CYMX,Wal-mart Canada Corp./la Compagnie Wal-mart Du Canada,1
+9338,CSJ5,CYND,10613592 Canada Inc.,1
+9339,CSJ5,CYND,Tvpx Aircraft Solutions Inc Trustee,1
+9342,CSJ5,CYRQ,9911162 Canada Inc.,1
+9343,CSJ5,CYRQ,Air Canada,1
+9344,CSJ5,CYRQ,Air Inuit Ltd. Air Inuit Ltee,1
+9345,CSJ5,CYRQ,Kasi Aviation Services Inc.,1
+9346,CSJ5,CYRQ,Sky Jet M.g. Inc.,1
+9347,CSJ5,CYSC,Dominique Roberge,1
+9349,CSJ5,CYUL,Air Canada Rouge Lp,1
+9350,CSJ5,CYUL,Chrono Aviation Inc.,1
+9351,CSJ5,CYUL,Flightpath Charter Airways Inc.,2
+9352,CSJ5,CYUL,Future Electronics Inc./future Electronique Inc.,1
+9353,CSJ5,CYUL,N409bg Llc,1
+9354,CSJ5,CYUL,Private Air Inc.,1
+9355,CSJ4,CYMX,Pierre Harvey,1
+9356,CSJ4,CYMX,Location ISL Inc.,1
+9357,CSG5,CYHU,Aviation Cmp Inc.,1
+9358,CSH5,CYJN,4347943 Canada Inc.,1
+9359,CSH5,CYHU,I.M.P. Group Limited (Execaire),1
+9360,CSH5,CYHU,Jean-pierre Charbonneau,1
+9361,CSH5,CYHU,John Henderson Scott,1
+9362,CSH5,CYHU,Mhr Holdings Ltd,1
+9363,CSH5,CYHU,Michel G. Bourbeau,1
+9364,CSH5,CYHU,Michel Pâquet,1
+9365,CSH5,CYHU,Pnc Bank Na,1
+9366,CSH5,CYHU,Ronald Tremblay,1
+9367,CSH5,CYMX,Aircraft Registration Inc Trustee,1
+9368,CSH5,CYHU,Grondin Transport Inc.,1
+9369,CSH5,CYMX,Ross Runciman,1
+9370,CSH5,CYRQ,Thomas Redmond,1
+9371,CSH5,CYSC,Cascades Inc.,1
+9372,CSH5,CYSC,Jean Couture,1
+9373,CSH5,CYSC,Patrice Ricard,1
+9374,CSH5,CYUL,"Government Of Canada, Department Of Transport",1
+9375,CSH5,CZBM,Edward Martin (ed) Small,1
+9376,CSH5,CZBM,Gilles Lessard,1
+9377,CSH5,CZBM,Kasi Aviation Services Inc.,1
+9378,CSH5,CYHU,Gv Air Inc,1
+9379,CSH5,CYHU,Elodie Gironne,1
+9380,CSJ4,CYMX,Les Investissements Nolinor Inc.,1
+9381,CSE4,CSH5,Les Machines Roger Ltée,1
+9382,CSG5,CYUL,Hydro-Québec,1
+9383,CSG5,CYUL,Jazz Aviation Lp,1
+9384,CNV9,CSH5,Air Transat A T Inc.,1
+9385,CSB3,CSH5,Air Canada,1
+9386,CSB3,CSH5,André Archambault,1
+9387,CSB3,CSH5,Atelier Hangar Inc.,2
+9388,CSB3,CSH5,Gerald Julian,1
+9389,CSC3,CSH5,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+9390,CSC3,CSH5,"The Kinsmen Club Of Chatham, Ontario",1
+9391,CSH5,CSM3,Denis Guérette,1
+9392,CSH5,CYHU,Dominique Meyer,1
+9393,CSH5,CSR3,Aviation Cvo Inc.,1
+9394,CSH5,CSR3,Daniel Pépin,1
+9395,CSH5,CSU3,11119702 Canada Inc.,1
+9396,CSH5,CYHU,10770582 Canada Inc,1
+9397,CSH5,CYHU,Acass Canada Ltd.,1
+9398,CSH5,CYHU,Air Canada,1
+9399,CSH5,CYHU,Aviation Pgd Inc.,1
+9400,CSH5,CYHU,Bank Of Utah Trustee,1
+9401,CSH5,CYHU,Cascades Inc.,1
+9402,CSJ2,CSU3,François Marquis,1
+9403,CSJ2,CYMX,Bruno Dionne,1
+9405,CSJ4,CYHU,Ohc International Consulting Inc.,1
+9406,CSJ4,CYHU,9359-0784 Québec Inc.,1
+9407,CSJ4,CYHU,9456-0000 Québec Inc.,1
+9408,CSJ4,CYHU,Airbus Helicopters Canada Limited,1
+9409,CSJ4,CYHU,Delastek Inc.,1
+9410,CSJ4,CYHU,Groupe OGE Inc.,1
+9411,CSJ4,CYHU,Guy Lambert,1
+9412,CSJ4,CYHU,Max Aviation Inc.,1
+9413,CSJ4,CYHU,Panorama Fixed Wings Ltd.,1
+9414,CNV9,CSJ4,Sky Jet M.g. Inc.,1
+9415,CSJ4,CYHU,Southern Aircraft Consultancy Inc Trustee,1
+9416,CSJ4,CYHU,THALES SIX GTS,1
+9417,CSJ4,CYHU,École De Pilotage Saint-hubert Inc. Saint-hubert Flying School Inc.,1
+9418,CSJ4,CYJN,Air Canada Rouge Lp,1
+9419,CSJ4,CYMX,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,2
+9420,CSJ4,CYMX,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+9421,CSJ4,CYMX,Fast Air Ltd.,1
+9422,CSJ4,CYMX,"Government Of Canada, Department Of Transport",1
+9423,CSJ4,CYMX,Hangar 83 Inc.,1
+9424,CSJ4,CTR6,Sky Jet M.g. Inc.,1
+9425,CSJ4,CSY4,Martin Gauthier,1
+9426,CSJ4,CSY3,Ross Runciman,1
+9427,CSA2,CSJ4,Asaph Fipke,1
+9428,CSB3,CSJ4,Gestion Matthieu Delorme Inc.,2
+9429,CSB3,CSJ4,Sylvain Gosselin,1
+9430,CSC3,CSJ4,Martin O'bomsawin,1
+9431,CSE4,CSJ4,Guy Côte,1
+9432,CSE4,CSJ4,Les Machines Roger Ltée,1
+9433,CSG3,CSJ4,Ian E. Lancaster,1
+9434,CSG3,CSJ4,Location ISL Inc.,1
+9435,CSG3,CSJ4,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+9436,CSJ4,CSP6,Martin O'bomsawin,1
+9437,CSJ4,CSR3,Cascades Inc.,1
+9438,CSJ4,CSS3,"Government Of Canada, Department Of Transport",1
+9439,CSJ4,CST3,Dragos Stefanescu,1
+9440,CSJ4,CSU3,Grand Falls Aviation Service Ltd,1
+9441,CSJ4,CSY3,Anthony Spino,1
+9444,CSA2,CYMX,Aviation Cozach Inc.,2
+9445,CSA2,CYMX,Bank Of Utah Trustee,2
+9446,CSA2,CYMX,Corporation Hélico.Store inc.,1
+9447,CSA2,CYMX,Ross Runciman,1
+9448,CSA2,CYUL,Air Canada Rouge Lp,1
+9449,CSA2,CYUL,Kruger Inc.,1
+9452,CSA2,CYJN,Bank Of Utah Trustee,2
+9457,CSB3,CSC3,Atelier Hangar Inc.,1
+9458,CSA2,CYJN,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+9459,CSA2,CYJN,Aviation Cozach Inc.,2
+9460,CSB3,CSC3,Gabor Galter,2
+9461,CSA2,CSN7,Martini Aviation Ltd.,1
+9464,CSA2,CSB3,Sasha Gagné,1
+9465,CSA2,CSC3,Asaph Fipke,1
+9466,CSA2,CSE4,13798020 Canada Inc.,1
+9467,CSA2,CSJ5,Gestion Japal S.c.c.,1
+9468,CSA2,CSN7,Gilles Berthiaume,1
+9469,CSA2,CYHU,Martini Aviation Ltd.,1
+9470,CSA2,CSU3,Gestion Japal S.c.c.,1
+9471,CSA2,CSU3,Vincent Boulay,1
+9472,CSA2,CSY3,Sasha Gagné,1
+9473,CSA2,CYHU,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+9474,CSB3,CSC3,Dany Lapointe,2
+9475,CSB3,CSC3,Gestion Matthieu Delorme Inc.,2
+9477,CSB3,CSU3,Dany Lapointe,1
+9478,CSB3,CSU3,Philippe Esterez,1
+9479,CSB3,CSY3,Sasha Gagné,1
+9480,CSB3,CTE5,André Archambault,1
+9481,CSB3,CYHU,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+9482,CSB3,CYHU,Elodie Gironne,1
+9483,CSB3,CYHU,Max Aviation Inc.,1
+9484,CSB3,CYHU,Nicola Prioletta,1
+9485,CSB3,CYHU,R David Hawthorne,1
+9486,CSB3,CSC3,Gord O. Sloan,2
+9487,CSB3,CSC3,Trevor W Hicks,2
+9488,CSB3,CSD4,Gerald Julian,1
+9489,CSB3,CSE4,André Archambault,1
+9490,CSB3,CSJ4,Comertech Design Ltd.,1
+9491,CSB3,CSJ5,Gerald Julian,1
+9492,CSB3,CSM5,Sylvain Gosselin,1
+9578,CSB3,CYJN,11033689 Canada Inc.,1
+9579,CSB3,CYJN,Delastek Inc.,1
+9580,CSC3,CZBM,9215-7536 Québec Inc.,1
+9581,CSC3,CYUL,Aviation Starlink Inc.,2
+9582,CSC3,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+9583,CSC3,CYUL,Chrono Aviation Inc.,1
+9584,CSC3,CYUL,Claude Sanfacon,1
+9585,CSC3,CYUL,Lexa International Corp,1
+9586,CSC3,CYUL,Location ISL Inc.,1
+9590,CSC3,CZBM,9225-5009 Québec Inc.,1
+9591,CSC3,CYSC,Soucy Aviation Inc.,1
+9592,CSC3,CZBM,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,1
+9593,CSC3,CZBM,Daniel Pépin,1
+9594,CSC3,CZBM,Dominique Roberge,1
+9595,CSC3,CZBM,Richard Noel,1
+9596,CSC3,CZBM,"The Kinsmen Club Of Chatham, Ontario",1
+9597,CSC3,CYUL,Airsprint Inc.,1
+9598,CSC3,CYSC,Salim Abounehme,1
+9600,CSC3,CYMX,Foxco Ltd.,1
+9601,CSC3,CYMX,Les Machines Roger Ltée,1
+9602,CSC3,CYMX,Soucy Aviation Inc.,2
+9603,CSC3,CYND,10613592 Canada Inc.,1
+9604,CSC3,CYND,9377-1004 Québec Inc.,1
+9605,CSC3,CYND,Stéphane Hémond,2
+9608,CSC3,CYRQ,9131-6471 Québec Inc,1
+9609,CSC3,CYSC,Jean-claude Poirier,1
+9610,CSC3,CYRQ,9359-0784 Québec Inc.,1
+9611,CSC3,CYRQ,Daniel Le Hesran,1
+9612,CSC3,CYRQ,Jean Messier,1
+9613,CSC3,CYRQ,Marlin Airstrip Management Corp,2
+9614,CSC3,CYRQ,Pierre Brunet,2
+9615,CSC3,CYRQ,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+9616,CSC3,CYRQ,Stace-Électrique Inc. Stace-Electric Inc.,1
+9617,CSC3,CYRQ,"The Kinsmen Club Of Chatham, Ontario",2
+9618,CSC3,CYRQ,Étienne St-gelais,1
+9620,CSE3,CSG3,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+9621,CSD4,CYMX,Bruno Dionne,1
+9622,CSD4,CYMX,Dynamitage Castonguay Ltée,1
+9623,CSD4,CYMX,Ross Runciman,1
+9627,CSD4,CYSC,Salim Abounehme,1
+9628,CSD4,CYUL,Aviation Unlimited (1990) Inc.,1
+9630,CSE3,CSY4,"Éric Audet, Sylvain Rouleau",1
+9632,CSE3,CYHU,9456-0000 Québec Inc.,1
+9633,CSE3,CYMX,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,2
+9634,CSE3,CYUL,Estrie Hélicoptères Inc.,1
+9637,CCP3,CSE4,Claude Bouchard,1
+9638,CSD4,CYHU,Pierre Drapeau,1
+9639,CSD4,CYHU,Max Aviation Inc.,1
+9640,CSD4,CYHU,Gestion C-gbck Inc,1
+9641,CSD4,CYHU,Dynamitage Castonguay Ltée,1
+9646,CSD3,CSN7,WM Aviation,1
+9647,CSD3,CST3,Michel L Boucher,1
+9648,CSD3,CYHU,Académie De L'aviation De Saint-hyacinthe Inc.,1
+9649,CSD3,CYJN,Alain Dufresne,2
+9650,CSD3,CYMX,Martin Toutant,1
+9652,CNV9,CSD4,Kudlik Aviation Inc.,1
+9654,CSD4,CYCC,Académie De L'aviation De Saint-hyacinthe Inc.,1
+9655,CSD4,CYHU,9394-2985 Québec Inc,1
+9656,CSC3,CYMX,Bruno Dionne,1
+9657,CSC3,CYMX,9377-1004 Québec Inc.,1
+9658,CSB3,CYJN,Jacques Roberge,2
+9663,CSA2,CSC3,Martini Aviation Ltd.,1
+9664,CSB3,CSC3,9202-7564 Québec Inc.,1
+9665,CSB3,CSC3,9265-3419 Québec Inc.,1
+9666,CSB3,CSC3,Gerald Julian,1
+9667,CSB3,CSC3,Ross Runciman,1
+9669,CSC3,CYMX,9225-5009 Québec Inc.,1
+9672,CSB3,CYMX,Dany Lapointe,2
+9673,CSB3,CYMX,Philippe Esterez,2
+9674,CSB3,CYMX,Ross Runciman,1
+9675,CSB3,CYND,André Archambault,2
+9676,CSB3,CYND,Comertech Design Ltd.,2
+9677,CSB3,CYND,G. Roch Consultant Ltee,1
+9678,CSB3,CYND,"The Kinsmen Club Of Chatham, Ontario",1
+9683,CSB3,CYRQ,9736140 Canada Inc. - Pascan,1
+9684,CSB3,CYRQ,Gerald Julian,1
+9689,CSC3,CSE4,Claude Bouchard,1
+9690,CSC3,CYHU,Guay Inc.,1
+9691,CSC3,CYHU,Jean-luc Filion,1
+9692,CSC3,CYHU,Kasi Aviation Services Inc.,1
+9693,CSC3,CYHU,Mirko Zgela,1
+9694,CSC3,CYHU,Pierre Drapeau,1
+9695,CSC3,CYHU,Province Of Manitoba,1
+9696,CSC3,CSE4,Les Machines Roger Ltée,1
+9698,CSC3,CYJN,11033689 Canada Inc.,2
+9699,CSC3,CYJN,9225-5009 Québec Inc.,2
+9700,CSC3,CYJN,Alain Dufresne,2
+9701,CSC3,CYJN,Jacques Roberge,1
+9702,CSC3,CYJN,John Henderson Scott,1
+9705,CSC3,CYMX,3457265 Canada Inc.,1
+9706,CSC3,CYHU,Brian William Nosko,1
+9707,CSC3,CYHU,Aviation Cmp Inc.,1
+9708,CSC3,CYHU,Airbus Helicopters Canada Limited,1
+9709,CSC3,CSJ5,Danny Sirignano,1
+9710,CSC3,CSL3,Daniel Bélanger,1
+9711,CSC3,CSM5,Yankee Ventures Llc,1
+9712,CSC3,CSN7,Jacques Bougie,1
+9713,CSC3,CSR3,Daniel Pépin,1
+9714,CSC3,CSU3,François Marquis,1
+9715,CSC3,CYCC,Dominique Roberge,1
+9717,CSC3,CYHU,9736140 Canada Inc. - Pascan,1
+9824,CSE4,CYSG,Guy Côte,1
+9825,CYHU,CYSG,Nware Aviation Inc,1
+9826,CYSG,CYUL,Aviation Starlink Inc.,1
+9873,CYPN,CYQB,Chrono Aviation Inc.,1
+9883,CYFJ,CYUL,Kudlik Aviation Inc.,1
+9884,CYFJ,CYUL,Shoreland Transport Inc.,1
+9889,CSY3,CYUL,Héli Olymbec Inc. Olymbec Heli Inc.,1
+9890,CST3,CYUL,Rolland Barbeau,1
+9891,CSU3,CYUL,Transcanada Pipelines Limited,1
+9893,CSY3,CYUL,Chrono Aviation Inc.,1
+9894,CSY3,CYUL,Samara Aviation Inc.,1
+9895,CYCC,CYUL,Corporation Hélico.Store inc.,1
+9896,CSZ3,CYUL,London Soaring Society,1
+9898,CTY5,CYUL,Transcanada Pipelines Limited,1
+9904,CYHU,CYUL,I.M.P. Group Limited (Execaire),1
+9905,CYHU,CYUL,Les Chantiers De Chibougamau Ltee.,1
+9906,CYHU,CYUL,Les Investissements Nolinor Inc.,2
+9907,CYHU,CYUL,Roscoe Properties Holdings Lnc,2
+9908,CYHU,CYUL,Royal Canadian Air Force,1
+9909,CYHU,CYUL,Syncrude Canada Ltd,1
+9912,CYHU,CYUL,Aéroclub De Montréal Inc. / Montreal Flying Club Inc.,1
+9922,CYHU,CYUL,Global Flight Inc,1
+9923,CYHU,CYUL,Air Inuit Ltd. Air Inuit Ltee,2
+9928,CYHU,CYUL,Acass Canada Ltd.,2
+9933,CSS3,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+9934,CSS3,CYUL,Asaph Fipke,1
+9945,CSR3,CYUL,Rolland Barbeau,1
+9965,CSD3,CYUL,Airsprint Inc.,1
+9966,CSA2,CYUL,Bradley Air Services Limited,1
+9967,CSA2,CYUL,Transcanada Pipelines Limited,1
+9968,CSB3,CYUL,Samara Aviation Inc.,1
+9969,CSB3,CYUL,Transcanada Pipelines Limited,1
+9971,CSC3,CYUL,International Air Services Inc Trustee,1
+9972,CSJ5,CYUL,9320-6993 Québec Inc. (composite Aviation),1
+9974,CSJ5,CYUL,Kerry Nickel,1
+9975,CSN5,CYUL,Columbia Av8ors Inc,1
+9976,CSN7,CYUL,Transcanada Pipelines Limited,1
+9977,CSQ3,CYUL,Marlin Airstrip Management Corp,1
+9978,CSR3,CYUL,618232 Alberta Ltd.,1
+9979,CSR3,CYUL,Jazz Aviation Lp,1
+9987,CNV9,CYUL,Air France,1
+9988,CNV9,CYUL,Conair Group Inc.,1
+10036,CTE5,CYRQ,Martin Gauthier,1
+10037,CSQ3,CYRQ,Pierre Sirois,1
+10038,CSS3,CYRQ,Cliffert Peschlow,1
+10039,CSU3,CYRQ,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,1
+10040,CSU3,CYRQ,Jean Messier,1
+10041,CSY3,CYRQ,Aviation Cozach Inc.,1
+10042,CSJ5,CYRQ,Inconnu,1
+10044,CYHU,CYRQ,2115828 Ontario Inc.,1
+10045,CYHU,CYRQ,2737-5633 Quebec Inc.,1
+10046,CYHU,CYRQ,4259556 Canada Inc.,1
+10047,CYHU,CYRQ,Académie De L'aviation De Saint-hyacinthe Inc.,2
+10048,CYHU,CYRQ,Air Georgian Limited,1
+10049,CYHU,CYRQ,Airmédic Inc.,1
+10050,CYHU,CYRQ,Association Récréative C-gbzy,1
+10051,CSJ5,CYRQ,Étienne St-gelais,1
+10053,CSB3,CYRQ,Comertech Design Ltd.,1
+10058,CSA2,CYRQ,Asaph Fipke,1
+10059,CSA2,CYRQ,Province Of Manitoba,1
+10060,CSB3,CYRQ,Delastek Inc.,1
+10061,CSB3,CYRQ,Rolland Barbeau,1
+10062,CSE4,CYRQ,St Catharines Flying Club,1
+10063,CSE4,CYRQ,Waterloo-wellington Flying Club,1
+10075,CYQB,CYUY,Propair Inc.,1
+10085,CYQB,CYVB,9736140 Canada Inc. - Pascan,1
+10086,CYQB,CYUY,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+10088,CYQB,CYUL,Bank Of Utah Trustee,2
+10095,CYQB,CYUL,Acass Canada Ltd.,2
+10096,CYQB,CYUL,Air Canada,1
+10097,CYQB,CYUL,Airsprint Inc.,2
+10098,CYQB,CYUL,Blue Man Air Llc,1
+10099,CYQB,CYUL,Sky Jet M.g. Inc.,1
+10100,CYQB,CYUL,Cowboy Air Services Ltd.,1
+10101,CYQB,CYUL,Dietech Automation Equipment Ltd.,1
+10102,CYQB,CYUL,Kerry Nickel,1
+10103,CYQB,CYUL,Kudlik Aviation Inc.,1
+10104,CYQB,CYUL,Leili Pede Foster,1
+10105,CYQB,CYUL,Max Aviation Inc.,1
+10106,CYQB,CYUL,Netjets Sales Inc,1
+10107,CYQB,CYUL,Paul Sissons,1
+10126,CYQB,CYRI,Chrono Aviation Inc.,1
+10141,CYHU,CYRQ,Inconnu,1
+10142,CYHU,CYRQ,Jean Morin,2
+10143,CYHU,CYRQ,Jean-pierre Charbonneau,2
+10144,CYND,CYSC,Gord O. Sloan,2
+10146,CYMX,CYSC,101247591 Saskatchewan Ltd.,2
+10147,CYMX,CYSC,9215-7536 Québec Inc.,1
+10148,CYMX,CYSC,Air Georgian Limited,1
+10149,CYMX,CYSC,Esj Aviation Inc.,1
+10150,CYMX,CYSC,Hicks Dewitt T Iii,2
+10151,CYND,CYSC,Amir Paz,2
+10152,CYND,CYSC,Carlos Manuel Valerio,1
+10161,CYRQ,CYSC,Jean-pierre St-jacques,1
+10162,CYRQ,CYSC,Pierre Sirois,1
+10165,CYHU,CYSC,9184-2989 Québec Inc.,1
+10166,CYHU,CYSC,Airsprint Inc.,2
+10167,CYHU,CYSC,Association Récréative C-gbzy,1
+10168,CYHU,CYSC,Dr. C. Kim Dentistry Professional Corporation,1
+10169,CYHU,CYSC,Exploits Valley Air Services Ltd.,2
+10170,CYHU,CYSC,Frazer Andiel,2
+10171,CYHU,CYSC,Gary Wayne (wayne) Pedersen,1
+10172,CYHU,CYSC,Guy Kember,1
+10173,CYHU,CYSC,Jean Morin,1
+10174,CYHU,CYSC,Pierre Bourgie,2
+10176,CYHU,CYSC,Private Air Inc.,2
+10177,CYHU,CYSC,Province Of Manitoba,1
+10178,CYHU,CYSC,Ross Runciman,1
+10179,CYHU,CYSC,The Richberry Management Group Ltd,1
+10180,CYHU,CYSC,École De Pilotage Saint-hubert Inc. Saint-hubert Flying School Inc.,2
+10182,CYJN,CYSC,11033689 Canada Inc.,2
+10183,CYJN,CYSC,Association Récréative C-gbzy,2
+10184,CYJN,CYSC,Rolland Barbeau,1
+10188,CYSC,CZBM,Wilfred Leo M (bill) Verellen,1
+10196,CYSC,CYUL,9736140 Canada Inc. - Pascan,1
+10204,CYSC,CZBM,Daniel Pépin,1
+10205,CYSC,CZBM,2269534 Ontario Inc.,1
+10206,CYSC,CYUL,Aviation Starlink Inc.,2
+10207,CYSC,CYUL,D1 Capital Equipment Llc,2
+10208,CYSC,CYUL,Eagle Air Llc,1
+10209,CYSC,CYUL,General Dynamics Mission Systems Inc,1
+10210,CYSC,CYUL,Gord O. Sloan,1
+10211,CYSC,CYUL,Netjets Sales Inc,1
+10212,CYSC,CYUL,Our Magic Carpet Llc,1
+10213,CYSC,CYUL,U S Bank National Association Trustee,1
+10218,CYHU,CYSC,9368-2011 Québec Inc.,2
+10219,CYHU,CYSC,8317445 Canada Inc.,1
+10220,CYRQ,CYUL,Max Aviation Inc.,2
+10221,CYRQ,CYSC,Gabor Galter,1
+10222,CYRQ,CYSC,"Government Of Canada, Department Of Transport",1
+10223,CYRQ,CYSC,Ross Runciman,1
+10224,CYRQ,CYUL,10770582 Canada Inc,1
+10225,CYRQ,CYUL,Aviation Starlink Inc.,2
+10226,CYRQ,CYUL,Kruger Inc.,1
+10227,CYRQ,CYUL,Lauretta Nordstrom,1
+10228,CYRQ,CYUL,Les Machines Roger Ltée,2
+10229,CYRQ,CYUL,Rocketman Rocketeers Lc,1
+10230,CYRQ,CYSC,André Archambault,1
+10231,CYRQ,CYVB,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+10237,CYRQ,CZBM,Apex Helicopters Inc.,1
+10238,CYRQ,CYSC,Costco Wholesale Corp,1
+10241,CYMX,CYRQ,101247591 Saskatchewan Ltd.,2
+10242,CYHU,CYRQ,Martini Aviation Ltd.,1
+10243,CYHU,CYRQ,Nicola Prioletta,2
+10244,CYHU,CYRQ,Province Of Manitoba,1
+10246,CYJN,CYRQ,4347943 Canada Inc.,2
+10247,CYJN,CYRQ,Ohc International Consulting Inc.,1
+10249,CYMX,CYRQ,10851019 Canada Inc.,2
+10251,CYMX,CYRQ,9345-9626 Québec Inc.,2
+10252,CYMX,CYRQ,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,2
+10253,CYMX,CYRQ,Macinnis Charles M,2
+10254,CYMX,CYRQ,Martin Toutant,1
+10255,CYMX,CYRQ,Pierre Harvey,2
+10256,CYMX,CYRQ,St Catharines Flying Club,1
+10257,CYND,CYRQ,Thomas Redmond,2
+10260,CYRQ,CZBM,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+10261,CSU3,CYSC,Académie De L'aviation De Saint-hyacinthe Inc.,1
+10263,CSB3,CYSC,André Archambault,1
+10264,CSH5,CYSC,Andre Joseph Georges Bourbonnais,1
+10265,CSJ5,CYSC,Patrice Ricard,1
+10266,CSR3,CYSC,9131-6471 Québec Inc,1
+10267,CSR3,CYSC,Cascades Inc.,1
+10268,CSR3,CYSC,Patrice Ricard,1
+10269,CYRQ,CZBM,Daniel Pépin,1
+10270,CSU3,CYSC,Robert Robin,1
+10272,CYCC,CYSC,Brenda Wolfe,1
+10273,CYCC,CYSC,Ross Runciman,1
+10276,CYGV,CYSC,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+10292,CCP3,CYSC,Salim Abounehme,1
+10567,CYRQ,CYUL,Future Electronics Inc./future Electronique Inc.,1
+10572,CYRQ,CYUL,Air Canada,1
+10573,CYRQ,CYUL,Cambria Aviation Llc,1
+10575,CYRQ,CYUL,Propair Inc.,1
+10578,CYSC,CYUL,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+10584,CYQB,CYUL,Harold Douglas Stead,1
+10603,CYUL,CYUY,Airsprint Inc.,1
+10604,CYUL,CYUY,Kerry Nickel,1
+10605,CYUL,CYVB,9736140 Canada Inc. - Pascan,1
+10606,CYUL,CYVB,Air Bravo Corp.,1
+10625,CYMW,CYUL,Aviation Starlink Inc.,1
+10626,CYMX,CYUL,9322-3063 Québec Inc.,1
+10627,CYMX,CYUL,Aviation Jolina S.E.C.,2
+10628,CYMX,CYUL,Bradley Air Services Limited,2
+10629,CYMX,CYUL,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,2
+10630,CYMX,CYUL,Flightpath Charter Airways Inc.,1
+10631,CYMX,CYUL,Héli Olymbec Inc. Olymbec Heli Inc.,2
+10641,CYJN,CYUL,Kudlik Aviation Inc.,1
+10652,CYMX,CYUL,J C Bamford (Excavators) Ltd,2
+10653,CYMX,CYUL,Léon Raymond,2
+10654,CYMX,CYUL,Windrose Air Jetcharter GMBH,2
+10665,CYND,CYUL,Amir Paz,2
+10678,CYND,CYUL,Great Slave Helicopters Ltd.,1
+10679,CYND,CYUL,Géosphair Aviation Inc.,1
+10716,CYUL,CYZV,Air Bravo Corp.,1
+10717,CYUL,CYZV,Ignacio Victor Aguero,1
+10718,CYUL,CZBM,Aviation Starlink Inc.,1
+10719,CYUL,CZBM,Robert G Schmidt,1
+10812,CYQB,CYRQ,Chrono Aviation Inc.,1
+10852,CNV9,CYJN,Marven M. Cherniwchan,1
+10853,CSB3,CYJN,Aviation Cozach Inc.,1
+10854,CSB3,CYJN,Richard Roy,1
+10855,CSB3,CYJN,Tremlease Leasing Inc.,1
+10857,CSC3,CYJN,Ohc International Consulting Inc.,1
+10858,CSD3,CYJN,Martin Toutant,1
+10859,CSD3,CYJN,Waterloo-wellington Flying Club,1
+10942,CSG3,CYJN,Normand Prenoveau,1
+10943,CYND,CYQB,Jean-François Tessier,1
+10971,CSK4,CYJN,Transcanada Pipelines Limited,1
+10972,CNV9,CYLQ,9911162 Canada Inc.,1
+10975,CNV9,CYLQ,Aviation Cvo Inc.,1
+10977,CSB3,CYLQ,André Archambault,1
+10978,CSG3,CYLQ,Sabiston Aviation Ltd.,1
+10979,CYHU,CYLQ,Mag Aerospace Canada Corp.,1
+10980,CYJN,CYLQ,"Gujer, Hans-jürg",1
+10981,CYLQ,CYMX,10851019 Canada Inc.,1
+10982,CYLQ,CYMX,9345-9626 Québec Inc.,1
+10983,CYLQ,CYND,Paul Fréchette,1
+11003,CYHU,CYJN,G2 Aviation Llc,1
+11004,CYHU,CYJN,Jacques Roberge,1
+11005,CYHU,CYJN,Jean Messier,1
+11006,CYHU,CYJN,John Henderson Scott,1
+11007,CYHU,CYJN,Martini Aviation Ltd.,1
+11008,CYHU,CYJN,Michel Drouin,1
+11009,CYJN,CYMX,Service Air Bromontair S.e.n.c.,1
+11010,CYJN,CYND,11033689 Canada Inc.,2
+11011,CYJN,CYND,4347943 Canada Inc.,1
+11012,CYJN,CYND,Aviation Cozach Inc.,1
+11017,CYHU,CYJN,Corporation Hélico.Store inc.,1
+11018,CYCC,CYJN,Richard D Williams,1
+11020,CSN7,CYJN,Aircité Aviation Inc.,1
+11021,CSP6,CYJN,Ohc International Consulting Inc.,1
+11022,CYCC,CYJN,North Bay Flying Club,1
+11023,CSY3,CYJN,Normand Prenoveau,1
+11024,CSZ3,CYJN,9929711 Canada Inc.,1
+11025,CYCC,CYJN,Collingwood Classic Aircraft Foundation,1
+11026,CYCC,CYJN,Martin Merritt,1
+11031,CYJN,CZBM,John Henderson Scott,1
+11041,CYJN,CZBM,Gestion C-gbck Inc,1
+11042,CYJN,CYSC,Tremlease Leasing Inc.,1
+11048,CYJN,CYUL,10770582 Canada Inc,1
+11049,CYJN,CYUL,Bank Of Utah Trustee,1
+11097,CYHU,CYZV,Air Bravo Corp.,1
+11098,CYHU,CZBM,Michel Drouin,1
+11100,CYHU,CZBM,Brampton Flying Club,1
+11103,CYHU,CYRQ,Private Air Inc.,1
+11104,CYHU,CYSC,"Aéroclub De Montréal Inc. / Montreal Flying Club Inc. (univair Aviation, Air Richelieu)",1
+11105,CYHU,CYSC,Bourdon Feed & Grain Inc.,1
+11106,CYHU,CYSC,Kudlik Aviation Inc.,1
+11107,CYHU,CYSC,Sylvain St-georges,1
+11108,CYHU,CYSG,Aviation Cmp Inc.,1
+11110,CYHU,CYRQ,Heli Source Ltd.,1
+11117,CYHU,CYRQ,Guy Lambert,1
+11121,CYHU,CYRQ,10613592 Canada Inc.,1
+11122,CYHU,CYRQ,9359-0784 Québec Inc.,1
+11123,CYHU,CYRQ,Glenn E Hunter,1
+11124,CYHU,CYRQ,Groupe OGE Inc.,1
+11127,CYHU,CYUL,Oii Leasing Llc,1
+11128,CYHU,CYUL,Bia Ops Llc,1
+11129,CYHU,CYUL,Flightpath Charter Airways Inc.,1
+11130,CYHU,CYUL,Inconnu,1
+11131,CYHU,CYUL,Jean-pierre Charbonneau,1
+11132,CYHU,CYUL,Kerry Nickel,1
+11133,CYHU,CYUL,Lowes Companies Inc,1
+11134,CYHU,CYUL,Nware Aviation Inc,1
+11135,CYHU,CYUL,P2 Aviation Management Llc,1
+11136,CYHU,CYUL,Pierre Drapeau,1
+11137,CYHU,CYUL,Ronald Tremblay,1
+11138,CYHU,CYUL,Soucy Aviation Inc.,1
+11139,CYHU,CYUY,Chrono Aviation Inc.,1
+11140,CYHU,CYUY,Panorama Fixed Wings Ltd.,1
+11141,CYHU,CYUL,Bell Helicopter Textron Canada Limitée/ Bell Helicopter Textron Canada Limited,1
+11142,CYHU,CYUL,Air Transat A T Inc.,1
+11143,CYHU,CYUL,Air Canada,1
+11154,CYHU,CYUL,9180-2116 Québec Inc.,1
+11296,CYMX,CYND,Ross Runciman,2
+11304,CYMX,CYND,Martin Lachapelle,2
+11312,CYMX,CYND,Raynald Marcotte,2
+11313,CYMX,CYND,Les Investissements Nolinor Inc.,2
+11314,CYND,CYRQ,Jean-François Tessier,1
+11319,CYMX,CYND,Hicks Dewitt T Iii,2
+11322,CYMW,CYND,André Gagnon,1
+11323,CYMW,CYND,Erik Moyneur,2
+11324,CYMW,CYND,"The Kinsmen Club Of Chatham, Ontario",2
+11325,CYMX,CYND,Alpha Zulu Inc.,1
+11326,CYMX,CYND,Danny Richer,1
+11328,CYND,CYRQ,Pierre Harvey,1
+11336,CYND,CZBM,9911162 Canada Inc.,1
+11346,CYND,CYRQ,Sabiston Aviation Ltd.,1
+11347,CYND,CYSC,Leblond Antoine,1
+11348,CYND,CYSC,"The Kinsmen Club Of Chatham, Ontario",1
+11349,CYND,CYSC,The Richberry Management Group Ltd,1
+11354,CYND,CYUL,Chrono Aviation Inc.,1
+11355,CYND,CYUL,Columbia Av8ors Inc,1
+11356,CYND,CYUL,Eon Airborne Inc / Eon Aéroporté Inc.,1
+11357,CYND,CYUL,Raritan Valley Flying School,1
+11361,CYJN,CYND,Jacques Roberge,1
+11367,CNV9,CYND,"Beaver Air Services Limited Partnership, By Its General Partner, Missinippi Management Ltd.",1
+11368,CNV9,CYND,Erik Moyneur,1
+11369,CNV9,CYND,Jean-François Tessier,1
+11370,CNV9,CYND,Novatem Aviation Incorporée / Novatem Aviation Incorporated,1
+11388,CYGP,CYNA,Chrono Aviation Inc.,1
+11389,CYNA,CYZV,Air Partners Corp.,1
+11397,CSB3,CYND,3457265 Canada Inc.,1
+11398,CYCC,CYND,Paul Fréchette,1
+11401,CYHU,CYND,Chrono Aviation Inc.,1
+11402,CYHU,CYND,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+11404,CTR6,CYND,Jmb Aviation Llc,1
+11405,CTR6,CYND,Geert Verellen,1
+11406,CSC3,CYND,Paul Fréchette,1
+11407,CSE4,CYND,9265-3419 Québec Inc.,1
+11408,CSE4,CYND,Erik Moyneur,1
+11410,CSG3,CYND,10851019 Canada Inc.,1
+11411,CSG3,CYND,Sylvain Lareau,1
+11412,CSH5,CYND,11370737 Alberta Ltd.,1
+11413,CST3,CYND,Michel L Boucher,1
+11414,CSU3,CYND,Amir Paz,1
+11415,CSY4,CYND,Tvpx Aircraft Solutions Inc Trustee,1
+11416,CSZ3,CYND,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+11417,CTA4,CYND,9736140 Canada Inc. - Pascan,1
+11449,CSC3,CYQB,Marlin Airstrip Management Corp,1
+11450,CSG3,CYQB,Martin Toutant,1
+11451,CSG3,CYQB,Sabiston Aviation Ltd.,1
+11452,CSJ5,CYQB,Aviation Cvo Inc.,1
+11453,CSP6,CYQB,Harold Douglas Stead,1
+11454,CSZ3,CYQB,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+11455,CYGP,CYQB,PAL Airlines Ltd.,1
+11456,CYHU,CYQB,9736140 Canada Inc. - Pascan,1
+11457,CYHU,CYQB,Air Georgian Limited,1
+11459,CYHU,CYQB,Aviation Pgd Inc.,1
+11460,CYHU,CYQB,Kudlik Aviation Inc.,1
+11461,CYHU,CYQB,Max Aviation Inc.,1
+11464,CYMX,CYQB,9215-7536 Québec Inc.,1
+11465,CYMX,CYQB,Chrono Aviation Inc.,1
+11466,CYND,CYQB,Erik Moyneur,1
+11467,CNV9,CYQB,Kudlik Aviation inc.,1
+11471,CYPN,CYQB,Air Inuit Ltd. Air Inuit Ltee,1
+11472,CYPN,CYSZ,13798020 Canada Inc.,1
+11530,CSZ3,CYMX,9916288 Canada Inc.,1
+11532,CSY3,CYMX,Raynald Marcotte,1
+11533,CSY4,CYMX,Ohc International Consulting Inc.,1
+11534,CSZ3,CYMX,Martini Aviation Ltd.,1
+11535,CTR6,CYMX,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+11536,CYCC,CYMX,Bruno Dionne,1
+11539,CST3,CYMX,Transcanada Pipelines Limited,1
+11541,CSE4,CYMX,Pierre Morin,1
+11542,CSE4,CYMX,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+11543,CSE4,CYMX,Richard Sirois,1
+11544,CSH5,CYMX,Bruno Dionne,1
+11545,CSJ4,CYMX,10851019 Canada Inc.,1
+11546,CSJ4,CYMX,9094-6039 Quebec Inc,1
+11547,CSJ4,CYMX,9215-7536 Québec Inc.,1
+11548,CSJ5,CYMX,Canadian Helicopters Limited - Hélicoptères Canadiens Limitée,1
+11549,CSJ5,CYMX,Ross Runciman,1
+11550,CSN3,CYMX,Accurex Technology Corporation,1
+11551,CSN3,CYMX,Charles Tremblay,1
+11552,CSQ3,CYMX,9225-5009 Québec Inc.,1
+11553,CSR3,CYMX,10851019 Canada Inc.,1
+11557,CYMX,CYND,10851019 Canada Inc.,1
+11558,CYMX,CYND,Chartright Air Inc.,1
+11559,CYMX,CYND,Max Volley Inc,1
+11570,CYHU,CYMX,101247591 Saskatchewan Ltd.,1
+11572,CYHU,CYMX,Hicks Dewitt T Iii,1
+11573,CYHU,CYMX,Léon Raymond,1
+11574,CYHU,CYMX,Pierre Harvey,1
+11575,CYHU,CYMX,Pratt & Whitney Canada Corp./pratt & Whitney Canada Cie,1
+11578,CSE4,CYMX,Estrie Hélicoptères Inc.,1
+11599,CNV9,CYMW,"Gouvernement Du Québec, Service Aérien Gouvernemental",1
+11606,CNV9,CYMW,Exact Air Inc.,1
+11607,CSE4,CYMW,Les Machines Roger Ltée,1
+11608,CYMW,CYND,Charles Desjardins,1
+11609,CSR3,CYMW,Chrono Aviation Inc.,1
+11610,CTR6,CYMW,2115828 Ontario Inc.,1
+11611,CYHU,CYMW,9394-2985 Québec Inc,1
+11612,CYHU,CYMW,Chrono Aviation Inc.,1
+11613,CYHU,CYMW,Dynamitage Castonguay Ltée,1
+11614,CYHU,CYMW,Jean Morin,1
+11615,CYMW,CYMX,9394-2985 Québec Inc,1
+11616,CYMW,CYND,9000-3153 Quebec Inc,1
+11620,CNV9,CYMX,9215-7536 Québec Inc.,1
+11621,CNV9,CYMX,Citizen Aero Inc Trustee,1
+11622,CNV9,CYMX,Danny Richer,1
+11623,CNV9,CYMX,Gv Air Inc,1
+11624,CNV9,CYMX,Inconnu,1
+11625,CNV9,CYMX,Lauretta Nordstrom,1
+11630,CSC3,CYMX,Ross Runciman,1
+11631,CSC3,CYMX,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+11632,CSD4,CYMX,Martin Lachapelle,1
+11633,CNV9,CYMX,10851019 Canada Inc.,1
+11636,CAA2,CYMX,10851019 Canada Inc.,1
+11637,CCP3,CYMX,Dynamitage Castonguay Ltée,1
+11719,CYMX,CYRQ,Richard Sirois,1
+11720,CYMX,CYRQ,Tvpx Aircraft Solutions Inc Trustee,1
+11723,CYMX,CYRQ,Québec Hélicoptères Inc./Quebec Helicopters Inc.,1
+11727,CYMX,CYUL,10851019 Canada Inc.,1
+11728,CYMX,CYUL,3892948 Canada Inc.,1
+11729,CYMX,CYUL,9225-5009 Québec Inc.,1
+11730,CYMX,CYRQ,Raynald Marcotte,1
+11735,CYMX,CYRQ,P2 Aviation Management Llc,1
+11736,CYMX,CYRQ,Air Georgian Limited,1
+11737,CYMX,CYRQ,Bruno Dionne,1
+11738,CYMX,CYRQ,Cascades Inc.,1
+11739,CYMX,CYRQ,Chrono Aviation Inc.,1
+11740,CYMX,CYRQ,Collège iFly inc. / iFly College inc.,1
+11741,CYMX,CYRQ,"Government Of Canada, Department Of Transport",1
+11742,CYMX,CYRQ,Les Investissements Nolinor Inc.,1
+11743,CYMX,CYUL,Air Alsie,1
+11752,CYMX,CYUL,Bank Of Utah Trustee,1
+11758,CYMX,CZBM,3457265 Canada Inc.,1
+11762,CYMX,CYUL,Corporation Hélico.Store inc.,1
+11763,CYMX,CYUL,Dwf Heli Llc,1
+11764,CYMX,CYUL,Jack C Steele,1
+11765,CYMX,CYUL,N898mw Inc Trustee,1
+11766,CYMX,CYUL,Panorama Fixed Wings Ltd.,1
+11767,CYMX,CYUY,Martin Lachapelle,1
+11768,CYMX,CYUY,Propair Inc.,1
