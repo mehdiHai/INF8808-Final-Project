@@ -1,19 +1,101 @@
 import * as d3geo from 'd3-geo';
 import * as d3geoproj from 'd3-geo-projection';
+import * as d3ease from 'd3-ease';
 
-// chargement des données
-d3.csv('./volsQuebec2022.csv').then(function (data, error) {
-  //console.log(data)
-  var Gen= d3.line()
-  var svg = d3.select('#viz2').append('svg')
-            .attr('height', '1000px')
-            .attr('width', '1000px');
-  var projection = d3.geoProjection(function (x, y) {
-    return [x, Math.log(Math.tan(Math.PI / 4 + y / 2))];
-  });
+var airportCode = {}
+
+function removeArea(area) {
+
+  svg.selectAll('circle.' + area)
+    .transition()
+    .duration(1000)
+    .attr("r", 0)
+    .remove()
+
+  svg.selectAll('line.' + area)
+    .transition()
+    .duration(1000)
+    .style('stroke', 'rgba(0, 0, 0, 0.0)')
+    .remove()
+
+}
+
+function addArea(area) {
+
+  d3.queue()
+    .defer(d3.csv, "./" + area + "/airports" + area + ".csv")
+    .defer(d3.csv, "./" + area + "/flights" + area + ".csv")
+    .await(ready);
+
+  function ready(error, localairports, localflights) {
+
+    var nb = 0
+    for (const item of localairports) {
+      airportCode[item.airport] = projection([item.lon, item.lat]);
+      nb += 1
+    }
+
+    svg.selectAll('airports')
+      .data(localairports)
+      .join('circle')
+      .attr('class', area)
+      .attr("transform", d => `translate(${airportCode[d.airport]})`)
+      .attr("r", 0)
+      .style('fill', 'red')
+      .transition()
+      //.ease(d3.easeCubicInOut(0))
+      .delay(function (d, i) { return 1000 * i / nb; })
+      .duration(1000)
+      .attr("r", 0.5)
 
 
-  //projection=d3geo.geoAzimuthalEqualArea();
+    svg.selectAll('flights')
+      .data(localflights)
+      .join('line')
+      .attr('class', area)
+      .attr('x1', d => airportCode[d.airportIn][0])
+      .attr('y1', d => airportCode[d.airportIn][1])
+      .attr('x2', d => airportCode[d.airportIn][0])
+      .attr('y2', d => airportCode[d.airportIn][1])
+      .transition()
+      .delay(1000)
+      .duration(5000)
+      .attr('x2', d => airportCode[d.airportOut][0])
+      .attr('y2', d => airportCode[d.airportOut][1])
+      .style('stroke-width', 0.5)
+      .style('stroke', 'rgba(0, 0, 0, 0.1)')
+  }
+
+}
+
+
+var projection = d3.geoProjection(function (x, y) {
+  return [x, Math.log(Math.tan(Math.PI / 4 + y / 2))];
+});
+projection = d3geo.geoNaturalEarth1();
+
+var svg = d3.select('#viz2')
+  .append('svg')
+  .attr("viewBox", "0 0 1000 1000")
+
+var level = 0 // ie QC
+
+/*
+addArea("QC")
+addArea("CA")
+svg.on("click", (d) => {
+  removeArea("CA")
+});
+*/
+addArea("QC")
+svg.on("click", (d) => {
+  level += 1;
+  if (level == 2) {
+    addArea("CA")
+  } else if (level == 3) {
+    addArea("WORLD")
+  }
+//projection=d3geo.geoAzimuthalEqualArea();
   //projection=d3geo.geoOrthographic();
   var padding_long=73.7407989502;
   var padding_lat=-45.4706001282+45;
@@ -83,29 +165,15 @@ d3.csv('./volsQuebec2022.csv').then(function (data, error) {
     .style('stroke','black')
     .style('opacity',0.3)
   
+
 })
+
+
 /*
-export function draw (data, color) {
-
-  
-  var d = d3.select('.legend')
-  .selectAll('div')
-  .data(data)
-  .enter()
-  .append('div')
-  .attr('class', 'legend-element')
-
-d.append('div')
-  .attr('class', 'legend-element')
-  .style('width', 15)
-  .style('height', 15)
-  .style('background-color', name => color(name))
-  .style('border', "1px solid black")
-  .style('display', 'inline-block')
-  .style('margin-right', '3px')
-
-d.append('text')
-  .text(name => name);
-
-}
+svg.on("click", (d) => {
+  addArea("CA")
+  svg.on("click", (d) => {
+    addArea("WORLD")
+  });
+});
 */
