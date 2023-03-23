@@ -4,6 +4,14 @@ import * as d3ease from 'd3-ease';
 
 var airportCode = {}
 
+// CREER CLASSE
+//  DISPLAY LINE
+//  DISPLAY POINTS
+//  CLEAN LINE
+//  CLEAN POINTS
+//  LOAD DATA
+
+
 function removeArea(area) {
 
   svg.selectAll('circle.' + area)
@@ -11,16 +19,16 @@ function removeArea(area) {
     .duration(1000)
     .attr("r", 0)
     .remove()
-
+  
   svg.selectAll('line.' + area)
     .transition()
     .duration(1000)
     .style('stroke', 'rgba(0, 0, 0, 0.0)')
     .remove()
-
+  
 }
 
-function addArea(area) {
+function addArea(area, frac_bgn=0, frac_end=1) {
 
   d3.queue()
     .defer(d3.csv, "./" + area + "/airports" + area + ".csv")
@@ -36,7 +44,7 @@ function addArea(area) {
     }
 
     svg.selectAll('airports')
-      .data(localairports)
+      .data(localairports.slice(frac_bgn * nb, frac_end * nb))
       .join('circle')
       .attr('class', area)
       .attr("transform", d => `translate(${airportCode[d.airport]})`)
@@ -48,23 +56,24 @@ function addArea(area) {
       .duration(1000)
       .attr("r", 0.5)
 
-
-    svg.selectAll('flights')
-      .data(localflights)
-      .join('line')
-      .attr('class', area)
-      .attr('x1', d => airportCode[d.airportIn][0])
-      .attr('y1', d => airportCode[d.airportIn][1])
-      .attr('x2', d => airportCode[d.airportIn][0])
-      .attr('y2', d => airportCode[d.airportIn][1])
-      .transition()
-      .delay(1000)
-      .duration(5000)
-      .attr('x2', d => airportCode[d.airportOut][0])
-      .attr('y2', d => airportCode[d.airportOut][1])
-      .style('stroke-width', 0.5)
-      .style('stroke', 'rgba(0, 0, 0, 0.1)')
+        svg.selectAll('flights')
+          .data(localflights)
+          .join('line')
+          .attr('class', area)
+          .attr('x1', d => airportCode[d.airportIn][0])
+          .attr('y1', d => airportCode[d.airportIn][1])
+          .attr('x2', d => airportCode[d.airportIn][0])
+          .attr('y2', d => airportCode[d.airportIn][1])
+          .transition()
+          .delay(1000)
+          .duration(5000)
+          .attr('x2', d => airportCode[d.airportOut][0])
+          .attr('y2', d => airportCode[d.airportOut][1])
+          .style('stroke-width', 0.1)
+          .style('stroke', 'rgba(0, 0, 0, 0.1)')
   }
+
+  return frac_end;
 
 }
 
@@ -79,21 +88,27 @@ var svg = d3.select('#viz2')
   .attr("viewBox", "0 0 1000 1000")
 
 var level = 0 // ie QC
+var up = 1
 
-/*
-addArea("QC")
-addArea("CA")
-svg.on("click", (d) => {
-  removeArea("CA")
-});
-*/
 addArea("QC")
 svg.on("click", (d) => {
-  level += 1;
-  if (level == 2) {
-    addArea("CA")
-  } else if (level == 3) {
-    addArea("WORLD")
+  if (up == 1) {
+    level += 1;
+    if (level == 2) {
+      addArea("CA")
+    } else if (level == 3) {
+      addArea("WORLD")
+      up = 0
+    }
+  } else {
+    level -= 1;
+    if (level == 1) {
+      removeArea("CA")
+    } else if (level == 2) {
+      removeArea("WORLD")
+    } else {
+      up = 0
+    }
   }
 //projection=d3geo.geoAzimuthalEqualArea();
   //projection=d3geo.geoOrthographic();
@@ -170,10 +185,35 @@ svg.on("click", (d) => {
 
 
 /*
-svg.on("click", (d) => {
-  addArea("CA")
-  svg.on("click", (d) => {
-    addArea("WORLD")
-  });
-});
+svg.call(
+  d3.zoom()
+    .on("zoom", x => zoomed(svg, x))
+);
+
+addArea("QC", 0, 20)
+
+let scrollGlobal = 0
+let rest = 0
+
+function zoomed(svg) {
+  if (d3.event) {
+    let scrollLocal = d3.event.transform.k
+    const dir = - Math.sign(d3.event.sourceEvent.wheelDelta)
+    scrollLocal *= dir
+    scrollGlobal += scrollLocal
+    if (dir > 0) {
+      if (scrollGlobal < 6 && scrollGlobal > 0) {
+        let rest = addArea("CA", rest, Math.min(scrollGlobal / 6.0, 1))
+      }
+    } else {
+      removeArea("CA")
+      let rest = addArea("CA", 0, Math.max(scrollGlobal / 6.0, 0))
+    }
+
+    if (scrollGlobal > 6) {
+      svg.selectAll('circle')
+        .style('fill', 'green')
+    }
+  }
+}
 */
