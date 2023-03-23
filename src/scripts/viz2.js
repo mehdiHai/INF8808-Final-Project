@@ -38,8 +38,10 @@ function addArea(area, frac_bgn=0, frac_end=1) {
   function ready(error, localairports, localflights) {
 
     var nb = 0
+    var padding_long=73.7407989502;
+    var padding_lat=-45.4706001282+45;
     for (const item of localairports) {
-      airportCode[item.airport] = projection([item.lon, item.lat]);
+      airportCode[item.airport] = projection([parseFloat(item.lon)+padding_long, parseFloat(item.lat)+padding_lat]);
       nb += 1
     }
 
@@ -54,7 +56,8 @@ function addArea(area, frac_bgn=0, frac_end=1) {
       //.ease(d3.easeCubicInOut(0))
       .delay(function (d, i) { return 1000 * i / nb; })
       .duration(1000)
-      .attr("r", 0.5)
+      .attr("r", 1)
+      
 
         svg.selectAll('flights')
           .data(localflights)
@@ -71,6 +74,7 @@ function addArea(area, frac_bgn=0, frac_end=1) {
           .attr('y2', d => airportCode[d.airportOut][1])
           .style('stroke-width', 0.1)
           .style('stroke', 'rgba(0, 0, 0, 0.1)')
+          .style('opacity',0.2)
   }
 
   return frac_end;
@@ -82,10 +86,28 @@ var projection = d3.geoProjection(function (x, y) {
   return [x, Math.log(Math.tan(Math.PI / 4 + y / 2))];
 });
 projection = d3geo.geoNaturalEarth1();
+projection=d3geoproj.geoGuyou()
+
+var centerCoord = ({ lat: 46.179336122399526, lon: 6.145677500934902 })
+//projection.center([-73.7407989502,45.4706001282])
+projection.rotate(centerCoord)
 
 var svg = d3.select('#viz2')
   .append('svg')
   .attr("viewBox", "0 0 1000 1000")
+// Graticule
+    
+var geoGenerator = d3.geoPath()
+.projection(projection);
+var graticule = d3.geoGraticule();
+
+svg.selectAll('path')
+   .data([graticule()])
+   .enter().append('path')
+   .style("fill","none")
+   .style('stroke','gray')
+   .attr('d',geoGenerator)
+   .exit().remove();
 
 var level = 0 // ie QC
 var up = 1
@@ -110,76 +132,6 @@ svg.on("click", (d) => {
       up = 0
     }
   }
-//projection=d3geo.geoAzimuthalEqualArea();
-  //projection=d3geo.geoOrthographic();
-  var padding_long=73.7407989502;
-  var padding_lat=-45.4706001282+45;
-  projection=d3geoproj.geoGuyou();
-  //projection=d3geoproj.geoCylindricalEqualArea();
-  //projection.center([-73.7407989502,45.4706001282]);
-  projection=projection.translate([250,250])
-  svg.selectAll('circle').data(data.slice(1,1000)).join('circle')
-    //.attr("transform", d => `translate(${projection([d.longIn+73.7407989502, d.latIn-45.4706001282])})`)
-    .attr("transform",function(d){
-      var long=parseFloat(d.longIn)+73.7407989502;
-      var lat=parseFloat(d.latIn)-45.4706001282+45;
-      //long=parseFloat(d.longIn);
-      //lat=parseFloat(d.latIn);
-      
-      
-      //console.log((long,lat));
-      if(Math.abs(projection([long, lat])[0])>=projection([-180, lat])[0]){
-        
-        //console.log(projection([-180,-90]))
-      }
-      if(long/180>1){
-        //long=-180+long%180;
-      }
-      if(lat/(-90)>1){
-        //lat=90-lat%90;
-      }
-      return `translate(${projection([long, lat])})`
-    })
-    .attr("r", 3)
-    .style('fill',function(d){
-      if(d.subdOut=="Quebec"){
-        if (d.aérDestin=="CYUL"){
-          return 'green'
-        }
-        else{
-        return 'blue'
-        }
-      }
-      else{
-        return 'red'
-      }
-    })
-     // Graticule
-    
-  var geoGenerator = d3.geoPath()
-  .projection(projection);
-  var graticule = d3.geoGraticule();
-  svg.selectAll('path')
-     .data([graticule()])
-     .enter().append('path')
-     .style("fill","none")
-     .style('stroke','gray')
-     .attr('d',geoGenerator)
-     .exit().remove();
-  
-  
-  svg.selectAll('line').data(data.slice(1,100)).join('line')
-    //.attr("transform", d => `translate(${projection([d.longIn, d.latIn])})`)
-    //.attr("r", 1)
-    
-    .attr('x1',d => projection([parseFloat(d.longIn)+padding_long, parseFloat(d.latIn)+padding_lat])[0])
-    .attr('y1',d => projection([parseFloat(d.longIn)+padding_long, parseFloat(d.latIn)+padding_lat])[1])
-    .attr('x2',d => projection([parseFloat(d.longOut)+padding_long, parseFloat(d.latOut)+padding_lat])[0])
-    .attr('y2',d => projection([parseFloat(d.longOut)+padding_long, parseFloat(d.latOut)+padding_lat])[1])
-    .style('stroke-width',1)
-    .style('stroke','black')
-    .style('opacity',0.3)
-  
 
 })
 
