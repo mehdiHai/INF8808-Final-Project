@@ -13,11 +13,8 @@ var scroller = scrollama();
 
 var svg = d3.select('#viz2')
     .append('svg')
-    //.attr("viewBox", "0 0 1000 1000")
 
-// generic window resize listener event
 function handleResize() {
-    // 1. update height of step elements
     var stepH = Math.floor(window.innerHeight * 0.75);
     step.style("height", stepH + "px");
 
@@ -27,7 +24,6 @@ function handleResize() {
     figure.style("height", figureHeight + "px")
         .style("top", figureMarginTop + "px");
 
-    // 3. tell scrollama to update new element dimensions
     scroller.resize();
 }
 
@@ -42,11 +38,11 @@ function handleStepEnter(response) {
             network.displayFlights()
         }
     } else {
-        if ((response.index%2 === 1) && response.index != 5) {
+        if ((response.index%2 === 1) && response.index !== 5) {
             network.removeAirports()
         }
 
-        if ((response.index%2 === 0) && response.index != 6) {
+        if ((response.index%2 === 0) && response.index !== 6) {
             network.removeFlights()
         }
     }
@@ -54,9 +50,6 @@ function handleStepEnter(response) {
     step.classed("is-active", function (d, i) {
         return i === response.index;
     });
-
-    // update graphic based on step
-    figure.select("p").text(response.index + 1);
 }
 
 function handleStepExit(response) {
@@ -79,5 +72,5 @@ function init() {
         
 }
 
-// kick things off
+
 init();

@@ -1,14 +1,14 @@
 {
-  "name": "tp2",
-  "version": "1.0.1",
-  "description": "TP pour le cours INF8808.",
+  "name": "Dataviz aéronautique",
+  "version": "0.2.0",
+  "description": "Bilan de l'aviation au Québec",
   "main": "src/index.js",
   "scripts": {
     "build": "parcel build ./src/index.html",
     "start": "parcel ./src/index.html --log-level=2 --port=8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Olivia Gélinas",
+  "author": "",
   "license": "UNLICENSED",
   "dependencies": {
     "@types/d3-tip": "^3.5.5",
