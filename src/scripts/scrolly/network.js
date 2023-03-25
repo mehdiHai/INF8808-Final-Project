@@ -9,6 +9,7 @@ export default class Network {
     this.svg = svg;
     this.airportCode = {};
     this.levelGeo = { 1: "QC", 2: "CA", 3: "WORLD", 4: null, "QC": 1, "CA": 2, "WORLD": 3, null: 4 };
+    this.color = {"QC": 'rgba(0, 255, 0,', "CA": 'rgba(255, 0, 0,', "WORLD": 'rgba(0, 0, 0,'};
     this.currentGeo = "QC";
     this.limits = [];
     this.minMaxXGlobal = [1000000, 0];
@@ -68,13 +69,13 @@ export default class Network {
         .attr('class', this.currentGeo)
         .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
         .attr("r", 0)
-        .style('fill', 'rgba(255, 0, 0, 0)')
+        .style('fill', this.color[this.currentGeo] + ' 0)')
         .transition()
         //.ease(d3.easeCubicInOut(0))
         .delay(function (d, i) { return 100 * i / nb; })
         .duration(1000)
-        .attr("r", 1)
-        .style('fill', 'rgba(255, 0, 0, 0.6)')
+        .attr("r", d => Math.log(d.freq + 1) / 4)
+        .style('fill', this.color[this.currentGeo] + ' 0.6)')
 
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
       console.log("=>", this.currentGeo)
