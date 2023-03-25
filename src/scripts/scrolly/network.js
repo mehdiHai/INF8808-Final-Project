@@ -97,18 +97,20 @@ export default class Network {
         .attr('class', this.currentGeo)
         .attr('x1', d => this.airportCode[d.airportIn][0])
         .attr('y1', d => this.airportCode[d.airportIn][1])
-        //.attr('x2', d => this.airportCode[d.airportIn][0])
-        //.attr('y2', d => this.airportCode[d.airportIn][1])
-        //.transition()
-        //.delay(1000)
-        //.duration(5000)
+        .attr('x2', d => this.airportCode[d.airportIn][0])
+        .attr('y2', d => this.airportCode[d.airportIn][1])
+        .style('stroke-width', 0.1)
+        .transition()
+        .duration(1000)
         .attr('x2', d => this.airportCode[d.airportOut][0])
         .attr('y2', d => this.airportCode[d.airportOut][1])
-        .style('stroke-width', 0.1)
         .style('stroke', 'rgba(0, 0, 0, 1)')
-        .style('opacity', 0.2)
+      
+      this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
 
     }
+
+    this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
 
     d3.queue()
       .defer(d3.csv, `./${this.currentGeo}/flights${this.currentGeo}.csv`)
@@ -130,7 +132,7 @@ export default class Network {
   }
 
   removeFlights() {
-    this.svg.selectAll('line.' + this.currentGeo)
+    this.svg.selectAll('line.' + this.levelGeo[this.levelGeo[this.currentGeo] - 1])
       .transition()
       .duration(1000)
       .style('stroke', 'rgba(0, 0, 0, 0.0)')

@@ -39,11 +39,15 @@ function handleStepEnter(response) {
             network.displayAirports()
         }
         if (response.index%2 === 1) {
-            // network.displayFlights()
+            network.displayFlights()
         }
     } else {
         if ((response.index%2 === 1) && response.index != 5) {
             network.removeAirports()
+        }
+
+        if ((response.index%2 === 0) && response.index != 6) {
+            network.removeFlights()
         }
     }
     // add color to current step only
