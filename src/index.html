@@ -1,19 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Projet Final</title>
-  </head>
-  <body>
-    <div class="viz" id="viz1"></div>
-    <div class="viz" id="viz2"></div>
-    <div class="viz" id="viz3"></div>
-    <!-- Include your JavaScript files here -->
-    <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Aviation au Québec</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="./scripts/scrolly/style.css" />
+</head>
+
+<body>
+	<main>
+		<section id="intro">
+			<h1 class="intro__hed">L'aviation au Québec</h1>
+			<p class="intro__dek">
+				Etat des lieux du transport aérien au Québec en 2022
+			</p>
+		</section>
+
+		<section id="scrolly">
+			<article>
+				<div class="step" data-step="1">
+					<p>STEP 1</p>
+				</div>
+				<div class="step" data-step="2">
+					<p>STEP 2</p>
+				</div>
+				<div class="step" data-step="3">
+					<p>STEP 3</p>
+				</div>
+				<div class="step" data-step="4">
+					<p>STEP 4</p>
+				</div>
+				<div class="step" data-step="5">
+					<p>STEP 5</p>
+				</div>
+				<div class="step" data-step="6">
+					<p>STEP 6</p>
+				</div>
+			</article>
+
+			<figure>
+				<p>0</p>
+				<div class="viz" id="viz2"></div>
+			</figure>
+		</section>
+
+		<section id="outro"></section>
+
+		<div class="viz" id="viz1"></div>
+		<div class="viz" id="viz3"></div>
+	</main>
+
+	<!-- <div class='debug'></div> -->
+	<script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
     <script type="text/javascript" src="https://d3js.org/d3-request.v1.min.js"></script>
     <script type="text/javascript" src="https://d3js.org/d3-queue.v3.min.js"></script>
+	<script src="https://unpkg.com/scrollama@3.2.0/build/scrollama.js"></script>
+    <script src="./scripts/scrolly.js"></script>
     <script src="index.js"></script>
     <script src="./scripts/viz1.js"></script>
-    <script src="./scripts/viz2.js"></script>
     <script src="./scripts/viz3.js"></script>
-  </body>
+</body>
+
 </html>
