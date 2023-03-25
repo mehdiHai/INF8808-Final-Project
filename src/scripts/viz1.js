@@ -1,3 +1,5 @@
+import d3Tip from 'd3-tip'
+
 const BUCKET_HEIGHT = 300;
 const BUCKET_WIDTH = 200;
 
@@ -28,6 +30,7 @@ export function displayBucketGraph(companiesFlightArray, topCompanyNumber, heigh
 
   displayTopBucket(topBucket, heightScale);
   displayBottomBucket(bottomBucket, heightScale);
+  setTooltips();
  
 }
 function displayTopBucket(topBucket, heightScale) {
@@ -35,6 +38,7 @@ function displayTopBucket(topBucket, heightScale) {
   .attr('class', 'topSVG')
   .attr('height', BUCKET_HEIGHT + 'px')
   .attr('width', BUCKET_WIDTH + 'px')
+  .style('border-radius', '4%')
   .selectAll('.topCompany')
   .data(topBucket)
   .enter()
@@ -56,6 +60,7 @@ function displayTopBucket(topBucket, heightScale) {
       return 'red'
     }
   })
+  .attr('fill-opacity', 0.7)
   .attr('height', function(c) { 
     return heightScale(c[1])})
   .attr('width', BUCKET_WIDTH)
@@ -67,6 +72,7 @@ function displayBottomBucket(bottomBucket, heightScale) {
     .attr('class', 'bottomSVG')
     .attr('height', BUCKET_HEIGHT + 'px')
     .attr('width', BUCKET_WIDTH + 'px')
+    .style('border-radius', '4%')
     .append('g')
     .attr('width', BUCKET_WIDTH)
     .style('text-align', 'center')
@@ -91,4 +97,21 @@ function displayBottomBucket(bottomBucket, heightScale) {
 export function createHeightScale (topCompanies) {
   const maxHeight = d3.sum(topCompanies, c => c[1])
   return d3.scaleLinear().domain([d3.min(topCompanies, function(d) {return d[1]}), maxHeight]).range([0, BUCKET_HEIGHT])
+}
+
+function setTooltips(){
+  const tip = d3Tip().attr('class', 'd3-tip').html(function (d) { return `
+  <label>${d[0]} : ${d[1]}</label>
+  ` })
+  d3.select('.topSVG').call(tip)
+  d3.select('.topSVG')
+    .selectAll('rect')
+    .on('mouseenter', function (t, d) {
+      d3.select(this).attr('fill-opacity', 1.0)
+      tip.show(d, this)
+    })
+    .on('mouseleave', function () {
+      d3.select(this).attr('fill-opacity', 0.7)
+      tip.hide()
+    })
 }
