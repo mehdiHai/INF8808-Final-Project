@@ -11,6 +11,8 @@ export default class Network {
     this.levelGeo = { 1: "QC", 2: "CA", 3: "WORLD", 4: null, "QC": 1, "CA": 2, "WORLD": 3, null: 4 };
     this.currentGeo = "QC";
     this.limits = [];
+    this.minMaxXGlobal = [1000000, 0];
+    this.minMaxYGlobal = [1000000, 0];
   }
 
   displayCpt() {
@@ -42,9 +44,23 @@ export default class Network {
       minMaxY[0] -= 10
       minMaxY[1] += 10
 
+      minMaxX[0] = Math.min(minMaxX[0], this.minMaxXGlobal[0])
+      minMaxX[1] = Math.max(minMaxX[1], this.minMaxXGlobal[1])
+      minMaxY[0] = Math.min(minMaxY[0], this.minMaxYGlobal[0])
+      minMaxY[1] = Math.max(minMaxY[1], this.minMaxYGlobal[1])
+
+      if (this.limits[this.levelGeo[this.currentGeo]] === undefined) {
+        this.limits[this.levelGeo[this.currentGeo]] = minMaxX[0].toString() + "," + minMaxY[0].toString() + "," + (minMaxX[1] - minMaxX[0]).toString() + "," + (minMaxY[1] - minMaxY[0]).toString()
+      }
+      this.minMaxXGlobal[0] = Math.min(minMaxX[0], this.minMaxXGlobal[0])
+      this.minMaxXGlobal[1] = Math.max(minMaxX[1], this.minMaxXGlobal[1])
+      this.minMaxYGlobal[0] = Math.min(minMaxY[0], this.minMaxYGlobal[0])
+      this.minMaxYGlobal[1] = Math.max(minMaxY[1], this.minMaxYGlobal[1])
+
+
       this.svg.transition()
         .duration(1000)
-        .attr("viewBox", minMaxX[0].toString() + "," + minMaxY[0].toString() + "," + (minMaxX[1] - minMaxX[0]).toString() + "," + (minMaxY[1] - minMaxY[0]).toString())
+        .attr("viewBox", this.limits[this.levelGeo[this.currentGeo]])
 
       this.svg.selectAll('airports')
         .data(this.airports)
@@ -60,7 +76,6 @@ export default class Network {
         .attr("r", 1)
         .style('fill', 'rgba(255, 0, 0, 0.6)')
 
-      this.limits[this.levelGeo[this.currentGeo]] = minMaxX[0].toString() + "," + minMaxY[0].toString() + "," + (minMaxX[1] - minMaxX[0]).toString() + "," + (minMaxY[1] - minMaxY[0]).toString()
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
       console.log("=>", this.currentGeo)
     }
