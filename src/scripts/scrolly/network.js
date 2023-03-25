@@ -78,7 +78,6 @@ export default class Network {
         .style('fill', this.color[this.currentGeo] + ' 0.6)')
 
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
-      console.log("=>", this.currentGeo)
     }
 
     d3.queue()
