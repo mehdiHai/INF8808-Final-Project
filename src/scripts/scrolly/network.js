@@ -9,7 +9,7 @@ export default class Network {
     this.svg = svg;
     this.airportCode = {};
     this.levelGeo = { 1: "QC", 2: "CA", 3: "WORLD", 4: null, "QC": 1, "CA": 2, "WORLD": 3, null: 4 };
-    this.color = {"QC": 'rgba(0, 255, 0,', "CA": 'rgba(255, 0, 0,', "WORLD": 'rgba(0, 0, 0,'};
+    this.color = {"QC": 'rgba(0, 255, 0,', "CA": 'rgba(255, 0, 0,', "WORLD": 'rgba(0, 0, 255,'};
     this.currentGeo = "QC";
     this.limits = [];
     this.minMaxXGlobal = [1000000, 0];
@@ -66,6 +66,8 @@ export default class Network {
       this.svg.selectAll('airports')
         .data(this.airports)
         .join('circle')
+        .attr('stroke', 'black')
+        .attr('stroke-width', '.1')
         .attr('class', this.currentGeo)
         .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
         .attr("r", 0)
@@ -99,14 +101,16 @@ export default class Network {
         .attr('y1', d => this.airportCode[d.airportIn][1])
         .attr('x2', d => this.airportCode[d.airportIn][0])
         .attr('y2', d => this.airportCode[d.airportIn][1])
-        .style('stroke-width', 0.1)
+        .attr('render-order', "-1")
+        .style('stroke-width', d => Math.log(d.number + 1)/3)
         .transition()
         .duration(1000)
         .attr('x2', d => this.airportCode[d.airportOut][0])
         .attr('y2', d => this.airportCode[d.airportOut][1])
-        .style('stroke', 'rgba(0, 0, 0, 1)')
+        .style('stroke', 'rgba(0, 0, 0, 0.1)')
       
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
+      this.svg.selectAll('circle').raise()
 
     }
 
@@ -140,40 +144,3 @@ export default class Network {
   }
 
 }
-
-// CREER CLASSE
-//  DISPLAY LINE
-//  DISPLAY POINTS
-//  CLEAN LINE
-//  CLEAN POINTS
-//  LOAD DATA
-
-
-/*
-var projection = d3.geoProjection(function (x, y) {
-  return [x, Math.log(Math.tan(Math.PI / 4 + y / 2))];
-});
-projection = d3geo.geoNaturalEarth1();
-projection = d3geoproj.geoGuyou()
-
-var centerCoord = ({ lat: 46.179336122399526, lon: 6.145677500934902 })
-//projection.center([-73.7407989502,45.4706001282])
-projection.rotate(centerCoord)
-
-var svg = d3.select('#viz2')
-  .append('svg')
-  .attr("viewBox", "0 0 1000 1000")
-// Graticule
-
-var geoGenerator = d3.geoPath()
-  .projection(projection);
-var graticule = d3.geoGraticule();
-
-svg.selectAll('path')
-  .data([graticule()])
-  .enter().append('path')
-  .style("fill", "none")
-  .style('stroke', 'gray')
-  .attr('d', geoGenerator)
-  .exit().remove();
-*/
