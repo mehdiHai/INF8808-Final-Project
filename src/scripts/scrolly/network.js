@@ -8,7 +8,13 @@ export default class Network {
     this.svg = svg;
     this.airportCode = {};
     this.levelGeo = { 1: "QC", 2: "CA", 3: "WORLD", 4: null, "QC": 1, "CA": 2, "WORLD": 3, null: 4 };
-    this.color = {"QC": 'rgba(0, 255, 0,', "CA": 'rgba(255, 0, 0,', "WORLD": 'rgba(0, 0, 255,'};
+    this.ccolor = {
+      "Africa": 'rgba(0, 0, 255,',
+      "America": 'rgba(151, 18, 18,',
+      "Europe": 'rgba(0, 255, 0,',
+      "Asia": 'rgba(0, 255, 255,',
+      "Oceania": 'rgba(255, 0, 255,'
+    }
     this.currentGeo = "QC";
     this.limits = [];
     this.minMaxXGlobal = [1000000, 0];
@@ -27,7 +33,7 @@ export default class Network {
       var padding = [73.7407989502, -45.4706001282 + 45];
       var minMaxX = [1000000, 0]
       var minMaxY = [1000000, 0]
-      
+
       for (const item of localairports) {
         var pos = this.projection([parseFloat(item.lon) + padding[0], parseFloat(item.lat) + padding[1]]);
         this.airportCode[item.airport] = pos;
@@ -40,7 +46,7 @@ export default class Network {
       minMaxY = [Math.min(minMaxY[0] - 10, this.minMaxYGlobal[0]), Math.max(minMaxY[1] + 10, this.minMaxYGlobal[1])]
 
       if (this.limits[this.levelGeo[this.currentGeo]] === undefined) {
-        this.limits[this.levelGeo[this.currentGeo]] = minMaxX[0].toString() + "," + minMaxY[0].toString() + "," + (minMaxX[1] - minMaxX[0]).toString() + "," + (minMaxY[1] - minMaxY[0]).toString()
+        this.limits[this.levelGeo[this.currentGeo]] = `${minMaxX[0]},${minMaxY[0]},${minMaxX[1] - minMaxX[0]},${minMaxY[1] - minMaxY[0]}`
       }
 
       this.minMaxXGlobal = minMaxX
@@ -51,24 +57,25 @@ export default class Network {
         .duration(800)
         .attr("viewBox", this.limits[this.levelGeo[this.currentGeo]])
 
-      this.svg.selectAll('airports')
+      var circles = this.svg.selectAll('airports')
         .data(localairports)
         .join('circle')
-        .on("mouseover", function(e){
-          d3.select(this)
+
+      circles.on("mouseover", function (e) {
+        d3.select(this)
           .attr("r", d => Math.log(d.freq + 1) / 3)
           .attr('stroke-width', '.4')
-          .style('fill', this.color[this.currentGeo] + ' 1)')
-        })
-        .on("mouseout", function(e){
+          .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 1)' : (this.ccolor[d.continent] + ' 1)'))
+      })
+        .on("mouseout", function (e) {
           d3.select(this)
-          .attr("r", d => Math.log(d.freq + 1) / 4)
-          .attr('stroke-width', '.1')
-          .style('fill', this.color[this.currentGeo] + ' 0.6)')
+            .attr("r", d => Math.log(d.freq + 1) / 4)
+            .attr('stroke-width', '.1')
+            .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 0.6)' : (this.ccolor[d.continent] + ' 0.6)'))
         })
         .attr('stroke', 'black')
         .attr('stroke-width', '.1')
-        .attr('class', this.currentGeo)
+        .attr('class', this.currentGeo, d => d.continent)
         .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
         .attr("r", 0)
         .transition()
@@ -76,7 +83,7 @@ export default class Network {
         .delay(function (d, i) { return 100 * i / nb; })
         .duration(800)
         .attr("r", d => Math.log(d.freq + 1) / 4)
-        .style('fill', this.color[this.currentGeo] + ' 0.6)')
+        .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 0.6)' : (this.ccolor[d.continent] + ' 0.6)'))
 
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
     }
@@ -98,14 +105,14 @@ export default class Network {
         .attr('y1', d => this.airportCode[d.airportIn][1])
         .attr('x2', d => this.airportCode[d.airportIn][0])
         .attr('y2', d => this.airportCode[d.airportIn][1])
-        .style('stroke-width', d => Math.log(d.number + 1)/3)
+        .style('stroke-width', d => Math.log(d.number + 1) / 3)
         .transition()
         .ease(d3.easeCubicInOut)
         .duration(800)
         .attr('x2', d => this.airportCode[d.airportOut][0])
         .attr('y2', d => this.airportCode[d.airportOut][1])
         .style('stroke', 'rgba(0, 0, 0, 0.1)')
-      
+
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
       this.svg.selectAll('circle').raise()
     }

@@ -7,2971 +7,2778 @@
 5,CYOW,CYUL,Jazz Aviation Lp,1289
 6,CYTZ,CYUL,Jazz Aviation Lp,1161
 7,CYUL,CYTZ,Jazz Aviation Lp,1156
-8,CYYZ,CYUL,Westjet Encore Ltd.,1105
-9,CYUL,CYYZ,Westjet Encore Ltd.,1097
-10,CYVR,CYUL,Air Canada,1083
-11,CYUL,CYVR,Air Canada,1063
-12,CYYZ,CYUL,Others,954
-13,CYUL,CYYZ,Others,950
-14,CYUL,CNV9,Others,947
-15,CYUL,CYYC,Air Canada,790
-16,CYYC,CYUL,Air Canada,788
-21,CYUL,CYUL,Others,620
+8,CYUL,CYYZ,Others,1148
+9,CYYZ,CYUL,Others,1146
+10,CYUL,CYUL,Others,1148
+11,CYYZ,CYUL,Westjet Encore Ltd.,1105
+12,CYUL,CYYZ,Westjet Encore Ltd.,1097
+13,CYVR,CYUL,Air Canada,1083
+14,CYUL,CYVR,Air Canada,1063
+15,CYUL,CNV9,Others,953
+16,CYUL,CYYC,Air Canada,790
+17,CYYC,CYUL,Air Canada,788
 23,CYHZ,CYUL,Air Canada,571
-24,CYUL,CYUL,Bombardier Inc.,512
-30,CYUL,CYWG,Air Canada,417
-32,CYWG,CYUL,Air Canada,406
-33,CYUL,CYHZ,Air Canada,394
-43,CYHZ,CYUL,Porter Airlines Inc.,328
-44,CYYZ,CYUL,Air Transat A T Inc.,324
-45,CYUL,CYYZ,Air Transat A T Inc.,321
-46,CYUL,CNV9,Jazz Aviation Lp,307
+31,CYUL,CYWG,Air Canada,417
+34,CYWG,CYUL,Air Canada,406
+36,CYUL,CYHZ,Air Canada,394
+44,CYHZ,CYUL,Porter Airlines Inc.,328
+45,CYYZ,CYUL,Air Transat A T Inc.,324
+46,CYUL,CYYZ,Air Transat A T Inc.,321
+48,CYUL,CNV9,Jazz Aviation Lp,307
 51,CYYC,CYUL,Westjet,286
 54,CYUL,CYYC,Westjet,280
 55,CYHM,CYMX,Cargojet Airways Ltd.,279
-57,CYUL,CYHZ,Porter Airlines Inc.,272
-58,CYYZ,CYQB,Air Canada Rouge Lp,264
+57,CYMX,CYYZ,Others,273
+58,CYUL,CYHZ,Porter Airlines Inc.,272
 59,CYUL,CYUL,Jazz Aviation Lp,264
-61,CYUY,CYUL,Others,248
-63,CYUL,CYQB,Others,245
-64,CYUL,CTR6,Others,244
-67,CYMX,CYYZ,Others,235
+60,CYYZ,CYQB,Air Canada Rouge Lp,264
+62,CYUY,CYUL,Others,249
+63,CYUL,CYQB,Others,247
+65,CYUL,CTR6,Others,245
 68,CYUL,CYUL,Air Transat A T Inc.,234
 71,CYUL,CYQB,Air Canada Rouge Lp,229
 75,CYUL,CYUL,Air Canada,214
-80,CYVR,CYUL,Others,195
-81,CYYC,CYUL,Others,194
-82,CYUL,CYYZ,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,194
-83,CYUY,CYUL,Jazz Aviation Lp,193
-85,CYYZ,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,188
-86,CYYZ,CTR6,Air Canada Rouge Lp,188
-87,CYOW,CYUL,Air Canada,188
-88,CYUL,CYVR,Others,186
-91,CYYZ,CYHU,Others,182
-92,CYUL,CYOW,Air Canada,182
-94,CYHZ,CYUL,Others,181
-95,CYUL,CYOW,Others,180
-97,CYUL,CYYZ,Westjet,179
-98,CYYZ,CYUL,Westjet,178
-99,CYHU,CYYZ,Others,177
-102,CYUL,CYYC,Others,173
-103,CYUL,CYHU,Others,172
-104,CYYZ,CYMX,Others,172
-108,CYHU,CST7,Others,165
-110,CYHU,CZBM,Others,161
-112,CYOW,CYUL,Others,159
-113,CYYZ,CYUL,Sunwing Airlines Inc.,158
-114,CYUL,CYVR,Flair Airlines Ltd,157
-117,CYVR,CYUL,Flair Airlines Ltd,153
-118,CYUL,CZBF,Jazz Aviation Lp,153
-119,CYUL,CYYZ,Flair Airlines Ltd,151
-120,CNV9,CYYZ,Air Canada Rouge Lp,151
+80,CYYZ,CYHU,Others,201
+81,CYUL,CYOW,Others,199
+82,CYYZ,CYMX,Others,199
+83,CYYC,CYUL,Others,198
+84,CYHU,CYYZ,Others,197
+85,CYVR,CYUL,Others,197
+86,CYUL,CYYZ,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,194
+87,CYUY,CYUL,Jazz Aviation Lp,193
+88,CYUL,CYVR,Others,190
+89,CYYZ,CTR6,Air Canada Rouge Lp,188
+90,CYYZ,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,188
+91,CYOW,CYUL,Air Canada,188
+92,CYOW,CYUL,Others,187
+93,CYHZ,CYUL,Others,186
+96,CYUL,CYHU,Others,184
+97,CYMX,CYOW,Others,183
+98,CYUL,CYOW,Air Canada,182
+101,CYUL,CYYZ,Westjet,179
+102,CYYZ,CYUL,Westjet,178
+105,CYUL,CYYC,Others,176
+108,CYOW,CYMX,Others,170
+111,CYHU,CST7,Others,165
+113,CYHU,CZBM,Others,161
+114,CYYZ,CYUL,Sunwing Airlines Inc.,158
+117,CYUL,CYVR,Flair Airlines Ltd,157
+118,CYVR,CYUL,Flair Airlines Ltd,153
+119,CYUL,CZBF,Jazz Aviation Lp,153
 121,CYUL,CYYZ,Sunwing Airlines Inc.,151
-122,CYYZ,CYUL,Flair Airlines Ltd,150
-126,CYWG,CYMX,Cargojet Airways Ltd.,149
-127,CYUL,CTR6,Air Canada Rouge Lp,147
-131,CZBM,CYHU,Others,144
-132,CYHM,CYMX,Jazz Aviation Lp,143
-133,CYWG,CYUL,Jazz Aviation Lp,142
-134,CYMX,CYHM,Jazz Aviation Lp,142
-136,CYUL,CNV9,Air Canada Rouge Lp,137
+122,CNV9,CYYZ,Air Canada Rouge Lp,151
+123,CYUL,CYYZ,Flair Airlines Ltd,151
+124,CYYZ,CYUL,Flair Airlines Ltd,150
+125,CYWG,CYMX,Cargojet Airways Ltd.,149
+129,CYUL,CTR6,Air Canada Rouge Lp,147
+133,CZBM,CYHU,Others,144
+134,CYHM,CYMX,Jazz Aviation Lp,143
+135,CYMX,CYHM,Jazz Aviation Lp,142
+136,CYWG,CYUL,Jazz Aviation Lp,142
 137,CYQY,CYUL,Jazz Aviation Lp,137
+139,CYUL,CNV9,Air Canada Rouge Lp,137
 140,CYUL,CYQY,Jazz Aviation Lp,136
-141,CYVR,CYUL,Air Transat A T Inc.,135
-142,CYTZ,CYUL,Others,135
-143,CYUL,CYWG,Jazz Aviation Lp,134
-144,CYMX,CYWG,Cargojet Airways Ltd.,134
-146,CYUL,CYVR,Air Transat A T Inc.,132
-148,CYUL,CYYZ,Airsprint Inc.,131
-149,CYYZ,CYUL,Airsprint Inc.,128
-151,CYUL,CYTZ,Others,127
+143,CYVR,CYUL,Air Transat A T Inc.,135
+144,CYTZ,CYUL,Others,135
+146,CYMX,CYWG,Cargojet Airways Ltd.,134
+147,CYUL,CYWG,Jazz Aviation Lp,134
+148,CYUL,CYVR,Air Transat A T Inc.,132
+150,CYUL,CYTZ,Others,127
+151,CYUL,CYHZ,Others,126
 153,CYUL,CYUL,Sunwing Airlines Inc.,124
-154,CYUL,CYHZ,Others,123
-155,CYMX,CYOW,Federal Express Corporation,121
-156,CYHZ,CYUL,Jazz Aviation Lp,120
-159,CYHU,CYUL,Others,119
-160,CYYG,CYUL,Air Canada Rouge Lp,117
-162,CYHU,CSH5,Others,113
-164,CYOW,CYMX,Federal Express Corporation,112
-165,CZBF,CYUL,Jazz Aviation Lp,111
-166,CYHM,CYMX,Others,109
-167,CYUL,CYYC,Air Transat A T Inc.,108
+154,CYHU,CYUL,Others,123
+155,CYHZ,CYUL,Jazz Aviation Lp,120
+158,CYYG,CYUL,Air Canada Rouge Lp,117
+159,CYUL,CYWG,Others,117
+161,CYHU,CSH5,Others,114
+163,CZBF,CYUL,Jazz Aviation Lp,111
+164,CYHM,CYMX,Others,110
+165,CYUL,CYYC,Air Transat A T Inc.,108
+166,CYWG,CYUL,Others,107
+168,CYYZ,CTR6,Jazz Aviation Lp,106
+169,CYYG,CYUL,Jazz Aviation Lp,106
 170,CYRQ,CYHU,Others,106
-171,CYYZ,CTR6,Jazz Aviation Lp,106
-172,CYYG,CYUL,Jazz Aviation Lp,106
+172,CYYC,CYUL,Air Transat A T Inc.,104
 173,CYEG,CYUL,Air Canada,104
-174,CYYC,CYUL,Air Transat A T Inc.,104
-176,CYUL,CYWG,Others,104
-178,CYUL,CTR6,Jazz Aviation Lp,102
-179,CYHU,CSR3,Others,101
-184,CYHU,CYRQ,Others,96
-185,CYUL,CYQB,Jazz Aviation Lp,95
-187,CYYZ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,95
-189,CYHZ,CYUL,Flair Airlines Ltd,94
-190,CYWG,CYUL,Others,94
-192,CNV9,CYYZ,Westjet Encore Ltd.,94
-193,CYUL,CYUY,Jazz Aviation Lp,92
-195,CYHZ,CYUL,Westjet Encore Ltd.,90
-196,CYUL,CYYZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,90
-200,CYHM,CYMX,Bank Of Utah Trustee,87
+175,CYUL,CTR6,Jazz Aviation Lp,102
+176,CYHU,CSR3,Others,101
+182,CYHU,CYRQ,Others,96
+184,CYYZ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,95
+187,CYUL,CYQB,Jazz Aviation Lp,95
+188,CNV9,CYYZ,Westjet Encore Ltd.,94
+190,CYHZ,CYUL,Flair Airlines Ltd,94
+192,CYUL,CYUY,Jazz Aviation Lp,92
+194,CYHZ,CYUL,Westjet Encore Ltd.,90
+195,CYUL,CYYZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,90
+198,CYHM,CYMX,Bank Of Utah Trustee,87
+204,CYOW,CYHU,Others,84
 206,CYXE,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,83
-208,CYOW,CYHU,Others,82
-211,CYUL,CYYG,Jazz Aviation Lp,80
-213,CYMX,CYHU,Others,79
-215,CYTZ,CYHU,Others,79
-216,CNV9,CYTZ,Porter Airlines Inc.,78
-217,CYUL,CYHZ,Flair Airlines Ltd,77
-218,CYHU,CYTZ,Others,77
-219,CYHU,CSM3,Others,76
-220,CYHU,CYOW,Others,76
+208,CYUL,CYYG,Jazz Aviation Lp,80
+209,CYMX,CYHU,Others,79
+210,CYTZ,CYHU,Others,79
+213,CNV9,CYTZ,Porter Airlines Inc.,78
+214,CYHU,CYOW,Others,77
+215,CYHU,CYTZ,Others,77
+216,CYUL,CYHZ,Flair Airlines Ltd,77
+217,CYUL,CYYZ,Jazz Aviation Lp,76
+218,CYHU,CSM3,Others,76
 221,CYMX,CYHM,Cargojet Airways Ltd.,76
-223,CYUL,CYYZ,Jazz Aviation Lp,76
-225,CYUL,CYHZ,Westjet Encore Ltd.,75
+223,CYUL,CYHZ,Westjet Encore Ltd.,75
 226,CYUL,CYUL,Air Canada Rouge Lp,74
-233,CYUL,CYUY,Others,70
-234,CYYZ,CYUL,Jazz Aviation Lp,70
-237,CYUL,CYMX,Others,69
-238,CYHU,CSC3,Others,69
-240,CYUL,CYYG,Air Canada Rouge Lp,68
-241,CYYJ,CYUL,Air Canada Rouge Lp,67
-243,CYUL,CYHZ,Jazz Aviation Lp,67
-253,CYHU,CYSC,Others,65
-254,CYMX,CYUL,Others,64
-255,CYMX,CYHM,Others,64
-256,CYUL,CCF4,Air Canada,63
-257,CYHU,CYMX,Others,63
-259,CYUL,CYEG,Air Canada,62
-260,CYUL,CYXE,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,62
-262,CNV9,CYUL,Others,61
-264,CYUL,CCY4,Air Canada,61
-265,CYMX,CYOW,Others,61
-266,CYHU,CNV9,Others,60
-267,CYHM,CYUL,Aviation Starlink Inc.,60
-270,CYUL,CYYJ,Air Canada Rouge Lp,59
-272,CNV9,CYHU,Others,59
-273,CYSC,CYHU,Others,58
-275,CYVB,CYHU,Others,58
-276,CYUL,CYHM,Aviation Starlink Inc.,57
-278,CYHU,CSJ4,Others,57
-279,CYOW,CYMX,Others,56
-281,CYJN,CYUL,Others,55
+230,CYYZ,CYUL,Jazz Aviation Lp,70
+231,CYUL,CYUY,Others,70
+233,CYHU,CSC3,Others,69
+236,CYUL,CYMX,Others,69
+238,CYUL,CYYG,Air Canada Rouge Lp,68
+239,CYYJ,CYUL,Air Canada Rouge Lp,67
+241,CYUL,CYHZ,Jazz Aviation Lp,67
+243,CYHU,CYSC,Others,66
+245,CYMX,CYUL,Others,66
+248,CYMX,CYHM,Others,65
+251,CYHU,CYMX,Others,63
+252,CYUL,CCF4,Air Canada,63
+253,CYUL,CYEG,Air Canada,62
+254,CYUL,CYXE,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,62
+256,CYUL,CCY4,Air Canada,61
+258,CNV9,CYUL,Others,61
+260,CYHU,CNV9,Others,60
+261,CYHM,CYUL,Aviation Starlink Inc.,60
+262,CYSC,CYHU,Others,59
+263,CYUL,CYYJ,Air Canada Rouge Lp,59
+266,CNV9,CYHU,Others,59
+268,CYVB,CYHU,Others,58
+271,CYUL,CYHM,Aviation Starlink Inc.,57
+272,CYYZ,CTR6,Others,57
+273,CYHU,CSJ4,Others,57
+275,CZBM,CYUL,Others,55
+276,CYJN,CYUL,Others,55
 282,CYOW,CYUL,Air Georgian Limited,52
-284,CYXE,CYUL,Jazz Aviation Lp,52
-290,CYYZ,CTR6,Others,51
-291,CYUL,CYOW,Air Georgian Limited,51
+283,CYXE,CYUL,Jazz Aviation Lp,52
+284,CYUL,CYOW,Air Georgian Limited,51
+289,CYUL,CFQ7,Air Canada,50
+291,CYUL,CNV9,Air Transat A T Inc.,50
+292,CSR3,CYHU,Others,50
 293,CYHU,CSZ4,Others,50
-294,CSR3,CYHU,Others,50
-296,CYUL,CNV9,Air Transat A T Inc.,50
-297,CYUL,CFQ7,Air Canada,50
-309,CYND,CYRO,Others,47
-314,CYYC,CYUL,Flair Airlines Ltd,46
-319,CYUL,CYJN,Others,45
+298,CYZD,CYUL,Others,48
+307,CYND,CYRO,Others,47
+308,CYMX,CNV9,Others,46
+309,CYUL,CYHM,Others,46
+312,CYYC,CYUL,Flair Airlines Ltd,46
+315,CYUL,CZBM,Others,46
+318,CYUL,CYJN,Others,45
 320,CYHU,CES2,Others,44
-321,CNV9,CYUL,Air Canada Rouge Lp,43
-324,CNV9,CYHM,Jazz Aviation Lp,43
-325,CYMX,CNV9,Others,42
-326,CNV9,CYYZ,Others,42
-327,CYUL,CSN3,Others,42
-328,CYHU,CYVB,Others,42
-330,CZBM,CYUL,Others,41
-331,CYHU,CSY3,Others,41
-336,CYUL,CYYC,Flair Airlines Ltd,40
-337,CYFJ,CYTZ,Porter Airlines Inc.,40
-338,CYYZ,CTR6,Air Canada,40
+323,CNV9,CYHM,Jazz Aviation Lp,43
+325,CYHU,CYVB,Others,43
+326,CNV9,CYUL,Air Canada Rouge Lp,43
+328,CYUL,CSN3,Others,42
+329,CYHM,CYUL,Others,42
+330,CNV9,CYYZ,Others,42
+332,CYHU,CSY3,Others,41
+336,CYYZ,CTR6,Air Canada,40
+337,CYUL,CYYC,Flair Airlines Ltd,40
+338,CYFJ,CYTZ,Porter Airlines Inc.,40
 339,CYUL,CNV9,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,40
-340,CYZD,CYUL,Bombardier Inc.,40
-347,CYUY,CYUL,Air Georgian Limited,39
-348,CYYZ,CYQB,Others,39
-349,CYTZ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,39
-350,CYTZ,CYFJ,Porter Airlines Inc.,39
-351,CYYZ,CTR6,Westjet Encore Ltd.,39
-353,CZBM,CSR3,Others,39
-356,CYUL,CYYZ,I.M.P. Group Limited (Execaire),39
-358,CYKZ,CYHU,Others,38
-361,CYYZ,CYUL,I.M.P. Group Limited (Execaire),38
-363,CYYZ,CYUL,Aviation Starlink Inc.,37
-364,CYMX,CYWG,Others,37
-365,CYMX,CYYZ,Federal Express Corporation,37
-366,CYUL,CYTZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,37
-367,CYND,CYHU,Others,37
-368,CYHU,CYKZ,Others,37
-369,CSR3,CZBM,Others,36
-371,CYUL,CYQY,Air Canada,36
-373,CYQY,CYUL,Air Canada,36
-374,CYRQ,CYUL,Others,39
-375,CSC3,CYHU,Others,36
-376,CYUL,CCF4,Porter Airlines Inc.,35
-378,CYUL,CYHM,Others,35
-380,CYUL,CYRQ,Others,37
-381,CYYZ,CYQB,Westjet Encore Ltd.,34
-383,CYUL,CYKF,Others,34
-385,CYYC,CYQB,Air Canada Rouge Lp,34
-388,CYYZ,CYQB,Jazz Aviation Lp,34
-389,CZBM,CSQ3,Others,34
-390,CYWG,CYMX,Others,33
-393,CYMX,CSZ3,Others,33
-394,CYHU,CNL3,Others,32
-396,CYUL,CZBM,Others,32
-397,CYKF,CYUL,Others,32
-398,CNV9,CYYZ,Jazz Aviation Lp,32
-399,CYMX,CTR6,Others,32
-400,CYUL,CYOO,Others,32
-401,CYHM,CYUL,Others,31
-402,CYUL,CYQG,Others,31
-405,CYUL,CSK5,Jazz Aviation Lp,31
-407,CYOO,CYMX,Bank Of Utah Trustee,30
-409,CNL3,CYHU,Others,30
-412,CYHU,CSG3,Others,29
-413,CYUL,CYYZ,Aviation Starlink Inc.,29
-414,CYHU,CSE4,Others,29
-417,CYHU,CYND,Others,29
-418,CYMX,CSA2,Others,29
-419,CYEG,CYUL,Others,28
-420,CSG3,CSM5,Others,28
-422,CYUL,CSZ3,Others,28
-423,CYSC,CZBM,Others,28
-424,CYRQ,CYMX,Others,28
-427,CYRO,CYND,Others,28
-428,CSZ3,CSA2,Others,28
-429,CYTZ,CTR6,Porter Airlines Inc.,28
-430,CYYG,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,28
-431,CYHU,CSQ3,Others,27
-432,CYQB,CYYZ,Air Canada Rouge Lp,27
-435,CYUL,CYKZ,Others,27
-437,CYMX,CYOO,Bank Of Utah Trustee,27
-438,CSE4,CYHU,Others,27
-439,CYOW,CTR6,Others,27
-441,CYUL,CCY4,Porter Airlines Inc.,26
-442,CYUL,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,26
-443,CSE4,CYCC,Others,26
-444,CYUL,CNV9,Air Georgian Limited,26
-447,CYYG,CYUL,Air Canada,26
-449,CSY3,CYHU,Others,26
-450,CYUL,CSJ4,Others,31
+341,CYYZ,CYQB,Others,39
+342,CYTZ,CYFJ,Porter Airlines Inc.,39
+343,CYYZ,CTR6,Westjet Encore Ltd.,39
+346,CYUY,CYUL,Air Georgian Limited,39
+347,CYTZ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,39
+348,CZBM,CSR3,Others,39
+349,CYMX,CYWG,Others,38
+351,CYKZ,CYHU,Others,38
+354,CYND,CYHU,Others,37
+355,CYUL,CYTZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,37
+356,CYHU,CYKZ,Others,37
+357,CYYZ,CYUL,Aviation Starlink Inc.,37
+358,CYUL,CYQY,Air Canada,36
+359,CSC3,CYHU,Others,36
+361,CYMX,CTR6,Others,36
+362,CYRQ,CYUL,Others,39
+363,CYQY,CYUL,Air Canada,36
+364,CYUL,CYQG,Others,36
+365,CSR3,CZBM,Others,36
+366,CYKF,CYUL,Others,35
+367,CYUL,CCF4,Porter Airlines Inc.,35
+368,CYUL,CYKF,Others,35
+371,CZBM,CSQ3,Others,34
+372,CYYZ,CYQB,Westjet Encore Ltd.,34
+373,CYYZ,CYQB,Jazz Aviation Lp,34
+376,CYYC,CYQB,Air Canada Rouge Lp,34
+379,CYUL,CYRQ,Others,37
+380,CYMX,CSZ3,Others,33
+382,CYWG,CYMX,Others,33
+384,CYUL,CYOO,Others,32
+387,CNV9,CYYZ,Jazz Aviation Lp,32
+388,CYHU,CNL3,Others,32
+391,CYUL,CSK5,Jazz Aviation Lp,31
+393,CYQG,CYUL,Others,30
+395,CNL3,CYHU,Others,30
+397,CYOO,CYMX,Bank Of Utah Trustee,30
+398,CYUL,CSZ3,Others,30
+399,CYMX,CSA2,Others,29
+400,CYHU,CYND,Others,29
+401,CYUL,CYYZ,Aviation Starlink Inc.,29
+403,CYHU,CSG3,Others,29
+404,CSG3,CSM5,Others,29
+406,CYHU,CSE4,Others,29
+407,CYUL,CYKZ,Others,28
+408,CYEG,CYUL,Others,28
+409,CYTZ,CTR6,Porter Airlines Inc.,28
+410,CYHU,CYOO,Others,28
+411,CYRQ,CYMX,Others,28
+412,CYRO,CYND,Others,28
+414,CSZ3,CSA2,Others,28
+415,CYYG,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,28
+416,CYSC,CZBM,Others,28
+417,CYHZ,CYMX,Others,27
+418,CYMX,CYOO,Bank Of Utah Trustee,27
+420,CSE4,CYHU,Others,27
+422,CYHU,CSQ3,Others,27
+425,CYQB,CYYZ,Air Canada Rouge Lp,27
+426,CYOW,CTR6,Others,27
+427,CSE4,CYCC,Others,26
+428,CYUL,CSJ4,Others,32
+430,CSY3,CYHU,Others,26
+431,CYUL,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,26
+432,CYOO,CYUL,Others,26
+435,CYUL,CCY4,Porter Airlines Inc.,26
+436,CYYG,CYUL,Air Canada,26
+437,CYUL,CCY4,Others,26
+438,CYUL,CNV9,Air Georgian Limited,26
+441,CYUL,CTR6,Air Transat A T Inc.,25
+443,CYUL,CCY4,Jazz Aviation Lp,25
+444,CYND,CSC3,Others,25
+446,CYUL,CYYT,Jazz Aviation Lp,25
+448,CYHZ,CYMX,Cargojet Airways Ltd.,25
+449,CYMX,CSJ4,Others,25
 451,CNV9,CYVR,Air Canada Rouge Lp,25
-453,CYUL,CCY4,Jazz Aviation Lp,25
-454,CYUL,CYYT,Jazz Aviation Lp,25
-455,CYND,CSC3,Others,25
-456,CYHZ,CYMX,Cargojet Airways Ltd.,25
-457,CYMX,CSJ4,Others,25
-460,CYUL,CTR6,Air Transat A T Inc.,25
-461,CYHU,CYOO,Others,25
-464,CSA2,CSZ3,Others,24
-465,CYQG,CYUL,Others,24
-466,CYQB,CYUL,Air Canada Rouge Lp,24
-467,CYLW,CYUL,Air Canada,24
-468,CYVR,CYUL,Westjet,24
-469,CYYZ,CYMX,Federal Express Corporation,24
-471,CSG3,CYHU,Others,24
-474,CYUL,CYVR,Westjet,24
-475,CSB3,CYSC,Others,24
-476,CYCC,CSE4,Others,24
-477,CYOO,CYUL,Others,24
-478,CYUL,CCF4,Jazz Aviation Lp,24
-480,CYUL,CYOW,Sunwing Airlines Inc.,23
-482,CYOW,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,23
-483,CYOW,CYUL,Sunwing Airlines Inc.,23
-485,CSA2,CLA2,Others,23
-486,CYHZ,CYMX,Others,23
-488,CYTZ,CYQB,Porter Airlines Inc.,23
-489,CYHU,CSB3,Others,23
-490,CYUL,CSJ5,Others,23
-493,CSA2,CYMX,Others,23
-494,CNV9,CYYC,Air Canada Rouge Lp,22
-495,CYHU,CSU3,Others,22
-496,CYUL,CYKZ,Aviation Starlink Inc.,22
-497,CYJN,CZBM,Others,22
-499,CYHU,CSK4,Others,22
-500,CYMX,CSY3,Others,22
-501,CYHU,CYJN,Others,22
-502,CSA2,CSJ4,Others,22
-503,CYUL,CTR6,Sunwing Airlines Inc.,22
-504,CYUL,CYUL,Aviation Starlink Inc.,22
-508,CYOO,CYHU,Others,22
-509,CYUL,CYQB,Air Transat A T Inc.,21
+453,CYQB,CYUL,Air Canada Rouge Lp,24
+457,CYUL,CYVR,Westjet,24
+458,CYUL,CCF4,Jazz Aviation Lp,24
+459,CSA2,CSZ3,Others,24
+460,CSB3,CYSC,Others,24
+462,CSG3,CYHU,Others,24
+463,CYCC,CSE4,Others,24
+465,CYLW,CYUL,Air Canada,24
+466,CYVR,CYUL,Westjet,24
+471,CSA2,CLA2,Others,23
+472,CYOW,CYUL,Sunwing Airlines Inc.,23
+473,CYOW,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,23
+474,CYUL,CYOW,Sunwing Airlines Inc.,23
+475,CYTZ,CYQB,Porter Airlines Inc.,23
+476,CSA2,CYMX,Others,23
+477,CYUL,CSJ5,Others,23
+479,CYHU,CSB3,Others,23
+482,CSA2,CSJ4,Others,22
+483,CYUL,CYUL,Aviation Starlink Inc.,22
+484,CYHU,CSK4,Others,22
+485,CYOO,CYHU,Others,22
+486,CYHU,CYJN,Others,22
+487,CYHU,CSU3,Others,22
+488,CYMX,CSY3,Others,22
+489,CNV9,CYYC,Air Canada Rouge Lp,22
+490,CYUL,CTR6,Sunwing Airlines Inc.,22
+492,CYJN,CZBM,Others,22
+493,CYUL,CYKZ,Aviation Starlink Inc.,22
+494,CZBM,CYSC,Others,21
+495,CYUL,CYOW,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,21
+496,CYMX,CYFJ,Others,21
+497,CYGK,CYUL,Others,21
+498,CYUL,CYUY,Air Georgian Limited,21
+499,CYKZ,CYUL,Others,21
+504,CYVR,CYQB,Air Canada Rouge Lp,21
+505,CYQB,CYUL,Others,21
+507,CSC3,CSR3,Others,21
+508,CYUL,CSR3,Others,25
+509,CYUL,CYYZ,Air Canada Rouge Lp,21
 510,CZBM,CYJN,Others,21
-511,CZBM,CYSC,Others,21
-515,CYVR,CYQB,Air Canada Rouge Lp,21
-516,CYUL,CYUY,Air Georgian Limited,21
-517,CSC3,CSR3,Others,21
-519,CYUL,CYOW,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,21
-520,CYUL,CCY4,Others,21
-521,CYUL,CYYZ,Air Canada Rouge Lp,21
-522,CYMX,CYFJ,Others,21
-523,CYUL,CYXE,Jazz Aviation Lp,20
-524,CYJN,CYHU,Others,20
-525,CYHZ,CYHU,Others,20
-527,CYQB,CYUL,Others,20
+512,CYUL,CYQB,Air Transat A T Inc.,21
+514,CSA2,CSY4,Others,20
+515,CSC3,CYSC,Others,20
+516,CYMX,CZBM,Others,20
+517,CYJN,CYHU,Others,20
+518,CYKZ,CYND,Others,20
+519,CYHZ,CYHU,Others,20
+524,CYUL,CYXE,Jazz Aviation Lp,20
 528,CYUL,CNV9,Aviation Starlink Inc.,20
-531,CYYC,CTR6,Air Canada Rouge Lp,20
-533,CSB3,CYHU,Others,20
-536,CSA2,CSY4,Others,20
-537,CYUL,CTR6,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,20
-539,CYMX,CSY4,Others,20
-541,CYKZ,CYUL,Others,20
-542,CYKZ,CYND,Others,20
-543,CYMX,CZBM,Others,20
-546,CSC3,CYSC,Others,20
-547,CYSC,CSC3,Others,20
-549,CYUL,CSR3,Others,24
-550,CYYZ,CYUL,Air Canada Rouge Lp,19
-551,CPR2,CST3,Others,19
-552,CNV9,CYMX,Others,19
-553,CSC3,CYND,Others,19
-554,CNV9,CYOW,Others,19
-555,CSJ4,CYHU,Others,19
-556,CYCC,CST3,Others,19
-557,CSG3,CYMX,Others,19
-558,CSU3,CYHU,Others,19
-559,CYKF,CYUL,Flair Airlines Ltd,19
-561,CYUL,CYYT,Air Canada,19
-563,CSY3,CSA2,Others,19
-565,CYUL,CNV9,Sunwing Airlines Inc.,19
-566,CSB3,CSC3,Others,19
-567,CYUL,CTE5,Others,19
-568,CYOW,CYUL,Airsprint Inc.,19
+529,CNV9,CYOW,Others,20
+530,CYSC,CSC3,Others,20
+531,CYMX,CSY4,Others,20
+532,CYYC,CTR6,Air Canada Rouge Lp,20
+535,CYUL,CTR6,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,20
+538,CSB3,CYHU,Others,20
+540,CYUL,CYYT,Air Canada,19
+541,CSC3,CYND,Others,19
+542,CSY3,CSA2,Others,19
+543,CYKF,CYUL,Flair Airlines Ltd,19
+544,CSG3,CYMX,Others,19
+546,CYUL,CTE5,Others,19
+547,CYYZ,CYUL,Air Canada Rouge Lp,19
+548,CPR2,CST3,Others,19
+549,CYUL,CCF4,Others,19
+550,CYUL,CYFJ,Others,19
+551,CNV9,CYMX,Others,19
+552,CSB3,CSC3,Others,19
+554,CSJ4,CYHU,Others,19
+555,CSU3,CYHU,Others,19
+556,CYUL,CNV9,Sunwing Airlines Inc.,19
+557,CYCC,CST3,Others,19
+559,CSC3,CSQ3,Others,18
+560,CYEG,CYUL,Flair Airlines Ltd,18
+561,CYUL,CYSC,Others,18
+562,CSM3,CYHU,Others,18
+564,CYYZ,CYMX,Air Canada,18
+566,CYMX,CSG3,Others,18
+568,CYUL,CTR6,Air Georgian Limited,18
 569,CYUL,CEQ3,Air Canada,18
-571,CYEG,CYUL,Flair Airlines Ltd,18
-572,CYUL,CTR6,Air Georgian Limited,18
-573,CYMX,CSG3,Others,18
-574,CYUL,CYYZ,Bombardier Inc.,18
-575,CYCC,CDD3,Others,18
-576,CYYZ,CYMX,Air Canada,18
-578,CSM3,CYHU,Others,18
-580,CYUL,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,18
-581,CYGK,CYUL,Others,18
-583,CSC3,CSQ3,Others,18
-584,CYVR,CTR6,Air Canada Rouge Lp,18
-585,CYHU,CCP3,Others,18
-587,CYHU,CNN8,Others,17
-590,CYKZ,CYUL,Aviation Starlink Inc.,17
-591,CCV4,CYUL,Jazz Aviation Lp,17
-592,CNV9,CYUL,Jazz Aviation Lp,17
-593,CYUL,CYFJ,Others,17
-594,CSQ3,CSC3,Others,17
-595,CYUL,CCF4,Others,17
-598,CYND,CYKZ,Others,17
-600,CYHU,CYYZ,Airsprint Inc.,17
-602,CYUL,CYYG,Air Canada,17
-604,CYOW,CYQB,Others,17
-605,CYUL,CYKF,Flair Airlines Ltd,17
-608,CYOW,CYMW,Others,17
-609,CYHU,CYMW,Others,17
-610,CYMX,CYTZ,Others,17
-611,CYQG,CYUL,Flair Airlines Ltd,16
-612,CSU3,CZBM,Others,16
+570,CYVR,CTR6,Air Canada Rouge Lp,18
+571,CYCC,CDD3,Others,18
+572,CYHU,CCP3,Others,18
+573,CYUL,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,18
+574,CYUL,CYYG,Air Canada,17
+575,CYMX,CYHZ,Others,17
+576,CYMX,CYRO,Others,17
+578,CNV9,CYUL,Jazz Aviation Lp,17
+580,CYKZ,CYUL,Aviation Starlink Inc.,17
+582,CCV4,CYUL,Jazz Aviation Lp,17
+584,CYOW,CYQB,Others,17
+587,CYMX,CYTZ,Others,17
+588,CYUL,CYGP,Others,17
+591,CSQ3,CSC3,Others,17
+592,CYND,CYKZ,Others,17
+593,CYUL,CYKF,Flair Airlines Ltd,17
+594,CYHU,CNN8,Others,17
+595,CYOW,CYMW,Others,17
+596,CYHU,CYMW,Others,17
+599,CZBM,CYMX,Others,16
+601,CYUL,CSK5,Others,16
+606,CZBM,CSU3,Others,16
+608,CYQY,CYUL,Others,16
+610,CYUL,CSE4,Others,16
+611,CYJN,CSA2,Others,16
+612,CYUL,CYQG,Flair Airlines Ltd,16
+613,CSZ3,CYMX,Others,16
 614,CYHU,CYRO,Others,16
-616,CYMX,CYRO,Others,16
-617,CYUL,CYQG,Flair Airlines Ltd,16
-618,CSZ3,CYMX,Others,16
-620,CZBM,CSU3,Others,16
-623,CYUL,CSE4,Others,16
-624,CYUL,CYGP,Others,16
-626,CYUL,CSK5,Others,16
-628,CZBM,CYMX,Others,16
-629,CYQY,CYUL,Others,16
-631,CSZ3,CYUL,Others,16
-632,CZBM,CSC3,Others,16
-634,CST3,CYCC,Others,16
-636,CSC3,CSB3,Others,16
-638,CYJN,CSA2,Others,16
-639,CYRQ,CSC3,Others,15
-640,CYUL,CYEG,Others,15
-641,CZBM,CSB3,Others,15
-642,CYUL,CYQY,Others,15
-646,CYND,CTR6,Others,15
-647,CYFJ,CYTZ,Others,15
-649,CSB3,CSY3,Others,15
-650,CYHU,CST7,Air Georgian Limited,15
-651,CYZV,CYUL,Others,15
-652,CYMX,CYHZ,Others,15
-657,CSY4,CSA2,Others,15
-659,CYRO,CYHU,Others,15
-660,CSY3,CYMX,Others,15
-661,CSN3,CYUL,Others,15
-666,CYRQ,CSB3,Others,15
-667,CYSC,CSB3,Others,15
-669,CYQB,CYYZ,Westjet Encore Ltd.,15
-671,CYOW,CYUL,Cargojet Airways Ltd.,14
-672,CYFJ,CYUL,Aviation Starlink Inc.,14
-673,CYMX,CYYZ,Air Canada,14
-676,CYUL,CNV9,Air Canada,14
-678,CYYZ,CYUY,Air Georgian Limited,14
-679,CYHU,CYFJ,Others,14
-680,CYTZ,CYMX,Others,14
-683,CYUL,CCY4,Flair Airlines Ltd,14
-684,CYHU,CYHZ,Others,14
-685,CYHM,CYMX,Air Canada,14
-686,CYHU,CSZ3,Others,14
-687,CSC3,CYRQ,Others,14
-689,CYUY,CYSB,Air Georgian Limited,14
-690,CYRQ,CTR6,Others,14
-692,CYMX,CYQB,Others,14
-694,CYUL,CHG2,Air Canada,14
-695,CYRQ,CYYZ,Air Canada,14
-696,CSJ4,CYRQ,Others,14
-697,CYUL,CNN8,Others,14
-699,CSA2,CYJN,Others,14
-700,CYUL,CYOW,Cargojet Airways Ltd.,14
-701,CYMX,CYRQ,Others,14
-702,CYOW,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,13
-704,CYUL,CSY3,Others,16
-705,CYUL,CYSC,Others,13
-707,CSB3,CZBM,Others,13
-708,CSE4,CSZ3,Others,13
-710,CYRQ,CZBM,Others,13
-711,CYYZ,CYUL,Netjets Sales Inc,13
-712,CZBM,CYRQ,Others,13
-715,CYHU,CTR6,Others,13
-716,CFQ7,CYUL,Air Canada,13
-718,CYHU,CNF3,Others,13
-719,CYMX,CYND,Others,13
-722,CST3,CPR2,Others,13
-724,CYMX,CYUL,Air Canada,13
-725,CSB3,CYUL,Others,13
-726,CYKF,CSE4,Others,13
-727,CYRQ,CYSN,Others,13
-728,CYMX,CSE4,Others,13
-730,CYXU,CYUL,Others,13
-731,CSY4,CYMX,Others,13
-735,CYWG,CYMX,Air Canada,13
-739,CYUL,CYWG,I.M.P. Group Limited (Execaire),12
-740,CSY3,CSB3,Others,12
-741,CYMX,CYSC,Others,12
-744,CYUL,CFQ7,Others,12
-745,CSB3,CSM3,Others,12
-746,CYUL,CNF3,Others,12
-749,CYHU,CSL5,Others,12
-750,CZBM,CYUL,I.M.P. Group Limited (Execaire),12
-751,CST3,CYMX,Others,12
-752,CYHU,CSJ5,Others,12
-754,CYYZ,CYUL,Bombardier Inc.,12
-755,CYHU,CSY4,Others,12
-758,CYHM,CYHU,Others,12
-759,CYHU,CSD4,Others,12
-761,CYUL,CSC3,Others,12
-762,CYKF,CYHU,Others,12
-763,CYUL,CSB3,Others,12
-764,CYHU,CYCC,Others,12
-765,CYUL,CFQ7,Flair Airlines Ltd,12
-766,CYND,CYMX,Others,12
-768,CYRQ,CYYZ,Air Canada Rouge Lp,12
-770,CYHU,CYHM,Others,12
-771,CYOW,CZBM,Others,12
-773,CSA2,CSG3,Others,12
-774,CYUL,CYEG,Flair Airlines Ltd,12
-775,CYUL,CYUL,Bank Of Utah Trustee,12
-776,CZBM,CSE4,Others,12
-777,CYTZ,CYFJ,Others,12
-779,CYUL,CZBM,I.M.P. Group Limited (Execaire),12
-780,CSR3,CSC3,Others,12
-781,CYMX,CLA2,Others,12
-783,CYUL,CYOW,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,12
-784,CYRO,CYMX,Others,12
-785,CYMX,CSM5,Others,11
-786,CYHU,CYWG,Others,11
-790,CYTZ,CYUL,Aviation Starlink Inc.,11
-792,CYJN,CSR3,Others,11
-793,CYJN,CSE4,Others,11
-794,CYMX,CYJN,Others,11
-795,CYMX,CYWG,Air Canada,11
-796,CYCC,CYHU,Others,11
-797,CYHU,CYQG,Others,11
-798,CYFJ,CYHU,Others,11
-799,CSE4,CZBM,Others,11
-802,CYQG,CYHU,Others,11
-808,CYSB,CYUY,Air Georgian Limited,11
-811,CSC3,CSU3,Others,11
-812,CYRQ,CSG3,Others,11
-813,CYYZ,CYHU,Airsprint Inc.,11
-815,CSA2,CSY3,Others,11
-817,CSG3,CSA2,Others,11
-822,CSC3,CZBM,Others,11
-823,CYUL,CYOW,Aviation Starlink Inc.,11
-826,CYYZ,CYQB,Air Canada,11
-828,CYUL,CYUL,Air Georgian Limited,10
-830,CSY4,CYHU,Others,10
-831,CYMW,CYHU,Others,10
-832,CYRQ,CSU3,Others,10
-835,CYHZ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,10
-836,CYHM,CYUL,Airsprint Inc.,10
-840,CYHZ,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,10
-841,CYUL,CYRP,Others,10
-842,CSE4,CYJN,Others,10
-843,CYND,CYOO,Others,10
-844,CSA2,CYRQ,Others,10
-845,CYUL,CYOW,Airsprint Inc.,10
-846,CSB3,CSQ3,Others,10
-847,CYVB,CTG3,Others,10
-848,CSB3,CYRQ,Others,10
-849,CYHU,CYQB,Others,10
-850,CYUL,CYHM,Bank Of Utah Trustee,10
-851,CYQB,CYHU,Others,10
-852,CYHU,CTG3,Others,10
-853,CTA4,CYUL,Others,10
-854,CYMX,CST3,Others,10
-856,CZBM,CYOW,Others,10
-857,CLA2,CYMX,Others,10
-858,CSU3,CSR3,Others,10
-861,CYJN,CSC3,Others,10
-862,CSU3,CSC3,Others,10
-863,CYSC,CYYZ,Others,10
-864,CCV4,CYUL,Air Canada,10
-865,CYYZ,CYUL,Bank Of Utah Trustee,10
-866,CYSN,CYRQ,Others,10
-869,CYUY,CYHU,Others,10
-870,CYRP,CYUL,Others,10
-874,CYXU,CYHU,Others,10
-876,CSE4,CYKF,Others,10
-877,CYRQ,CSJ5,Others,10
-882,CYHU,CSM5,Others,9
-884,CYXE,CYUL,Air Canada,9
-885,CYUL,CSM5,Others,9
-886,CYPQ,CYHU,Others,9
-887,CYUL,CYYG,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,9
-888,CYUL,CYHU,Airsprint Inc.,9
-889,CYOW,CYND,Others,9
-891,CYTZ,CYND,Others,9
-892,CSE4,CYMX,Others,9
-893,CYOO,CYND,Others,9
-895,CPR2,CYND,Others,9
-898,CYJN,CYSC,Others,9
-899,CYWG,CYUL,I.M.P. Group Limited (Execaire),9
-900,CYYT,CYUL,Jazz Aviation Lp,9
-901,CYSC,CSQ3,Others,9
-902,CSA2,CSN3,Others,9
-903,CSB3,CSR3,Others,9
-904,CSA2,CSM5,Others,9
-908,CSB3,CYJN,Others,9
-910,CYUL,CYQB,Sunwing Airlines Inc.,9
-915,CYUL,CCV4,Jazz Aviation Lp,9
-916,CYJN,CSB3,Others,9
-917,CYND,CYUL,Others,10
-919,CYHU,CTE5,Others,9
-922,CYUL,CYFJ,Aviation Starlink Inc.,9
-923,CSC3,CSJ5,Others,9
-926,CYND,CSB3,Others,9
-927,CCP3,CYHU,Others,9
-928,CYUL,CTR6,Aviation Starlink Inc.,9
-929,CYND,CSE4,Others,9
-931,CLA2,CYHU,Others,9
-935,CYRQ,CYHM,Others,9
-936,CSE4,CTR6,Others,9
-937,CYJN,CYMX,Others,9
-938,CYUL,CYTZ,Aviation Starlink Inc.,9
-939,CYUL,CYHM,Airsprint Inc.,9
-940,CYHU,CSH5,Air Georgian Limited,9
-941,CFQ7,CYUL,Flair Airlines Ltd,9
-943,CYGK,CYHU,Others,9
-944,CYUL,CSM3,Others,9
-947,CSG3,CSC3,Others,9
-948,CYMX,CAA2,Others,9
-950,CYUL,CSD4,Others,9
-952,CSE4,CYUL,Others,9
-953,CYMX,CYHM,Air Canada,9
-955,CYPQ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,9
-956,CSJ5,CSC3,Others,8
-958,CSA2,CSC3,Others,8
-960,CYUL,CYHM,Porter Airlines Inc.,8
-963,CYYT,CYUL,Air Canada,8
-965,CYUL,CSQ3,Others,8
-967,CYQB,CYYZ,Others,8
-970,CYUY,CYYZ,Air Georgian Limited,8
-972,CYHU,CSS4,Others,8
-974,CYHM,CTR6,Jazz Aviation Lp,8
-975,CYUL,CYYZ,Netjets Sales Inc,8
-977,CYUL,CPS2,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,8
-979,CYRP,CYMW,Others,8
-980,CYND,CPR2,Others,8
-982,CSA2,CSE3,Others,8
-983,CYND,CNF3,Others,8
-988,CYHU,CYGK,Others,8
-989,CYYZ,CZBM,Others,8
-990,CSQ3,CZBM,Others,8
-991,CYOO,CTR6,Others,8
-992,CYMX,CSC3,Others,8
-993,CYTR,CYMX,Others,8
-994,CYHU,CYKF,Others,8
-995,CYUL,CCF4,Flair Airlines Ltd,8
-997,CSE4,CAA2,Others,8
-998,CYUL,CCY4,Westjet Encore Ltd.,8
-1000,CYRQ,CSJ4,Others,8
-1001,CTR6,CNV9,Others,8
-1002,CYUL,CYRO,Others,8
-1003,CNV9,CSJ5,Others,8
-1004,CSR3,CYUL,Others,9
-1005,CYUL,CCW4,Air Canada,8
-1006,CYRO,CYUL,Others,8
-1007,CSZ3,CYRO,Others,8
-1008,CYYZ,CYSC,Others,8
-1009,CYYZ,CTR6,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,8
-1010,CYMX,CSJ5,Others,8
-1011,CYRP,CYHU,Others,8
-1012,CSC3,CYUL,Others,8
-1013,CYUL,CYCH,Others,8
-1015,CYVB,CSJ5,Others,8
-1017,CYCC,CYMX,Others,8
-1018,CYZD,CYUL,Others,8
-1020,CZBM,CSH5,Others,8
-1021,CYYZ,CTR6,Cargojet Airways Ltd.,8
-1022,CYUL,CYSN,Others,8
-1023,CYUL,CST7,Others,8
-1024,CSY4,CYUL,Others,8
-1027,CYRO,CSZ3,Others,8
-1030,CZBA,CYHU,Others,8
-1031,CYUL,CYVB,Others,8
-1032,CYFJ,CYQG,Others,8
-1034,CYUL,CYND,Others,9
-1035,CSB3,CYMX,Others,8
-1036,CYUL,CYUL,I.M.P. Group Limited (Execaire),8
-1040,CSC3,CTR6,Others,7
-1043,CYZV,CYUL,Jazz Aviation Lp,7
-1044,CYUL,CYWG,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,7
-1045,CYUL,CST7,Jazz Aviation Lp,7
-1047,CNV9,CYYZ,Air Canada,7
-1049,CSR3,CYYZ,Others,7
-1051,CYSC,CYJN,Others,7
-1052,CSY4,CSZ3,Others,7
-1053,CYYC,CYHU,Others,7
-1054,CYTZ,CTR6,Others,7
-1055,CYND,CYJN,Others,7
-1056,CYWG,CYHU,Others,7
-1057,CYHU,CYGP,Others,7
-1059,CYCC,CYJN,Others,7
-1060,CYUL,CYGK,Others,7
-1062,CYJN,CSU3,Others,7
-1063,CSC3,CYJN,Others,7
-1066,CYHZ,CYUL,Aviation Starlink Inc.,7
-1067,CYMX,CSB3,Others,7
-1068,CYUL,CCW4,Others,7
-1070,CSE4,CNF3,Others,7
-1071,CYQY,CYUL,Cargojet Airways Ltd.,7
-1072,CSB3,CSE4,Others,7
-1073,CYSH,CYND,Others,7
-1074,CYUL,CCW4,Jazz Aviation Lp,7
-1075,CYJN,CSQ3,Others,7
-1076,CYHU,CYRP,Others,7
-1078,CYMX,CSQ3,Others,7
-1082,CYUL,CYQY,Cargojet Airways Ltd.,7
-1083,CSP6,CSE4,Others,7
-1084,CYND,CYSH,Others,7
-1086,CSB3,CNV9,Others,7
-1087,CSZ3,CSE4,Others,7
-1089,CSB3,CSH5,Others,7
-1090,CYMX,CNV4,Others,7
-1091,CYRQ,CSE4,Others,7
-1092,CYND,CAA2,Others,7
-1093,CYPN,CYUL,Others,7
-1099,CYMX,CYOO,Others,7
-1102,CSB3,CYND,Others,7
-1103,CYHU,CLA2,Others,7
-1105,CYHU,CYUL,Air Georgian Limited,7
-1106,CYUL,CSA2,Others,7
-1108,CSE4,CSC3,Others,7
-1111,CSU3,CYSC,Others,7
-1114,CYSC,CYRQ,Others,7
-1118,CSG3,CYRQ,Others,7
-1120,CYHM,CYUL,Air Georgian Limited,7
-1122,CYHU,CZBA,Others,7
-1123,CPG5,CYUL,Others,6
-1124,CYQG,CYFJ,Others,6
-1125,CSE4,CSG3,Others,6
-1127,CYUL,CSG5,Others,6
-1128,CYRQ,CYJN,Others,6
-1129,CZBM,CYTZ,Others,6
-1131,CYRQ,CYVB,Others,6
-1134,CYUL,CSY4,Others,6
-1135,CYUL,CYOW,I.M.P. Group Limited (Execaire),6
-1136,CSC3,CSG3,Others,6
-1137,CSZ3,CSY4,Others,6
-1138,CYRQ,CYUL,Air Canada Rouge Lp,6
-1139,CSU3,CSJ4,Others,6
-1145,CYUL,CLC2,Others,6
-1146,CYSC,CSH5,Others,6
-1149,CSA2,CYUL,Others,6
-1152,CYLS,CYUL,Others,6
-1153,CSE4,CSD4,Others,6
-1154,CYKF,CYND,Others,6
-1161,CSG3,CYND,Others,6
-1162,CYFJ,CYUL,Others,6
-1164,CSC3,CSA2,Others,6
-1165,CYUL,CYHZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,6
-1166,CSJ4,CSA2,Others,6
-1169,CYHU,CSA2,Others,6
-1170,CYGV,CYUL,Others,6
-1171,CSE4,CSB3,Others,6
-1172,CSS3,CYCC,Others,6
-1174,CNV4,CSE4,Others,6
-1175,CYOW,CYUL,I.M.P. Group Limited (Execaire),6
-1176,CSE4,CYOO,Others,6
-1177,CNV9,CYOO,Others,6
-1179,CYSN,CSE4,Others,6
-1180,CSE4,CYFJ,Others,6
-1181,CSB3,CYFJ,Others,6
-1183,CYRO,CSE4,Others,6
-1187,CSJ5,CYUL,Others,6
-1188,CSR3,CSE4,Others,6
-1189,CYND,CNV9,Others,6
-1191,CSY3,CYUL,Others,6
-1194,CZBM,CSK4,Others,6
-1199,CYUL,CYQB,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,6
-1201,CSB3,CCP3,Others,6
-1204,CSR3,CYSC,Others,6
-1205,CNV9,CYYC,Westjet,6
-1206,CSA2,CYHU,Others,6
-1209,CYXE,CYUL,Others,6
-1211,CSE4,CSR3,Others,6
-1217,CSE4,CYTZ,Others,6
-1221,CYSC,CSU3,Others,6
-1222,CYOO,CYMX,Others,6
-1223,CYUL,CYXE,Others,6
-1224,CYFJ,CYYZ,Others,6
-1227,CSC3,CYMX,Others,6
-1230,CYVR,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,6
-1231,CYUL,CEQ3,Others,6
-1232,CYND,CYMW,Others,6
-1233,CYUL,CSK5,Air Canada Rouge Lp,6
-1234,CZBM,CYYZ,Others,6
-1236,CYND,CYTZ,Others,6
-1237,CYUL,CYHU,Air Georgian Limited,6
-1239,CYUL,CYYZ,Cargojet Airways Ltd.,6
-1240,CNC3,CYHU,Others,6
-1241,CYQB,CYTZ,Porter Airlines Inc.,6
-1243,CYUL,CYYZ,Bank Of Utah Trustee,6
-1244,CYYZ,CYUL,Air Georgian Limited,6
-1245,CYYZ,CZBM,Airsprint Inc.,6
-1246,CYSC,CYMX,Others,6
-1247,CYYZ,CYHU,Air Canada,5
-1249,CYSC,CYND,Others,5
-1250,CYVR,CYHU,Others,5
-1251,CYPQ,CYND,Others,5
-1254,CYUL,CYHU,Bank Of Utah Trustee,5
-1255,CZBM,CYCC,Others,5
-1256,CYND,CPF4,Others,5
-1258,CYUL,CHG2,Jazz Aviation Lp,5
-1259,CYCK,CYUL,Others,5
-1262,CSE3,CSA2,Others,5
-1263,CSE4,CSA2,Others,5
-1266,CYYZ,CTR6,Sunwing Airlines Inc.,5
-1269,CYHM,CYRQ,Others,5
-1270,CYJN,CYRQ,Others,5
-1271,CSJ4,CSB3,Others,5
-1273,CYHM,CYUL,Bank Of Utah Trustee,5
-1274,CNP3,CYND,Others,5
-1276,CSE4,CYND,Others,5
-1277,CYYZ,CYHU,I.M.P. Group Limited (Execaire),5
-1279,CYYZ,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,5
-1281,CYCH,CYUL,Others,5
-1282,CYND,CYRP,Others,5
-1283,CYSN,CYHU,Others,5
-1284,CSU3,CYRQ,Others,5
-1287,CYMX,CYHZ,Cargojet Airways Ltd.,5
-1288,CSQ3,CYSC,Others,5
-1290,CSJ4,CYUL,Others,7
-1291,CSB3,CYRO,Others,5
-1292,CYHU,CYCL,Others,5
-1293,CYRQ,CYOW,Others,5
-1295,CSC3,CNF3,Others,5
-1296,CYHU,CYTZ,Air Canada,5
-1299,CYUL,CCM3,Jazz Aviation Lp,5
-1301,CZBM,CYFJ,Others,5
-1303,CZBM,CYOO,Others,5
-1304,CNN8,CYHU,Others,5
-1305,CYUL,CYQB,Aviation Starlink Inc.,5
-1306,CYUL,CYPN,Others,5
-1309,CYQB,CYHM,Jazz Aviation Lp,5
-1310,CYJN,CYTZ,Others,5
-1314,CYUL,CYGV,Others,5
-1317,CNV9,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,5
-1324,CYHU,CYSN,Others,5
-1325,CYRQ,CYTZ,Others,5
-1327,CZBM,CYND,Others,5
-1328,CYFJ,CNV9,Others,5
-1330,CYRQ,CNV9,Others,5
-1332,CYMX,CYTR,Others,5
-1334,CSJ5,CYHU,Others,5
-1335,CSQ3,CYHU,Others,5
-1336,CYSC,CYOO,Others,5
-1338,CYOW,CYFJ,Others,5
-1339,CYMX,CNP7,Others,5
-1340,CYUL,CAM3,Air Canada Rouge Lp,5
-1341,CYKZ,CYFJ,Aviation Starlink Inc.,5
-1343,CSZ3,CYHU,Others,5
-1344,CYHM,CYFJ,Aviation Starlink Inc.,5
-1347,CNV9,CYTZ,Others,5
-1348,CYCL,CYHU,Others,5
-1350,CYCC,CSS3,Others,5
-1352,CSC3,CSE4,Others,5
-1353,CYTZ,CSE4,Others,5
-1355,CYOO,CSE4,Others,5
-1356,CSY4,CSM5,Others,5
-1357,CYOW,CYUL,Aviation Starlink Inc.,5
-1358,CSE4,CSN3,Others,5
-1359,CSU3,CYJN,Others,5
-1360,CYUL,CYYG,Others,5
-1361,CYVB,CYUL,Others,5
-1362,CSE4,CSP5,Others,5
-1363,CSG3,CSE4,Others,5
-1364,CSZ3,CSP5,Others,5
-1365,CSJ4,CYMX,Others,5
-1366,CYOO,CYJN,Others,5
-1367,CYVR,CYUL,Bank Of Utah Trustee,5
-1369,CSA2,CSE4,Others,5
-1370,CSB3,CSU3,Others,5
-1371,CSE4,CSP6,Others,5
-1373,CYMX,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,5
-1374,CNV4,CYMX,Others,5
-1376,CYTZ,CZBM,Others,5
-1379,CZBM,CST3,Others,5
-1380,CYND,CSZ3,Others,5
-1383,CTR6,CSJ5,Others,5
-1384,CYJN,CYKF,Others,5
-1385,CZBF,CYUL,Others,5
-1386,CSP5,CSZ3,Others,5
-1387,CYHU,CYVR,Others,5
-1388,CSG3,CSJ4,Others,5
-1390,CYJN,CSZ3,Others,5
-1391,CYUL,CYMX,Air Canada,5
-1392,CSB3,CSG3,Others,5
-1393,CYUL,CSK4,Others,5
-1394,CYQG,CYUL,I.M.P. Group Limited (Execaire),5
-1395,CYRQ,CSY3,Others,5
-1396,CYUL,CYXE,Air Canada,5
-1397,CYSN,CYMX,Others,5
-1398,CSR3,CSH5,Others,5
-1399,CSG3,CSY3,Others,5
-1401,CYUL,CYXU,Others,5
-1402,CYYZ,CYUY,Others,5
-1403,CSY3,CSG3,Others,5
-1404,CYFJ,CYKZ,Aviation Starlink Inc.,5
-1405,CYHU,CSZ4,Air Georgian Limited,5
-1406,CNV9,CTR6,Others,5
-1407,CSS3,CSE4,Others,5
-1409,CYRP,CST3,Others,5
-1410,CYND,CST3,Others,5
-1411,CYUL,CSB5,Jazz Aviation Lp,5
-1412,CSA2,CSR3,Others,5
-1415,CYCC,CZBM,Others,5
-1416,CAA2,CYMX,Others,5
-1417,CYHZ,CYUL,Airsprint Inc.,5
-1418,CYOW,CTR6,Sunwing Airlines Inc.,5
-1419,CYUL,CZBF,Others,5
-1420,CSK4,CZBM,Others,5
-1421,CYJN,CSC3,Air Canada Rouge Lp,5
-1422,CYUL,CYYZ,Air Georgian Limited,5
-1423,CSE4,CSS3,Others,5
-1424,CYUL,CYHZ,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,5
-1426,CYUL,CST3,Others,5
-1427,CZBM,CYYZ,Airsprint Inc.,5
-1429,CYMX,CSM3,Others,4
-1433,CSA2,CST3,Others,4
-1434,CYTR,CYQB,Others,4
-1435,CYOW,CSJ5,Others,4
-1436,CYMX,CCY4,Others,4
-1437,CZBM,CYKF,Others,4
-1439,CYUL,CYKF,Aviation Starlink Inc.,4
-1442,CYVB,CYGP,Others,4
-1443,CYYZ,CSR3,Others,4
-1444,CYHU,CYXU,Others,4
-1447,CYUL,CCW4,Porter Airlines Inc.,4
-1450,CYYZ,CSM3,Others,4
-1452,CYUL,CYUL,Federal Express Corporation,4
-1455,CYMX,CYYB,Others,4
-1456,CYUL,CCG4,Jazz Aviation Lp,4
-1457,CYUL,CCF4,Westjet Encore Ltd.,4
-1461,CYHU,CLC2,Others,4
-1462,CYSC,CSJ5,Others,4
-1464,CYHU,CYUL,Aviation Starlink Inc.,4
-1465,CSM5,CSY4,Others,4
-1466,CSG3,CSY4,Others,4
-1467,CSE4,CSY4,Others,4
-1469,CYND,CYKF,Others,4
-1471,CZBM,CYYZ,I.M.P. Group Limited (Execaire),4
-1472,CYHU,CYPN,Others,4
-1474,CYUY,CYMX,Others,4
-1475,CYLS,CSY4,Others,4
-1479,CYUL,CSR3,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,4
-1481,CSB3,CSS3,Others,4
-1484,CYJN,CSK4,Others,4
-1488,CYZV,CYHU,Others,4
-1489,CYMX,CSP6,Others,4
-1490,CYUL,CYQS,Aviation Starlink Inc.,4
-1491,CYJN,CYRP,Others,4
-1492,CYUL,CYQG,I.M.P. Group Limited (Execaire),4
-1493,CYOO,CYHU,Air Canada,4
-1496,CSJ5,CYMX,Others,4
-1497,CYMX,CYHU,Air Georgian Limited,4
-1502,CYOO,CZBM,Others,4
-1504,CYHU,CYLS,Others,4
-1505,CYXE,CYUL,Cargojet Airways Ltd.,4
-1507,CST3,CYRP,Others,4
-1508,CNS4,CYMX,Others,4
-1509,CYYT,CYUL,Others,4
-1512,CYTZ,CYHU,Air Canada,4
-1513,CYTR,CYHU,Others,4
-1514,CYWG,CYUL,Airsprint Inc.,4
-1516,CSE4,CYRO,Others,4
-1518,CSR3,CSU3,Others,4
-1519,CYKF,CYSC,Others,4
-1522,CYUL,CYUL,Porter Airlines Inc.,4
-1523,CYYG,CYUL,Others,4
-1524,CSM5,CYHU,Others,4
-1525,CYYB,CYUL,Others,4
-1527,CSL5,CYHU,Others,4
-1528,CYHZ,CYMX,Federal Express Corporation,4
-1529,CSH5,CYHU,Others,4
-1533,CYYC,CYQB,Westjet,4
-1536,CYHU,CYYC,Others,4
-1537,CYHU,CAA2,Others,4
-1542,CYKZ,CSU3,Others,4
-1543,CYND,CSU3,Others,4
-1544,CSB3,CYTZ,Others,4
-1545,CYMX,CSN3,Others,4
-1547,CYSC,CYKZ,Others,4
-1548,CYHU,CSN3,Others,4
-1549,CSE4,CYRQ,Others,4
-1550,CST3,CYHU,Others,4
-1552,CSJ5,CYRQ,Others,4
-1553,CYND,CSY4,Others,4
-1555,CYUL,CYCK,Others,4
-1557,CPG5,CSE4,Others,4
-1558,CYRQ,CYND,Others,4
-1559,CYUL,CYCC,Others,4
-1560,CSB3,CTQ2,Others,4
-1561,CYUY,CYYZ,Others,4
-1562,CYND,CYCC,Others,4
-1563,CYMX,CYCC,Others,4
-1564,CYJN,CYCC,Others,4
-1566,CYLW,CYUL,Others,4
-1567,CZBM,CTQ2,Others,4
-1568,CSB3,CYCC,Others,4
-1570,CSE4,CPR2,Others,4
-1572,CYUL,CNV9,Airsprint Inc.,4
-1574,CYKZ,CYFJ,Others,4
-1575,CYSH,CYJN,Others,4
-1577,CSZ3,CYFJ,Others,4
-1578,CTR6,CYOO,Others,4
-1581,CSB3,CTE5,Others,4
-1582,CSV8,CYUL,Others,4
-1585,CSE4,CNV9,Others,4
-1586,CSY3,CSE4,Others,4
-1587,CSS3,CYUL,Others,4
-1588,CYMX,CNV9,Federal Express Corporation,4
-1589,CYOO,CYUL,Bank Of Utah Trustee,4
-1590,CYUL,CSD3,Others,4
-1592,CYHU,CPS2,Others,4
-1594,CYMX,CTR6,Federal Express Corporation,4
-1595,CYCC,CSC3,Others,4
-1596,CSS3,CSC3,Others,4
-1598,CST3,CSA2,Others,4
-1599,CZBM,CSA2,Others,4
-1600,CYHU,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,4
-1601,CNV9,CYND,Others,4
-1602,CSG3,CSB3,Others,4
-1604,CSS3,CSB3,Others,4
-1605,CSU3,CSB3,Others,4
-1608,CYHM,CTR6,Others,4
-1609,CZBM,CYHZ,Others,4
-1611,CYHU,CTY5,Others,4
-1612,CSB3,CTR6,Others,4
-1614,CSG3,CTR6,Others,4
-1615,CSJ5,CTR6,Others,4
-1617,CYCC,CYND,Others,4
-1618,CYUL,CRL2,Others,4
-1619,CSZ3,CYND,Others,4
-1620,CYKA,CYUL,Others,4
-1623,CSU3,CYND,Others,4
-1624,CYND,CRL2,Others,4
-1626,CSU3,CSG3,Others,4
-1627,CYRP,CYND,Others,4
-1628,CYQS,CYUL,Aviation Starlink Inc.,4
-1629,CSU3,CNF3,Others,4
-1630,CYND,CNP3,Others,4
-1631,CYUL,CNJ4,Others,4
-1632,CYUL,CYOW,Flair Airlines Ltd,4
-1633,CLC2,CYUL,Others,4
-1636,CNL8,CYUL,Airsprint Inc.,4
-1638,CYQB,CYVB,Others,4
-1639,CYUY,CNE4,Others,4
-1643,CYJN,CNN8,Others,4
-1644,CNV9,CYUL,Air Transat A T Inc.,4
-1645,CSE4,CYOW,Others,4
-1646,CYSC,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,4
-1648,CYZV,CYMX,Others,4
-1649,CYJN,CNF3,Others,4
-1651,CYND,CSG3,Others,4
-1653,CYQB,CYUL,Jazz Aviation Lp,4
-1654,CYSN,CYUL,Others,4
-1656,CYTZ,CYJN,Others,4
-1657,CYQM,CYUL,Jazz Aviation Lp,4
-1658,CYYJ,CYUL,Others,3
-1660,CYUL,CYLS,Others,3
-1661,CYRQ,CYSC,Others,3
-1662,CYTZ,CYSC,Others,3
-1663,CYWG,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1664,CYMX,CYRP,Others,3
-1665,CYXE,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1666,CTR6,CYND,Others,3
-1667,CSE4,CYQA,Others,3
-1669,CYUL,CYLS,Airsprint Inc.,3
-1670,CYUL,CYPQ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1671,CYXE,CYMX,Others,3
-1673,CYOW,CYSC,Others,3
-1674,CYKF,CYUL,Airsprint Inc.,3
-1675,CYUL,CYMX,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1676,CYCL,CYUL,Others,3
-1678,CYUL,CYKA,Others,3
-1679,CYUL,CYQA,Others,3
-1680,CYMX,CYOW,Flair Airlines Ltd,3
-1681,CYND,CYSC,Others,3
-1682,CYJN,CYND,Others,3
-1684,CYKZ,CYSC,Others,3
-1686,CYYC,CYUL,Air Canada Rouge Lp,3
-1688,CYYC,CYUL,Jazz Aviation Lp,3
-1690,CYMX,CYMW,Others,3
-1691,CYYZ,CYRQ,Others,3
-1692,CYYZ,CYRQ,Air Canada,3
-1693,CYUL,CYHZ,Aviation Starlink Inc.,3
-1695,CYYC,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1697,CNC4,CYND,Others,3
-1698,CYHM,CYUL,Sunwing Airlines Inc.,3
-1699,CYGP,CYUL,Others,3
-1700,CYUL,CYOW,Bombardier Inc.,3
-1702,CYUL,CYSB,Airsprint Inc.,3
-1703,CYND,CYOW,Others,3
-1704,CYXU,CYMX,Others,3
-1705,CYXU,CYUL,Aviation Starlink Inc.,3
-1706,CST3,CYND,Others,3
-1707,CYUL,CYSC,I.M.P. Group Limited (Execaire),3
-1708,CYQY,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,3
-1709,CYUL,CYLW,Air Canada,3
-1710,CYSC,CYOW,Others,3
-1714,CYSC,CYUL,Airsprint Inc.,3
-1717,CYYC,CYMX,Others,3
-1721,CYLS,CYUL,Airsprint Inc.,3
-1722,CSY4,CYLS,Others,3
-1723,CYUY,CYUL,Air Canada,3
-1724,CYYZ,CYQB,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,3
-1725,CSU3,CYTZ,Others,3
-1726,CYRP,CYMX,Others,3
-1727,CSG3,CYTZ,Others,3
-1728,CYYZ,CYUL,Cargojet Airways Ltd.,3
-1729,CYUL,CYQB,Air Georgian Limited,3
-1730,CSN7,CYUL,Others,3
-1731,CYZR,CYUL,Aviation Starlink Inc.,3
-1732,CYOW,CYUL,Bombardier Inc.,3
-1733,CZBA,CYND,Others,3
-1734,CSR3,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1735,CYTZ,CYQB,Others,3
-1736,CSV8,CYMX,Others,3
-1737,CST3,CYUL,Others,3
-1738,CNV9,CYUL,Aviation Starlink Inc.,3
-1743,CYHU,CYOO,Air Canada,3
-1744,CTR6,CYKZ,Others,3
-1745,CYPQ,CYUL,Others,3
-1746,CYKZ,CYMX,Others,3
-1747,CNV9,CYUL,Sunwing Airlines Inc.,3
-1748,CYFJ,CYKZ,Others,3
-1749,CYRO,CYJN,Others,3
-1751,CYHU,CYOO,Airsprint Inc.,3
-1754,CYYZ,CYQB,Cargojet Airways Ltd.,3
-1755,CYOW,CYMX,Flair Airlines Ltd,3
-1758,CSD4,CYUL,Others,3
-1759,CYMX,CYKZ,Others,3
-1761,CSR3,CYJN,Others,3
-1762,CYYZ,CYMX,Airsprint Inc.,3
-1763,CFQ7,CYUL,Others,3
-1764,CYVR,CYUL,Sunwing Airlines Inc.,3
-1766,CNF3,CYUL,Others,3
-1767,CYUL,CYQY,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,3
-1768,CSE4,CYSH,Others,3
-1769,CYND,CYUL,Aviation Starlink Inc.,3
-1771,CYWG,CYUL,Air Canada Rouge Lp,3
-1773,CSP6,CYMX,Others,3
-1774,CSU3,CYKZ,Others,3
-1776,CZBA,CYSC,Others,3
-1777,CYMW,CYND,Others,3
-1778,CTR6,CYRO,Others,3
-1780,CYHM,CYQB,Jazz Aviation Lp,3
-1781,CYJN,CYRO,Others,3
-1782,CNV9,CYSN,Others,3
-1783,CYUL,CYQG,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1784,CSE4,CYSN,Others,3
-1786,CYUL,CYSN,Aviation Starlink Inc.,3
-1789,CSP6,CYJN,Others,3
-1790,CYND,CYSN,Others,3
-1792,CSN3,CYMX,Others,3
-1793,CYMX,CYSN,Others,3
-1794,CYSN,CYQB,Others,3
-1795,CSM5,CYMX,Others,3
-1797,CYHU,CYSN,Bank Of Utah Trustee,3
-1798,CYUL,CYND,Aviation Starlink Inc.,3
-1799,CNV4,CYUL,Others,3
-1800,CNP7,CYUL,Others,3
-1801,CSD3,CYJN,Others,3
-1803,CYPN,CYVB,Others,3
-1804,CYTZ,CYRQ,Others,3
-1805,CYHU,CYYZ,Air Georgian Limited,3
-1806,CST3,CZBM,Others,3
-1807,CYRQ,CSR3,Others,3
-1808,CSA2,CZBM,Others,3
-1809,CYHU,CZBF,Others,3
-1813,CYUL,CYZV,Others,3
-1817,CYUL,CYZR,Others,3
-1818,CSD3,CSS3,Others,3
-1820,CYUL,CYZD,Others,3
-1821,CYUL,CYYZ,Republic Airways Inc,3
-1822,CYMX,CSS4,Others,3
-1823,CZBM,CSS4,Others,3
-1824,CYSC,CYYZ,Airsprint Inc.,3
-1826,CYND,CYYZ,Others,3
-1827,CYRQ,CST3,Others,3
-1828,CYHU,CYYZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1829,CYUL,CNA3,Airsprint Inc.,3
-1834,CYMX,CNL3,Others,3
-1835,CSU3,CSP5,Others,3
-1836,CYHU,CSP5,Others,3
-1838,CPG5,CSP6,Others,3
-1841,CYJN,CSP6,Others,3
-1842,CSB3,CNF3,Others,3
-1843,CYGK,CZBM,Others,3
-1845,CSA2,CSQ3,Others,3
-1846,CSG3,CSQ3,Others,3
-1849,CYCC,CSQ3,Others,3
-1851,CYSA,CZBM,Others,3
-1852,CYND,CZBM,Others,3
-1853,CYKZ,CZBM,Others,3
-1854,CYHU,CYYZ,I.M.P. Group Limited (Execaire),3
-1855,CYHU,CYYZ,Air Canada,3
-1856,CYSC,CST7,Others,3
-1857,CYUL,CYVR,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1858,CYCC,CSY4,Others,3
-1859,CYJN,CSY4,Others,3
-1860,CSY4,CLA2,Others,3
-1861,CSY3,CLA2,Others,3
-1863,CYYZ,CYVB,Others,3
-1864,CYUL,CYVB,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1865,CYTZ,CSZ3,Others,3
-1867,CSJ5,CYVB,Others,3
-1869,CSP5,CES2,Others,3
-1871,CYMX,CYUY,Others,3
-1872,CZBM,CSZ4,Others,3
-1873,CYHU,CYUY,Others,3
-1874,CYUL,CDA4,Others,3
-1876,CYHU,CCY4,Others,3
-1879,CST3,CSY4,Others,3
-1880,CYUL,CYWG,Air Canada Rouge Lp,3
-1881,CYUL,CYWG,Cargojet Airways Ltd.,3
-1882,CYUL,CYYC,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
-1883,CYUL,CST7,Air Canada Rouge Lp,3
-1886,CSG3,CSU3,Others,3
-1887,CSJ4,CSU3,Others,3
-1888,CYUL,CYYJ,Others,3
-1889,CYMX,CSU3,Others,3
-1891,CYTZ,CSU3,Others,3
-1893,CYUL,CYYC,Jazz Aviation Lp,3
-1894,CSV8,CSY3,Others,3
-1895,CYUL,CYYC,Air Canada Rouge Lp,3
-1896,CYUL,CLC2,Aviation Starlink Inc.,3
-1897,CYUL,CYYB,Jazz Aviation Lp,3
-1898,CYCC,CSB3,Others,3
-1899,CYJN,CYYB,Others,3
-1900,CSE4,CSY3,Others,3
-1901,CYUL,CLA2,Others,3
-1902,CSJ4,CSY3,Others,3
-1903,CSU3,CSY3,Others,3
-1905,CZBM,CNL3,Others,3
-1906,CZBM,CSN7,Others,3
-1907,CYUL,CPS2,Others,3
-1909,CSP5,CSE4,Others,3
-1911,CST3,CSE4,Others,3
-1915,CYSH,CSE4,Others,3
-1919,CNV9,CSG3,Others,3
-1920,CSJ4,CSG3,Others,3
-1921,CSP5,CSG3,Others,3
-1922,CSY4,CSG3,Others,3
-1923,CYUL,CSG3,Others,3
-1924,CSU3,CSH5,Others,3
-1928,CSB3,CSJ4,Others,3
-1933,CYRO,CSB3,Others,3
-1934,CYTZ,CSB3,Others,3
-1935,CSR3,CSB3,Others,3
-1936,CSQ3,CSB3,Others,3
-1937,CPG5,CSB3,Others,3
-1938,CNV9,CSB3,Others,3
-1940,CYHZ,CSC3,Others,3
-1943,CYMX,CSD4,Others,3
-1944,CYOW,CSD4,Others,3
-1947,CYMX,CSE3,Others,3
-1948,CNL3,CSE4,Others,3
-1949,CYUY,CNV9,Others,3
-1950,CSP5,CSJ4,Others,3
+615,CYYZ,CZBM,Others,16
+616,CZBM,CSC3,Others,16
+617,CSZ3,CYUL,Others,16
+618,CYQG,CYUL,Flair Airlines Ltd,16
+619,CSU3,CZBM,Others,16
+620,CSC3,CSB3,Others,16
+621,CST3,CYCC,Others,16
+622,CYZV,CYUL,Others,15
+623,CYND,CTR6,Others,15
+625,CZBM,CSB3,Others,15
+627,CSY3,CYMX,Others,15
+628,CSB3,CSY3,Others,15
+629,CYHU,CYHM,Others,15
+630,CSN3,CYUL,Others,15
+631,CYXU,CYUL,Others,15
+633,CSY4,CSA2,Others,15
+634,CYSC,CSB3,Others,15
+636,CYRQ,CSC3,Others,15
+638,CYRO,CYHU,Others,15
+639,CYHU,CST7,Air Georgian Limited,15
+640,CYRQ,CSB3,Others,15
+641,CZBM,CYYZ,Others,15
+644,CYUL,CYQY,Others,15
+646,CYQB,CYYZ,Westjet Encore Ltd.,15
+649,CYUL,CYEG,Others,15
+650,CYUL,CNN8,Others,15
+651,CYFJ,CYTZ,Others,15
+655,CYFJ,CYUL,Aviation Starlink Inc.,14
+656,CYUY,CYSB,Air Georgian Limited,14
+658,CSC3,CYRQ,Others,14
+659,CYHU,CSZ3,Others,14
+662,CYHU,CYHZ,Others,14
+663,CYMX,CYYZ,Air Canada,14
+666,CYRQ,CYYZ,Air Canada,14
+667,CYHM,CYMX,Air Canada,14
+668,CYYZ,CYUY,Air Georgian Limited,14
+669,CYUL,CYOW,Cargojet Airways Ltd.,14
+670,CYHU,CYFJ,Others,14
+671,CYUL,CNV9,Air Canada,14
+672,CYRQ,CTR6,Others,14
+673,CYUL,CCY4,Flair Airlines Ltd,14
+675,CYMX,CYQB,Others,14
+676,CYOW,CYUL,Cargojet Airways Ltd.,14
+677,CYTZ,CYMX,Others,14
+678,CYRQ,CYSN,Others,14
+679,CSJ4,CYRQ,Others,14
+680,CSA2,CYJN,Others,14
+682,CYUL,CHG2,Air Canada,14
+684,CYMX,CYRQ,Others,14
+685,CYOW,CZBM,Others,14
+688,CYRQ,CZBM,Others,13
+691,CSB3,CZBM,Others,13
+694,CYSC,CYYZ,Others,13
+695,CYMX,CYUL,Air Canada,13
+696,CSY4,CYMX,Others,13
+698,CYWG,CYMX,Air Canada,13
+701,CST3,CPR2,Others,13
+703,CSE4,CSZ3,Others,13
+704,CYMX,CYND,Others,13
+705,CYOW,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,13
+710,CYKF,CSE4,Others,13
+711,CYHU,CTR6,Others,13
+712,CYUL,CSY3,Others,16
+713,CYHU,CNF3,Others,13
+714,CZBM,CYRQ,Others,13
+715,CFQ7,CYUL,Air Canada,13
+717,CYMX,CSE4,Others,13
+719,CYUL,CSC3,Others,13
+720,CYHM,CYHU,Others,13
+721,CSB3,CYUL,Others,13
+723,CYTZ,CYFJ,Others,12
+724,CYHU,CYQG,Others,12
+727,CYRQ,CYYZ,Air Canada Rouge Lp,12
+728,CYHU,CSD4,Others,12
+730,CYXU,CYHU,Others,12
+731,CYUL,CYOW,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,12
+733,CYRO,CYMX,Others,12
+734,CYUL,CNF3,Others,12
+735,CSR3,CSC3,Others,12
+737,CYMX,CYSC,Others,12
+740,CSB3,CSM3,Others,12
+741,CYUL,CYEG,Flair Airlines Ltd,12
+742,CYUL,CYUL,Bank Of Utah Trustee,12
+745,CZBM,CSE4,Others,12
+746,CSA2,CSG3,Others,12
+747,CYQG,CYHU,Others,12
+748,CYKF,CYHU,Others,12
+749,CYHU,CSJ5,Others,12
+752,CYHU,CYCC,Others,12
+753,CYUL,CSB3,Others,12
+754,CSY3,CSB3,Others,12
+756,CYUL,CFQ7,Flair Airlines Ltd,12
+758,CYHU,CSL5,Others,12
+759,CST3,CYMX,Others,12
+761,CYMX,CLA2,Others,12
+762,CYND,CYMX,Others,12
+763,CYHU,CSY4,Others,12
+765,CYUL,CFQ7,Others,12
+769,CYSB,CYUY,Air Georgian Limited,11
+772,CYMX,CYWG,Air Canada,11
+773,CYMX,CSM5,Others,11
+775,CSG3,CSA2,Others,11
+779,CYHU,CYWG,Others,11
+780,CYMX,CYJN,Others,11
+782,CYYZ,CYQB,Air Canada,11
+784,CYTZ,CYUL,Aviation Starlink Inc.,11
+787,CYUL,CYOW,Aviation Starlink Inc.,11
+788,CSC3,CSU3,Others,11
+791,CYJN,CSE4,Others,11
+792,CYFJ,CYHU,Others,11
+795,CYCC,CYHU,Others,11
+798,CYRQ,CSG3,Others,11
+799,CSA2,CSY3,Others,11
+801,CSC3,CZBM,Others,11
+804,CYJN,CSR3,Others,11
+805,CSE4,CZBM,Others,11
+809,CYSN,CYRQ,Others,10
+810,CSA2,CSM5,Others,10
+811,CYHU,CTG3,Others,10
+812,CYUL,CYRP,Others,10
+813,CLA2,CYMX,Others,10
+816,CYND,CYOO,Others,10
+817,CYUL,CYUL,Air Georgian Limited,10
+818,CYUL,CYHM,Bank Of Utah Trustee,10
+819,CYYZ,CYUL,Bank Of Utah Trustee,10
+821,CYVB,CTG3,Others,10
+822,CSE4,CYKF,Others,10
+823,CYUL,CSQ3,Others,10
+824,CSY4,CYHU,Others,10
+828,CSB3,CSQ3,Others,10
+829,CSU3,CSR3,Others,10
+830,CSA2,CYRQ,Others,10
+831,CYJN,CSC3,Others,10
+832,CYUY,CYHU,Others,10
+834,CSB3,CYRQ,Others,10
+835,CYQB,CYHU,Others,10
+836,CCV4,CYUL,Air Canada,10
+837,CYMW,CYHU,Others,10
+838,CYRP,CYUL,Others,10
+839,CYRQ,CSU3,Others,10
+841,CYMX,CST3,Others,10
+843,CZBM,CYOW,Others,10
+845,CSE4,CYJN,Others,10
+846,CYRQ,CSJ5,Others,10
+849,CYHZ,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,10
+850,CYYZ,CYSC,Others,10
+851,CSU3,CSC3,Others,10
+852,CYHZ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,10
+856,CTA4,CYUL,Others,10
+859,CYHU,CYQB,Others,10
+861,CYJN,CYMX,Others,9
+862,CYPQ,CYHU,Others,9
+863,CYUL,CTR6,Aviation Starlink Inc.,9
+866,CYUL,CCV4,Jazz Aviation Lp,9
+867,CSR3,CYUL,Others,10
+870,CYGK,CYHU,Others,9
+871,CFQ7,CYUL,Flair Airlines Ltd,9
+873,CYXE,CYUL,Air Canada,9
+875,CYJN,CYSC,Others,9
+876,CYND,CSB3,Others,9
+878,CSB3,CSR3,Others,9
+879,CYUL,CYQB,Sunwing Airlines Inc.,9
+880,CSC3,CSJ5,Others,9
+881,CYSC,CSQ3,Others,9
+884,CSE4,CYMX,Others,9
+885,CYLS,CYUL,Others,9
+886,CYUL,CYRO,Others,9
+889,CYHU,CSH5,Air Georgian Limited,9
+893,CYJN,CSB3,Others,9
+894,CYFJ,CYUL,Others,9
+895,CSB3,CYJN,Others,9
+896,CPR2,CYND,Others,9
+897,CYPQ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,9
+898,CYMX,CAA2,Others,9
+899,CYND,CSE4,Others,9
+900,CYUL,CYFJ,Aviation Starlink Inc.,9
+904,CYMX,CYHM,Air Canada,9
+905,CCP3,CYHU,Others,9
+906,CSE4,CTR6,Others,9
+908,CYYT,CYUL,Jazz Aviation Lp,9
+909,CLA2,CYHU,Others,9
+910,CYHU,CTE5,Others,9
+911,CYTZ,CYND,Others,9
+913,CYOW,CYND,Others,9
+914,CYUL,CSD4,Others,9
+916,CYUL,CSM3,Others,9
+917,CSG3,CSC3,Others,9
+918,CYRQ,CYHM,Others,9
+919,CSE4,CYUL,Others,9
+921,CYUL,CYYG,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,9
+926,CYUL,CYSN,Others,9
+927,CYUL,CYTZ,Aviation Starlink Inc.,9
+928,CYOO,CYND,Others,9
+929,CSA2,CSN3,Others,9
+931,CYUL,CSM5,Others,9
+933,CYUL,CYVB,Others,9
+935,CYND,CYUL,Others,10
+937,CYHU,CSM5,Others,9
+938,CYRO,CSZ3,Others,8
+939,CZBA,CYHU,Others,8
+940,CYYZ,CTR6,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,8
+941,CSC3,CYUL,Others,8
+943,CYCC,CYMX,Others,8
+945,CYFJ,CYQG,Others,8
+951,CZBM,CSH5,Others,8
+952,CYUL,CYHM,Porter Airlines Inc.,8
+953,CYQB,CYYZ,Others,8
+954,CYOO,CTR6,Others,8
+956,CYRQ,CSJ4,Others,8
+959,CSA2,CSC3,Others,8
+961,CTR6,CNV9,Others,8
+962,CYHM,CTR6,Jazz Aviation Lp,8
+963,CYRP,CYHU,Others,8
+965,CYUL,CST7,Others,8
+966,CYUL,CYND,Others,9
+967,CYUY,CYYZ,Air Georgian Limited,8
+968,CYRO,CYUL,Others,8
+971,CYUL,CCW4,Air Canada,8
+973,CYYZ,CTR6,Cargojet Airways Ltd.,8
+974,CYRP,CYMW,Others,8
+975,CYHU,CSS4,Others,8
+976,CYYT,CYUL,Air Canada,8
+979,CSB3,CYMX,Others,8
+980,CSA2,CSE3,Others,8
+981,CYND,CNF3,Others,8
+983,CYTR,CYMX,Others,8
+985,CSJ5,CSC3,Others,8
+988,CYUL,CLC2,Others,8
+989,CYUL,CYCH,Others,8
+992,CSY4,CYUL,Others,8
+993,CYUL,CCY4,Westjet Encore Ltd.,8
+997,CYUL,CCF4,Flair Airlines Ltd,8
+998,CSZ3,CYRO,Others,8
+999,CYUL,CPS2,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,8
+1000,CYMX,CSJ5,Others,8
+1005,CYUL,CYGK,Others,8
+1006,CSE4,CAA2,Others,8
+1007,CYMX,CSC3,Others,8
+1008,CYHU,CYKF,Others,8
+1009,CYND,CPR2,Others,8
+1011,CNV9,CSJ5,Others,8
+1012,CYHU,CYGK,Others,8
+1013,CYVB,CSJ5,Others,8
+1014,CSQ3,CZBM,Others,8
+1015,CYUL,CSA2,Others,7
+1017,CYUL,CPS2,Others,7
+1018,CYHM,CYUL,Air Georgian Limited,7
+1020,CYPN,CYUL,Others,7
+1021,CYUL,CST7,Jazz Aviation Lp,7
+1022,CYTZ,CTR6,Others,7
+1023,CSB3,CYND,Others,7
+1027,CYHU,CYUL,Air Georgian Limited,7
+1028,CYND,CAA2,Others,7
+1029,CYHU,CYRP,Others,7
+1033,CYRQ,CSE4,Others,7
+1034,CYHU,CLA2,Others,7
+1036,CYHZ,CYUL,Aviation Starlink Inc.,7
+1039,CSP6,CSE4,Others,7
+1040,CYZV,CYUL,Jazz Aviation Lp,7
+1042,CSB3,CSE4,Others,7
+1043,CNV9,CYYZ,Air Canada,7
+1044,CYMX,CNV4,Others,7
+1045,CYSC,CYJN,Others,7
+1046,CSZ3,CSE4,Others,7
+1047,CSG3,CYRQ,Others,7
+1048,CYJN,CSU3,Others,7
+1049,CSE4,CNF3,Others,7
+1050,CYMX,CSB3,Others,7
+1051,CYMX,CYOO,Others,7
+1053,CSB3,CNV9,Others,7
+1054,CYHU,CZBA,Others,7
+1056,CSC3,CTR6,Others,7
+1058,CSC3,CYJN,Others,7
+1060,CSU3,CYSC,Others,7
+1061,CSY4,CSZ3,Others,7
+1062,CYND,CYJN,Others,7
+1063,CYUL,CYWG,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,7
+1065,CYWG,CYHU,Others,7
+1066,CYFJ,CYYZ,Others,7
+1068,CYYC,CYHU,Others,7
+1070,CSR3,CYYZ,Others,7
+1071,CYJN,CSQ3,Others,7
+1072,CSE4,CSC3,Others,7
+1073,CYMX,CSQ3,Others,7
+1074,CYSH,CYND,Others,7
+1077,CYCC,CYJN,Others,7
+1079,CYUL,CCW4,Jazz Aviation Lp,7
+1080,CYSC,CYRQ,Others,7
+1082,CSB3,CSH5,Others,7
+1084,CYUL,CCW4,Others,7
+1086,CYUL,CYXE,Others,7
+1088,CYND,CYSH,Others,7
+1089,CYQY,CYUL,Cargojet Airways Ltd.,7
+1090,CYUL,CYQY,Cargojet Airways Ltd.,7
+1092,CYHU,CYGP,Others,7
+1096,CYND,CYMW,Others,6
+1097,CYGV,CYUL,Others,6
+1098,CYUL,CYLS,Others,6
+1099,CYRQ,CYVB,Others,6
+1100,CYUL,CYHZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,6
+1101,CYQB,CYTZ,Porter Airlines Inc.,6
+1102,CYND,CYTZ,Others,6
+1103,CYYZ,CYUL,Air Georgian Limited,6
+1104,CSS3,CYCC,Others,6
+1105,CSE4,CSD4,Others,6
+1108,CSA2,CYUL,Others,6
+1110,CYSC,CYOO,Others,6
+1112,CSZ3,CSY4,Others,6
+1114,CYSC,CYMX,Others,6
+1115,CSJ5,CYUL,Others,6
+1119,CYXE,CYUL,Others,6
+1121,CSR3,CYSC,Others,6
+1122,CYYZ,CYFJ,Others,6
+1123,CYQG,CYFJ,Others,6
+1124,CSA2,CYHU,Others,6
+1125,CSJ4,CSA2,Others,6
+1126,CSC3,CSA2,Others,6
+1128,CYUL,CSK5,Air Canada Rouge Lp,6
+1130,CNV4,CSE4,Others,6
+1131,CYUL,CSY4,Others,6
+1134,CNC3,CYHU,Others,6
+1135,CZBM,CSK4,Others,6
+1137,CSE4,CSR3,Others,6
+1138,CSG3,CYND,Others,6
+1141,CYSC,CSH5,Others,6
+1142,CSB3,CCP3,Others,6
+1143,CYUL,CYYZ,Bank Of Utah Trustee,6
+1144,CYUL,CYYZ,Cargojet Airways Ltd.,6
+1145,CPG5,CYUL,Others,6
+1148,CYUL,CYHU,Air Georgian Limited,6
+1154,CYUL,CSG5,Others,6
+1156,CSY3,CYUL,Others,6
+1157,CYUL,CEQ3,Others,6
+1158,CNV9,CYYC,Westjet,6
+1160,CSE4,CSB3,Others,6
+1161,CSU3,CSJ4,Others,6
+1163,CYUL,CYQB,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,6
+1168,CSC3,CYMX,Others,6
+1174,CYRO,CSE4,Others,6
+1176,CYOO,CYMX,Others,6
+1177,CSE4,CYTZ,Others,6
+1178,CZBM,CYTZ,Others,6
+1179,CNV9,CYOO,Others,6
+1180,CYSC,CSU3,Others,6
+1182,CYKF,CYND,Others,6
+1183,CYRQ,CYUL,Air Canada Rouge Lp,6
+1185,CSR3,CSE4,Others,6
+1186,CYVR,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,6
+1190,CYSN,CSE4,Others,6
+1195,CSB3,CYFJ,Others,6
+1196,CSE4,CYFJ,Others,6
+1199,CSE4,CSG3,Others,6
+1201,CYRQ,CYJN,Others,6
+1202,CSC3,CSG3,Others,6
+1203,CSE4,CYOO,Others,6
+1205,CYND,CNV9,Others,6
+1207,CYHU,CSA2,Others,6
+1209,CSC3,CNF3,Others,5
+1210,CYHM,CYUL,Bank Of Utah Trustee,5
+1212,CSK4,CZBM,Others,5
+1213,CYYZ,CTR6,Sunwing Airlines Inc.,5
+1215,CYHU,CYCL,Others,5
+1217,CYUL,CHG2,Jazz Aviation Lp,5
+1218,CYQA,CYUL,Others,5
+1219,CYPQ,CYUL,Others,5
+1220,CYMX,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,5
+1221,CSJ4,CYMX,Others,5
+1222,CZBM,CYCC,Others,5
+1223,CYOW,CYUL,Aviation Starlink Inc.,5
+1224,CYUL,CYPN,Others,5
+1225,CYUL,CZBF,Others,5
+1227,CYND,CYRP,Others,5
+1229,CYHU,CLC2,Others,5
+1230,CYCH,CYUL,Others,5
+1231,CYQB,CYHM,Jazz Aviation Lp,5
+1232,CYSC,CYUL,Others,5
+1233,CSJ4,CYUL,Others,7
+1234,CYYZ,CYUY,Others,5
+1236,CZBM,CYND,Others,5
+1237,CNV9,CTR6,Others,5
+1238,CNV4,CYMX,Others,5
+1239,CYSN,CYUL,Others,5
+1240,CZBM,CYFJ,Others,5
+1241,CYUL,CYGV,Others,5
+1242,CYOW,CYFJ,Others,5
+1244,CYKZ,CYFJ,Aviation Starlink Inc.,5
+1245,CYOW,CTR6,Sunwing Airlines Inc.,5
+1246,CYHM,CYFJ,Aviation Starlink Inc.,5
+1248,CYCK,CYUL,Others,5
+1249,CYJN,CSC3,Air Canada Rouge Lp,5
+1250,CSQ3,CYSC,Others,5
+1252,CYUL,CAM3,Air Canada Rouge Lp,5
+1254,CYJN,CYTZ,Others,5
+1255,CYUL,CRL2,Others,5
+1256,CYHU,CYTZ,Air Canada,5
+1257,CSE4,CSN3,Others,5
+1258,CYUL,CYYG,Others,5
+1259,CSE3,CSA2,Others,5
+1261,CSE4,CSA2,Others,5
+1262,CZBM,CYOO,Others,5
+1263,CYUL,CSK4,Others,5
+1265,CNV9,CYTZ,Others,5
+1266,CNP3,CYND,Others,5
+1267,CSY4,CSM5,Others,5
+1268,CYUL,CYQB,Aviation Starlink Inc.,5
+1269,CYYZ,CYHU,Air Canada,5
+1270,CYTZ,CZBM,Others,5
+1271,CYYZ,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,5
+1272,CYND,CYYZ,Others,5
+1273,CSA2,CSR3,Others,5
+1278,CYRQ,CYTZ,Others,5
+1279,CSE4,CSP6,Others,5
+1280,CYVB,CYUL,Others,5
+1281,CSB3,CYRO,Others,5
+1282,CSZ3,CSP5,Others,5
+1283,CYJN,CYKF,Others,5
+1284,CSE4,CSP5,Others,5
+1288,CYOO,CYJN,Others,5
+1290,CTR6,CSJ5,Others,5
+1291,CYUL,CSB5,Jazz Aviation Lp,5
+1293,CSS3,CSE4,Others,5
+1295,CSG3,CSE4,Others,5
+1296,CSC3,CSE4,Others,5
+1297,CSA2,CSE4,Others,5
+1298,CYSN,CYMX,Others,5
+1300,CYUL,CYXU,Others,5
+1303,CYHU,CYXU,Others,5
+1304,CYMX,CYHZ,Cargojet Airways Ltd.,5
+1306,CYUL,CYHZ,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,5
+1307,CYUL,CYXE,Air Canada,5
+1308,CZBM,CYHZ,Others,5
+1310,CYOO,CSE4,Others,5
+1311,CYRQ,CYOW,Others,5
+1312,CYUL,CYMX,Air Canada,5
+1313,CYTZ,CSE4,Others,5
+1314,CYMX,CYTR,Others,5
+1318,CSJ4,CSB3,Others,5
+1319,CSU3,CYJN,Others,5
+1320,CSG3,CSJ4,Others,5
+1321,CYHU,CYSN,Others,5
+1323,CYUL,CCM3,Jazz Aviation Lp,5
+1326,CSR3,CSH5,Others,5
+1327,CSY3,CSG3,Others,5
+1329,CSB3,CSG3,Others,5
+1330,CSE4,CYND,Others,5
+1331,CYFJ,CYKZ,Aviation Starlink Inc.,5
+1332,CSB3,CSU3,Others,5
+1333,CYHU,CYVR,Others,5
+1336,CYCL,CYHU,Others,5
+1338,CYCC,CZBM,Others,5
+1339,CYJN,CSZ3,Others,5
+1340,CYFJ,CNV9,Others,5
+1341,CYJN,CYRQ,Others,5
+1342,CSQ3,CYHU,Others,5
+1344,CYND,CSZ3,Others,5
+1345,CZBM,CST3,Others,5
+1346,CYUL,CST3,Others,5
+1347,CZBF,CYUL,Others,5
+1350,CSZ3,CYHU,Others,5
+1351,CYMX,CNP7,Others,5
+1354,CYRQ,CSY3,Others,5
+1355,CYPQ,CYND,Others,5
+1356,CSG3,CSY3,Others,5
+1357,CSJ5,CYHU,Others,5
+1361,CSP5,CSZ3,Others,5
+1364,CYHM,CYRQ,Others,5
+1365,CYSC,CYND,Others,5
+1366,CSU3,CYRQ,Others,5
+1367,CYVR,CYHU,Others,5
+1368,CYVR,CYUL,Bank Of Utah Trustee,5
+1369,CYND,CPF4,Others,5
+1370,CSE4,CSS3,Others,5
+1372,CYUL,CYYZ,Air Georgian Limited,5
+1373,CYCC,CSS3,Others,5
+1374,CYUL,CYHU,Bank Of Utah Trustee,5
+1376,CNV9,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,5
+1377,CYHU,CSZ4,Air Georgian Limited,5
+1378,CAA2,CYMX,Others,5
+1379,CYRP,CST3,Others,5
+1381,CYRQ,CNV9,Others,5
+1383,CYSN,CYHU,Others,5
+1385,CNN8,CYHU,Others,5
+1386,CYND,CST3,Others,5
+1387,CST3,CYRP,Others,4
+1388,CSL5,CYHU,Others,4
+1392,CNV9,CYUL,Air Transat A T Inc.,4
+1394,CSH5,CYHU,Others,4
+1396,CYJN,CYRP,Others,4
+1397,CNS4,CYMX,Others,4
+1398,CNL8,CYUL,Others,4
+1399,CSE4,CYOW,Others,4
+1402,CYUY,CYMX,Others,4
+1406,CSM5,CYHU,Others,4
+1407,CSB3,CYTZ,Others,4
+1409,CYOO,CYHU,Air Canada,4
+1411,CSE4,CYRQ,Others,4
+1412,CYOO,CZBM,Others,4
+1416,CSE4,CYRO,Others,4
+1417,CYTR,CYHU,Others,4
+1418,CYND,CYKF,Others,4
+1419,CYTZ,CYHU,Air Canada,4
+1421,CYUL,CYKF,Aviation Starlink Inc.,4
+1427,CZBM,CYKF,Others,4
+1428,CYZV,CYHU,Others,4
+1429,CYVB,CYGP,Others,4
+1432,CYUL,CYSB,Others,4
+1433,CYOW,CYSC,Others,4
+1434,CSJ5,CYMX,Others,4
+1436,CST3,CYHU,Others,4
+1437,CYYC,CYMX,Others,4
+1438,CYKF,CYSC,Others,4
+1439,CYHU,CYLS,Others,4
+1442,CYSH,CYJN,Others,4
+1443,CYTZ,CYJN,Others,4
+1444,CSV8,CYUL,Others,4
+1446,CLC2,CYUL,Others,4
+1448,CYZV,CYMX,Others,4
+1451,CYUL,CYQS,Aviation Starlink Inc.,4
+1452,CSS3,CYUL,Others,4
+1453,CYSC,CYKZ,Others,4
+1454,CYMX,CYHU,Air Georgian Limited,4
+1455,CSJ5,CYRQ,Others,4
+1457,CYYG,CYUL,Others,4
+1459,CYYZ,CYVB,Others,4
+1460,CYYZ,CSM3,Others,4
+1461,CZBM,CSM3,Others,4
+1464,CSE4,CNV9,Others,4
+1465,CPG5,CSE4,Others,4
+1467,CYUL,CYYJ,Others,4
+1469,CYND,CSU3,Others,4
+1470,CYHU,CSN3,Others,4
+1472,CYKZ,CSU3,Others,4
+1474,CYUL,CYQA,Others,4
+1476,CYYC,CYQB,Westjet,4
+1477,CSR3,CSU3,Others,4
+1479,CSU3,CYND,Others,4
+1482,CYMX,CSM3,Others,4
+1483,CSE4,CSY4,Others,4
+1484,CSG3,CSY4,Others,4
+1486,CSY3,CSE4,Others,4
+1489,CYND,CNP3,Others,4
+1490,CYQB,CYVB,Others,4
+1492,CYJN,CSK4,Others,4
+1496,CYYT,CYUL,Others,4
+1497,CYND,CSY4,Others,4
+1498,CYLS,CSY4,Others,4
+1499,CYTR,CYQB,Others,4
+1500,CSM5,CSY4,Others,4
+1502,CYJN,CNN8,Others,4
+1503,CYCC,CSC3,Others,4
+1504,CZBM,CSA2,Others,4
+1505,CSB3,CSS3,Others,4
+1507,CYUL,CCW4,Porter Airlines Inc.,4
+1509,CYHZ,CSC3,Others,4
+1512,CYYZ,CSR3,Others,4
+1513,CYUL,CSR3,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,4
+1515,CSG3,CSB3,Others,4
+1516,CSS3,CSC3,Others,4
+1520,CYMX,CSP6,Others,4
+1521,CSS3,CSB3,Others,4
+1522,CSU3,CSB3,Others,4
+1524,CST3,CSA2,Others,4
+1525,CTR6,CYOO,Others,4
+1527,CYMX,CCY4,Others,4
+1528,CSE4,CPR2,Others,4
+1529,CYMX,CSN3,Others,4
+1530,CYUY,CYYZ,Others,4
+1531,CYCC,CYND,Others,4
+1533,CYHU,CAA2,Others,4
+1534,CYHU,CPS2,Others,4
+1536,CYND,CRL2,Others,4
+1537,CSZ3,CYND,Others,4
+1539,CSA2,CST3,Others,4
+1540,CYUL,CSD3,Others,4
+1544,CYYB,CYUL,Others,4
+1546,CYQM,CYUL,Jazz Aviation Lp,4
+1547,CSU3,CSG3,Others,4
+1549,CYUL,CYCL,Others,4
+1550,CYUL,CCG4,Jazz Aviation Lp,4
+1551,CYUL,CCF4,Westjet Encore Ltd.,4
+1552,CYLW,CYUL,Others,4
+1555,CYHM,CTR6,Others,4
+1556,CYKA,CYUL,Others,4
+1557,CYSC,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,4
+1560,CYUL,CYOW,Flair Airlines Ltd,4
+1561,CSJ5,CTR6,Others,4
+1562,CYOO,CYUL,Bank Of Utah Trustee,4
+1563,CSB3,CTR6,Others,4
+1566,CYHU,CYPN,Others,4
+1568,CYUL,CYCK,Others,4
+1569,CSB3,CYCC,Others,4
+1570,CYJN,CYCC,Others,4
+1572,CYMX,CYCC,Others,4
+1573,CYHU,CTY5,Others,4
+1574,CYND,CYCC,Others,4
+1578,CYQB,CYUL,Jazz Aviation Lp,4
+1579,CYND,CSG3,Others,4
+1581,CYMX,CYYB,Others,4
+1583,CYUL,CYCC,Others,4
+1584,CYQS,CYUL,Aviation Starlink Inc.,4
+1585,CZBM,CTQ2,Others,4
+1586,CSG3,CTR6,Others,4
+1587,CYUL,CNA3,Others,4
+1589,CYJN,CNF3,Others,4
+1590,CYHU,CYYC,Others,4
+1591,CYUL,CNF8,Others,4
+1594,CYUL,CNJ4,Others,4
+1595,CYRQ,CYND,Others,4
+1596,CYKZ,CYFJ,Others,4
+1597,CYHU,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,4
+1598,CYHU,CYUL,Aviation Starlink Inc.,4
+1599,CNV9,CYND,Others,4
+1600,CYRP,CYND,Others,4
+1601,CYXE,CYUL,Cargojet Airways Ltd.,4
+1603,CSU3,CNF3,Others,4
+1604,CSB3,CTE5,Others,4
+1605,CYUY,CNE4,Others,4
+1606,CSZ3,CYFJ,Others,4
+1607,CYOW,CSJ5,Others,4
+1608,CYUL,CYUL,Porter Airlines Inc.,4
+1609,CSB3,CTQ2,Others,4
+1610,CYSC,CSJ5,Others,4
+1615,CYRO,CSB3,Others,3
+1616,CYUL,CSG3,Others,3
+1618,CYUL,CYYB,Jazz Aviation Lp,3
+1620,CYTZ,CSB3,Others,3
+1621,CYND,CYOW,Others,3
+1622,CSD3,CYJN,Others,3
+1623,CYUL,CSC9,Others,3
+1627,CNV9,CYSN,Others,3
+1629,CYRP,CYMX,Others,3
+1632,CSU3,CSH5,Others,3
+1633,CSE4,CCP3,Others,3
+1635,CYTZ,CYSC,Others,3
+1636,CYMX,CSD4,Others,3
+1643,CYMX,CCP3,Others,3
+1645,CYJN,CYYB,Others,3
+1646,CYJN,CYRO,Others,3
+1649,CYHM,CYQB,Jazz Aviation Lp,3
+1651,CSP5,CSE4,Others,3
+1653,CST3,CSE4,Others,3
+1658,CYOW,CSD4,Others,3
+1660,CYUL,CYHZ,Aviation Starlink Inc.,3
+1661,CZBA,CYSC,Others,3
+1662,CYMX,CSE3,Others,3
+1663,CYSH,CSE4,Others,3
+1664,CSY4,CSG3,Others,3
+1666,CST3,CYND,Others,3
+1668,CSP5,CSG3,Others,3
+1669,CSJ4,CSG3,Others,3
+1670,CYUL,CYMX,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1671,CSE4,CYSH,Others,3
+1673,CNV9,CSG3,Others,3
+1674,CNL3,CSE4,Others,3
+1676,CYRQ,CYKF,Others,3
+1677,CYCC,CSB3,Others,3
+1681,CZBM,CNL3,Others,3
+1682,CYMX,CNL3,Others,3
+1685,CYUL,CYVB,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1686,CSJ5,CYVB,Others,3
+1687,CSB3,CNF3,Others,3
+1689,CYUL,CYND,Aviation Starlink Inc.,3
+1691,CYUL,CYPQ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1692,CYMX,CNN8,Others,3
+1693,CYKZ,CYMX,Others,3
+1694,CYND,CNN8,Others,3
+1695,CYRQ,CNN8,Others,3
+1698,CYPN,CYVB,Others,3
+1699,CYMX,CYMW,Others,3
+1700,CYUL,CNP7,Others,3
+1701,CYTZ,CYRQ,Others,3
+1702,CYUL,CYLW,Air Canada,3
+1704,CYYZ,CYRQ,Air Canada,3
+1707,CYUL,CLC2,Aviation Starlink Inc.,3
+1711,CYMX,CYOW,Flair Airlines Ltd,3
+1713,CZBA,CYND,Others,3
+1714,CSY3,CLA2,Others,3
+1715,CSY4,CLA2,Others,3
+1717,CYUL,CLA2,Others,3
+1719,CYMX,CYRP,Others,3
+1720,CYYZ,CYND,Others,3
+1723,CSV8,CYMX,Others,3
+1725,CSP6,CYMX,Others,3
+1726,CSN3,CYMX,Others,3
+1727,CSM5,CYMX,Others,3
+1733,CYHU,CNS8,Others,3
+1734,CYYZ,CYRQ,Others,3
+1735,CYRQ,CYSC,Others,3
+1740,CYUL,CYKA,Others,3
+1742,CSY4,CYLS,Others,3
+1747,CYHU,CRL2,Others,3
+1750,CYHU,CCY4,Others,3
+1751,CYRO,CYJN,Others,3
+1752,CYUL,CYWG,Air Canada Rouge Lp,3
+1753,CNV9,CSB3,Others,3
+1754,CYKZ,CYSC,Others,3
+1755,CPG5,CSB3,Others,3
+1756,CTR6,CYND,Others,3
+1757,CYUL,CYWG,Cargojet Airways Ltd.,3
+1758,CSQ3,CSB3,Others,3
+1759,CYND,CYSC,Others,3
+1761,CSR3,CSB3,Others,3
+1762,CSR3,CYJN,Others,3
+1763,CSP6,CYJN,Others,3
+1765,CYUL,CYVR,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1769,CYMX,CNU4,Others,3
+1772,CSE4,CNV4,Others,3
+1773,CYHU,CYUY,Others,3
+1774,CYMW,CYND,Others,3
+1775,CSJ5,CNV9,Others,3
+1776,CSU3,CNV9,Others,3
+1777,CYJN,CYND,Others,3
+1778,CSE4,CYQA,Others,3
+1779,CYMX,CYKZ,Others,3
+1781,CYUY,CNV9,Others,3
+1783,CYOW,CYMX,Flair Airlines Ltd,3
+1784,CYFJ,CYKZ,Others,3
+1786,CTR6,CYKZ,Others,3
+1787,CSU3,CYKZ,Others,3
+1789,CSP5,CES2,Others,3
+1796,CYUL,CDA4,Others,3
+1799,CSE4,CYSN,Others,3
+1800,CSJ4,CSY3,Others,3
+1801,CYHU,CYOO,Air Canada,3
+1802,CSS3,CYHU,Others,3
+1803,CSV8,CSY3,Others,3
+1804,CSU3,CSY3,Others,3
+1805,CSU7,CYHU,Others,3
+1807,CSE4,CSY3,Others,3
+1808,CNF3,CYUL,Others,3
+1810,CYMX,CYUY,Others,3
+1811,CYUL,CYQG,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1812,CYZR,CYUL,Aviation Starlink Inc.,3
+1813,CYYZ,CYQB,Cargojet Airways Ltd.,3
+1814,CYYZ,CYUL,Cargojet Airways Ltd.,3
+1815,CYGK,CZBM,Others,3
+1816,CNV9,CYUL,Aviation Starlink Inc.,3
+1817,CNP7,CYUL,Others,3
+1818,CYYC,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1820,CNV9,CYHU,Air Georgian Limited,3
+1821,CYTZ,CSZ3,Others,3
+1822,CNV4,CYUL,Others,3
+1823,CSN3,CYHU,Others,3
+1826,CYYJ,CYUL,Others,3
+1827,CYJN,CSY4,Others,3
+1828,CYCC,CSY4,Others,3
+1829,CST3,CSY4,Others,3
+1833,CYND,CZBM,Others,3
+1836,CYRQ,CST3,Others,3
+1837,CYTZ,CSU3,Others,3
+1841,CYSN,CYHU,Bank Of Utah Trustee,3
+1842,CYUL,CYYZ,Republic Airways Inc,3
+1844,CYSC,CST7,Others,3
+1845,CYUL,CST7,Air Canada Rouge Lp,3
+1846,CYKZ,CZBM,Others,3
+1847,CYUL,CYZD,Others,3
+1848,CYLS,CYHU,Others,3
+1850,CSG3,CSU3,Others,3
+1851,CSJ4,CSU3,Others,3
+1854,CYGV,CYHU,Others,3
+1855,CYUL,CYZR,Others,3
+1856,CYMX,CSU3,Others,3
+1857,CFQ7,CYUL,Others,3
+1858,CNS8,CYHU,Others,3
+1859,CNP3,CYHU,Others,3
+1861,CYYC,CTR6,Westjet,3
+1863,CYHU,CZBF,Others,3
+1864,CSN7,CYUL,Others,3
+1869,CST3,CYUL,Others,3
+1870,CYUY,CTR6,Others,3
+1871,CYQY,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,3
+1873,CNV9,CYHM,Others,3
+1874,CSU3,CYHM,Others,3
+1875,CYFJ,CYHM,Aviation Starlink Inc.,3
+1876,CSR3,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1877,CYYC,CYUL,Jazz Aviation Lp,3
+1879,CYYZ,CYFJ,Aviation Starlink Inc.,3
+1880,CYGP,CYUL,Others,3
+1883,CSA2,CZBM,Others,3
+1884,CYCL,CYUL,Others,3
+1885,CYND,CYUL,Aviation Starlink Inc.,3
+1886,CSA2,CYFJ,Others,3
+1888,CYVB,CYCL,Others,3
+1891,CYSC,CTQ2,Others,3
+1893,CYYZ,CYQB,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,3
+1894,CYWG,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1895,CNV9,CYUL,Sunwing Airlines Inc.,3
+1898,CZBM,CSZ4,Others,3
+1899,CYXE,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1900,CYSC,CYHM,Others,3
+1901,CLC2,CYHU,Others,3
+1902,CYXU,CYUL,Aviation Starlink Inc.,3
+1903,CNF3,CYHU,Others,3
+1904,CYUL,CYZV,Others,3
+1905,CYYC,CYUL,Air Canada Rouge Lp,3
+1906,CYWG,CYUL,Air Canada Rouge Lp,3
+1910,CST3,CZBM,Others,3
+1911,CYVR,CYUL,Sunwing Airlines Inc.,3
+1913,CYMX,CTE5,Others,3
+1915,CYUL,CTG3,Others,3
+1916,CSD3,CYUL,Others,3
+1917,CSD4,CYUL,Others,3
+1918,CYUY,CYUL,Air Canada,3
+1919,CYHU,CTQ2,Others,3
+1920,CYUL,CYHM,Air Georgian Limited,3
+1921,CYTZ,CYHU,Air Georgian Limited,3
+1924,CTR6,CYRO,Others,3
+1925,CYHU,CSM3,Air Canada,3
+1926,CYTZ,CYQB,Others,3
+1929,CYSN,CYQB,Others,3
+1930,CSU3,CYTZ,Others,3
+1933,CYUL,CYYC,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1934,CYHM,CYUL,Sunwing Airlines Inc.,3
+1936,CYQG,CSM3,Others,3
+1943,CSN7,CSM5,Others,3
+1944,CYUL,CYQB,Air Georgian Limited,3
+1945,CSG3,CSN3,Others,3
+1947,CSG3,CYTZ,Others,3
+1949,CYXU,CYMX,Others,3
 1951,CSS3,CSJ4,Others,3
-1953,CYMX,CNU4,Others,3
-1954,CYHU,CNS8,Others,3
-1956,CZBM,CSM3,Others,3
-1957,CYUL,CNP7,Others,3
-1960,CSN7,CSM5,Others,3
-1963,CSG3,CSN3,Others,3
-1964,CYRQ,CNN8,Others,3
-1965,CYND,CNN8,Others,3
-1966,CYMX,CNN8,Others,3
-1969,CSP5,CSN7,Others,3
-1970,CYJN,CSN7,Others,3
-1971,CYQG,CSM3,Others,3
-1972,CYHU,CSM3,Air Canada,3
-1973,CSY3,CSJ4,Others,3
-1977,CSU3,CNV9,Others,3
-1979,CYRQ,CSJ4,Air Canada,3
-1981,CYUL,CSJ4,Aviation Starlink Inc.,3
-1982,CSJ5,CNV9,Others,3
-1983,CSB3,CSJ5,Others,3
-1985,CSJ4,CSJ5,Others,3
-1990,CYYZ,CSJ5,Air Canada Rouge Lp,3
-1994,CSE4,CNV4,Others,3
-2003,CNV9,CYHM,Others,3
-2004,CSU3,CYHM,Others,3
-2005,CYFJ,CYHM,Aviation Starlink Inc.,3
-2006,CYHU,CYHM,Airsprint Inc.,3
-2008,CYSC,CYHM,Others,3
-2009,CYUL,CYHM,Air Georgian Limited,3
-2013,CYYZ,CYFJ,Others,3
-2016,CYUL,CYCL,Others,3
-2020,CSA2,CYFJ,Others,3
-2027,CYYZ,CYFJ,Aviation Starlink Inc.,3
-2030,CLC2,CYHU,Others,3
-2031,CYUY,CYHU,Air Georgian Limited,3
-2034,CYYG,CYHU,Others,3
-2035,CYYZ,CYHU,Netjets Sales Inc,3
-2045,CYUL,CYHU,Netjets Sales Inc,3
-2046,CYUL,CYHU,Aviation Starlink Inc.,3
-2048,CSS3,CYHU,Others,3
-2049,CNF3,CYHU,Others,3
-2050,CNP3,CYHU,Others,3
-2051,CNS8,CYHU,Others,3
-2053,CNV9,CYHU,Air Georgian Limited,3
-2055,CSN3,CYHU,Others,3
-2058,CSU7,CYHU,Others,3
-2062,CYGV,CYHU,Others,3
-2063,CYLS,CYHU,Others,3
-2064,CYSN,CYHU,Bank Of Utah Trustee,3
-2065,CYTZ,CYHU,Air Georgian Limited,3
-2068,CSE4,CCP3,Others,3
-2071,CYHU,CTQ2,Others,3
-2072,CYSC,CTQ2,Others,3
-2074,CYUL,CCF4,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,3
-2079,CYYC,CTR6,Westjet,3
-2081,CYUY,CTR6,Others,3
-2093,CYMX,CTE5,Others,3
-2094,CYMX,CCP3,Others,3
-2098,CYUL,CTG3,Others,3
-2105,CYHU,CYTZ,Air Georgian Limited,2
-2115,CYVB,CYRQ,Others,2
-2116,CYXU,CYRQ,Others,2
-2118,CYHM,CYSC,Others,2
-2122,CSP6,CYTZ,Porter Airlines Inc.,2
-2126,CYCC,CYSC,Others,2
-2129,CSS4,CYUL,Others,2
-2132,CTR6,CYTZ,Others,2
-2133,CSU3,CYUL,Others,2
-2141,CYGK,CYUL,I.M.P. Group Limited (Execaire),2
-2150,CYEG,CYUL,Sunwing Airlines Inc.,2
-2152,CYFJ,CYUL,I.M.P. Group Limited (Execaire),2
-2154,CYHU,CYTZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2166,CYUY,CYSB,Others,2
-2175,CYCC,CYUL,Others,2
-2177,CSR3,CYUL,Aviation Starlink Inc.,2
-2178,CDA4,CYUL,Others,2
-2182,CCY4,CYUL,Flair Airlines Ltd,2
-2183,CCY4,CYUL,Others,2
-2188,CYYZ,CYSC,Airsprint Inc.,2
-2189,CYYG,CYSC,Jazz Aviation Lp,2
-2191,CCY4,CYUL,Air Canada,2
-2193,CFH4,CYUL,Others,2
-2198,CYHU,CYTR,Others,2
-2199,CYWG,CYSC,Others,2
-2204,CSQ3,CYUL,Others,2
-2208,CSB3,CYSN,Others,2
-2217,CYHU,CYSH,Others,2
-2218,CST3,CYSH,Others,2
-2226,CNC3,CYUL,Others,2
-2229,CYUL,CYTS,Others,2
-2235,CSD3,CYUL,Others,2
-2239,CSJ5,CYUL,Aviation Starlink Inc.,2
-2241,CSM5,CYUL,Others,2
-2242,CYFJ,CYSN,Others,2
-2252,CYUY,CYSC,Others,2
-2253,CYUL,CYSC,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2256,CNV9,CYUL,Air Canada,2
-2259,CYUL,CYTR,Others,2
-2263,CYOO,CYSC,Others,2
-2303,CYOW,CYVB,Others,2
-2304,CYSC,CYVB,Others,2
-2305,CYZV,CYVB,Others,2
-2307,CYUL,CYVO,Jazz Aviation Lp,2
-2308,CYQB,CYVR,Air Canada Rouge Lp,2
-2309,CYUL,CYVR,Airsprint Inc.,2
-2310,CYUL,CYVR,Bank Of Utah Trustee,2
-2311,CYUL,CYVR,I.M.P. Group Limited (Execaire),2
-2312,CZBM,CYUL,Airsprint Inc.,2
-2313,CYUL,CYVR,Jazz Aviation Lp,2
-2314,CYUL,CYXE,Cargojet Airways Ltd.,2
-2315,CYZV,CYUL,Air Georgian Limited,2
-2316,CYZR,CYUL,Others,2
-2317,CYUL,CYXE,Sunwing Airlines Inc.,2
-2318,CYUY,CYXZ,Air Georgian Limited,2
-2319,CSU3,CYVB,Others,2
-2320,CNV9,CYVB,Others,2
-2321,CYXZ,CYUY,Air Georgian Limited,2
-2327,CYUL,CYUY,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2330,CYSB,CYUY,Others,2
-2331,CYTR,CYUY,Others,2
-2332,CYUL,CYUY,Air Canada,2
-2335,CYHU,CYYB,Others,2
-2395,CNV9,CYYB,Others,2
-2396,CYND,CYYB,Others,2
-2397,CYHU,CYUL,Airsprint Inc.,2
-2398,CYSB,CYUL,Others,2
-2399,CYRQ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2401,CYQY,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2405,CYQG,CYUL,Air Canada,2
-2406,CYQB,CYUL,Sunwing Airlines Inc.,2
-2409,CYQB,CYUL,Air Georgian Limited,2
-2411,CYQA,CYUL,Others,2
-2412,CYSC,CYUL,Others,2
-2414,CYSN,CYUL,Aviation Starlink Inc.,2
-2416,CYUL,CYUL,Air France,2
-2427,CYQA,CYUL,Airsprint Inc.,2
-2433,CYKF,CYUL,Aviation Starlink Inc.,2
-2443,CYHZ,CYUL,Air Canada Rouge Lp,2
-2447,CYOW,CYUL,Bank Of Utah Trustee,2
-2451,CYOW,CYUL,Flair Airlines Ltd,2
-2455,CYMX,CYUL,Airsprint Inc.,2
-2456,CYOO,CYUL,Aviation Starlink Inc.,2
-2458,CYOO,CYUL,Airsprint Inc.,2
-2460,CYMX,CYUL,Aviation Starlink Inc.,2
-2462,CYRQ,CYYB,Others,2
-2464,CYGV,CYZV,Others,2
-2465,CYMX,CYZV,Others,2
-2466,CYPN,CYZV,Others,2
-2467,CYUL,CYZV,Jazz Aviation Lp,2
-2468,CYYC,CYUL,I.M.P. Group Limited (Execaire),2
-2469,CYSC,CZBA,Others,2
-2470,CYYC,CYUL,Airsprint Inc.,2
-2471,CYUL,CZBA,Others,2
-2472,CZBM,CZBA,Others,2
-2473,CYUL,CZBF,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2474,CYXU,CYUL,Airsprint Inc.,2
-2475,CSV8,CZBM,Others,2
-2476,CTQ2,CZBM,Others,2
-2477,CYJN,CZBM,Air Canada Rouge Lp,2
-2478,CYKF,CZBM,Others,2
-2479,CYOW,CZBM,Netjets Sales Inc,2
-2480,CYUL,CZBM,Airsprint Inc.,2
-2481,CYUL,CYZR,Aviation Starlink Inc.,2
-2482,CYUL,CYYZ,United Express,2
-2483,CYRQ,CYYZ,Others,2
-2484,CYUL,CYYJ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2485,CYUL,CYYB,Others,2
-2486,CYQB,CYYC,Others,2
-2487,CYQB,CYYC,Westjet,2
-2488,CYUL,CYYC,Air Georgian Limited,2
-2489,CYUL,CYYC,Airsprint Inc.,2
-2490,CYUL,CYYC,Sunwing Airlines Inc.,2
-2491,CYND,CYYG,Others,2
-2492,CYUL,CYYT,Others,2
-2493,CYND,CYYZ,Airsprint Inc.,2
-2494,CYUL,CYYT,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,2
-2495,CYYZ,CYUL,Air France,2
-2496,CNV9,CYYZ,Cargojet Airways Ltd.,2
-2497,CNV9,CYYZ,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,2
-2498,CYFJ,CYYZ,Aviation Starlink Inc.,2
-2499,CYYJ,CYUL,Air Canada,2
-2500,CYYG,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2501,CYYZ,CZBM,I.M.P. Group Limited (Execaire),2
-2503,CYUL,CYUL,Skywest Airlines Inc,2
-2509,CYUL,CYUL,Netjets Sales Inc,2
-2519,CYUY,CYUL,Aviation Starlink Inc.,2
-2522,CYWG,CYUL,Cargojet Airways Ltd.,2
-2533,CYND,CNJ4,Others,2
-2534,CYLS,CYFJ,Others,2
-2535,CYHU,CNF4,Others,2
-2536,CYOW,CYFJ,Porter Airlines Inc.,2
-2537,CSP6,CSZ3,Others,2
-2539,CYUL,CNF8,Netjets Sales Inc,2
-2540,CYUL,CNF8,Others,2
-2542,CTR6,CSY4,Others,2
-2543,CSA2,CSK4,Others,2
-2549,CSZ3,CSK4,Others,2
-2551,CYND,CNL3,Others,2
-2552,CPR2,CSY4,Others,2
-2554,CNP3,CSY4,Others,2
-2556,CYUL,CNL8,Others,2
-2557,CLA2,CSY4,Others,2
-2558,CZBM,CSY3,Others,2
-2559,CNS8,CYND,Others,2
-2560,CSE4,CNN8,Others,2
-2561,CSU3,CNN8,Others,2
-2565,CYYC,CYFJ,Others,2
-2566,CYUL,CAP3,Air Canada,2
-2567,CYRP,CSJ5,Others,2
-2568,CYUL,CSC3,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2569,CYMX,CCF4,Others,2
-2570,CYRQ,CSJ5,Air Canada Rouge Lp,2
-2571,CYSN,CSJ5,Others,2
-2572,CYUL,CND4,Others,2
-2573,CSR3,CNE4,Others,2
-2576,CTR6,CYFJ,Others,2
-2582,CSY4,CAA2,Others,2
-2583,CYKF,CSC3,Others,2
-2585,CYUL,CSZ3,I.M.P. Group Limited (Execaire),2
-2586,CYUL,CSZ3,Aviation Starlink Inc.,2
-2588,CST3,CNF3,Others,2
-2592,CYMX,CNF3,Others,2
-2593,CYXU,CYFJ,Others,2
-2594,CTR6,CSL3,Others,2
-2595,CSP5,CSU3,Others,2
-2596,CYUL,CYOO,Bank Of Utah Trustee,2
-2597,CYHU,CNP7,Others,2
-2598,CYHU,CSM3,Air Georgian Limited,2
-2599,CYJN,CSM3,Others,2
-2600,CYJN,CYOO,Others,2
-2601,CYHU,CSU7,Others,2
-2604,CSC3,CSU7,Others,2
-2605,CYKZ,CSM3,Others,2
-2607,CYVB,CSU3,Others,2
-2608,CYUL,CSU3,Others,2
-2610,CYUL,CYOO,Aviation Starlink Inc.,2
-2611,CYND,CSM3,Others,2
-2613,CYOW,CSM3,Others,2
-2615,CYND,CNR6,Others,2
-2616,CSQ3,CYOW,Others,2
-2617,CYHM,CSU3,Others,2
-2618,CYSC,CSM3,Others,2
-2619,CYOW,CSB3,Others,2
-2620,CTR6,CYOW,Others,2
-2621,CSE4,CNS4,Others,2
-2623,CST3,CNS4,Others,2
-2624,CYMX,CNS4,Others,2
-2625,CSS4,CSU3,Others,2
-2626,CYVB,CSU7,Others,2
-2627,CYYZ,CYFJ,Airsprint Inc.,2
-2629,CLA2,CSY3,Others,2
-2630,CSE4,CNP3,Others,2
-2632,CTA4,CYND,Others,2
-2633,CSB3,CSL5,Others,2
-2634,CYCL,CYND,Airsprint Inc.,2
-2635,CST3,CNP3,Others,2
-2637,CSY4,CSE4,Others,2
-2639,CYUL,CSL5,Others,2
-2640,CYMX,CSB5,Cargojet Airways Ltd.,2
-2642,CYSN,CYND,Others,2
-2643,CYUL,CYND,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2645,CYHU,CNP3,Others,2
-2646,CYYB,CYND,Others,2
-2648,CYMX,CNP3,Others,2
-2649,CYYZ,CYND,Others,2
-2650,CYYZ,CYND,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2652,CYSN,CSB3,Others,2
-2656,CYUL,CSV8,Others,2
-2657,CSE4,CSM3,Others,2
-2658,CYMX,CCG4,Cargojet Airways Ltd.,2
-2659,CYND,CSJ5,Others,2
-2661,CSU3,CTR6,Others,2
-2662,CYKZ,CTR6,Others,2
-2663,CYRP,CYJN,Others,2
-2664,CYMX,CYHZ,Federal Express Corporation,2
-2665,CYKF,CTR6,Others,2
-2667,CYFJ,CSG3,Others,2
-2668,CNF3,CSE4,Others,2
-2669,CSC3,CYCC,Others,2
-2670,CYMX,CSG3,Air Georgian Limited,2
-2671,CSD3,CYCC,Others,2
-2672,CSP5,CYCC,Others,2
-2673,CYFJ,CTR6,Others,2
-2674,CYUL,CFQ7,Sunwing Airlines Inc.,2
-2676,CYTZ,CSG3,Others,2
-2677,CYOW,CYJN,Others,2
-2678,CAA2,CSE4,Others,2
-2679,CYMX,CYKF,Others,2
-2681,CYRQ,CYKF,Others,2
-2682,CYUL,CYKF,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2683,CNV9,CYKZ,Others,2
-2684,CYMX,CES2,Others,2
-2685,CSE4,CYKZ,Others,2
-2686,CYHU,CSE3,Others,2
-2687,CSY4,CES2,Others,2
-2688,CYHU,CYKZ,Air Canada,2
-2689,CSC3,CSH5,Others,2
-2690,CYHU,CTQ6,Others,2
-2691,CYOW,CTR6,Aviation Starlink Inc.,2
-2692,CYUL,CYHZ,Air Canada Rouge Lp,2
-2693,CYND,CNC4,Others,2
-2695,CSU3,CSE4,Others,2
-2696,CYFJ,CSE4,Others,2
-2697,CYRQ,CLC2,Others,2
-2698,CYUL,CLC2,Airsprint Inc.,2
-2700,CYKZ,CSE4,Others,2
-2702,CYOW,CSE4,Others,2
-2703,CSM5,CSE4,Others,2
+1952,CYND,CYSN,Others,3
+1953,CYMX,CYSN,Others,3
+1954,CSP5,CSJ4,Others,3
+1956,CYUL,CYYC,Jazz Aviation Lp,3
+1958,CYHU,CYSN,Bank Of Utah Trustee,3
+1960,CYXE,CYMX,Others,3
+1961,CSB3,CSJ4,Others,3
+1962,CSY3,CSJ4,Others,3
+1963,CYSC,CYOW,Others,3
+1964,CYRQ,CSJ4,Air Canada,3
+1965,CYUL,CYSN,Aviation Starlink Inc.,3
+1967,CYUL,CSJ4,Aviation Starlink Inc.,3
+1968,CYUL,CCF4,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,3
+1969,CSB3,CSJ5,Others,3
+1970,CSJ4,CSJ5,Others,3
+1971,CYYZ,CSJ5,Air Canada Rouge Lp,3
+1972,CNC4,CYND,Others,3
+1973,CYUL,CYYC,Air Canada Rouge Lp,3
+1977,CYUL,CYQY,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,3
+1978,CSA2,CSQ3,Others,3
+1979,CSG3,CSQ3,Others,3
+1980,CYHU,CYYZ,Air Canada,3
+1981,CYHU,CYYZ,Air Georgian Limited,3
+1982,CYCC,CSQ3,Others,3
+1984,CYHU,CYYZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,3
+1987,CYRQ,CSR3,Others,3
+1988,CYYG,CYHU,Others,3
+1989,CYSA,CZBM,Others,3
+1992,CSD3,CSS3,Others,3
+1993,CYUY,CYHU,Air Georgian Limited,3
+1996,CYUL,CYHU,Aviation Starlink Inc.,3
+1997,CYMX,CSS4,Others,3
+1998,CZBM,CSS4,Others,3
+2000,CPG5,CSP6,Others,3
+2002,CSU3,CSP5,Others,3
+2004,CYHU,CSP5,Others,3
+2007,CZBM,CSN7,Others,3
+2009,CYJN,CSN7,Others,3
+2015,CYJN,CSP6,Others,3
+2016,CSP5,CSN7,Others,3
+2018,CYRQ,CYRO,Others,2
+2020,CST3,CYRO,Others,2
+2021,CYLS,CYQB,Others,2
+2022,CYVB,CYQB,Others,2
+2023,CSP6,CYRO,Others,2
+2024,CYGV,CYQB,Others,2
+2025,CYUL,CYQG,Aviation Starlink Inc.,2
+2026,CYUY,CYQB,Others,2
+2029,CYHU,CYQY,Others,2
+2031,CYVB,CYPN,Others,2
+2032,CYND,CYQB,Others,2
+2036,CYMX,CYPQ,Others,2
+2037,CSG3,CYQB,Others,2
+2038,CYZV,CYQB,Others,2
+2039,CYQB,CYOW,Others,2
+2043,CYND,CYYB,Others,2
+2046,CYHU,CYYB,Others,2
+2049,CNV9,CYYB,Others,2
+2050,CYUY,CYXZ,Air Georgian Limited,2
+2052,CYUL,CYXE,Sunwing Airlines Inc.,2
+2055,CYUL,CYXE,Cargojet Airways Ltd.,2
+2056,CYSC,CYVB,Others,2
+2061,CYUL,CYVR,Jazz Aviation Lp,2
+2062,CYUL,CYVR,Bank Of Utah Trustee,2
+2063,CYQB,CYVR,Air Canada Rouge Lp,2
+2065,CYUL,CYVO,Jazz Aviation Lp,2
+2070,CYRQ,CYYB,Others,2
+2071,CYUL,CYYB,Others,2
+2079,CYUL,CYYT,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,2
+2081,CYUL,CYYT,Others,2
+2083,CYUL,CYYJ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2086,CYND,CYYG,Others,2
+2089,CYUL,CYYC,Sunwing Airlines Inc.,2
+2091,CYUL,CYYC,Air Georgian Limited,2
+2093,CYQB,CYYC,Westjet,2
+2094,CYQB,CYYC,Others,2
+2096,CYMX,CYYC,Others,2
+2098,CYZV,CYVB,Others,2
+2123,CYOW,CYVB,Others,2
+2129,CSU3,CYVB,Others,2
+2130,CNV9,CYVB,Others,2
+2132,CYXZ,CYUY,Air Georgian Limited,2
+2133,CYUL,CYUY,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2134,CYUL,CYUY,Air Canada,2
+2136,CYTR,CYUY,Others,2
+2137,CYSB,CYUY,Others,2
+2144,CNV9,CYYZ,Cargojet Airways Ltd.,2
+2145,CNV9,CYYZ,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,2
+2146,CYHU,CYTZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2148,CSB3,CYSN,Others,2
+2150,CYFJ,CYSN,Others,2
+2152,CYHU,CYTR,Others,2
+2153,CYUL,CYTR,Others,2
+2154,CYUL,CYTS,Others,2
+2155,CSP6,CYTZ,Porter Airlines Inc.,2
+2156,CTR6,CYTZ,Others,2
+2157,CYHU,CYTZ,Air Georgian Limited,2
+2158,CCY4,CYUL,Flair Airlines Ltd,2
+2165,CYHU,CYSH,Others,2
+2166,CST3,CYSH,Others,2
+2171,CST3,CYRQ,Others,2
+2172,CSY3,CYRQ,Others,2
+2173,CYOW,CYRQ,Others,2
+2174,CYVB,CYRQ,Others,2
+2175,CYXU,CYRQ,Others,2
+2177,CYUY,CYSB,Others,2
+2180,CYCC,CYSC,Others,2
+2182,CYHM,CYSC,Others,2
+2183,CYOO,CYSC,Others,2
+2184,CYUL,CYSC,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2185,CYUY,CYSC,Others,2
+2186,CYWG,CYSC,Others,2
+2187,CYYG,CYSC,Jazz Aviation Lp,2
+2196,CCY4,CYUL,Air Canada,2
+2197,CCY4,CYUL,Others,2
+2199,CYGV,CYZV,Others,2
+2200,CYSB,CYUL,Others,2
+2201,CYSN,CYUL,Aviation Starlink Inc.,2
+2202,CYUL,CYUL,Air France,2
+2203,CYUY,CYUL,Aviation Starlink Inc.,2
+2204,CYWG,CYUL,Cargojet Airways Ltd.,2
+2205,CYUL,CYZV,Jazz Aviation Lp,2
+2206,CYPN,CYZV,Others,2
+2207,CYYG,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2208,CYYJ,CYUL,Air Canada,2
+2209,CYMX,CYZV,Others,2
+2210,CYYZ,CYUL,Air France,2
+2211,CYZR,CYUL,Others,2
+2212,CYZV,CYUL,Air Georgian Limited,2
+2213,CDA4,CYUL,Others,2
+2214,CYUL,CYZR,Aviation Starlink Inc.,2
+2218,CYRQ,CYYZ,Others,2
+2221,CYFJ,CYYZ,Aviation Starlink Inc.,2
+2224,CYRQ,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2225,CYQY,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2226,CYSC,CZBA,Others,2
+2227,CYUL,CZBA,Others,2
+2228,CFH4,CYUL,Others,2
+2229,CYKF,CZBM,Others,2
+2230,CYJN,CZBM,Air Canada Rouge Lp,2
+2231,CNC3,CYUL,Others,2
+2232,CNV9,CYUL,Air Canada,2
+2233,CTQ2,CZBM,Others,2
+2234,CSV8,CZBM,Others,2
+2235,CSJ5,CYUL,Aviation Starlink Inc.,2
+2236,CSM5,CYUL,Others,2
+2237,CSQ3,CYUL,Others,2
+2238,CSR3,CYUL,Aviation Starlink Inc.,2
+2239,CSS4,CYUL,Others,2
+2240,CSU3,CYUL,Others,2
+2241,CYCC,CYUL,Others,2
+2242,CYEG,CYUL,Sunwing Airlines Inc.,2
+2243,CYHZ,CYUL,Air Canada Rouge Lp,2
+2244,CYKF,CYUL,Aviation Starlink Inc.,2
+2245,CYMX,CYUL,Aviation Starlink Inc.,2
+2246,CYUL,CZBF,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2247,CYOO,CYUL,Aviation Starlink Inc.,2
+2248,CYOW,CYUL,Bank Of Utah Trustee,2
+2249,CYOW,CYUL,Flair Airlines Ltd,2
+2250,CYQB,CYUL,Air Georgian Limited,2
+2251,CYQB,CYUL,Sunwing Airlines Inc.,2
+2252,CYQG,CYUL,Air Canada,2
+2253,CZBM,CZBA,Others,2
+2254,CYMX,CYOW,Cargojet Airways Ltd.,2
+2255,CYKZ,CSM3,Others,2
+2257,CYMX,CNF3,Others,2
+2258,CYHU,CNF4,Others,2
+2259,CZBM,CSY3,Others,2
+2260,CLA2,CSY4,Others,2
+2261,CYND,CNJ4,Others,2
+2263,CNP3,CSY4,Others,2
+2264,CYND,CNL3,Others,2
+2266,CYZR,CYHU,Others,2
+2268,CYYZ,CYHU,Air Georgian Limited,2
+2269,CPR2,CSY4,Others,2
+2270,CYYB,CYHU,Others,2
+2271,CYUL,CNL8,Others,2
+2273,CYFJ,CSE4,Others,2
+2274,CST3,CNF3,Others,2
+2275,CLA2,CSY3,Others,2
+2276,CYHU,CSU7,Others,2
+2278,CYHU,CNC3,Others,2
+2280,CYND,CNC4,Others,2
+2282,CYUL,CND4,Others,2
+2283,CSR3,CNE4,Others,2
+2284,CYVB,CSU7,Others,2
+2285,CYUL,CSV8,Others,2
+2287,CYOW,CSE4,Others,2
+2289,CYKZ,CSE4,Others,2
+2290,CYUL,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2291,CYTZ,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2292,CSC3,CSU7,Others,2
+2293,CSP5,CYHU,Others,2
+2294,CYND,CSM3,Others,2
+2295,CYND,CNR6,Others,2
+2297,CSM3,CSE4,Others,2
+2298,CSS4,CYHU,Others,2
+2299,CSE4,CNS4,Others,2
+2301,CST3,CNS4,Others,2
+2302,CSE3,CYHU,Others,2
+2303,CYMX,CNS4,Others,2
+2304,CSP6,CSZ3,Others,2
+2305,CNY3,CYHU,Others,2
+2306,CYHU,CNP7,Others,2
+2307,CSM5,CSE4,Others,2
+2308,CYFD,CYHU,Others,2
+2309,CYMX,CNP3,Others,2
+2310,CSE4,CNN8,Others,2
+2311,CYSH,CYHU,Others,2
+2312,CSU3,CNN8,Others,2
+2313,CSY4,CSE4,Others,2
+2314,CTR6,CSY4,Others,2
+2315,CYPN,CYHU,Others,2
+2318,CSE4,CNP3,Others,2
+2319,CST3,CNP3,Others,2
+2320,CYLW,CYHU,Others,2
+2321,CYHU,CNP3,Others,2
+2322,CYKZ,CYHU,Air Canada,2
+2323,CYHM,CYHU,Aviation Starlink Inc.,2
+2324,CSU3,CSE4,Others,2
+2326,CYFJ,CSG3,Others,2
+2327,CYRQ,CLC2,Others,2
+2328,CSN7,CSD3,Others,2
+2333,CPR2,CSG3,Others,2
+2342,CNN8,CSU3,Others,2
+2345,CSC3,CST7,Others,2
+2351,CYTZ,CST3,Others,2
+2352,CSB3,CST7,Others,2
+2361,CYHM,CSU3,Others,2
+2369,CYUL,CSU3,Others,2
+2371,CYVB,CSU3,Others,2
+2372,CYND,CMW3,Others,2
+2375,CSS4,CSU3,Others,2
+2376,CSP5,CSU3,Others,2
+2389,CNV4,CYHU,Others,2
+2392,CSP5,CYCC,Others,2
+2393,CSD3,CYCC,Others,2
+2394,CSC3,CYCC,Others,2
+2395,CSN3,CSA2,Others,2
+2396,CSN7,CSA2,Others,2
+2397,CYHU,CWF2,Others,2
+2398,CYJN,CTE5,Others,2
+2402,CSU3,CSA2,Others,2
+2403,CSA2,CTY5,Others,2
+2405,CTY5,CSA2,Others,2
+2406,CSS3,CTE5,Others,2
+2407,CNV4,CSE3,Others,2
+2410,CNV8,CYFJ,Others,2
+2411,CSS3,CSE3,Others,2
+2413,CYUL,CTA4,Others,2
+2417,CYHU,CYFD,Others,2
+2418,CSA2,CTE5,Others,2
+2421,CYMX,CYCK,Others,2
+2422,CSE4,CTE5,Others,2
+2423,CSG3,CTE5,Others,2
+2424,CYFJ,CSA2,Others,2
+2425,CYRP,CSD4,Others,2
+2426,CST3,CNS8,Others,2
+2427,CYGK,CTR6,Others,2
+2428,CYSN,CTR6,Others,2
+2429,CYRP,CTR6,Others,2
+2431,CYOW,CTR6,Aviation Starlink Inc.,2
+2432,CYUL,CSC3,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2433,CYKZ,CTR6,Others,2
+2434,CYKF,CTR6,Others,2
+2435,CYFJ,CTR6,Others,2
+2437,CSU3,CTR6,Others,2
+2441,CST3,CSD3,Others,2
+2443,CYHU,CTQ6,Others,2
+2444,CYTR,CTR6,Others,2
+2445,CSC3,CTQ2,Others,2
+2446,CYKF,CSC3,Others,2
+2448,CNV9,CTG3,Others,2
+2451,CSM3,CSB3,Others,2
+2454,CTQ2,CSB3,Others,2
+2455,CYQB,CTG3,Others,2
+2457,CYOW,CSB3,Others,2
+2458,CYSN,CSB3,Others,2
+2459,CYMX,CSB5,Cargojet Airways Ltd.,2
+2461,CNY3,CYFJ,Others,2
+2462,CSU3,CSE3,Others,2
+2463,CYHU,CNV9,Air Georgian Limited,2
+2464,CYND,CYHM,Others,2
+2467,CNV9,CYHM,Aviation Starlink Inc.,2
+2468,CYHU,CYGV,Others,2
+2470,CYUL,CYGM,Others,2
+2472,CYHU,CSE3,Others,2
+2473,CYPN,CNV9,Others,2
+2474,CYQB,CNV9,Others,2
+2475,CYRQ,CNV9,Aviation Starlink Inc.,2
+2476,CYUL,CNV9,Bank Of Utah Trustee,2
+2477,CYVB,CNV9,Others,2
+2478,CSG3,CNV9,Others,2
+2479,CYUL,CYHM,Sunwing Airlines Inc.,2
+2480,CPR2,CSE4,Others,2
+2481,CYUL,CNV8,Others,2
+2482,CNF4,CYHU,Others,2
+2483,CSJ5,CSE4,Others,2
+2487,CYUL,CSZ3,Aviation Starlink Inc.,2
+2488,CSA2,CNV4,Others,2
+2489,CSC3,CNV4,Others,2
+2491,CSJ4,CSE4,Others,2
+2492,CYUL,CNV4,Others,2
+2493,CNV9,CNV8,Others,2
+2494,CYFJ,CNV8,Others,2
+2495,CSD4,CSE4,Others,2
+2496,CYZV,CNV9,Others,2
+2499,CAA2,CSE4,Others,2
+2500,CSD3,CPR2,Others,2
+2501,CSG3,CPR2,Others,2
+2504,CYOW,CYFJ,Porter Airlines Inc.,2
+2505,CSY4,CPR2,Others,2
+2507,CYJN,CPR2,Others,2
+2508,CYLS,CYFJ,Others,2
+2510,CYGK,CYFJ,Others,2
+2511,CTR6,CYFJ,Others,2
+2515,CYXU,CYFJ,Others,2
+2517,CYYC,CYFJ,Others,2
+2520,CNF3,CSE4,Others,2
+2521,CZBM,CPF4,Others,2
+2528,CSB3,CPG5,Others,2
+2529,CSE4,CPG5,Others,2
+2530,CSP6,CPG5,Others,2
+2532,CSB3,CLA2,Others,2
+2534,CES2,CSP5,Others,2
+2536,CSA2,CSP5,Others,2
+2543,CYJN,CSP5,Others,2
+2548,CYUL,CSN7,Others,2
+2550,CYHU,CSN7,Others,2
+2552,CSA2,CSK4,Others,2
+2568,CYHU,CYMX,Air Georgian Limited,2
+2569,CYGK,CYMX,Others,2
+2570,CYTZ,CSP6,Porter Airlines Inc.,2
+2571,CYCK,CYMX,Others,2
+2572,CTR6,CYMX,Others,2
+2573,CSU3,CYMX,Others,2
+2575,CSS3,CYMX,Others,2
+2576,CSQ3,CYMX,Others,2
+2578,CSG3,CYMX,Air Georgian Limited,2
+2579,CYJN,CYMX,Bank Of Utah Trustee,2
+2580,CYRO,CSP6,Others,2
+2582,CYSH,CYMX,Others,2
+2591,CSZ3,CSP6,Others,2
+2593,CYUL,CFQ7,Sunwing Airlines Inc.,2
+2604,CYYZ,CYND,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2608,CYYB,CYND,Others,2
+2612,CYUL,CYND,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2613,CYSN,CYND,Others,2
+2615,CYJN,CYOO,Others,2
+2620,CYOW,CSM3,Others,2
+2621,CTR6,CYOW,Others,2
+2622,CYJN,CSM3,Others,2
+2623,CSQ3,CYOW,Others,2
+2624,CYHU,CSM3,Air Georgian Limited,2
+2625,CYSC,CSM3,Others,2
+2626,CSE4,CSM3,Others,2
+2630,CYUL,CYOO,Bank Of Utah Trustee,2
+2631,CYUL,CYOO,Aviation Starlink Inc.,2
+2635,CNP3,CSN7,Others,2
+2636,CSZ3,CSK4,Others,2
+2638,CYJN,CSM5,Others,2
+2641,CSZ3,CSN3,Others,2
+2650,CNS8,CYND,Others,2
+2653,CSN3,CSM5,Others,2
+2655,CYUL,CSL5,Others,2
+2658,CSB3,CSL5,Others,2
+2659,CYCL,CYND,Others,2
+2660,CTA4,CYND,Others,2
+2663,CTR6,CSL3,Others,2
+2670,CSA2,CYMX,Cargojet Airways Ltd.,2
+2671,CYUL,CYKF,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
+2672,CYTZ,CSG3,Others,2
+2673,CYUL,CCV4,Air Canada,2
+2674,CYUL,CSR3,Aviation Starlink Inc.,2
+2675,CSY4,CES2,Others,2
+2676,CYSC,CSR3,Others,2
+2678,CYUL,CCP3,Others,2
+2679,CNV9,CYKZ,Others,2
+2681,CSE4,CYKZ,Others,2
+2682,CNP3,CST3,Others,2
+2683,CYHU,CYKZ,Air Canada,2
+2686,CYND,CSR3,Others,2
+2687,CNS8,CST3,Others,2
+2690,CSC3,CSH5,Others,2
+2691,CSQ3,CSR3,Others,2
+2693,CYND,CSJ4,Others,2
+2694,CNV9,CYLQ,Others,2
+2696,CYMX,CYKF,Others,2
+2697,CYUL,CYHZ,Air Canada Rouge Lp,2
+2698,CYMX,CSG3,Air Georgian Limited,2
+2699,CYFJ,CYKF,Others,2
+2700,CYMX,CSH5,Others,2
+2701,CSY3,CYJN,Others,2
+2703,CSZ3,CYJN,Others,2
 2704,CPR2,CYJN,Others,2
-2705,CSM3,CSE4,Others,2
-2706,CSJ5,CSE4,Others,2
-2708,CYUL,CYHZ,Airsprint Inc.,2
-2709,CYYZ,CTR6,Bombardier Inc.,2
-2710,CYRP,CTR6,Others,2
-2711,CSA2,CTY5,Others,2
-2712,CSB3,CLA2,Others,2
-2713,CSJ4,CSE4,Others,2
-2714,CYYZ,CTR6,Airsprint Inc.,2
-2715,CSD4,CSE4,Others,2
-2716,CPR2,CSE4,Others,2
-2717,CSY3,CYJN,Others,2
-2718,CYHU,CWF2,Others,2
-2719,CSZ3,CYJN,Others,2
-2720,CYGK,CYJN,Others,2
-2721,CYTR,CTR6,Others,2
-2722,CYSN,CTR6,Others,2
-2723,CPR2,CSG3,Others,2
-2725,CNV9,CYLQ,Others,2
-2726,CYUL,CSC9,Others,2
-2727,CPS2,CYMX,Others,2
-2728,CSA2,CYMX,Cargojet Airways Ltd.,2
-2729,CST3,CSD3,Others,2
-2730,CYUL,CCY4,Airsprint Inc.,2
-2731,CSG3,CYMX,Air Georgian Limited,2
-2732,CYVB,CYCL,Others,2
-2733,CSN7,CSD3,Others,2
-2734,CSQ3,CYMX,Others,2
-2735,CSS3,CYMX,Others,2
-2736,CSU3,CYMX,Others,2
-2737,CTR6,CYMX,Others,2
-2738,CYCK,CYMX,Others,2
-2739,CYND,CSJ4,Others,2
-2740,CNV9,CCY4,Others,2
-2741,CYGK,CYMX,Others,2
-2742,CSU3,CSE3,Others,2
-2743,CYHU,CYMX,Air Georgian Limited,2
-2744,CYJN,CYMX,Bank Of Utah Trustee,2
-2745,CYOW,CYMX,Airsprint Inc.,2
-2746,CZBM,CSJ4,Others,2
-2748,CYHU,CNC3,Others,2
-2749,CYSH,CYMX,Others,2
-2751,CSA2,CSJ5,Others,2
-2753,CYUL,CCV4,Air Canada,2
-2754,CYUL,CCP3,Others,2
-2756,CYUL,CTA4,Others,2
-2757,CPG5,CYMX,Others,2
-2758,CSA2,CTE5,Others,2
-2759,CSS3,CSE3,Others,2
-2760,CYMX,CYLQ,Others,2
-2762,CSC3,CTQ2,Others,2
-2763,CYMX,CYCK,Others,2
-2764,CTR6,CYLS,Others,2
-2766,CYMX,CSH5,Others,2
-2768,CYQB,CTG3,Others,2
-2769,CNV4,CSE3,Others,2
-2770,CNV9,CYMW,Others,2
-2771,CSB3,CSJ2,Others,2
-2772,CYRP,CSD4,Others,2
-2773,CYRO,CYMW,Others,2
-2774,CNV9,CTG3,Others,2
-2775,CYND,CMW3,Others,2
-2776,CYJN,CTE5,Others,2
-2777,CSE4,CSJ4,Others,2
-2779,CSS3,CTE5,Others,2
-2780,CCP3,CYMX,Others,2
-2781,CYUL,CCY4,I.M.P. Group Limited (Execaire),2
-2782,CSG3,CTE5,Others,2
-2783,CSE4,CTE5,Others,2
-2786,CES2,CSP5,Others,2
-2787,CYGV,CYQB,Others,2
-2788,CYUL,CSN7,Others,2
-2789,CYHU,CSN7,Others,2
-2790,CYLS,CYQB,Others,2
-2791,CYND,CYQB,Others,2
-2793,CYHU,CYGV,Others,2
-2794,CYUL,CSR8,Others,2
-2796,CYHU,CNV9,Air Georgian Limited,2
-2797,CYUY,CYQB,Others,2
-2798,CYVB,CYQB,Others,2
-2799,CYOO,CSQ3,Others,2
-2800,CYZV,CYQB,Others,2
-2801,CYOW,CYHU,Airsprint Inc.,2
-2803,CYPN,CYHU,Others,2
-2808,CSN7,CSA2,Others,2
-2809,CSN3,CSA2,Others,2
-2811,CYMX,CSS3,Others,2
-2814,CYHU,CSS3,Others,2
-2815,CYHM,CYHU,Aviation Starlink Inc.,2
-2816,CYUL,CYGM,Others,2
-2817,CSG3,CNV9,Others,2
-2820,CYKZ,CYHU,Air Canada,2
-2821,CNF4,CYHU,Others,2
-2823,CSA2,CSP5,Others,2
-2826,CSG3,CYQB,Others,2
-2828,CYPN,CNV9,Others,2
-2829,CYRQ,CYRO,Others,2
-2830,CYQB,CNV9,Others,2
-2831,CYRQ,CNV9,Aviation Starlink Inc.,2
-2832,CYTZ,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2833,CZBM,CPF4,Others,2
-2835,CNP3,CSN7,Others,2
-2837,CYUL,CYQG,Aviation Starlink Inc.,2
-2838,CYUL,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,2
-2839,CYHU,CRL2,Others,2
-2840,CYZR,CYHU,Others,2
-2841,CYUL,CYHM,Sunwing Airlines Inc.,2
-2844,CYYZ,CYHU,Air Georgian Limited,2
-2845,CYND,CSR3,Others,2
-2846,CYSC,CSR3,Others,2
-2848,CYHU,CYQY,Others,2
-2850,CYYB,CYHU,Others,2
-2854,CYJN,CSM5,Others,2
-2855,CYUL,CSR3,Aviation Starlink Inc.,2
-2856,CYVB,CNV9,Others,2
-2857,CZBA,CSQ3,Others,2
-2858,CYUL,CNV9,Bank Of Utah Trustee,2
-2862,CST3,CYRO,Others,2
-2863,CNV9,CYHM,Aviation Starlink Inc.,2
-2864,CSN3,CSM5,Others,2
-2865,CSP6,CPG5,Others,2
-2866,CYSH,CYHU,Others,2
-2867,CYZV,CNV9,Others,2
-2868,CSP6,CYRO,Others,2
-2870,CSE4,CPG5,Others,2
-2871,CSB3,CPG5,Others,2
-2874,CSQ3,CSR3,Others,2
-2876,CYUL,CPS2,I.M.P. Group Limited (Execaire),2
-2877,CSZ3,CSN3,Others,2
-2879,CYJN,CSP5,Others,2
-2880,CYTZ,CST3,Others,2
-2881,CSZ3,CSP6,Others,2
-2883,CSP5,CYHU,Others,2
-2884,CNV9,CNV8,Others,2
-2885,CYHU,CST3,Others,2
-2886,CSB3,CST7,Others,2
-2887,CSZ3,CST3,Others,2
-2888,CSY4,CST3,Others,2
-2890,CNN8,CSU3,Others,2
-2892,CYUL,CNV4,Others,2
-2893,CTQ2,CSB3,Others,2
-2894,CSE3,CYHU,Others,2
-2896,CSC3,CNV4,Others,2
-2897,CSM3,CSB3,Others,2
-2898,CNY3,CYHU,Others,2
-2899,CSA2,CNV4,Others,2
-2900,CSY4,CPR2,Others,2
-2901,CYVB,CYPN,Others,2
-2902,CSD3,CPR2,Others,2
-2903,CSS4,CYHU,Others,2
-2904,CSC3,CST7,Others,2
-2906,CSG3,CPR2,Others,2
-2907,CYMX,CYPQ,Others,2
-2910,CYFJ,CNV8,Others,2
-2911,CYJN,CPR2,Others,2
-2913,CSY3,CYRQ,Others,2
-2914,CSU3,CSA2,Others,2
-2915,CYUL,CNV8,Others,2
-2916,CYQB,CYOW,Others,2
-2919,CYFD,CYHU,Others,2
-2920,CNP3,CST3,Others,2
-2921,CYUL,CPS2,Bombardier Inc.,2
-2922,CYMX,CYOW,Cargojet Airways Ltd.,2
-2924,CNS8,CST3,Others,2
-2925,CYOW,CYRQ,Others,2
-2926,CYTZ,CSP6,Porter Airlines Inc.,2
-2927,CNV4,CYHU,Others,2
-2928,CST3,CNS8,Others,2
-2929,CST3,CYRQ,Others,2
-2930,CYRO,CSP6,Others,2
-2931,CYFJ,CSA2,Others,2
-2933,CTY5,CSA2,Others,2
-2934,CSE4,CST3,Others,2
-2936,CYYB,CSD4,Others,1
-2937,CSL3,CSE4,Others,1
-2938,CYHU,CSD3,Others,1
-2940,CPL3,CSD4,Others,1
-2942,CSG3,CSE3,Others,1
-2943,CSQ3,CSE4,Others,1
-2944,CYCC,CSD4,Others,1
-2945,CSS3,CSD3,Others,1
-2947,CYSC,CSD4,Others,1
-2949,CNV9,CSD4,Others,1
-2952,CYHU,CRL2,I.M.P. Group Limited (Execaire),1
-2953,CYJN,CRL2,Others,1
-2956,CYMX,CRL2,Air Georgian Limited,1
-2959,CYMX,CRL2,Others,1
-2961,CSN7,CSE4,Others,1
-2965,CYMX,CSD3,Others,1
-2966,CYSA,CSD3,Others,1
-2968,CYJN,CSD3,Others,1
-2969,CZBM,CSD3,Others,1
-2970,CYHU,CRE3,Others,1
-2974,CYUL,CSE3,Others,1
-2976,CYXU,CSE3,Others,1
-2978,CNV9,CSE4,Others,1
-2981,CNS8,CSE4,Others,1
-2984,CYRQ,CRL2,Others,1
-2985,CCP3,CSE4,Others,1
-2989,CNS4,CSE4,Others,1
-2990,CLC2,CSE4,Others,1
-2991,CNP7,CSE4,Others,1
-2992,CNN8,CSE4,Others,1
-2993,CNF4,CSE4,Others,1
-2998,CZBM,CPS2,I.M.P. Group Limited (Execaire),1
-3003,CYFJ,CPS2,Others,1
-3004,CYJN,CPS2,Others,1
-3005,CYMX,CPS2,Others,1
-3011,CSC3,CPU6,Others,1
-3012,CSY4,CSE3,Others,1
-3013,CPS2,CSE4,Others,1
-3015,CYND,CPS2,Others,1
-3022,CYSC,CPS2,Others,1
-3024,CPP6,CSE4,Others,1
-3025,CYHZ,CSB3,Others,1
-3027,CPR2,CSD3,Others,1
-3029,CSK4,CSC3,Others,1
-3031,CNS4,CSC3,Others,1
-3032,CSR3,CSA2,Others,1
-3034,CSS3,CSA2,Others,1
-3035,CNC3,CSC3,Others,1
-3038,CSX5,CSA2,Others,1
-3039,CLA6,CSC3,Others,1
-3040,CYJN,CSA2,Bank Of Utah Trustee,1
-3041,CYMX,CSA2,Bank Of Utah Trustee,1
-3044,CLA4,CSD3,Others,1
-3045,CSJ5,CSA2,Others,1
-3052,CSB3,CSA2,Others,1
-3056,CSM5,CSC3,Others,1
-3058,CSL3,CSC3,Others,1
-3061,CZBM,CSB3,Air Canada,1
-3062,CYUL,CSA2,Air Canada Rouge Lp,1
-3063,CYYZ,CSB3,Airsprint Inc.,1
-3064,CYXU,CSB3,Others,1
-3065,CTE5,CSB3,Others,1
-3071,CYRP,CSB3,Others,1
-3074,CYOO,CSB3,Others,1
-3075,CYLS,CSB3,Others,1
-3076,CYFD,CSB3,Others,1
-3080,CSY4,CSB3,Others,1
-3081,CST3,CSB3,Others,1
-3082,CSM5,CSB3,Others,1
-3085,CAA2,CSB3,Others,1
-3086,CDA4,CSB3,Others,1
-3087,CLA2,CSB3,Others,1
-3091,CNC3,CSB3,Others,1
-3092,CSD4,CSB3,Others,1
-3093,CYSH,CSB3,Others,1
-3094,CSH5,CSB3,Others,1
-3095,CSJ5,CSB3,Others,1
-3103,CZBF,CSC3,Others,1
-3104,CYYZ,CSC3,Airsprint Inc.,1
-3109,CYXU,CSC3,Others,1
-3114,CZBM,CRL2,Others,1
-3120,CYUL,CRL2,Netjets Sales Inc,1
-3123,CYUL,CSC9,Airsprint Inc.,1
-3128,CYHU,CSC9,Others,1
-3138,CYHZ,CSC3,Airsprint Inc.,1
-3141,CYGK,CSC3,Others,1
-3144,CSU7,CSC3,Others,1
-3146,CSN7,CSC3,Others,1
-3157,CYUL,CSC3,Aviation Starlink Inc.,1
-3165,CYUL,CSC3,Airsprint Inc.,1
-3166,CYRO,CSC3,Others,1
-3168,CYOW,CSC3,Airsprint Inc.,1
-3169,CYOO,CSC3,Others,1
-3170,CYUL,CYRQ,Aviation Starlink Inc.,1
-3172,CTQ2,CSE4,Others,1
-3203,CSA2,CSM5,Bombardier Inc.,1
-3204,CES2,CSM5,Others,1
-3231,CYRQ,CSM3,Others,1
-3233,CYQS,CSM3,Others,1
-3243,CYHM,CSM3,Others,1
-3244,CST3,CSM3,Others,1
-3245,CSR3,CSM3,Others,1
-3268,CZBM,CSM3,Bombardier Inc.,1
-3270,CZBA,CSM3,Others,1
-3272,CYTZ,CSM3,Others,1
-3273,CYSN,CSM3,Others,1
-3277,CSC3,CSM5,Others,1
-3278,CTR6,CSE4,Others,1
-3279,CNS4,CSP5,Others,1
-3280,CSN7,CSP5,Others,1
-3282,CSC3,CSP5,Others,1
-3285,CSB3,CSP5,Others,1
-3290,CPR2,CSP5,Others,1
-3293,CNF4,CSP5,Others,1
-3295,CYSA,CSN7,Others,1
-3298,CTQ2,CSN7,Others,1
-3300,CSX5,CSN7,Others,1
-3301,CSU3,CSN7,Others,1
-3304,CSP6,CSP5,Others,1
-3308,CYVR,CSP6,Flair Airlines Ltd,1
-3311,CYND,CSP6,Others,1
-3312,CTE5,CSP6,Others,1
-3313,CST3,CSP6,Others,1
-3314,CSS3,CSP6,Others,1
-3315,CSQ3,CSP6,Others,1
-3316,CSP5,CSP6,Others,1
-3321,CAA2,CSP6,Others,1
-3322,CZBA,CSP5,Others,1
-3324,CYXU,CSP5,Others,1
-3325,CYTR,CSP5,Others,1
-3326,CYRQ,CSP5,Others,1
-3327,CYMX,CSP5,Others,1
-3330,CSS3,CSP5,Others,1
-3333,CSG3,CSM5,Bombardier Inc.,1
-3334,CYRQ,CSM5,Others,1
-3335,CSS3,CSN3,Others,1
-3336,CSN7,CSN3,Others,1
-3338,CSM5,CSN3,Others,1
-3340,CZBM,CSM5,Others,1
-3345,CYFJ,CSM5,Bombardier Inc.,1
-3347,CSS3,CSM5,Others,1
-3349,CSP5,CSM5,Others,1
-3355,CSJ5,CSM5,Others,1
-3358,CSM5,CSN7,Others,1
-3359,CES2,CSN7,Others,1
-3360,CSD3,CSN7,Others,1
-3363,CNZ8,CSN7,Others,1
-3368,CNU4,CSN7,Others,1
-3371,CSY4,CSN3,Others,1
-3373,CYSC,CSN5,Others,1
-3374,CYYZ,CSN3,Others,1
-3375,CYMX,CSN3,Air Georgian Limited,1
-3382,CSC3,CSM3,Others,1
-3383,CNV9,CSM3,Others,1
-3384,CYJN,CSH5,Others,1
-3385,CYMX,CSJ2,Others,1
-3386,CSU3,CSJ2,Others,1
-3390,CYRQ,CPR7,Others,1
-3393,CYUL,CSH5,Others,1
-3395,CYRQ,CSH5,Others,1
-3396,CYHU,CSH5,I.M.P. Group Limited (Execaire),1
-3397,CNV9,CSJ4,Others,1
-3398,CYHU,CSH5,Bank Of Utah Trustee,1
-3399,CYHU,CSH5,Air Canada,1
-3403,CSM3,CSH5,Others,1
-3404,CSE4,CSH5,Others,1
-3407,CYUL,CSJ4,Bombardier Inc.,1
-3408,CSC3,CSJ4,Others,1
-3412,CYUL,CSJ4,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-3414,CYUL,CSJ4,Air Canada,1
-3415,CYQB,CSJ4,Others,1
-3420,CYJN,CSJ4,Air Canada Rouge Lp,1
-3421,CTR6,CSJ4,Others,1
-3422,CSJ5,CSJ4,Others,1
-3425,CSY4,CSJ4,Others,1
-3427,CST3,CSJ4,Others,1
-3428,CSR3,CSJ4,Others,1
-3429,CSQ3,CSJ4,Others,1
-3431,CSP6,CSJ4,Others,1
-3436,CYHU,CSF7,Others,1
-3437,CST3,CSF7,Others,1
-3438,CSE4,CSF7,Others,1
-3443,CZBF,CSE4,Others,1
-3444,CYZR,CSE4,Others,1
-3446,CYXU,CSE4,Others,1
-3447,CYTR,CSE4,Others,1
-3448,CYUL,CSF7,Others,1
-3451,CYRP,CSE4,Others,1
-3452,CYPQ,CSE4,Others,1
-3453,CYPN,CSE4,Others,1
-3455,CYJN,CSE4,Bank Of Utah Trustee,1
-3456,CYGV,CSE4,Others,1
-3457,CYGK,CSE4,Others,1
-3459,CYND,CSF7,Others,1
-3460,CAA2,CSG3,Others,1
-3461,CSB3,CSH5,Air Canada,1
-3463,CNV9,CSH5,Air Transat A T Inc.,1
-3464,CYUL,CSG5,Jazz Aviation Lp,1
-3465,CYHU,CSG5,Others,1
-3466,CYHU,CSG5,Air Georgian Limited,1
-3467,CYYG,CSG3,Others,1
-3470,CYSC,CSG3,Others,1
-3475,CYKZ,CSG3,Others,1
-3476,CSZ3,CSG3,Others,1
-3477,CSN3,CSG3,Others,1
-3479,CSM5,CSG3,Others,1
-3482,CNF3,CSG3,Others,1
-3489,CSN7,CSK4,Others,1
-3491,CSC3,CSK4,Others,1
-3492,CSB3,CSK4,Others,1
-3506,CYSC,CSK4,Others,1
-3512,CZBM,CSL5,Others,1
-3514,CYHU,CSL5,Air Canada,1
-3515,CSC3,CSL5,Others,1
-3520,CSJ5,CSK5,Others,1
-3522,CYHU,CSL3,Others,1
-3523,CSJ5,CSL3,Others,1
-3526,CYUY,CSK5,Others,1
-3531,CYMX,CSK5,Others,1
-3535,CYKZ,CSJ5,Others,1
-3538,CYRQ,CSJ5,Air Canada,1
-3545,CYMX,CSJ5,Air Georgian Limited,1
-3546,CYHZ,CSJ5,Others,1
-3548,CYAV,CSJ5,Others,1
-3551,CSU3,CSJ5,Others,1
-3552,CSR3,CSJ5,Others,1
-3554,CSE3,CSJ5,Others,1
-3561,CYTZ,CSJ5,Others,1
-3562,CYUL,CSJ5,Air Canada Rouge Lp,1
-3580,CZBM,CSJ5,Others,1
-3581,CYYZ,CSJ5,Others,1
-3582,CYYG,CSJ5,Others,1
-3583,CYUL,CSJ5,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-3584,CYUL,CSJ5,Aviation Starlink Inc.,1
-3697,CYUL,CCW4,Aviation Starlink Inc.,1
-3698,CYMX,CCW4,Others,1
-3699,CYHU,CCW4,Others,1
-3703,CSC3,CCW4,Others,1
-3704,CYUL,CCV4,Others,1
-3707,CYUL,CCW4,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,1
-3708,CYUL,CCV4,Cargojet Airways Ltd.,1
-3709,CYHU,CCV4,Others,1
-3710,CYUL,CCS5,Jazz Aviation Lp,1
-3712,CSC3,CCQ3,Others,1
-3714,CZBM,CCP3,Others,1
-3715,CYND,CCP3,Others,1
-3716,CYMX,CCP3,Air Georgian Limited,1
-3717,CSR3,CCP3,Others,1
-3718,CSG3,CCP3,Others,1
-3719,CYUL,CCW4,Flair Airlines Ltd,1
-3720,CYUL,CCW4,Westjet Encore Ltd.,1
-3721,CYUL,CCM3,Others,1
-3724,CYUL,CCY4,Netjets Sales Inc,1
-3732,CYUL,CCY4,Aviation Starlink Inc.,1
-3738,CYSG,CCY4,Others,1
-3741,CYSC,CCY4,Jazz Aviation Lp,1
-3743,CYND,CCY4,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-3747,CSA2,CCP3,Others,1
-3748,CYUL,CCK5,Airsprint Inc.,1
-3751,CSC3,CAA2,Others,1
-3752,CSB3,CAA2,Others,1
-3762,CSJ4,CAA2,Others,1
-3774,CSE4,CAA2,Bank Of Utah Trustee,1
-3776,CSE4,CCK5,Others,1
-3778,CYMX,CCG4,Others,1
-3779,CYUL,CCF4,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-3781,CYUL,CCF4,I.M.P. Group Limited (Execaire),1
-3782,CYUL,CCF4,Cargojet Airways Ltd.,1
-3783,CYUL,CCF4,Airsprint Inc.,1
-3784,CYUL,CCF4,Air Canada Rouge Lp,1
-3785,CYMX,CCF4,Cargojet Airways Ltd.,1
-3787,CYUL,CBW8,Others,1
-3796,CSZ3,CAA2,Others,1
-3800,CST3,CAA2,Others,1
-3801,CSP6,CAA2,Others,1
-3804,CYUL,CPR2,Others,1
-4025,CST3,CNR9,Others,1
-4026,CYSC,CNR6,Others,1
-4027,CYMX,CNQ3,Others,1
-4031,CYJN,CNQ3,Others,1
-4033,CYMX,CNP8,Others,1
-4034,CSE4,CNP7,Others,1
-4036,CZBM,CNP3,Others,1
-4039,CYUL,CNP3,Others,1
-4042,CYJN,CNP3,Others,1
-4043,CYFJ,CNP3,Others,1
-4045,CSY4,CNP3,Others,1
-4048,CSP5,CNP3,Others,1
-4050,CYND,CNS4,Others,1
-4051,CYUY,CNU4,Others,1
-4054,CYND,CNV4,Others,1
-4055,CYHU,CNV4,Others,1
-4057,CSJ4,CNV4,Others,1
-4059,CSG3,CNV4,Others,1
-4061,CSE3,CNV4,Others,1
-4062,CYUL,CNU4,Others,1
-4063,CYUL,CNS6,Others,1
-4064,CYRQ,CNU4,Others,1
-4065,CYHU,CNU4,Others,1
-4066,CYFJ,CNU4,Others,1
-4067,CTR6,CNU4,Others,1
-4069,CYRQ,CNT7,Others,1
-4070,CYHU,CNT6,Others,1
-4072,CSE4,CNS8,Others,1
-4076,CSA2,CNP3,Others,1
-4081,CSZ3,CNF3,Others,1
-4084,CSP6,CNF3,Others,1
-4085,CSM3,CNF3,Others,1
-4088,CSG3,CNF3,Others,1
-4090,CYUL,CNE4,Others,1
-4091,CYND,CNE4,Airsprint Inc.,1
-4093,CYHU,CNE4,Air Georgian Limited,1
-4095,CZBM,CND4,Others,1
-4097,CYSC,CND4,Others,1
-4098,CYSC,CNF3,Others,1
-4099,CYND,CNF4,Others,1
-4100,CZBM,CNN8,Others,1
-4101,CYSC,CNL3,Others,1
-4102,CYUL,CNN8,I.M.P. Group Limited (Execaire),1
-4103,CYUL,CNN8,Aviation Starlink Inc.,1
-4104,CYFJ,CNN8,Airsprint Inc.,1
-4107,CSC3,CNN8,Others,1
-4108,CSB3,CNN8,Others,1
-4109,CSM3,CNL8,Others,1
-4111,CYUL,CNL3,Others,1
-4114,CSB3,CNL3,Others,1
-4116,CSE4,CNJ4,Others,1
-4117,CSB3,CNJ4,Others,1
-4118,CYUL,CNF8,Jazz Aviation Lp,1
-4121,CSE4,CNF8,Others,1
-4129,CYUL,CPL3,Porter Airlines Inc.,1
-4133,CZBM,CPJ5,Others,1
-4136,CYRQ,CPJ5,Others,1
-4137,CYMX,CPG5,Others,1
-4140,CYHU,CPG5,Others,1
-4142,CSA2,CPG5,Others,1
-4143,CSE4,CPG4,Others,1
-4144,CTR6,CPF4,Others,1
-4148,CSJ4,CPF4,Others,1
-4153,CYRQ,CPR2,Others,1
-4155,CSU3,CPR2,Others,1
-4156,CSS3,CPR2,Others,1
-4157,CSP5,CPR2,Others,1
-4158,CSJ4,CPR2,Others,1
-4161,CSE4,CPP6,Others,1
-4178,CST3,CNV9,Others,1
-4181,CSR3,CNV9,Others,1
-4187,CTY5,CNV9,Others,1
-4192,CSC3,CNV9,Others,1
-4194,CYMX,CNV8,Others,1
-4197,CYHU,CNV8,Others,1
-4209,CYND,CPE6,Others,1
-4210,CZBM,CPE4,Others,1
-4213,CYHU,CPE4,Others,1
-4214,CZBM,CNY3,Others,1
-4217,CYFJ,CNY3,I.M.P. Group Limited (Execaire),1
-4218,CZBM,CNV9,Others,1
-4219,CYUL,CNV9,Netjets Sales Inc,1
-4221,CYUL,CNV9,I.M.P. Group Limited (Execaire),1
-4222,CYMW,CNV9,Others,1
-4226,CSE4,CND4,Others,1
-4227,CYUL,CJV5,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4229,CES2,CLA2,Others,1
-4235,CZBM,CKR4,Others,1
-4236,CYUL,CKD8,Others,1
-4238,CYVB,CJU3,Others,1
-4241,CTY5,CJU3,Others,1
-4242,CYHU,CJB2,Others,1
-4244,CSU3,CHG2,Others,1
-4250,CSA2,CLA2,Air Canada Rouge Lp,1
-4254,CYHU,CLC2,I.M.P. Group Limited (Execaire),1
-4259,CSY3,CLC2,Others,1
-4260,CSZ3,CLA6,Others,1
-4266,CYUL,CLA4,Others,1
-4270,CYJN,CLA2,Others,1
-4272,CSE4,CLA2,Others,1
-4282,CYMX,CDU6,Others,1
-4283,CYUL,CDT5,Others,1
-4289,CYUL,CED6,Air Canada,1
-4296,CYTZ,CDD3,Others,1
-4297,CYGV,CDA4,Others,1
-4298,CSB3,CDA4,Others,1
-4299,CYUL,CCY4,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,1
-4303,CYUL,CEZ3,Air Canada,1
-4306,CYUL,CFQ7,Air Transat A T Inc.,1
-4308,CYUL,CFH4,Others,1
-4312,CYHU,CFH4,Air Canada,1
-4313,CNV9,CFH4,Others,1
-4314,CYUL,CFF9,Others,1
-4315,CYUL,CEX3,Air Canada,1
-4316,CSG3,CES2,Others,1
-4317,CYUL,CES2,Others,1
-4318,CSZ3,CES2,Others,1
-4322,CSS3,CES2,Others,1
-4326,CSN7,CES2,Others,1
-4332,CSB3,CNC3,Others,1
-4338,CYUL,CNA4,Airsprint Inc.,1
-4339,CYFJ,CNA4,Netjets Sales Inc,1
-4340,CYUL,CNA3,Others,1
-4341,CYHU,CNA3,Others,1
-4343,CSP5,CNC3,Others,1
-4344,CYMX,CMW3,Others,1
-4355,CSE4,CNC3,Others,1
-4356,CST3,CNC3,Others,1
-4365,CYHU,CNC4,Others,1
-4367,CYVB,CNC3,Others,1
-4368,CYUL,CNC3,Others,1
-4369,CYSC,CNC3,Others,1
-4383,CYJN,CLC2,Others,1
-4400,CYUL,CLM2,Others,1
-4405,CYMX,CLC2,Others,1
-4423,CYUL,CMF2,Air Canada,1
-4427,CYUL,CMF2,Others,1
-4431,CYUL,CMF2,Flair Airlines Ltd,1
-4435,CYYZ,CSP6,Sunwing Airlines Inc.,1
-4436,CNF3,CZBM,Others,1
-4440,CNQ3,CYJN,Others,1
-4443,CNP7,CYJN,Others,1
-4444,CNN8,CYJN,Others,1
-4446,CNL3,CYJN,Others,1
-4447,CNF3,CYJN,Others,1
-4450,CLA2,CYJN,Others,1
-4456,CNV9,CYJN,Others,1
-4457,CSA2,CYJN,Bank Of Utah Trustee,1
-4458,CSC3,CYJN,Air Canada Rouge Lp,1
-4463,CYKZ,CYJN,Others,1
-4465,CYKF,CYJN,Others,1
-4466,CSY4,CYJN,Others,1
-4467,CST3,CYJN,Others,1
-4469,CSS3,CYJN,Others,1
-4471,CSN7,CYJN,Others,1
-4472,CSK4,CYJN,Others,1
-4476,CSG3,CYJN,Others,1
-4477,CSE4,CYJN,Bank Of Utah Trustee,1
-4479,CYMX,CYJN,Bank Of Utah Trustee,1
-4482,CNV9,CYHZ,Others,1
-4497,CSB3,CYHZ,Others,1
-4501,CZBM,CYHZ,Airsprint Inc.,1
-4502,CYUL,CYHZ,Westjet,1
-4504,CYUL,CYHZ,Bombardier Inc.,1
-4505,CYUL,CYHZ,Air Georgian Limited,1
-4515,CYSG,CYHZ,Others,1
-4516,CYSC,CYHZ,Others,1
-4519,CYQB,CYHZ,Others,1
-4520,CYHU,CYHZ,Air Georgian Limited,1
-4522,CYYZ,CSP6,Westjet Encore Ltd.,1
-4523,CNQ3,CYMX,Others,1
-4524,CYWG,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,1
-4525,CNP3,CYMX,Others,1
-4526,CNN8,CYMX,Others,1
-4527,CNL3,CYMX,Others,1
-4528,CNF3,CYMX,Others,1
-4529,CHF2,CYMX,Federal Express Corporation,1
-4530,CES2,CYMX,Others,1
-4532,CYXX,CYUL,Others,1
-4533,CYYB,CYUL,Jazz Aviation Lp,1
-4535,CYYB,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4537,CYYC,CYUL,Air Georgian Limited,1
-4540,CYYZ,CYMW,Others,1
-4541,CYTZ,CYMW,Others,1
-4542,CTR6,CYMW,Others,1
-4543,CYYC,CYUL,Sunwing Airlines Inc.,1
-4544,CSR3,CYMW,Others,1
-4545,CSE4,CYMW,Others,1
-4546,CNV8,CYMX,Others,1
-4547,CPJ5,CYMX,Others,1
-4548,CPR5,CYMX,Others,1
-4549,CYGK,CYMX,Air Georgian Limited,1
-4550,CYRQ,CYMX,Air Georgian Limited,1
-4551,CYQY,CYMX,Others,1
-4552,CYQS,CYMX,Airsprint Inc.,1
-4553,CYQM,CYMX,Cargojet Airways Ltd.,1
-4554,CYPA,CYMX,Airsprint Inc.,1
-4555,CYOW,CYMX,Air Canada,1
-4556,CYKZ,CYMX,Air Georgian Limited,1
-4557,CYKF,CYMX,Others,1
-4558,CYHZ,CYMX,Air Canada,1
-4559,CYHU,CYMX,Bank Of Utah Trustee,1
-4560,CYHM,CYMX,Airsprint Inc.,1
-4561,CYFJ,CYMX,Others,1
-4562,CSA2,CYMX,Bank Of Utah Trustee,1
-4563,CYEG,CYMX,Airsprint Inc.,1
-4564,CYUY,CYUL,Airsprint Inc.,1
-4565,CYUY,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4566,CYVB,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4567,CSR3,CYMX,Others,1
-4568,CYVR,CYUL,Airsprint Inc.,1
-4569,CSH5,CYMX,Others,1
-4570,CYVR,CYUL,I.M.P. Group Limited (Execaire),1
-4571,CSE3,CYMX,Others,1
-4572,CSD4,CYMX,Others,1
-4573,CSC3,CYMX,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4574,CYYG,CYUL,Aviation Starlink Inc.,1
-4575,CYUL,CYLW,Others,1
-4576,CZBM,CYLS,Others,1
-4577,CZBA,CYUL,Others,1
-4578,CYRQ,CYKF,Bombardier Inc.,1
-4579,CYFJ,CYKF,Others,1
-4580,CZBM,CYUL,Aviation Starlink Inc.,1
-4581,CYFJ,CYKF,Netjets Sales Inc,1
-4582,CSY4,CYKF,Others,1
-4583,CSR3,CYKF,Others,1
-4584,CSJ5,CYKF,Others,1
-4585,CSC3,CYKF,Others,1
-4586,CSB3,CYKF,Others,1
-4589,CZBM,CYJN,Bank Of Utah Trustee,1
-4590,CZBM,CYJN,Air Canada Rouge Lp,1
-4591,CYYG,CYJN,Others,1
-4592,CYUL,CYJN,Bank Of Utah Trustee,1
-4594,CYSN,CYJN,Others,1
-4595,CYPQ,CYJN,Others,1
-4598,CYUL,CYKF,Airsprint Inc.,1
-4599,CYFJ,CYKX,Others,1
-4600,CYHU,CYKX,Others,1
-4601,CSB3,CYLQ,Others,1
-4602,CYUL,CYLS,Aviation Starlink Inc.,1
-4603,CYSC,CYLS,Others,1
-4604,CYFJ,CYLS,Others,1
-4605,CSB3,CYLS,Others,1
-4606,CYYT,CYUL,Cargojet Airways Ltd.,1
-4607,CNV9,CYLS,Others,1
-4608,CYOW,CYLQ,Others,1
-4609,CYND,CYLQ,Others,1
-4610,CYJN,CYLQ,Others,1
-4611,CYHU,CYLQ,Others,1
-4612,CSG3,CYLQ,Others,1
-4613,CZBM,CYKZ,Others,1
-4614,CYUL,CYKX,Aviation Starlink Inc.,1
-4615,CYUY,CYKZ,Others,1
-4616,CYUL,CYKZ,Airsprint Inc.,1
-4617,CYRQ,CYKZ,Others,1
-4618,CYMX,CYKZ,Air Georgian Limited,1
-4619,CYJN,CYKZ,Others,1
-4620,CYYZ,CYUL,Lufthansa,1
-4621,CYHU,CYKZ,Jazz Aviation Lp,1
-4622,CYFJ,CYKZ,Bank Of Utah Trustee,1
-4623,CSQ3,CYKZ,Others,1
-4624,CSG3,CYKZ,Others,1
-4625,CSA2,CYKZ,Others,1
-4774,CYSN,CYMX,Air Georgian Limited,1
-4775,CYUL,CYMX,Aviation Starlink Inc.,1
-4776,CYUL,CYMX,Bank Of Utah Trustee,1
-4777,CSC3,CYQB,Others,1
-4778,CSG5,CYTZ,Porter Airlines Inc.,1
-4779,CSP6,CYTZ,Jazz Aviation Lp,1
-4780,CST3,CYTZ,Others,1
-4782,CSZ3,CYTZ,Others,1
-4783,CYFJ,CYTZ,Aviation Starlink Inc.,1
-4784,CYUL,CYQB,Netjets Sales Inc,1
-4785,CYUL,CYQB,Bank Of Utah Trustee,1
-4786,CYUL,CYQB,Airsprint Inc.,1
-4787,CYUL,CYQB,Air Canada,1
-4788,CYRQ,CYQB,Others,1
-4789,CYPN,CYQB,Others,1
-4790,CYOW,CYQB,Jazz Aviation Lp,1
-4791,CYSC,CYTZ,Others,1
-4792,CYHU,CYQB,Air Georgian Limited,1
-4793,CYGP,CYQB,Others,1
-4794,CSZ3,CYQB,Others,1
-4795,CSP6,CYQB,Others,1
-4796,CYUY,CYTZ,Others,1
-4797,CSJ5,CYQB,Others,1
-4799,CSC3,CYTZ,Others,1
-4801,CSU3,CYSN,Others,1
-4802,CYUL,CYQG,Jazz Aviation Lp,1
-4803,CYHU,CYQG,Airsprint Inc.,1
-4804,CYJN,CYSN,Others,1
-4805,CYMX,CYSN,Air Georgian Limited,1
-4806,CNV9,CYQG,Others,1
-4808,CYRQ,CYSN,Bombardier Inc.,1
-4810,CYSC,CYSN,Others,1
-4811,CYUL,CYSN,Airsprint Inc.,1
-4813,CSA2,CYTZ,Others,1
-4814,CYUL,CYSU,Air Canada Rouge Lp,1
-4815,CSE4,CYTR,Others,1
-4818,CYRQ,CYTR,Others,1
-4820,CSR3,CYTS,Others,1
-4822,CYUL,CYTS,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4825,CPR2,CYQB,Others,1
-4833,CYFJ,CYPT,Others,1
-4835,CZBM,CYPQ,Others,1
-4836,CYUL,CYPQ,Bombardier Inc.,1
-4837,CYND,CYPQ,Others,1
-4838,CYHU,CYPQ,Others,1
-4840,CSB3,CYPQ,Others,1
-4841,CYZV,CYPN,Others,1
-4843,CYSZ,CYPN,Others,1
-4846,CYUL,CYPT,Others,1
-4847,CNV9,CYQB,Others,1
-4852,CYUL,CYQA,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4857,CYUL,CYQA,Airsprint Inc.,1
-4860,CYFJ,CYQA,Aviation Starlink Inc.,1
-4862,CYUL,CYQG,Netjets Sales Inc,1
-4863,CYUL,CYQG,Sunwing Airlines Inc.,1
-4864,CNV9,CYQS,Aviation Starlink Inc.,1
-4865,CYUL,CYSJ,Jazz Aviation Lp,1
-4866,CPR7,CYSC,Others,1
-4867,CTE5,CYRQ,Others,1
-4868,CSG3,CYSC,Others,1
-4869,CSH5,CYSC,Others,1
-4870,CSJ5,CYSC,Others,1
-4871,CSS3,CYRQ,Others,1
-4872,CSQ3,CYRQ,Others,1
-4874,CSF7,CYRQ,Others,1
-4875,CYFD,CYSC,Others,1
-4876,CYGK,CYSC,Others,1
-4877,CYGV,CYSC,Others,1
-4878,CPS2,CYRQ,Others,1
-4879,CYHS,CYSC,Others,1
-4880,CYHU,CYSC,Airsprint Inc.,1
-4881,CPJ5,CYRQ,Others,1
-4882,CYHZ,CYSC,Others,1
-4883,CNT7,CYRQ,Others,1
-4884,CCQ3,CYRQ,Others,1
-4885,CYMX,CYSC,Air Georgian Limited,1
-4886,CYRQ,CYRP,Others,1
-4887,CYFJ,CYRP,Others,1
-4888,CTR6,CYRP,Others,1
-4889,CYOW,CYSC,Airsprint Inc.,1
-4890,CSP6,CYRP,Others,1
-4891,CNV8,CYSC,Others,1
-4892,CNN8,CYSC,Others,1
-4894,CYPQ,CYRQ,Others,1
-4895,CYOO,CYRQ,Others,1
-4896,CYYZ,CYRQ,Air Canada Rouge Lp,1
-4897,CYND,CYRQ,Others,1
-4898,CYKF,CYRQ,Bombardier Inc.,1
-4902,CYHZ,CYRQ,Bombardier Inc.,1
-4903,CNJ4,CYSC,Others,1
-4904,CYHU,CYSA,Others,1
-4905,CZBM,CYSA,Others,1
-4906,CYHU,CYRQ,Air Georgian Limited,1
-4907,CYUL,CYSB,Others,1
-4908,CYGK,CYRQ,Others,1
-4909,CTR6,CYRQ,Others,1
-4911,CCP3,CYSC,Others,1
-4912,CYQA,CYSC,Others,1
-4913,CYQS,CYSC,Others,1
-4914,CYRO,CYSC,Others,1
-4915,CYHU,CYSG,Others,1
-4920,CYQB,CYRI,Others,1
-4922,CSE4,CYSG,Others,1
-4923,CYUL,CYSG,Aviation Starlink Inc.,1
-4927,CSA2,CYSH,Others,1
-4928,CYUL,CYQY,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4929,CSN5,CYSH,Others,1
-4930,CYQB,CYQY,Others,1
-4931,CSY4,CYSH,Others,1
-4932,CSZ3,CYSH,Others,1
-4933,CYJN,CYSH,Others,1
-4934,CYMX,CYSH,Others,1
-4935,CYND,CYQS,Others,1
-4938,CSE4,CYRP,Others,1
-4939,CYYJ,CYSC,Others,1
-4940,CYSH,CYSC,Others,1
-4941,CYSN,CYSC,Others,1
-4942,CSD4,CYRP,Others,1
-4943,CYUL,CYSC,Airsprint Inc.,1
-4944,CYUL,CYSC,Aviation Starlink Inc.,1
-4945,CZBM,CYRO,Others,1
-4946,CYUL,CYSC,Netjets Sales Inc,1
-4947,CYUL,CYRO,Airsprint Inc.,1
-4948,CYQB,CYRO,Others,1
-4949,CYMX,CYRO,Airsprint Inc.,1
-4950,CYYC,CYSC,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4951,CSR3,CYRO,Others,1
-4952,CSN3,CYRO,Others,1
-4953,CSJ4,CYRO,Others,1
-4959,CSG3,CYRO,Others,1
-4961,CSD4,CYRO,Others,1
-4963,CYQB,CYPN,Others,1
-4964,CYYB,CYMX,Others,1
-4968,CYLS,CYUL,Aviation Starlink Inc.,1
-4972,CYLW,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4973,CYMW,CYUL,Aviation Starlink Inc.,1
-4976,CYND,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4978,CYOW,CYUL,Air Canada Rouge Lp,1
-4980,CYOW,CYUL,Air Transat A T Inc.,1
-4982,CYKZ,CYUL,Netjets Sales Inc,1
-4984,CYKF,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-4985,CLM2,CYND,Others,1
-4987,CYHU,CYUL,I.M.P. Group Limited (Execaire),1
-4988,CYHU,CYUL,Netjets Sales Inc,1
-4989,CYZV,CYNA,Others,1
-4990,CYGP,CYNA,Others,1
-4991,CYHZ,CYUL,Air Georgian Limited,1
-4993,CYHZ,CYUL,Cargojet Airways Ltd.,1
-4997,CYHZ,CYUL,Sunwing Airlines Inc.,1
-5002,CYUL,CYPA,Others,1
-5004,CYQS,CYUL,Others,1
-5010,CYRQ,CYUL,Air Canada,1
-5011,CYRQ,CYUL,Aviation Starlink Inc.,1
-5015,CYSC,CYUL,Aviation Starlink Inc.,1
-5018,CYSN,CYUL,Airsprint Inc.,1
-5019,CZBA,CYMX,Others,1
-5020,CYYZ,CYMX,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5021,CYTS,CYUL,Others,1
-5022,CYYC,CYMX,Cargojet Airways Ltd.,1
-5023,CYYC,CYMX,Airsprint Inc.,1
-5026,CYQG,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5028,CYOW,CYUL,Westjet,1
-5030,CYPQ,CYUL,Bombardier Inc.,1
-5031,CYPQ,CYUL,I.M.P. Group Limited (Execaire),1
-5035,CYQA,CYUL,Jazz Aviation Lp,1
-5036,CYQA,CYUL,Netjets Sales Inc,1
-5038,CYQB,CYUL,Airsprint Inc.,1
-5039,CYQB,CYUL,Aviation Starlink Inc.,1
-5040,CYQB,CYUL,Bank Of Utah Trustee,1
-5042,CYQF,CYUL,Others,1
-5044,CYQG,CYUL,Aviation Starlink Inc.,1
-5045,CYQG,CYUL,Jazz Aviation Lp,1
-5046,CYQG,CYUL,Netjets Sales Inc,1
-5047,CYHM,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5048,CYHM,CYUL,Porter Airlines Inc.,1
-5049,CNF3,CYND,Others,1
-5050,CYHM,CYUL,Bombardier Inc.,1
-5051,CNA3,CYUL,Others,1
-5052,CYFJ,CYOW,Others,1
-5053,CND4,CYUL,Others,1
-5054,CNL3,CYUL,Others,1
-5055,CSZ3,CYOW,Others,1
-5056,CNL8,CYUL,Aviation Starlink Inc.,1
-5057,CNP3,CYUL,Others,1
-5058,CSN7,CYOW,Others,1
-5059,CNV8,CYUL,Others,1
-5060,CSM3,CYOW,Others,1
-5061,CSG3,CYOW,Others,1
-5062,CNV9,CYUL,Air France,1
-5063,CSB3,CYOW,Others,1
-5064,CNV9,CYOW,Bombardier Inc.,1
-5065,CNV9,CYUL,Bank Of Utah Trustee,1
-5066,CYUL,CYOS,Others,1
-5067,CYSC,CYOO,Airsprint Inc.,1
-5068,CNY3,CYUL,I.M.P. Group Limited (Execaire),1
-5070,CYRQ,CYOO,Others,1
-5071,CPG4,CYUL,Others,1
-5072,CYQB,CYOO,Others,1
-5073,CPS2,CYUL,Others,1
-5074,CYFJ,CYOW,Porter Airlines Inc.,1
-5075,CMF2,CYUL,Flair Airlines Ltd,1
-5076,CMF2,CYUL,Air Canada,1
-5077,CYUL,CYOW,Republic Airways Inc,1
-5079,CYZV,CYOW,Others,1
-5080,CYVB,CYOW,Air Georgian Limited,1
-5081,CYUY,CYOW,Others,1
-5082,CYUY,CYOW,Air Georgian Limited,1
-5083,CYUL,CYOW,Westjet Encore Ltd.,1
-5084,CCF4,CYUL,Air Canada,1
-5085,CCG4,CYUL,Jazz Aviation Lp,1
-5086,CCG4,CYUL,Others,1
-5087,CCP3,CYUL,Others,1
-5088,CYUL,CYOW,Porter Airlines Inc.,1
-5089,CLC2,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5090,CCV4,CYUL,Others,1
-5091,CCV4,CYUL,Porter Airlines Inc.,1
-5092,CYUL,CYOW,Air Canada Rouge Lp,1
-5093,CYQB,CYOW,Jazz Aviation Lp,1
-5094,CYMX,CYOW,Airsprint Inc.,1
-5095,CYMW,CYOW,Others,1
-5096,CYJN,CYOW,Others,1
-5097,CYHU,CYOW,Aviation Starlink Inc.,1
-5098,CFQ7,CYUL,Sunwing Airlines Inc.,1
-5099,CLA6,CYUL,Others,1
-5100,CYHU,CYOW,Airsprint Inc.,1
-5101,CPU6,CYUL,Others,1
-5102,CYMW,CYOO,Others,1
-5103,CSH5,CYND,Others,1
-5104,CYHZ,CYND,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5105,CYCH,CYUL,Aviation Starlink Inc.,1
-5106,CYGK,CYND,Others,1
-5107,CYCK,CYUL,Aviation Starlink Inc.,1
-5108,CYFD,CYND,Others,1
-5109,CYCL,CYUL,Bank Of Utah Trustee,1
-5110,CTQ2,CYND,Others,1
-5111,CYEG,CYUL,Air Transat A T Inc.,1
-5112,CSY4,CYND,Others,1
-5113,CSR3,CYND,Others,1
-5114,CSM3,CYND,Others,1
-5115,CYFJ,CYUL,Netjets Sales Inc,1
-5116,CTY5,CYUL,Others,1
-5117,CSF7,CYND,Others,1
-5118,CYGK,CYUL,Airsprint Inc.,1
-5119,CYGK,CYUL,Aviation Starlink Inc.,1
-5120,CRL2,CYND,Others,1
-5121,CPV4,CYND,Air Canada Rouge Lp,1
-5122,CYGK,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5123,CPL3,CYND,Others,1
-5124,CPD4,CYND,Others,1
-5125,CNV8,CYND,Others,1
-5126,CNT7,CYND,Others,1
-5127,CTG3,CYUL,Others,1
-5128,CSB5,CYUL,Others,1
-5130,CSC3,CYUL,Aviation Starlink Inc.,1
-5131,CSU3,CYOO,Others,1
-5132,CSD3,CYUL,Airsprint Inc.,1
-5133,CSB3,CYOO,Others,1
-5134,CNV9,CYOO,Aviation Starlink Inc.,1
-5138,CSN5,CYUL,Others,1
-5140,CYLS,CYND,Others,1
-5141,CSR3,CYUL,Airsprint Inc.,1
-5143,CSR3,CYUL,Jazz Aviation Lp,1
-5144,CYYZ,CYND,Netjets Sales Inc,1
-5145,CYYZ,CYND,Air Canada,1
-5146,CYYG,CYND,Others,1
-5147,CYYC,CYND,Airsprint Inc.,1
-5148,CYWG,CYND,Others,1
-5149,CSZ3,CYUL,Aviation Starlink Inc.,1
-5151,CYQG,CYND,Others,1
-5154,CYSC,CYWG,Others,1
-5155,CSU3,CSZ3,Others,1
-5157,CYUL,CYVK,Air Canada,1
-5158,CYKZ,CYVO,Others,1
-5159,CSS3,CSZ3,Others,1
-5160,CSQ3,CSZ3,Others,1
-5161,CNV9,CYVR,Others,1
-5162,CYHU,CYVR,Bank Of Utah Trustee,1
-5163,CSN3,CSZ3,Others,1
-5164,CSF7,CSZ3,Others,1
-5165,CPR2,CSZ3,Others,1
-5166,CNV9,CSZ3,Others,1
-5167,CLA6,CSZ3,Others,1
-5168,CYSH,CSY4,Others,1
-5169,CYRQ,CSY4,Others,1
-5170,CYRO,CSY4,Others,1
-5171,CTE5,CSY4,Others,1
-5172,CYUL,CYVR,Sunwing Airlines Inc.,1
-5173,CSS4,CSY4,Others,1
-5174,CSJ5,CYWG,Others,1
-5175,CYHU,CYWG,Air Canada,1
-5176,CSP6,CSY4,Others,1
-5177,CSN3,CSY4,Others,1
-5178,CYMX,CYWG,Airsprint Inc.,1
-5179,CSB3,CSY4,Others,1
-5181,CZBF,CYVB,Others,1
-5182,CTE5,CSZ3,Others,1
-5183,CYHU,CYVB,Airsprint Inc.,1
-5185,CYYB,CYUY,Others,1
-5186,CYYZ,CYUY,Air Canada,1
-5189,CYYZ,CYUY,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5190,CSC3,CYVB,Others,1
-5193,CYCL,CYVB,Bombardier Inc.,1
-5194,CYGV,CYVB,Others,1
-5196,CYCC,CSZ3,Others,1
-5197,CYHZ,CYVB,Others,1
-5198,CZBM,CSZ3,Others,1
-5199,CYTZ,CSZ3,Porter Airlines Inc.,1
-5200,CYSH,CSZ3,Others,1
-5201,CYTZ,CYVB,Others,1
-5202,CYUL,CYVB,Airsprint Inc.,1
-5203,CYUL,CYVB,Aviation Starlink Inc.,1
-5204,CYKZ,CSZ3,Aviation Starlink Inc.,1
-5205,CYFJ,CSZ3,Others,1
-5206,CYYG,CYVB,Others,1
-5207,CYYZ,CYVB,Airsprint Inc.,1
-5208,CYND,CYWG,Others,1
-5209,CNJ4,CSY4,Others,1
-5210,CSJ5,CYYG,Others,1
-5211,CYUL,CYWG,Airsprint Inc.,1
-5212,CSS3,CYYB,Others,1
-5213,CTR6,CYYB,Others,1
-5214,CZBM,CSX3,Others,1
-5216,CYMX,CYYB,Bank Of Utah Trustee,1
-5221,CYUL,CYYB,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5222,CNV9,CYYC,Federal Express Corporation,1
-5223,CYND,CSV8,Others,1
-5224,CYJN,CSV8,Others,1
-5225,CYMX,CYYC,Federal Express Corporation,1
-5226,CYMX,CYYC,Others,1
-5227,CYSC,CSU7,Others,1
-5228,CYRQ,CSU7,Others,1
-5229,CYMX,CSU7,Others,1
-5230,CYJN,CSU7,Others,1
-5231,CYFJ,CSU7,Others,1
-5232,CSE4,CSU7,Others,1
-5233,CYUL,CYYC,I.M.P. Group Limited (Execaire),1
-5234,CSB3,CSU7,Others,1
-5235,CZBM,CYYC,Others,1
-5236,CSP5,CYYB,Others,1
-5237,CSE4,CYYB,Others,1
-5238,CSA2,CSX5,Others,1
-5239,CYFJ,CSY3,Others,1
-5240,CLA6,CSY4,Others,1
-5241,CYUL,CYWG,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,1
-5242,CYXU,CSY3,Others,1
-5243,CYUY,CYWG,Others,1
-5244,CYHU,CYXE,Others,1
-5245,CYMX,CYXE,Others,1
-5246,CYND,CYXE,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5247,CYND,CSY3,Others,1
-5248,CYUL,CYXE,Airsprint Inc.,1
-5249,CYJN,CSY3,Others,1
-5250,CSR3,CSY3,Others,1
-5251,CSS3,CSX5,Others,1
-5252,CSB3,CYXR,Others,1
-5253,CSE4,CYXU,Others,1
-5254,CYHU,CYXU,Airsprint Inc.,1
-5255,CYHU,CYXU,Bank Of Utah Trustee,1
-5256,CYHU,CSX5,Others,1
-5257,CSU3,CSX5,Others,1
-5258,CZBM,CYXU,Airsprint Inc.,1
-5259,CZBM,CYXU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5260,CYHU,CYXX,Others,1
-5261,CYUL,CYXX,Others,1
-5262,CYWG,CYUY,Airsprint Inc.,1
-5266,CYHU,CTK6,Others,1
-5269,CYUL,CTG3,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5272,CYND,CTG3,Others,1
-5275,CYGV,CTG3,Others,1
-5277,CSY4,CTG3,Others,1
-5279,CSZ3,CTE5,Others,1
-5280,CSR3,CTE5,Others,1
-5282,CSP6,CTE5,Others,1
-5283,CSR3,CTQ2,Others,1
-5284,CSU3,CTQ2,Others,1
-5286,CYGK,CTR6,Airsprint Inc.,1
-5287,CYEG,CTR6,Others,1
-5288,CSY4,CTR6,Others,1
-5290,CSA2,CTR6,Others,1
-5291,CNN8,CTR6,Others,1
-5292,CLC2,CTR6,Others,1
-5295,CYKZ,CTQ2,Others,1
-5296,CYVB,CTQ6,Others,1
-5303,CYND,CTQ2,Others,1
-5304,CSC3,CTE5,Others,1
-5305,CYUY,CTA4,Others,1
-5306,CYSC,CSZ4,Others,1
-5309,CNV9,CYUY,Others,1
-5310,CSC9,CYUY,Air Georgian Limited,1
-5311,CTA4,CYUY,Others,1
-5312,CYHM,CYUY,Air Georgian Limited,1
-5313,CYHU,CYUY,Air Georgian Limited,1
-5315,CYKZ,CYUY,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5316,CYMX,CYUY,Air Georgian Limited,1
-5317,CYOO,CYUY,Others,1
-5318,CYOW,CYUY,Others,1
-5319,CYQB,CYUY,Air Georgian Limited,1
-5320,CYRQ,CYUY,Others,1
-5321,CYHU,CSZ4,Aviation Starlink Inc.,1
-5323,CYSC,CYUY,Others,1
-5325,CYTZ,CYUY,Air Georgian Limited,1
-5328,CYUL,CYUY,Aviation Starlink Inc.,1
-5335,CYQB,CTA4,Others,1
-5336,CYND,CTA4,Others,1
-5337,CYHU,CTA4,Others,1
-5338,CNV9,CTA4,Others,1
-5339,CZBM,CTA3,Others,1
-5354,CSG3,CYYG,Others,1
-5355,CYHU,CYYG,Others,1
-5356,CYHM,CTR6,Aviation Starlink Inc.,1
-5357,CYKZ,CSQ3,Others,1
-5358,CSZ3,CZBM,Others,1
-5359,CYHU,CSR3,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5360,CTR6,CZBM,Others,1
-5361,CTY5,CZBM,Others,1
-5362,CYBW,CZBM,Others,1
-5363,CYHM,CSR3,Others,1
-5364,CYFD,CZBM,Others,1
-5365,CTY5,CSR3,Others,1
-5366,CYHM,CZBM,Airsprint Inc.,1
-5367,CTR6,CSR3,Others,1
-5368,CYHZ,CZBM,Others,1
-5369,CTQ2,CSR3,Others,1
-5370,CYJN,CZBM,Bank Of Utah Trustee,1
-5371,CSP6,CSR3,Others,1
-5372,CSJ5,CSR3,Others,1
-5373,CSE3,CSR3,Others,1
-5374,CNV9,CSR3,Others,1
-5376,CYPQ,CZBM,I.M.P. Group Limited (Execaire),1
-5377,CYQB,CZBM,Others,1
-5378,CYUL,CSQ3,Netjets Sales Inc,1
-5379,CYUL,CSQ3,I.M.P. Group Limited (Execaire),1
-5380,CYTZ,CSQ3,Others,1
-5381,CYRQ,CSQ3,Others,1
-5382,CSX5,CZBM,Others,1
-5383,CSX3,CZBM,Others,1
-5384,CYKF,CSR3,Others,1
-5385,CYUL,CSR3,Airsprint Inc.,1
-5386,CYWG,CSR3,Others,1
-5388,CNC4,CZBM,Others,1
-5389,CYUL,CYRQ,Air Canada Rouge Lp,1
-5390,CNL3,CZBM,Others,1
-5391,CNN8,CZBM,Others,1
-5392,CNV8,CZBM,Others,1
-5393,CNW3,CZBM,Others,1
-5394,CPS2,CZBM,Others,1
-5395,CSB3,CZBM,Air Canada,1
-5396,CYOW,CSR3,Aviation Starlink Inc.,1
-5397,CYTR,CSR3,Others,1
-5398,CYSN,CSR3,Others,1
-5399,CSD3,CZBM,Others,1
-5400,CSG3,CZBM,Others,1
-5401,CSH5,CZBM,Others,1
-5402,CSJ4,CZBM,Others,1
-5403,CSJ5,CZBM,Others,1
-5404,CYRO,CSR3,Others,1
-5405,CSM3,CZBM,Others,1
-5406,CYQS,CSR3,Others,1
-5407,CYQB,CSR3,Others,1
-5408,CYND,CSQ3,Others,1
-5409,CYUL,CZBM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5410,CYJN,CYYG,Others,1
-5411,CYXU,CZBM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5414,CNP7,CSQ3,Others,1
-5416,CNN8,CSQ3,Others,1
-5419,CNA3,CSQ3,Others,1
-5425,CLA4,CSQ3,Others,1
-5429,CNS4,CSQ3,Others,1
-5430,CYYB,CZBM,Others,1
-5431,CYYG,CZBM,Others,1
-5432,CSZ3,CSQ3,Others,1
-5433,CSY3,CSQ3,Others,1
-5434,CSU3,CSQ3,Others,1
-5435,CYYZ,CZBM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5436,CZBA,CZBM,Others,1
-5437,CSJ4,CSQ3,Others,1
-5442,CSH5,CSQ3,Others,1
-5446,CNV4,CSQ3,Others,1
-5449,CYZR,CSR3,Others,1
-5451,CYQB,CZBF,Others,1
-5452,CYND,CZBF,Others,1
-5453,CCV4,CSU3,Others,1
-5454,CNV9,CYYZ,Sunwing Airlines Inc.,1
-5455,CZBM,CST7,Netjets Sales Inc,1
-5456,CSJ5,CYYZ,Others,1
-5457,CSP6,CYYZ,Others,1
-5458,CYUL,CST7,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5459,CTR6,CYYZ,Air Canada Rouge Lp,1
-5460,CTR6,CYYZ,Westjet Encore Ltd.,1
-5461,CYFJ,CYYZ,Airsprint Inc.,1
-5462,CYUL,CST7,Air Transat A T Inc.,1
-5463,CYUL,CST7,Air Georgian Limited,1
-5464,CYQB,CST7,Others,1
-5465,CSE4,CST7,Others,1
-5466,CYHU,CYYZ,Bank Of Utah Trustee,1
-5468,CYSH,CST3,Others,1
-5469,CYMX,CYYZ,Airsprint Inc.,1
-5470,CYRO,CST3,Others,1
-5471,CYOW,CST3,Others,1
-5472,CYND,CYYZ,Air Canada,1
-5473,CYKZ,CST3,Others,1
-5474,CYKF,CST3,Others,1
-5475,CYJN,CST3,Others,1
-5476,CTE5,CST3,Others,1
-5477,CNF3,CSU3,Others,1
-5478,CNL3,CSU3,Others,1
-5479,CNV9,CYYZ,Bank Of Utah Trustee,1
-5480,CYMX,CYYJ,Others,1
-5481,CYSN,CSU3,Others,1
-5482,CYSC,CYYG,Jazz Aviation Lp,1
-5483,CYSC,CYYG,Others,1
-5484,CYOO,CSU3,Others,1
-5485,CYFJ,CSU3,Others,1
-5486,CTQ2,CSU3,Others,1
-5487,CSY4,CSU3,Others,1
-5488,CYUL,CYYG,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5489,CZBM,CYYG,Others,1
-5490,CYFJ,CYYJ,Others,1
-5491,CYHU,CYYJ,Others,1
-5492,CYUL,CYYJ,Air Canada,1
-5493,CNL8,CSU3,Others,1
-5494,CYUL,CYYJ,I.M.P. Group Limited (Execaire),1
-5495,CSJ5,CSU3,Others,1
-5496,CYMX,CYYT,Others,1
-5497,CSF7,CSU3,Others,1
-5498,CYUL,CYYT,Aviation Starlink Inc.,1
-5499,CYUL,CYYT,Cargojet Airways Ltd.,1
-5500,CSE4,CSU3,Others,1
-5501,CPF6,CSU3,Others,1
-5502,CYUL,CYYT,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5503,CNV9,CSU3,Others,1
-5504,CSX3,CST3,Others,1
-5505,CSS3,CST3,Others,1
-5506,CSP5,CST3,Others,1
-5507,CSP5,CZBA,Others,1
-5508,CSE3,CSS3,Others,1
-5509,CSC3,CSS3,Others,1
-5510,CYGP,CYZV,Others,1
-5511,CSA2,CSS3,Others,1
-5512,CYHU,CYZV,Others,1
-5513,CPR2,CSS3,Others,1
-5514,CYQB,CYZV,Others,1
-5515,CLA6,CSS3,Others,1
-5516,CYVB,CYZV,Others,1
-5517,CNV9,CZBA,Others,1
-5518,CSJ4,CZBA,Others,1
-5519,CSQ3,CZBA,Others,1
-5520,CYJN,CYZR,Others,1
-5521,CST3,CZBA,Others,1
-5523,CYJN,CZBA,Others,1
-5524,CYND,CZBA,Others,1
-5527,CYUL,CZBA,Westjet Encore Ltd.,1
-5529,CSA2,CZBF,Others,1
-5530,CSE4,CZBF,Others,1
-5532,CYSC,CYZR,Others,1
-5533,CYHU,CYZR,Others,1
-5534,CSN3,CST3,Others,1
-5535,CSU3,CSS4,Others,1
-5536,CSM3,CST3,Others,1
-5537,CSD3,CST3,Others,1
-5538,CSB3,CST3,Others,1
-5539,CPL3,CST3,Others,1
-5540,CPG5,CST3,Others,1
-5541,CNP7,CST3,Others,1
-5542,CNF3,CST3,Others,1
-5544,CYJN,CSS4,Others,1
-5545,CSY3,CSS4,Others,1
-5546,CSP5,CSS4,Others,1
-5547,CYUL,CYZD,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,1
-5548,CSA2,CSS4,Others,1
-5549,CYUL,CSS3,Others,1
-5550,CYJN,CSS3,Others,1
-5551,CYUY,CYYZ,Air Canada,1
-5552,CTY5,CSS3,Others,1
-5553,CSY3,CSS3,Others,1
-5554,CSP6,CSS3,Others,1
-5555,CSN3,CSS3,Others,1
-5556,CZBM,CYYZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5557,CYUL,CYZD,Air Canada,1
-5558,CSL3,CSS3,Others,1
-5559,CYGK,CTR6,Others,1
-5562,CYHU,CYHM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5568,CYSC,CYHS,Others,1
-5569,CZBM,CYHM,Airsprint Inc.,1
-5570,CYUY,CYHM,Others,1
-5572,CYUY,CYHM,Air Georgian Limited,1
-5573,CYUL,CYHM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5574,CYUL,CYHM,Netjets Sales Inc,1
-5575,CYUL,CYHM,I.M.P. Group Limited (Execaire),1
-5576,CYUL,CYHM,Air Transat A T Inc.,1
-5577,CYSC,CYHM,Air Georgian Limited,1
-5578,CYND,CYHM,Others,1
-5580,CYND,CYHM,Airsprint Inc.,1
-5581,CYMX,CYHM,Airsprint Inc.,1
-5587,CNP7,CYHU,Others,1
-5588,CNL8,CYHU,Others,1
-5589,CCQ3,CYHU,Others,1
-5601,CYJN,CYHM,Others,1
-5602,CYHU,CYHM,Aviation Starlink Inc.,1
-5605,CYRQ,CYGK,Others,1
-5606,CSU3,CYGK,Others,1
-5607,CST3,CYGK,Others,1
-5618,CYSC,CYGK,Others,1
-5619,CYUL,CYGK,Airsprint Inc.,1
-5620,CYQB,CYGP,Others,1
-5621,CYZV,CYGV,Others,1
-5622,CYUY,CYGV,Others,1
-5623,CYPN,CYGV,Others,1
-5624,CSE4,CYGV,Others,1
-5628,CYUL,CYGP,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5629,CYUL,CYGP,Airsprint Inc.,1
-5630,CYOW,CYGP,Others,1
-5631,CZBM,CYGK,Others,1
-5633,CYGV,CYGP,Others,1
-5636,CYHU,CYGM,Others,1
-5637,CSN7,CYGM,Others,1
-5648,CYXU,CYHU,I.M.P. Group Limited (Execaire),1
-5649,CYXU,CYHU,Airsprint Inc.,1
-5650,CYXR,CYHU,Others,1
-5651,CYVR,CYHU,Flair Airlines Ltd,1
-5652,CYUL,CYHU,Air Transat A T Inc.,1
-5654,CYUL,CYHU,Air Canada,1
-5655,CYTZ,CYHU,Porter Airlines Inc.,1
-5658,CYSG,CYHU,Others,1
-5659,CYSC,CYHU,Airsprint Inc.,1
-5660,CYSA,CYHU,Others,1
-5661,CYQY,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5662,CYQY,CYHU,Others,1
-5663,CYQG,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5664,CYQG,CYHU,Airsprint Inc.,1
-5665,CYXX,CYHU,Others,1
-5666,CYYG,CYHU,Air Canada,1
-5681,CZBF,CYHU,Others,1
-5684,CYYZ,CYHU,Aviation Starlink Inc.,1
-5685,CYOW,CYHU,Jazz Aviation Lp,1
-5686,CYND,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5687,CYNA,CYHU,Others,1
-5688,CPR2,CYHU,Others,1
-5689,CTG3,CYHU,Others,1
-5690,CTE5,CYHU,Others,1
-5692,CTA4,CYHU,Others,1
-5694,CSN7,CYHU,Others,1
-5695,CSN5,CYHU,Others,1
-5696,CPS2,CYHU,Others,1
-5697,CTR6,CYHU,Others,1
-5702,CNV9,CYHU,Aviation Starlink Inc.,1
-5703,CNV8,CYHU,Others,1
-5706,CYMX,CYHU,Bank Of Utah Trustee,1
-5710,CYLW,CYHU,Others,1
-5711,CYLW,CYHU,Airsprint Inc.,1
-5712,CYKZ,CYHU,Jazz Aviation Lp,1
-5717,CYHM,CYHU,Airsprint Inc.,1
-5718,CYHM,CYHU,Air Georgian Limited,1
-5719,CYGP,CYHU,Others,1
-5720,CYCK,CYHU,Others,1
-5721,CYAV,CYHU,Others,1
-5723,CTY5,CYHU,Others,1
-5725,CYJN,CTR6,Others,1
-5727,CYRQ,CYCC,Others,1
-5728,CSY3,CYCC,Others,1
-5729,CSU3,CYCC,Others,1
-5730,CSQ3,CYCC,Others,1
-5732,CYHU,CYBW,Others,1
-5733,CYUL,CYBG,Jazz Aviation Lp,1
-5734,CYRQ,CYAV,Others,1
-5736,CYND,CYAV,Others,1
-5737,CYHU,CYAV,Others,1
-5742,CZBM,CTY5,Others,1
-5746,CYSC,CYCC,Others,1
-5747,CYUL,CYCD,Others,1
-5749,CSJ5,CYCL,Others,1
-5750,CYUL,CYCL,Netjets Sales Inc,1
-5752,CTY5,CYCL,Others,1
-5753,CSU3,CYCL,Others,1
-5756,CSR3,CYCL,Others,1
-5760,CSA2,CYCH,Others,1
-5763,CYHU,CYCK,Others,1
-5764,CYFJ,CYCK,Others,1
-5765,CNV9,CYCK,Others,1
-5766,CYUL,CYCH,Aviation Starlink Inc.,1
-5768,CYHU,CYCH,Others,1
-5774,CYYZ,CTR6,I.M.P. Group Limited (Execaire),1
-5776,CYYZ,CTR6,Bank Of Utah Trustee,1
-5778,CYYZ,CTR6,Air Georgian Limited,1
-5779,CYXU,CTR6,Others,1
-5780,CYXT,CTR6,Others,1
-5781,CYWG,CTR6,Others,1
-5782,CYVR,CTR6,Others,1
-5783,CYUL,CTR6,Republic Airways Inc,1
-5784,CYUL,CTR6,I.M.P. Group Limited (Execaire),1
-5785,CYSH,CTR6,Others,1
-5786,CYRO,CTR6,Others,1
-5788,CYQG,CTR6,Sunwing Airlines Inc.,1
-5789,CYPQ,CTR6,Others,1
-5790,CYOW,CTR6,Jazz Aviation Lp,1
-5792,CYKZ,CTR6,Aviation Starlink Inc.,1
-5793,CYKA,CTR6,Others,1
-5795,CYYZ,CTR6,Netjets Sales Inc,1
-5796,CYYZ,CTR6,Republic Airways Inc,1
-5809,CZBA,CTR6,Others,1
-5819,CYVB,CYCL,Bombardier Inc.,1
-5822,CYYJ,CYFJ,Others,1
-5823,CYYB,CYFJ,Others,1
-5825,CYUL,CYFJ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5826,CYUL,CYFJ,Netjets Sales Inc,1
-5827,CYUL,CYFJ,I.M.P. Group Limited (Execaire),1
-5829,CYTR,CYFJ,Others,1
-5831,CYSN,CYFJ,Others,1
-5832,CYSB,CYFJ,Others,1
-5834,CYRQ,CYFJ,Others,1
-5835,CYRP,CYFJ,Others,1
-5837,CYPQ,CYFJ,Others,1
-5839,CYOW,CYFJ,Aviation Starlink Inc.,1
-5840,CYOO,CYFJ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5841,CYOO,CYFJ,Others,1
-5842,CYHM,CYFJ,Others,1
-5845,CYYZ,CYFJ,Netjets Sales Inc,1
-5863,CNV8,CYFJ,Others,1
-5864,CNV8,CYFJ,I.M.P. Group Limited (Execaire),1
-5865,CNP3,CYFJ,Others,1
-5866,CNC3,CYFJ,Others,1
-5867,CYUL,CYFD,Others,1
-5868,CYRQ,CYFD,Others,1
-5869,CYND,CYFD,Others,1
-5870,CYHU,CYFD,Others,1
-5871,CYHU,CYFD,Airsprint Inc.,1
-5872,CNY3,CYFJ,Netjets Sales Inc,1
-5874,CYFJ,CYFD,Others,1
-5876,CSB3,CYFD,Others,1
-5877,CYUL,CYEY,Others,1
-5878,CYUL,CYEG,Sunwing Airlines Inc.,1
-5879,CYUL,CYEG,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
-5880,CYUL,CYEE,I.M.P. Group Limited (Execaire),1
-5881,CYFJ,CYEE,Others,1
-5884,CNV9,CYFJ,Others,1
-5886,CSY4,CYFJ,Others,1
-5887,CYGK,CYFJ,Others,1
-5890,CYGK,CYFJ,Airsprint Inc.,1
-5891,CYEE,CYFJ,Others,1
-5892,CYCK,CYFJ,Others,1
-5894,CYCH,CYFJ,Others,1
-5897,CSY3,CYFJ,Others,1
-5899,CSP6,CYFJ,Others,1
-5903,CSP5,CYFJ,Others,1
-5904,CSL3,CYFJ,Others,1
-5906,CSJ5,CYFJ,Others,1
-5907,CSG3,CYFJ,Others,1
-5908,CNY3,CYFJ,Others,1
+2705,CYHU,CSS3,Others,2
+2707,CYGK,CYJN,Others,2
+2711,CYMX,CSS3,Others,2
+2712,CYOW,CYJN,Others,2
+2713,CYUL,CSR8,Others,2
+2714,CYRP,CYJN,Others,2
+2715,CNV9,CCY4,Others,2
+2716,CSB3,CSJ2,Others,2
+2720,CSE4,CSJ4,Others,2
+2721,CPS2,CYMX,Others,2
+2723,CYMX,CCG4,Cargojet Airways Ltd.,2
+2724,CYSN,CSJ5,Others,2
+2725,CYOO,CSQ3,Others,2
+2726,CSY4,CAA2,Others,2
+2730,CPG5,CYMX,Others,2
+2732,CSA2,CSJ5,Others,2
+2735,CSY4,CST3,Others,2
+2738,CYRQ,CSJ5,Air Canada Rouge Lp,2
+2740,CSZ3,CST3,Others,2
+2741,CCP3,CYMX,Others,2
+2743,CYND,CSJ5,Others,2
+2744,CYRO,CYMW,Others,2
+2745,CNV9,CYMW,Others,2
+2748,CYMX,CYLQ,Others,2
+2749,CYMX,CCF4,Others,2
+2751,CZBA,CSQ3,Others,2
+2752,CYHU,CST3,Others,2
+2753,CYUL,CAP3,Air Canada,2
+2755,CTR6,CYLS,Others,2
+2756,CZBM,CSJ4,Others,2
+2757,CSE4,CST3,Others,2
+2760,CYMX,CES2,Others,2
+2763,CYRP,CSJ5,Others,2
+2764,CYJN,CYYG,Others,1
+2769,CYHU,CYYG,Others,1
+2772,CYHU,CYXE,Others,1
+2777,CYSC,CYYG,Jazz Aviation Lp,1
+2779,CYND,CYXE,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+2784,CYSC,CYYG,Others,1
+2785,CYMX,CYXE,Others,1
+2791,CYUL,CYYB,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+2792,CYUL,CYXX,Others,1
+2795,CZBM,CYXU,Others,1
+2796,CNV9,CYYC,Others,1
+2800,CZBM,CYXU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+2805,CYHU,CYXX,Others,1
+2809,CSE4,CYYB,Others,1
+2827,CSJ5,CYYG,Others,1
+2828,CYMX,CYYB,Bank Of Utah Trustee,1
+2830,CSG3,CYYG,Others,1
+2831,CTR6,CYYB,Others,1
+2835,CSS3,CYYB,Others,1
+2836,CSP5,CYYB,Others,1
+2837,CZBM,CYYC,Others,1
+2846,CSB3,CYXR,Others,1
+2849,CSE4,CYXU,Others,1
+2850,CYHU,CYXU,Bank Of Utah Trustee,1
+2887,CYUY,CYWG,Others,1
+2890,CYHM,CYUY,Air Georgian Limited,1
+2891,CTA4,CYUY,Others,1
+2893,CSC9,CYUY,Air Georgian Limited,1
+2894,CNV9,CYUY,Others,1
+2975,CYHU,CYUY,Air Georgian Limited,1
+2982,CYHU,CYVR,Bank Of Utah Trustee,1
+2983,CNV9,CYVR,Others,1
+2989,CYKZ,CYVO,Others,1
+2990,CYUL,CYVK,Air Canada,1
+2996,CZBF,CYVB,Others,1
+3001,CYYG,CYVB,Others,1
+3003,CYUL,CYVB,Aviation Starlink Inc.,1
+3004,CYTZ,CYVB,Others,1
+3016,CYUL,CYWG,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,1
+3023,CYSC,CYWG,Others,1
+3024,CYND,CYWG,Others,1
+3027,CYHU,CYWG,Air Canada,1
+3032,CSJ5,CYWG,Others,1
+3036,CYUL,CYVR,Sunwing Airlines Inc.,1
+3042,CYSC,CYUY,Others,1
+3049,CYUL,CYUY,Aviation Starlink Inc.,1
+3053,CYTZ,CYUY,Air Georgian Limited,1
+3060,CYRQ,CYUY,Others,1
+3061,CYQB,CYUY,Air Georgian Limited,1
+3065,CYOW,CYUY,Others,1
+3066,CYOO,CYUY,Others,1
+3068,CYMX,CYUY,Air Georgian Limited,1
+3069,CYKZ,CYUY,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3072,CYWG,CYUY,Others,1
+3079,CYHZ,CYVB,Others,1
+3084,CYGV,CYVB,Others,1
+3086,CYCL,CYVB,Others,1
+3090,CSC3,CYVB,Others,1
+3093,CYYZ,CYUY,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3099,CYYZ,CYUY,Air Canada,1
+3100,CYYB,CYUY,Others,1
+3103,CYGP,CYZV,Others,1
+3104,CYUL,CYYG,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3172,CYYG,CZBM,Others,1
+3173,CZBA,CZBM,Others,1
+3186,CYYZ,CZBM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3189,CYYB,CZBM,Others,1
+3201,CYUL,CZBM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3202,CYXU,CZBM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3234,CYPQ,CZBM,Others,1
+3363,CYQB,CZBM,Others,1
+3365,CZBM,CYYG,Others,1
+3366,CYUL,CYZD,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,1
+3367,CYJN,CYZR,Others,1
+3368,CYSC,CYZR,Others,1
+3376,CYHU,CYZV,Others,1
+3380,CYHU,CYZR,Others,1
+3383,CYUL,CYZD,Air Canada,1
+3393,CYUY,CYYZ,Air Canada,1
+3397,CZBM,CYYZ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3399,CSQ3,CZBA,Others,1
+3401,CYVB,CYZV,Others,1
+3402,CNV9,CZBA,Others,1
+3408,CSJ4,CZBA,Others,1
+3427,CYQB,CYZV,Others,1
+3436,CYUL,CYYT,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3446,CNV9,CYYZ,Bank Of Utah Trustee,1
+3453,CYFJ,CYYJ,Others,1
+3456,CYHU,CYYJ,Others,1
+3457,CYMX,CYYJ,Others,1
+3458,CYUL,CYYJ,Air Canada,1
+3462,CYMX,CYYT,Others,1
+3465,CYUL,CYYT,Aviation Starlink Inc.,1
+3466,CYUL,CYYT,Cargojet Airways Ltd.,1
+3477,CYND,CYYZ,Air Canada,1
+3487,CYHU,CYYZ,Bank Of Utah Trustee,1
+3489,CNV9,CYYZ,Sunwing Airlines Inc.,1
+3491,CSJ5,CYYZ,Others,1
+3492,CSP6,CYYZ,Others,1
+3494,CTR6,CYYZ,Air Canada Rouge Lp,1
+3499,CTR6,CYYZ,Westjet Encore Ltd.,1
+3502,CSP5,CZBA,Others,1
+3506,CSH5,CZBM,Others,1
+3508,CSJ4,CZBM,Others,1
+3514,CSJ5,CZBM,Others,1
+3519,CSG3,CZBM,Others,1
+3520,CSM3,CZBM,Others,1
+3525,CPS2,CZBM,Others,1
+3529,CSB3,CZBM,Air Canada,1
+3534,CSD3,CZBM,Others,1
+3537,CYFD,CZBM,Others,1
+3539,CYHZ,CZBM,Others,1
+3541,CYJN,CZBM,Bank Of Utah Trustee,1
+3550,CYHM,CZBM,Others,1
+3553,CYBW,CZBM,Others,1
+3558,CSX3,CZBM,Others,1
+3559,CSX5,CZBM,Others,1
+3561,CSZ3,CZBM,Others,1
+3565,CTR6,CZBM,Others,1
+3566,CTY5,CZBM,Others,1
+3568,CNW3,CZBM,Others,1
+3569,CNV8,CZBM,Others,1
+3579,CYUL,CZBA,Westjet Encore Ltd.,1
+3582,CSA2,CZBF,Others,1
+3585,CSE4,CZBF,Others,1
+3587,CYND,CZBA,Others,1
+3589,CYJN,CZBA,Others,1
+3599,CST3,CZBA,Others,1
+3602,CYND,CZBF,Others,1
+3607,CNC4,CZBM,Others,1
+3610,CNF3,CZBM,Others,1
+3612,CNL3,CZBM,Others,1
+3613,CNN8,CZBM,Others,1
+3622,CYQB,CZBF,Others,1
+3636,CYOW,CSR3,Aviation Starlink Inc.,1
+3637,CYQB,CSR3,Others,1
+3638,CYQS,CSR3,Others,1
+3639,CYRO,CSR3,Others,1
+3640,CYSN,CSR3,Others,1
+3641,CYTR,CSR3,Others,1
+3642,CYWG,CSR3,Others,1
+3643,CYZR,CSR3,Others,1
+3649,CLA6,CSS3,Others,1
+3650,CSY3,CSS4,Others,1
+3651,CPR2,CSS3,Others,1
+3652,CSA2,CSS3,Others,1
+3653,CSC3,CSS3,Others,1
+3654,CSE3,CSS3,Others,1
+3655,CSL3,CSS3,Others,1
+3656,CSN3,CSS3,Others,1
+3657,CSP6,CSS3,Others,1
+3658,CSY3,CSS3,Others,1
+3659,CTY5,CSS3,Others,1
+3660,CYJN,CSS3,Others,1
+3661,CYUL,CSS3,Others,1
+3662,CSA2,CSS4,Others,1
+3663,CSP5,CSS4,Others,1
+3664,CYKF,CSR3,Others,1
+3665,CYHU,CSR3,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3666,CYHM,CSR3,Others,1
+3667,CTY5,CSR3,Others,1
+3668,CYYZ,CSP6,Westjet Encore Ltd.,1
+3672,CLA4,CSQ3,Others,1
+3673,CNA3,CSQ3,Others,1
+3674,CNN8,CSQ3,Others,1
+3675,CNP7,CSQ3,Others,1
+3676,CNS4,CSQ3,Others,1
+3677,CNV4,CSQ3,Others,1
+3678,CSH5,CSQ3,Others,1
+3679,CSJ4,CSQ3,Others,1
+3680,CSU3,CSQ3,Others,1
+3681,CSY3,CSQ3,Others,1
+3682,CSZ3,CSQ3,Others,1
+3683,CYKZ,CSQ3,Others,1
+3684,CYND,CSQ3,Others,1
+3685,CYRQ,CSQ3,Others,1
+3686,CYTZ,CSQ3,Others,1
+3688,CNV9,CSR3,Others,1
+3689,CSE3,CSR3,Others,1
+3690,CSJ5,CSR3,Others,1
+3691,CSP6,CSR3,Others,1
+3692,CTQ2,CSR3,Others,1
+3693,CTR6,CSR3,Others,1
+3694,CSU3,CSS4,Others,1
+3695,CYJN,CSS4,Others,1
+3696,CSE4,CSU7,Others,1
+3697,CNV9,CSU3,Others,1
+3698,CPF6,CSU3,Others,1
+3699,CSE4,CSU3,Others,1
+3700,CSF7,CSU3,Others,1
+3701,CSJ5,CSU3,Others,1
+3702,CSY4,CSU3,Others,1
+3703,CTQ2,CSU3,Others,1
+3704,CYFJ,CSU3,Others,1
+3705,CYOO,CSU3,Others,1
+3706,CYSN,CSU3,Others,1
+3707,CSB3,CSU7,Others,1
+3708,CYFJ,CSU7,Others,1
+3710,CYJN,CSU7,Others,1
+3711,CYMX,CSU7,Others,1
+3712,CYRQ,CSU7,Others,1
+3713,CYSC,CSU7,Others,1
+3714,CYJN,CSV8,Others,1
+3715,CYND,CSV8,Others,1
+3719,CZBM,CSX3,Others,1
+3720,CSA2,CSX5,Others,1
+3721,CSS3,CSX5,Others,1
+3722,CSU3,CSX5,Others,1
+3723,CNL8,CSU3,Others,1
+3724,CNL3,CSU3,Others,1
+3725,CNF3,CSU3,Others,1
+3726,CNF3,CST3,Others,1
+3727,CNP7,CST3,Others,1
+3728,CPG5,CST3,Others,1
+3729,CPL3,CST3,Others,1
+3730,CSB3,CST3,Others,1
+3731,CSD3,CST3,Others,1
+3732,CSM3,CST3,Others,1
+3733,CSN3,CST3,Others,1
+3734,CSP5,CST3,Others,1
+3735,CSS3,CST3,Others,1
+3736,CSX3,CST3,Others,1
+3737,CTE5,CST3,Others,1
+3738,CYJN,CST3,Others,1
+3739,CYKF,CST3,Others,1
+3740,CYKZ,CST3,Others,1
+3741,CYOW,CST3,Others,1
+3742,CYRO,CST3,Others,1
+3743,CYSH,CST3,Others,1
+3745,CSE4,CST7,Others,1
+3746,CYQB,CST7,Others,1
+3747,CYUL,CST7,Air Georgian Limited,1
+3748,CYUL,CST7,Air Transat A T Inc.,1
+3749,CYUL,CST7,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3750,CZBM,CST7,Others,1
+3751,CCV4,CSU3,Others,1
+3752,CYYZ,CSP6,Sunwing Airlines Inc.,1
+3753,CYVR,CSP6,Flair Airlines Ltd,1
+3754,CYND,CSP6,Others,1
+3755,CYSC,CSK4,Others,1
+3765,CSB3,CSK4,Others,1
+3766,CSC3,CSK4,Others,1
+3767,CSN7,CSK4,Others,1
+3768,CSJ5,CSK5,Others,1
+3769,CTE5,CSP6,Others,1
+3770,CYMX,CSK5,Others,1
+3771,CYUY,CSK5,Others,1
+3772,CSJ5,CSL3,Others,1
+3773,CYHU,CSL3,Others,1
+3774,CSC3,CSL5,Others,1
+3775,CYHU,CSL5,Air Canada,1
+3776,CZBM,CSL5,Others,1
+3779,CNV9,CSM3,Others,1
+3780,CSC3,CSM3,Others,1
+3781,CSR3,CSM3,Others,1
+3785,CZBM,CSJ5,Others,1
+3786,CSJ5,CSJ4,Others,1
+3787,CSP6,CSJ4,Others,1
+3788,CSQ3,CSJ4,Others,1
+3789,CSR3,CSJ4,Others,1
+3790,CST3,CSJ4,Others,1
+3791,CSY4,CSJ4,Others,1
+3792,CTR6,CSJ4,Others,1
+3793,CYJN,CSJ4,Air Canada Rouge Lp,1
+3794,CYQB,CSJ4,Others,1
+3795,CYUL,CSJ4,Air Canada,1
+3796,CYUL,CSJ4,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3799,CSE3,CSJ5,Others,1
+3800,CSR3,CSJ5,Others,1
+3801,CSU3,CSJ5,Others,1
+3802,CYAV,CSJ5,Others,1
+3803,CYHZ,CSJ5,Others,1
+3804,CYKZ,CSJ5,Others,1
+3805,CYMX,CSJ5,Air Georgian Limited,1
+3806,CYRQ,CSJ5,Air Canada,1
+3807,CYTZ,CSJ5,Others,1
+3808,CYUL,CSJ5,Air Canada Rouge Lp,1
+3809,CYUL,CSJ5,Aviation Starlink Inc.,1
+3810,CYUL,CSJ5,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3811,CYYG,CSJ5,Others,1
+3812,CYYZ,CSJ5,Others,1
+3813,CST3,CSM3,Others,1
+3814,CYHM,CSM3,Others,1
+3815,CYQS,CSM3,Others,1
+3816,CES2,CSN7,Others,1
+3817,CNZ8,CSN7,Others,1
+3818,CSD3,CSN7,Others,1
+3819,CSM5,CSN7,Others,1
+3820,CSU3,CSN7,Others,1
+3821,CSX5,CSN7,Others,1
+3822,CTQ2,CSN7,Others,1
+3823,CYSA,CSN7,Others,1
+3824,CNF4,CSP5,Others,1
+3825,CNS4,CSP5,Others,1
+3826,CPR2,CSP5,Others,1
+3827,CSB3,CSP5,Others,1
+3828,CSC3,CSP5,Others,1
+3829,CSN7,CSP5,Others,1
+3830,CSP6,CSP5,Others,1
+3831,CSS3,CSP5,Others,1
+3832,CYMX,CSP5,Others,1
+3833,CYRQ,CSP5,Others,1
+3834,CYTR,CSP5,Others,1
+3835,CYXU,CSP5,Others,1
+3836,CZBA,CSP5,Others,1
+3837,CAA2,CSP6,Others,1
+3838,CSP5,CSP6,Others,1
+3839,CSQ3,CSP6,Others,1
+3840,CSS3,CSP6,Others,1
+3841,CST3,CSP6,Others,1
+3842,CNU4,CSN7,Others,1
+3843,CYSC,CSN5,Others,1
+3844,CYRQ,CSM3,Others,1
+3845,CYYZ,CSN3,Others,1
+3846,CYSN,CSM3,Others,1
+3847,CYTZ,CSM3,Others,1
+3848,CZBA,CSM3,Others,1
+3860,CES2,CSM5,Others,1
+3861,CSC3,CSM5,Others,1
+3862,CSJ5,CSM5,Others,1
+3863,CSP5,CSM5,Others,1
+3864,CSS3,CSM5,Others,1
+3865,CYFJ,CSM5,Others,1
+3866,CYRQ,CSM5,Others,1
+3867,CZBM,CSM5,Others,1
+3868,CSM5,CSN3,Others,1
+3869,CSN7,CSN3,Others,1
+3870,CSS3,CSN3,Others,1
+3871,CSY4,CSN3,Others,1
+3872,CYMX,CSN3,Air Georgian Limited,1
+3873,CYHU,CSX5,Others,1
+3874,CSR3,CSY3,Others,1
+3876,CSL3,CYFJ,Others,1
+3877,CYUL,CYEG,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3878,CYUL,CYEG,Sunwing Airlines Inc.,1
+3879,CYUL,CYEY,Others,1
+3880,CSB3,CYFD,Others,1
+3881,CYFJ,CYFD,Others,1
+3882,CYND,CYFD,Others,1
+3883,CYRQ,CYFD,Others,1
+3884,CYUL,CYFD,Others,1
+3885,CNC3,CYFJ,Others,1
+3886,CNP3,CYFJ,Others,1
+3887,CNV9,CYFJ,Others,1
+3888,CSG3,CYFJ,Others,1
+3889,CSJ5,CYFJ,Others,1
+3890,CSP5,CYFJ,Others,1
+3891,CYSN,CYFJ,Others,1
+3892,CSP6,CYFJ,Others,1
+3893,CSY3,CYFJ,Others,1
+3894,CSY4,CYFJ,Others,1
+3895,CYCH,CYFJ,Others,1
+3896,CYCK,CYFJ,Others,1
+3897,CYEE,CYFJ,Others,1
+3898,CYHM,CYFJ,Others,1
+3899,CYOO,CYFJ,Others,1
+3900,CYOO,CYFJ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3901,CYOW,CYFJ,Aviation Starlink Inc.,1
+3902,CYPQ,CYFJ,Others,1
+3903,CYRP,CYFJ,Others,1
+3904,CYRQ,CYFJ,Others,1
+3905,CYUL,CYEE,Others,1
+3906,CYFJ,CYEE,Others,1
+3907,CTY5,CYCL,Others,1
+3908,CSU3,CYCL,Others,1
+3913,CZBM,CTY5,Others,1
+3916,CYHU,CYAV,Others,1
+3917,CYND,CYAV,Others,1
+3918,CYRQ,CYAV,Others,1
+3919,CYUL,CYBG,Jazz Aviation Lp,1
+3920,CYHU,CYBW,Others,1
+3921,CSQ3,CYCC,Others,1
+3922,CSU3,CYCC,Others,1
+3923,CSY3,CYCC,Others,1
+3924,CYRQ,CYCC,Others,1
+3925,CYSC,CYCC,Others,1
+3926,CYUL,CYCD,Others,1
+3927,CSA2,CYCH,Others,1
+3928,CYHU,CYCH,Others,1
+3929,CYUL,CYCH,Aviation Starlink Inc.,1
+3930,CNV9,CYCK,Others,1
+3931,CYFJ,CYCK,Others,1
+3932,CYHU,CYCK,Others,1
+3933,CSJ5,CYCL,Others,1
+3934,CSR3,CYCL,Others,1
+3935,CYSB,CYFJ,Others,1
+3936,CYTR,CYFJ,Others,1
+3937,CYFJ,CSY3,Others,1
+3938,CYHU,CYHM,Aviation Starlink Inc.,1
+3939,CYSC,CYGK,Others,1
+3940,CZBM,CYGK,Others,1
+3941,CSN7,CYGM,Others,1
+3942,CYHU,CYGM,Others,1
+3943,CYGV,CYGP,Others,1
+3944,CYOW,CYGP,Others,1
+3945,CYQB,CYGP,Others,1
+3946,CYUL,CYGP,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3948,CSE4,CYGV,Others,1
+3949,CYPN,CYGV,Others,1
+3950,CYUY,CYGV,Others,1
+3951,CYZV,CYGV,Others,1
+3952,CYHU,CYHM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3953,CYUL,CYFJ,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3954,CYJN,CYHM,Others,1
+3955,CYSC,CYHM,Air Georgian Limited,1
+3956,CYUL,CYHM,Air Transat A T Inc.,1
+3957,CYUL,CYHM,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+3958,CYUY,CYHM,Air Georgian Limited,1
+3959,CYUY,CYHM,Others,1
+3960,CZBM,CYHM,Others,1
+3961,CYSC,CYHS,Others,1
+3966,CYRQ,CYGK,Others,1
+3967,CSU3,CYGK,Others,1
+3968,CST3,CYGK,Others,1
+3969,CYYB,CYFJ,Others,1
+3970,CYYJ,CYFJ,Others,1
+3996,CYHU,CSZ4,Aviation Starlink Inc.,1
+3997,CYSC,CSZ4,Others,1
+4008,CZBM,CTA3,Others,1
+4009,CNV9,CTA4,Others,1
+4010,CYHU,CTA4,Others,1
+4011,CYND,CTA4,Others,1
+4012,CYQB,CTA4,Others,1
+4013,CYUY,CTA4,Others,1
+4016,CZBM,CSZ3,Others,1
+4017,CYTZ,CSZ3,Porter Airlines Inc.,1
+4018,CYJN,CSY3,Others,1
+4019,CYND,CSY3,Others,1
+4020,CYXU,CSY3,Others,1
+4021,CLA6,CSY4,Others,1
+4022,CNJ4,CSY4,Others,1
+4023,CSB3,CSY4,Others,1
+4024,CSN3,CSY4,Others,1
+4025,CSP6,CSY4,Others,1
+4026,CSS4,CSY4,Others,1
+4027,CTE5,CSY4,Others,1
+4028,CYRO,CSY4,Others,1
+4029,CYRQ,CSY4,Others,1
+4030,CYSH,CSY4,Others,1
+4031,CLA6,CSZ3,Others,1
+4032,CNV9,CSZ3,Others,1
+4033,CPR2,CSZ3,Others,1
+4034,CSF7,CSZ3,Others,1
+4035,CSN3,CSZ3,Others,1
+4036,CSQ3,CSZ3,Others,1
+4037,CSS3,CSZ3,Others,1
+4038,CSU3,CSZ3,Others,1
+4039,CTE5,CSZ3,Others,1
+4040,CYCC,CSZ3,Others,1
+4041,CYFJ,CSZ3,Others,1
+4042,CYKZ,CSZ3,Aviation Starlink Inc.,1
+4043,CYSH,CSZ3,Others,1
+4044,CSC3,CTE5,Others,1
+4045,CSP6,CTE5,Others,1
+4046,CSR3,CTE5,Others,1
+4047,CYPQ,CTR6,Others,1
+4048,CYRO,CTR6,Others,1
+4049,CYSH,CTR6,Others,1
+4050,CYUL,CTR6,Republic Airways Inc,1
+4051,CYVR,CTR6,Others,1
+4052,CYWG,CTR6,Others,1
+4053,CYXT,CTR6,Others,1
+4054,CYXU,CTR6,Others,1
+4055,CYYZ,CTR6,Air Georgian Limited,1
+4056,CYYZ,CTR6,Bank Of Utah Trustee,1
+4057,CYYZ,CTR6,Republic Airways Inc,1
+4058,CZBA,CTR6,Others,1
+4075,CYQG,CTR6,Sunwing Airlines Inc.,1
+4076,CYOW,CTR6,Jazz Aviation Lp,1
+4077,CSZ3,CTE5,Others,1
+4078,CYKZ,CTR6,Aviation Starlink Inc.,1
+4079,CSY4,CTG3,Others,1
+4080,CYGV,CTG3,Others,1
+4081,CYND,CTG3,Others,1
+4082,CYUL,CTG3,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4084,CYHU,CTK6,Others,1
+4085,CSR3,CTQ2,Others,1
+4086,CSU3,CTQ2,Others,1
+4087,CYKZ,CTQ2,Others,1
+4088,CYND,CTQ2,Others,1
+4092,CYVB,CTQ6,Others,1
+4094,CLC2,CTR6,Others,1
+4095,CNN8,CTR6,Others,1
+4096,CSA2,CTR6,Others,1
+4097,CSY4,CTR6,Others,1
+4098,CYEG,CTR6,Others,1
+4099,CYHM,CTR6,Aviation Starlink Inc.,1
+4100,CYJN,CTR6,Others,1
+4101,CYKA,CTR6,Others,1
+4102,CSC3,CSJ4,Others,1
+4103,CNV9,CSJ4,Others,1
+4104,CYMX,CSJ2,Others,1
+4105,CYUL,CCW4,Westjet Encore Ltd.,1
+4106,CZBM,CCP3,Others,1
+4107,CSC3,CCQ3,Others,1
+4109,CYUL,CCS5,Jazz Aviation Lp,1
+4110,CYHU,CCV4,Others,1
+4111,CYUL,CCV4,Cargojet Airways Ltd.,1
+4112,CYUL,CCV4,Others,1
+4113,CSC3,CCW4,Others,1
+4114,CYHU,CCW4,Others,1
+4115,CYMX,CCW4,Others,1
+4116,CYUL,CCW4,Aviation Starlink Inc.,1
+4117,CYUL,CCW4,Flair Airlines Ltd,1
+4118,CYUL,CCW4,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,1
+4119,CYND,CCY4,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4120,CSS3,CES2,Others,1
+4121,CYSC,CCY4,Jazz Aviation Lp,1
+4122,CYSG,CCY4,Others,1
+4123,CYUL,CCY4,Aviation Starlink Inc.,1
+4124,CYUL,CCY4,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,1
+4125,CSB3,CDA4,Others,1
+4126,CYGV,CDA4,Others,1
+4127,CYTZ,CDD3,Others,1
+4130,CYUL,CDT5,Others,1
+4131,CYMX,CDU6,Others,1
+4132,CYUL,CED6,Air Canada,1
+4133,CSG3,CES2,Others,1
+4134,CYND,CCP3,Others,1
+4135,CYMX,CCP3,Air Georgian Limited,1
+4136,CSR3,CCP3,Others,1
+4137,CSG3,CCP3,Others,1
+4144,CSB3,CAA2,Others,1
+4145,CSC3,CAA2,Others,1
+4146,CSE4,CAA2,Bank Of Utah Trustee,1
+4147,CSJ4,CAA2,Others,1
+4148,CSP6,CAA2,Others,1
+4149,CST3,CAA2,Others,1
+4150,CSZ3,CAA2,Others,1
+4154,CYUL,CBW8,Others,1
+4155,CYMX,CCF4,Cargojet Airways Ltd.,1
+4156,CYUL,CCF4,Air Canada Rouge Lp,1
+4157,CYUL,CCF4,Cargojet Airways Ltd.,1
+4158,CYUL,CCF4,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4159,CYMX,CCG4,Others,1
+4160,CSE4,CCK5,Others,1
+4161,CYUL,CCK5,Others,1
+4162,CYUL,CCM3,Others,1
+4163,CSA2,CCP3,Others,1
+4164,CSN7,CES2,Others,1
+4165,CSZ3,CES2,Others,1
+4166,CSU3,CSJ2,Others,1
+4177,CYUL,CMF2,Air Canada,1
+4178,CYUL,CMF2,Flair Airlines Ltd,1
+4179,CYUL,CMF2,Others,1
+4182,CYUL,CES2,Others,1
+4193,CYMX,CMW3,Others,1
+4194,CYHU,CNA3,Others,1
+4195,CYFJ,CNA4,Others,1
+4196,CYUL,CLM2,Others,1
+4197,CYMX,CLC2,Others,1
+4198,CYJN,CLC2,Others,1
+4199,CSY3,CLC2,Others,1
+4200,CYUL,CEX3,Air Canada,1
+4201,CYUL,CEZ3,Air Canada,1
+4202,CYUL,CFF9,Others,1
+4203,CNV9,CFH4,Others,1
+4204,CYHU,CFH4,Air Canada,1
+4205,CYUL,CFH4,Others,1
+4207,CYUL,CFQ7,Air Transat A T Inc.,1
+4214,CSU3,CHG2,Others,1
+4215,CYHU,CJB2,Others,1
+4216,CTY5,CJU3,Others,1
+4217,CYVB,CJU3,Others,1
+4218,CYUL,CJV5,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4219,CYUL,CKD8,Others,1
+4220,CZBM,CKR4,Others,1
+4221,CES2,CLA2,Others,1
+4222,CSA2,CLA2,Air Canada Rouge Lp,1
+4223,CSE4,CLA2,Others,1
+4224,CYJN,CLA2,Others,1
+4225,CYUL,CLA4,Others,1
+4226,CSZ3,CLA6,Others,1
+4347,CYUL,CNA4,Others,1
+4348,CSB3,CNC3,Others,1
+4349,CSE4,CNC3,Others,1
+4350,CSK4,CSC3,Others,1
+4351,CSL3,CSC3,Others,1
+4352,CSM5,CSC3,Others,1
+4353,CSN7,CSC3,Others,1
+4354,CSU7,CSC3,Others,1
+4355,CYGK,CSC3,Others,1
+4356,CYOO,CSC3,Others,1
+4357,CYOW,CSC3,Others,1
+4358,CYRO,CSC3,Others,1
+4359,CYUL,CSC3,Aviation Starlink Inc.,1
+4360,CYXU,CSC3,Others,1
+4361,CYYZ,CSC3,Others,1
+4362,CZBF,CSC3,Others,1
+4363,CSR3,CSA2,Others,1
+4365,CYHU,CSC9,Others,1
+4366,CLA4,CSD3,Others,1
+4367,CPR2,CSD3,Others,1
+4368,CSS3,CSD3,Others,1
+4369,CYHU,CSD3,Others,1
+4370,CYJN,CSD3,Others,1
+4371,CYMX,CSD3,Others,1
+4372,CYSA,CSD3,Others,1
+4373,CZBM,CSD3,Others,1
+4374,CNV9,CSD4,Others,1
+4375,CPL3,CSD4,Others,1
+4376,CNS4,CSC3,Others,1
+4377,CNC3,CSC3,Others,1
+4378,CSX5,CSA2,Others,1
+4379,CYJN,CSA2,Bank Of Utah Trustee,1
+4380,CYMX,CSA2,Bank Of Utah Trustee,1
+4381,CYUL,CSA2,Air Canada Rouge Lp,1
+4382,CAA2,CSB3,Others,1
+4383,CDA4,CSB3,Others,1
+4384,CLA2,CSB3,Others,1
+4385,CNC3,CSB3,Others,1
+4386,CSD4,CSB3,Others,1
+4387,CSH5,CSB3,Others,1
+4388,CSJ5,CSB3,Others,1
+4389,CSM5,CSB3,Others,1
+4390,CST3,CSB3,Others,1
+4391,CSY4,CSB3,Others,1
+4392,CTE5,CSB3,Others,1
+4393,CYFD,CSB3,Others,1
+4394,CYHZ,CSB3,Others,1
+4395,CYLS,CSB3,Others,1
+4396,CYOO,CSB3,Others,1
+4397,CYRP,CSB3,Others,1
+4398,CYSH,CSB3,Others,1
+4399,CYXU,CSB3,Others,1
+4400,CYYZ,CSB3,Others,1
+4401,CZBM,CSB3,Air Canada,1
+4402,CLA6,CSC3,Others,1
+4403,CYCC,CSD4,Others,1
+4404,CYSC,CSD4,Others,1
+4405,CYYB,CSD4,Others,1
+4409,CSE4,CSF7,Others,1
+4410,CST3,CSF7,Others,1
+4411,CYHU,CSF7,Others,1
+4412,CYND,CSF7,Others,1
+4413,CYUL,CSF7,Others,1
+4414,CAA2,CSG3,Others,1
+4415,CNF3,CSG3,Others,1
+4416,CSM5,CSG3,Others,1
+4417,CSN3,CSG3,Others,1
+4418,CSZ3,CSG3,Others,1
+4419,CYKZ,CSG3,Others,1
+4420,CYSC,CSG3,Others,1
+4421,CYYG,CSG3,Others,1
+4422,CYHU,CSG5,Air Georgian Limited,1
+4423,CYHU,CSG5,Others,1
+4424,CYUL,CSG5,Jazz Aviation Lp,1
+4425,CNV9,CSH5,Air Transat A T Inc.,1
+4426,CSB3,CSH5,Air Canada,1
+4427,CSE4,CSH5,Others,1
+4428,CSM3,CSH5,Others,1
+4429,CYHU,CSH5,Air Canada,1
+4430,CYHU,CSH5,Bank Of Utah Trustee,1
+4431,CYJN,CSH5,Others,1
+4432,CYRQ,CSH5,Others,1
+4433,CYUL,CSH5,Others,1
+4435,CZBF,CSE4,Others,1
+4436,CSG3,CSE3,Others,1
+4437,CYZR,CSE4,Others,1
+4438,CSY4,CSE3,Others,1
+4439,CYUL,CSE3,Others,1
+4440,CYXU,CSE3,Others,1
+4442,CCP3,CSE4,Others,1
+4443,CLC2,CSE4,Others,1
+4444,CNF4,CSE4,Others,1
+4445,CNN8,CSE4,Others,1
+4446,CNP7,CSE4,Others,1
+4447,CNS4,CSE4,Others,1
+4448,CNS8,CSE4,Others,1
+4449,CNV9,CSE4,Others,1
+4450,CPP6,CSE4,Others,1
+4451,CPS2,CSE4,Others,1
+4452,CSL3,CSE4,Others,1
+4453,CSN7,CSE4,Others,1
+4454,CSQ3,CSE4,Others,1
+4455,CTQ2,CSE4,Others,1
+4456,CTR6,CSE4,Others,1
+4457,CYGK,CSE4,Others,1
+4458,CYGV,CSE4,Others,1
+4459,CYJN,CSE4,Bank Of Utah Trustee,1
+4460,CYPN,CSE4,Others,1
+4461,CYPQ,CSE4,Others,1
+4462,CYRP,CSE4,Others,1
+4463,CYTR,CSE4,Others,1
+4464,CYXU,CSE4,Others,1
+4465,CSS3,CSA2,Others,1
+4466,CSJ5,CSA2,Others,1
+4467,CSP5,CNC3,Others,1
+4468,CYND,CNS4,Others,1
+4469,CSP5,CNP3,Others,1
+4470,CSY4,CNP3,Others,1
+4471,CYFJ,CNP3,Others,1
+4472,CYJN,CNP3,Others,1
+4473,CYUL,CNP3,Others,1
+4474,CZBM,CNP3,Others,1
+4475,CSE4,CNP7,Others,1
+4476,CYMX,CNP8,Others,1
+4477,CYJN,CNQ3,Others,1
+4478,CYMX,CNQ3,Others,1
+4479,CYSC,CNR6,Others,1
+4480,CST3,CNR9,Others,1
+4481,CYUL,CNS6,Others,1
+4482,CSB3,CSA2,Others,1
+4483,CSE4,CNS8,Others,1
+4484,CYHU,CNT6,Others,1
+4485,CYRQ,CNT7,Others,1
+4486,CTR6,CNU4,Others,1
+4487,CYFJ,CNU4,Others,1
+4488,CYHU,CNU4,Others,1
+4489,CYRQ,CNU4,Others,1
+4490,CYUL,CNU4,Others,1
+4491,CYUY,CNU4,Others,1
+4492,CSE3,CNV4,Others,1
+4493,CSG3,CNV4,Others,1
+4494,CSJ4,CNV4,Others,1
+4495,CYHU,CNV4,Others,1
+4496,CSA2,CNP3,Others,1
+4497,CZBM,CNN8,Others,1
+4498,CYUL,CNN8,Aviation Starlink Inc.,1
+4499,CYFJ,CNN8,Others,1
+4500,CST3,CNC3,Others,1
+4501,CYSC,CNC3,Others,1
+4502,CYUL,CNC3,Others,1
+4503,CYVB,CNC3,Others,1
+4504,CYHU,CNC4,Others,1
+4505,CSE4,CND4,Others,1
+4506,CYSC,CND4,Others,1
+4507,CZBM,CND4,Others,1
+4508,CYHU,CNE4,Air Georgian Limited,1
+4509,CYND,CNE4,Others,1
+4510,CYUL,CNE4,Others,1
+4511,CSG3,CNF3,Others,1
+4512,CSM3,CNF3,Others,1
+4513,CSP6,CNF3,Others,1
+4514,CSZ3,CNF3,Others,1
+4515,CYSC,CNF3,Others,1
+4516,CYND,CNF4,Others,1
+4517,CSE4,CNF8,Others,1
+4518,CYUL,CNF8,Jazz Aviation Lp,1
+4519,CSB3,CNJ4,Others,1
+4520,CSE4,CNJ4,Others,1
+4521,CSB3,CNL3,Others,1
+4522,CYSC,CNL3,Others,1
+4523,CYUL,CNL3,Others,1
+4524,CSM3,CNL8,Others,1
+4525,CSB3,CNN8,Others,1
+4526,CSC3,CNN8,Others,1
+4527,CYND,CNV4,Others,1
+4528,CYHU,CNV8,Others,1
+4529,CYMX,CNV8,Others,1
+4530,CSS3,CPR2,Others,1
+4531,CYRQ,CPR2,Others,1
+4532,CYUL,CPR2,Others,1
+4533,CYRQ,CPR7,Others,1
+4534,CYFJ,CPS2,Others,1
+4535,CYJN,CPS2,Others,1
+4536,CYMX,CPS2,Others,1
+4537,CYND,CPS2,Others,1
+4538,CYSC,CPS2,Others,1
+4539,CZBM,CPS2,Others,1
+4547,CSC3,CPU6,Others,1
+4548,CYHU,CRE3,Others,1
+4550,CYJN,CRL2,Others,1
+4551,CYMX,CRL2,Air Georgian Limited,1
+4552,CYMX,CRL2,Others,1
+4553,CYRQ,CRL2,Others,1
+4554,CZBM,CRL2,Others,1
+4557,CSU3,CPR2,Others,1
+4558,CSP5,CPR2,Others,1
+4559,CSC3,CNV9,Others,1
+4560,CSJ4,CPR2,Others,1
+4561,CSR3,CNV9,Others,1
+4562,CST3,CNV9,Others,1
+4563,CTY5,CNV9,Others,1
+4564,CYMW,CNV9,Others,1
+4565,CZBM,CNV9,Others,1
+4566,CYFJ,CNY3,Others,1
+4567,CZBM,CNY3,Others,1
+4568,CYHU,CPE4,Others,1
+4569,CZBM,CPE4,Others,1
+4570,CYND,CPE6,Others,1
+4574,CSJ4,CPF4,Others,1
+4575,CTR6,CPF4,Others,1
+4576,CSE4,CPG4,Others,1
+4577,CSA2,CPG5,Others,1
+4578,CYHU,CPG5,Others,1
+4579,CYMX,CPG5,Others,1
+4580,CYRQ,CPJ5,Others,1
+4581,CZBM,CPJ5,Others,1
+4582,CYUL,CPL3,Porter Airlines Inc.,1
+4587,CSE4,CPP6,Others,1
+4591,CYGK,CYUL,Aviation Starlink Inc.,1
+4592,CSB5,CYUL,Others,1
+4593,CSC3,CYUL,Aviation Starlink Inc.,1
+4594,CSN5,CYUL,Others,1
+4595,CSR3,CYUL,Jazz Aviation Lp,1
+4596,CSZ3,CYUL,Aviation Starlink Inc.,1
+4598,CTG3,CYUL,Others,1
+4599,CTY5,CYUL,Others,1
+4600,CYCH,CYUL,Aviation Starlink Inc.,1
+4601,CYCK,CYUL,Aviation Starlink Inc.,1
+4602,CYCL,CYUL,Bank Of Utah Trustee,1
+4603,CYEG,CYUL,Air Transat A T Inc.,1
+4604,CYGK,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4605,CYQB,CYUL,Aviation Starlink Inc.,1
+4606,CYHM,CYUL,Porter Airlines Inc.,1
+4607,CYHM,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4608,CYHZ,CYUL,Air Georgian Limited,1
+4609,CYHZ,CYUL,Cargojet Airways Ltd.,1
+4610,CYHZ,CYUL,Sunwing Airlines Inc.,1
+4611,CYKF,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4612,CYLS,CYUL,Aviation Starlink Inc.,1
+4613,CYLW,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4614,CYMW,CYUL,Aviation Starlink Inc.,1
+4615,CYND,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4616,CYOW,CYUL,Air Canada Rouge Lp,1
+4617,CYOW,CYUL,Air Transat A T Inc.,1
+4618,CYOW,CYUL,Westjet,1
+4619,CPU6,CYUL,Others,1
+4620,CPS2,CYUL,Others,1
+4624,CCF4,CYUL,Air Canada,1
+4625,CCG4,CYUL,Jazz Aviation Lp,1
+4626,CCG4,CYUL,Others,1
+4627,CCP3,CYUL,Others,1
+4628,CCV4,CYUL,Others,1
+4629,CCV4,CYUL,Porter Airlines Inc.,1
+4630,CFQ7,CYUL,Sunwing Airlines Inc.,1
+4631,CLA6,CYUL,Others,1
+4632,CLC2,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4633,CMF2,CYUL,Air Canada,1
+4634,CMF2,CYUL,Flair Airlines Ltd,1
+4635,CNA3,CYUL,Others,1
+4636,CND4,CYUL,Others,1
+4637,CNL3,CYUL,Others,1
+4638,CNL8,CYUL,Aviation Starlink Inc.,1
+4639,CNP3,CYUL,Others,1
+4640,CNV8,CYUL,Others,1
+4641,CNV9,CYUL,Air France,1
+4642,CNV9,CYUL,Bank Of Utah Trustee,1
+4643,CNY3,CYUL,Others,1
+4645,CPG4,CYUL,Others,1
+4646,CYQA,CYUL,Jazz Aviation Lp,1
+4647,CYQB,CYUL,Bank Of Utah Trustee,1
+4657,CYQF,CYUL,Others,1
+4671,CYQG,CYUL,Aviation Starlink Inc.,1
+4672,CYQG,CYUL,Jazz Aviation Lp,1
+4673,CYQG,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4674,CYQS,CYUL,Others,1
+4675,CYRQ,CYUL,Air Canada,1
+4676,CYRQ,CYUL,Aviation Starlink Inc.,1
+4677,CYSC,CYUL,Aviation Starlink Inc.,1
+4678,CYTS,CYUL,Others,1
+4679,CYUY,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4680,CYVB,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4681,CYWG,CYUL,Sky Regional Airlines Inc. /lignes Aériennes Sky Regional Inc.,1
+4682,CYXX,CYUL,Others,1
+4683,CYYB,CYUL,Jazz Aviation Lp,1
+4684,CYYB,CYUL,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4685,CYYC,CYUL,Air Georgian Limited,1
+4686,CYYC,CYUL,Sunwing Airlines Inc.,1
+4687,CYYG,CYUL,Aviation Starlink Inc.,1
+4688,CYYT,CYUL,Cargojet Airways Ltd.,1
+4689,CZBA,CYUL,Others,1
+4690,CZBM,CYUL,Aviation Starlink Inc.,1
+4696,CYQS,CYSC,Others,1
+4697,CYRO,CYSC,Others,1
+4698,CYSH,CYSC,Others,1
+4699,CYSN,CYSC,Others,1
+4700,CYUL,CYSC,Aviation Starlink Inc.,1
+4701,CYYC,CYSC,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4702,CYYJ,CYSC,Others,1
+4710,CSE4,CYSG,Others,1
+4711,CYHU,CYSG,Others,1
+4712,CYUL,CYSG,Aviation Starlink Inc.,1
+4715,CSA2,CYSH,Others,1
+4716,CSN5,CYSH,Others,1
+4717,CYQA,CYSC,Others,1
+4718,CYMX,CYSC,Air Georgian Limited,1
+4719,CYHZ,CYSC,Others,1
+4720,CYHS,CYSC,Others,1
+4721,CYYZ,CYRQ,Air Canada Rouge Lp,1
+4725,CYHU,CYSA,Others,1
+4726,CZBM,CYSA,Others,1
+4728,CCP3,CYSC,Others,1
+4729,CNJ4,CYSC,Others,1
+4730,CNN8,CYSC,Others,1
+4731,CNV8,CYSC,Others,1
+4732,CPR7,CYSC,Others,1
+4733,CSG3,CYSC,Others,1
+4734,CSH5,CYSC,Others,1
+4735,CSJ5,CYSC,Others,1
+4737,CYFD,CYSC,Others,1
+4738,CYGK,CYSC,Others,1
+4739,CYGV,CYSC,Others,1
+4740,CSY4,CYSH,Others,1
+4741,CSZ3,CYSH,Others,1
+4742,CYJN,CYSH,Others,1
+4759,CYMX,CYSH,Others,1
+4760,CYUL,CYSJ,Jazz Aviation Lp,1
+4761,CSU3,CYSN,Others,1
+4762,CYJN,CYSN,Others,1
+4763,CYMX,CYSN,Air Georgian Limited,1
+4764,CYSC,CYSN,Others,1
+4765,CYUL,CYSU,Air Canada Rouge Lp,1
+4766,CSE4,CYTR,Others,1
+4767,CYRQ,CYTR,Others,1
+4768,CSR3,CYTS,Others,1
+4769,CYUL,CYTS,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+4770,CSA2,CYTZ,Others,1
+4771,CSC3,CYTZ,Others,1
+4772,CSG5,CYTZ,Porter Airlines Inc.,1
+4773,CSP6,CYTZ,Jazz Aviation Lp,1
+4774,CST3,CYTZ,Others,1
+4775,CSZ3,CYTZ,Others,1
+4776,CYFJ,CYTZ,Aviation Starlink Inc.,1
+4777,CYSC,CYTZ,Others,1
+4778,CYUY,CYTZ,Others,1
+4940,CYUL,CYRQ,Aviation Starlink Inc.,1
+4941,CYUL,CYRQ,Air Canada Rouge Lp,1
+4942,CYPQ,CYRQ,Others,1
+4954,CNV9,CYHZ,Others,1
+4955,CSB3,CYHZ,Others,1
+4956,CYHU,CYHZ,Air Georgian Limited,1
+4957,CYQB,CYHZ,Others,1
+4958,CYSC,CYHZ,Others,1
+4959,CYSG,CYHZ,Others,1
+4960,CYUL,CYHZ,Air Georgian Limited,1
+4961,CYUL,CYHZ,Westjet,1
+4983,CYOO,CYRQ,Others,1
+4984,CSB3,CYLQ,Others,1
+4985,CYFJ,CYKX,Others,1
+4986,CYHU,CYKX,Others,1
+4987,CYUL,CYKX,Aviation Starlink Inc.,1
+4988,CSA2,CYKZ,Others,1
+4989,CSG3,CYKZ,Others,1
+4990,CSQ3,CYKZ,Others,1
+4991,CYFJ,CYKZ,Bank Of Utah Trustee,1
+4992,CYHU,CYKZ,Jazz Aviation Lp,1
+4993,CYJN,CYKZ,Others,1
+4994,CYMX,CYKZ,Air Georgian Limited,1
+4995,CYRQ,CYKZ,Others,1
+4996,CYUY,CYKZ,Others,1
+4997,CZBM,CYKZ,Others,1
+4998,CSG3,CYLQ,Others,1
+4999,CLA2,CYJN,Others,1
+5000,CYHU,CYLQ,Others,1
+5001,CYJN,CYLQ,Others,1
+5002,CYND,CYLQ,Others,1
+5003,CYOW,CYLQ,Others,1
+5004,CNV9,CYLS,Others,1
+5005,CSB3,CYLS,Others,1
+5006,CYFJ,CYLS,Others,1
+5007,CYSC,CYLS,Others,1
+5008,CYUL,CYLS,Aviation Starlink Inc.,1
+5009,CZBM,CYLS,Others,1
+5010,CYUL,CYLW,Others,1
+5011,CSE4,CYMW,Others,1
+5012,CSY4,CYKF,Others,1
+5013,CSR3,CYKF,Others,1
+5014,CSJ5,CYKF,Others,1
+5015,CSC3,CYKF,Others,1
+5016,CNF3,CYJN,Others,1
+5017,CNL3,CYJN,Others,1
+5018,CNN8,CYJN,Others,1
+5019,CNP7,CYJN,Others,1
+5020,CNQ3,CYJN,Others,1
+5021,CNV9,CYJN,Others,1
+5022,CSA2,CYJN,Bank Of Utah Trustee,1
+5023,CSC3,CYJN,Air Canada Rouge Lp,1
+5024,CSE4,CYJN,Bank Of Utah Trustee,1
+5025,CSG3,CYJN,Others,1
+5026,CSK4,CYJN,Others,1
+5027,CSN7,CYJN,Others,1
+5028,CSS3,CYJN,Others,1
+5029,CST3,CYJN,Others,1
+5030,CSY4,CYJN,Others,1
+5031,CYKF,CYJN,Others,1
+5032,CYKZ,CYJN,Others,1
+5033,CYMX,CYJN,Bank Of Utah Trustee,1
+5034,CYPQ,CYJN,Others,1
+5035,CYSN,CYJN,Others,1
+5036,CYUL,CYJN,Bank Of Utah Trustee,1
+5037,CYYG,CYJN,Others,1
+5038,CZBM,CYJN,Air Canada Rouge Lp,1
+5039,CZBM,CYJN,Bank Of Utah Trustee,1
+5041,CSB3,CYKF,Others,1
+5044,CYYZ,CYHU,Aviation Starlink Inc.,1
+5045,CYOW,CYHU,Jazz Aviation Lp,1
+5046,CYQG,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+5047,CYQY,CYHU,Others,1
+5048,CYQY,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+5049,CYSA,CYHU,Others,1
+5050,CYSG,CYHU,Others,1
+5051,CYTZ,CYHU,Porter Airlines Inc.,1
+5052,CYUL,CYHU,Air Canada,1
+5053,CYUL,CYHU,Air Transat A T Inc.,1
+5054,CYVR,CYHU,Flair Airlines Ltd,1
+5055,CYXR,CYHU,Others,1
+5056,CYXX,CYHU,Others,1
+5057,CYYG,CYHU,Air Canada,1
+5058,CZBF,CYHU,Others,1
+5069,CYND,CYHU,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+5070,CYNA,CYHU,Others,1
+5071,CYMX,CYHU,Bank Of Utah Trustee,1
+5072,CYKZ,CYHU,Jazz Aviation Lp,1
+5075,CCQ3,CYHU,Others,1
+5076,CNL8,CYHU,Others,1
+5077,CNP7,CYHU,Others,1
+5078,CNV8,CYHU,Others,1
+5079,CNV9,CYHU,Aviation Starlink Inc.,1
+5080,CPR2,CYHU,Others,1
+5081,CPS2,CYHU,Others,1
+5082,CSN5,CYHU,Others,1
+5083,CSN7,CYHU,Others,1
+5085,CTA4,CYHU,Others,1
+5086,CTE5,CYHU,Others,1
+5087,CTG3,CYHU,Others,1
+5088,CTR6,CYHU,Others,1
+5089,CTY5,CYHU,Others,1
+5090,CYAV,CYHU,Others,1
+5091,CYCK,CYHU,Others,1
+5092,CYGP,CYHU,Others,1
+5093,CYHM,CYHU,Air Georgian Limited,1
+5138,CSR3,CYMW,Others,1
+5139,CTR6,CYMW,Others,1
+5140,CYTZ,CYMW,Others,1
+5141,CYZV,CYOW,Others,1
+5142,CYFJ,CYOW,Others,1
+5143,CYFJ,CYOW,Porter Airlines Inc.,1
+5144,CYHU,CYOW,Aviation Starlink Inc.,1
+5145,CYJN,CYOW,Others,1
+5146,CYMW,CYOW,Others,1
+5147,CYQB,CYOW,Jazz Aviation Lp,1
+5148,CYUL,CYOW,Air Canada Rouge Lp,1
+5149,CYUL,CYOW,Porter Airlines Inc.,1
+5150,CYUL,CYOW,Republic Airways Inc,1
+5151,CYUL,CYOW,Westjet Encore Ltd.,1
+5152,CYUY,CYOW,Air Georgian Limited,1
+5153,CYUY,CYOW,Others,1
+5154,CYVB,CYOW,Air Georgian Limited,1
+5155,CYUL,CYPA,Others,1
+5156,CSM3,CYND,Others,1
+5157,CYQB,CYPN,Others,1
+5158,CYSZ,CYPN,Others,1
+5159,CYZV,CYPN,Others,1
+5160,CSB3,CYPQ,Others,1
+5161,CYHU,CYPQ,Others,1
+5162,CYND,CYPQ,Others,1
+5163,CYUL,CYPQ,Others,1
+5164,CZBM,CYPQ,Others,1
+5165,CYFJ,CYPT,Others,1
+5166,CYUL,CYPT,Others,1
+5167,CYFJ,CYQA,Aviation Starlink Inc.,1
+5168,CYUL,CYQA,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+5170,CSZ3,CYOW,Others,1
+5171,CSN7,CYOW,Others,1
+5172,CSM3,CYOW,Others,1
+5173,CSG3,CYOW,Others,1
+5174,CSY4,CYND,Others,1
+5175,CTQ2,CYND,Others,1
+5176,CYFD,CYND,Others,1
+5177,CYGK,CYND,Others,1
+5178,CYHZ,CYND,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+5179,CYLS,CYND,Others,1
+5180,CYQG,CYND,Others,1
+5181,CYWG,CYND,Others,1
+5182,CYYC,CYND,Others,1
+5183,CYYG,CYND,Others,1
+5184,CYYZ,CYND,Air Canada,1
+5191,CNV9,CYOO,Aviation Starlink Inc.,1
+5192,CSB3,CYOO,Others,1
+5193,CSU3,CYOO,Others,1
+5194,CYMW,CYOO,Others,1
+5195,CYQB,CYOO,Others,1
+5196,CYRQ,CYOO,Others,1
+5197,CYUL,CYOS,Others,1
+5198,CSB3,CYOW,Others,1
+5200,CNV9,CYQB,Others,1
+5201,CPR2,CYQB,Others,1
+5202,CYUL,CYQY,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+5203,CSD4,CYRO,Others,1
+5204,CSG3,CYRO,Others,1
+5205,CSJ4,CYRO,Others,1
+5206,CSN3,CYRO,Others,1
+5207,CSR3,CYRO,Others,1
+5208,CYQB,CYRO,Others,1
+5209,CZBM,CYRO,Others,1
+5210,CSD4,CYRP,Others,1
+5211,CSE4,CYRP,Others,1
+5212,CSP6,CYRP,Others,1
+5213,CTR6,CYRP,Others,1
+5214,CYFJ,CYRP,Others,1
+5215,CYRQ,CYRP,Others,1
+5216,CCQ3,CYRQ,Others,1
+5217,CNT7,CYRQ,Others,1
+5218,CPJ5,CYRQ,Others,1
+5219,CPS2,CYRQ,Others,1
+5220,CSF7,CYRQ,Others,1
+5221,CSQ3,CYRQ,Others,1
+5222,CSS3,CYRQ,Others,1
+5223,CTE5,CYRQ,Others,1
+5224,CTR6,CYRQ,Others,1
+5225,CYGK,CYRQ,Others,1
+5226,CYHU,CYRQ,Air Georgian Limited,1
+5227,CYHZ,CYRQ,Others,1
+5228,CYKF,CYRQ,Others,1
+5229,CYND,CYRQ,Others,1
+5230,CYQB,CYRI,Others,1
+5231,CYQB,CYQY,Others,1
+5232,CSC3,CYQB,Others,1
+5233,CYND,CYQS,Others,1
+5234,CSJ5,CYQB,Others,1
+5235,CSP6,CYQB,Others,1
+5236,CSZ3,CYQB,Others,1
+5237,CYGP,CYQB,Others,1
+5238,CYHU,CYQB,Air Georgian Limited,1
+5239,CYOW,CYQB,Jazz Aviation Lp,1
+5240,CYPN,CYQB,Others,1
+5241,CYRQ,CYQB,Others,1
+5242,CYUL,CYQB,Air Canada,1
+5243,CYUL,CYQB,Bank Of Utah Trustee,1
+5256,CNV9,CYQG,Others,1
+5257,CYUL,CYQG,Jazz Aviation Lp,1
+5258,CYUL,CYQG,Sunwing Airlines Inc.,1
+5259,CNV9,CYQS,Aviation Starlink Inc.,1
+5260,CSR3,CYND,Others,1
+5261,CSH5,CYND,Others,1
+5262,CYYZ,CYMW,Others,1
+5264,CYPA,CYMX,Others,1
+5265,CYQM,CYMX,Cargojet Airways Ltd.,1
+5266,CYQS,CYMX,Others,1
+5267,CYQY,CYMX,Others,1
+5268,CYRQ,CYMX,Air Georgian Limited,1
+5269,CYSN,CYMX,Air Georgian Limited,1
+5270,CYUL,CYMX,Aviation Starlink Inc.,1
+5271,CYUL,CYMX,Bank Of Utah Trustee,1
+5272,CYYB,CYMX,Others,1
+5273,CYYC,CYMX,Cargojet Airways Ltd.,1
+5274,CYYZ,CYMX,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+5275,CZBA,CYMX,Others,1
+5277,CSF7,CYND,Others,1
+5287,CYOW,CYMX,Air Canada,1
+5288,CYKZ,CYMX,Air Georgian Limited,1
+5289,CYKF,CYMX,Others,1
+5290,CYHZ,CYMX,Air Canada,1
+5296,CES2,CYMX,Others,1
+5297,CHF2,CYMX,Others,1
+5298,CNF3,CYMX,Others,1
+5299,CNL3,CYMX,Others,1
+5300,CNN8,CYMX,Others,1
+5301,CNP3,CYMX,Others,1
+5302,CNQ3,CYMX,Others,1
+5303,CNV8,CYMX,Others,1
+5304,CPJ5,CYMX,Others,1
+5305,CPR5,CYMX,Others,1
+5306,CSA2,CYMX,Bank Of Utah Trustee,1
+5307,CSC3,CYMX,Skyservice Business Aviation Inc./skyservice Aviation D'affaires Inc.,1
+5308,CSD4,CYMX,Others,1
+5309,CSE3,CYMX,Others,1
+5310,CSH5,CYMX,Others,1
+5311,CSR3,CYMX,Others,1
+5312,CYEG,CYMX,Others,1
+5313,CYFJ,CYMX,Others,1
+5314,CYGK,CYMX,Air Georgian Limited,1
+5315,CYHU,CYMX,Bank Of Utah Trustee,1
+5327,CYGP,CYNA,Others,1
+5328,CYZV,CYNA,Others,1
+5330,CLM2,CYND,Others,1
+5331,CNF3,CYND,Others,1
+5332,CNT7,CYND,Others,1
+5333,CNV8,CYND,Others,1
+5334,CPD4,CYND,Others,1
+5335,CPL3,CYND,Others,1
+5336,CPV4,CYND,Air Canada Rouge Lp,1
+5337,CRL2,CYND,Others,1
