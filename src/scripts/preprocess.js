@@ -1,5 +1,3 @@
-import { values } from "d3";
-
 let data = [];
 let companiesFlightArray = [];
 

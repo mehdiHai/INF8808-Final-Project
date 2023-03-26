@@ -49,7 +49,7 @@ function displayTopBucket(topBucket, heightScale) {
     .attr('height', function(c) { 
       return heightScale(c[1])})
     .attr('width', BUCKET_WIDTH)
-    .attr('stroke', 'black')
+    .attr('stroke', 'rgb(40, 63, 25)')
     .attr('stroke-width', '2px')
     .on("mouseover", function(m, d) {
       d3.select(this)
@@ -79,6 +79,7 @@ function displayTopBucket(topBucket, heightScale) {
     .attr('text-anchor', 'middle')
     .attr('fill', 'white')
     .style('pointer-events', 'none')
+    .style('user-select', 'none')
     .text(function(c) {
       const height = heightScale(c[1]);
       if(height > 20){
@@ -110,13 +111,15 @@ function displayBottomBucket(bottomBucket, heightScale) {
     .attr('height', function(c) { 
       return height})
     .attr('width', BUCKET_WIDTH)
-    .style('border-radius', '25%')
+    .attr('stroke-width', '2px')
+    .attr('stroke', 'rgb(44, 42, 42)')
     .on("mouseover", function(m) { 
-      d3.select(this).attr('stroke-width', '2px').attr('stroke', 'black')
+      d3.select(this).style('fill', 'rgb(96, 91, 91)')
+      
       return showTooltipBottom(m, top5Company) })
     .on("mousemove", moveTooltip )
     .on("mouseleave", function() {
-      d3.select(this).attr('stroke-width', null).attr('stroke', null)
+      d3.select(this).style('fill', 'rgb(59, 56, 56)')
       return hideTooltip()
     } )
   d3.select('.bottomCompany').append('text').attr('y', function() {
@@ -127,6 +130,7 @@ function displayBottomBucket(bottomBucket, heightScale) {
     .attr('text-anchor', 'middle')
     .attr('fill', 'white')
     .style('pointer-events', 'none')
+    .style('user-select', 'none')
     .text('Autres compagnies')
 }
 
