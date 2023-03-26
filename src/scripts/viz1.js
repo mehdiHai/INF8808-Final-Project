@@ -94,10 +94,13 @@ function displayTopBucket(topBucket, heightScale) {
 
 function displayBottomBucket(bottomBucket, heightScale) {
   const height = heightScale(d3.sum(bottomBucket, function(c) {return c[1]}))
-  let top5Company = ""
+  let toolTipDisplay = ""
+  let flightTotal = 0;
   for(let i = 0; i < 5; i++){
-    top5Company += (i+1) + '.' + ' ' + bottomBucket[i][0] + ': ' + bottomBucket[i][1] + ' vols <br>'
+    toolTipDisplay += (i+1) + '.' + ' ' + bottomBucket[i][0] + ': ' + bottomBucket[i][1] + ' vols <br>'
+    flightTotal += bottomBucket[i][1];
   }
+  toolTipDisplay += '<br><b>Nombre total de vols: ' + flightTotal + ' vols</b>'
   d3.select("#bottomSVG")
     .append('g')
     .attr('width', BUCKET_WIDTH)
@@ -116,7 +119,7 @@ function displayBottomBucket(bottomBucket, heightScale) {
     .on("mouseover", function(m) { 
       d3.select(this).style('fill', 'rgb(96, 91, 91)')
       
-      return showTooltipBottom(m, top5Company) })
+      return showTooltipBottom(m, toolTipDisplay) })
     .on("mousemove", moveTooltip )
     .on("mouseleave", function() {
       d3.select(this).style('fill', 'rgb(59, 56, 56)')
@@ -169,7 +172,7 @@ const showTooltipBottom = function(m, d) {
 
   tooltip
     .style("opacity", 1)
-    .html("Prochaines 5 plus grandes compagnies: <br>" + d)
+    .html("Prochaines 5 plus grandes compagnies: <br>" + d )
     .style("left", (m.x+30) + "px")
     .style("top", (m.y+30) + "px")
     .style('width', '300px')
