@@ -1,11 +1,11 @@
 .bucket{
     width: 200px;
     height: 300px;
-    margin: 0 80px;
     margin-top: 20px;
     display: inline-block;
     border: 1px solid black;
     border-radius: 4%;
+    background-color: white;
 }
 
 .bucket svg {
@@ -19,8 +19,25 @@
 
 #viz1 {
     margin-top:100px;
+    padding: 25px 0px 50px ;
     text-align: center;
+    width: 100%;
+    background-color: rgb(175, 171, 171);
+    border-width: 3px 0px;
+    border-style: solid;
+    border-color: rgb(88, 86, 86);
 }
+
+#topBucket {
+    position:relative;
+    left: -5%;
+}
+#bottomBucket {
+    position:relative;
+
+    left: 5%;
+}
+
 #slider-value{
     width: 40px;
     height: 30px;
@@ -30,6 +47,7 @@
     border-radius: 10%;
     color:white;
     font-size:20px;
+    user-select: none;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
