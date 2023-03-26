@@ -114,12 +114,12 @@
   .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 24px;
-    height: 24px;
+    width: 21px;
+    height: 21px;
     border: 2px solid black;
     border-radius: 50%;
     position: relative;
-    top:-12px;
+    top:-10px;
     transform:translate(0,-10);
     background-color: white;
     background-image: url('img/plane-icon.png');
@@ -127,6 +127,12 @@
     background-position: center center;
     background-repeat: no-repeat;
     cursor: pointer;
+  }
+  .slider::-webkit-slider-thumb:active {
+    width: 31px;
+    height: 31px;
+    top:-15px;
+
   }
   
 .slider::-webkit-slider-runnable-track {
