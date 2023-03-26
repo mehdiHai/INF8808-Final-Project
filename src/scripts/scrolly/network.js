@@ -3,8 +3,8 @@ import * as d3geoproj from 'd3-geo-projection';
 export default class Network {
 
   constructor(svg) {
-    this.projection = d3geoproj.geoGuyou()
-    this.projection.rotate({ lat: 46.179336122399526, lon: 6.145677500934902 })
+    //this.projection = d3geoproj.geoGuyou()
+    //this.projection.rotate({ lat: 46.179336122399526, lon: 6.145677500934902 })
     this.svg = svg;
     this.airportCode = {};
     this.levelGeo = { 1: "QC", 2: "CA", 3: "WORLD", 4: null, "QC": 1, "CA": 2, "WORLD": 3, null: 4 };
@@ -35,7 +35,7 @@ export default class Network {
       var minMaxY = [1000000, 0]
 
       for (const item of localairports) {
-        var pos = this.projection([parseFloat(item.lon) + padding[0], parseFloat(item.lat) + padding[1]]);
+        var pos =[100+parseFloat(item.lon),100+parseFloat(item.lat)];
         this.airportCode[item.airport] = pos;
         minMaxX = [Math.min(pos[0], minMaxX[0]), Math.max(pos[0], minMaxX[1])]
         minMaxY = [Math.min(pos[1], minMaxY[0]), Math.max(pos[1], minMaxY[1])]
@@ -55,7 +55,7 @@ export default class Network {
       this.svg.transition()
         .ease(d3.easePolyInOut)
         .duration(800)
-        .attr("viewBox", this.limits[this.levelGeo[this.currentGeo]])
+        .attr("viewBox", [this.limits[this.levelGeo[this.currentGeo]]])
 
       var circles = this.svg.selectAll('airports')
         .data(localairports)
