@@ -179,6 +179,7 @@ const showTooltipBottom = function(m, d) {
     .style('width', '300px')
 }
 const moveTooltip = function(m) {
+  console.log(m)
   const tooltip = d3.select('#viz1').select('.tooltip');
   tooltip
     .style("left", (m.x+30) + "px")

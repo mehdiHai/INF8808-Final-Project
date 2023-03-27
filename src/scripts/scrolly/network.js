@@ -27,7 +27,7 @@ export default class Network {
 
   displayAirports() {
 
-    var readAirports = function (error, localairports) {
+    var readAirports = function (localairports) {
 
       var nb = 0
       var padding = [73.7407989502, -45.4706001282 + 45];
@@ -88,14 +88,14 @@ export default class Network {
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
     }
 
-    d3.queue()
-      .defer(d3.csv, `./${this.currentGeo}/airports${this.currentGeo}.csv`)
-      .await(readAirports.bind(this))
+    d3.csv(`./${this.currentGeo}/airports${this.currentGeo}.csv`).then(
+      readAirports.bind(this))
+ 
   }
 
   displayFlights() {
-
-    var readFlights = function (error, localflights) {
+    
+    var readFlights = function (localflights) {
 
       this.svg.selectAll('flights')
         .data(localflights)
@@ -118,10 +118,8 @@ export default class Network {
     }
 
     this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
-
-    d3.queue()
-      .defer(d3.csv, `./${this.currentGeo}/flights${this.currentGeo}.csv`)
-      .await(readFlights.bind(this))
+    d3.csv(`./${this.currentGeo}/flights${this.currentGeo}.csv`).then(
+      readFlights.bind(this))
   }
 
   removeAirports() {
