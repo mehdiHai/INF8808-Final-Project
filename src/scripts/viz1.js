@@ -71,7 +71,6 @@ function displayTopBucket(topBucket, heightScale) {
         y -= heightScale(topBucket[i][1])
       }
       y +=heightScale(c[1])/2
-      console.log('hahahaah')
       return y;
     })
     .attr('x', function() {return BUCKET_WIDTH / 2})
@@ -155,6 +154,8 @@ function setTooltips(){
 }
 
 const showTooltipTop = function(m, d) {
+  console.log(m)
+  console.log(d)
   const tooltip = d3.select('#viz1').select('.tooltip');
   tooltip
     .transition()
