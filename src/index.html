@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Projet Final </title>
+    <meta charset="utf-8">
+    <title>Sankey Diagram</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .sankey {
+        opacity: 0.5;
+      }
+
+      .sankey .link {
+        stroke-opacity: 0.5;
+      }
+
+      .sankey .node rect {
+        fill-opacity: 0.5;
+      }
+
+      .sankey .selected {
+        opacity: 1;
+      }
+
+      .sankey .selected rect {
+        fill: blue;
+        fill-opacity: 1;
+      }
+
+      .sankey .selected .link {
+        stroke: blue;
+        stroke-opacity: 1;
+      }
+
+      .sankey .node text {
+        font-size: 12px;
+        font-weight: bold;
+        text-shadow: 1px 1px #fff;
+      }
+    </style>
   </head>
   <body>
-    <div class="viz" id="viz1"></div>
-    <div class="viz" id="viz2"></div>
-    <div class="viz" id="viz3"></div>
-    <!-- Include your JavaScript files here -->
-    <script src="index.js"></script>
-    <script src="viz1.js"></script>
-    <script src="viz2.js"></script>
-    <script src="viz3.js"></script>
+    <div id="chart"></div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="scripts/viz3.js"></script>
   </body>
 </html>
