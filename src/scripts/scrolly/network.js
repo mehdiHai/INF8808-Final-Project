@@ -35,7 +35,7 @@ export default class Network {
       var minMaxY = [1000000, 0]
 
       for (const item of localairports) {
-        var pos =[100+parseFloat(item.lon),100+parseFloat(item.lat)];
+        var pos =[300+parseFloat(item.lon),100+parseFloat(item.lat)];
         this.airportCode[item.airport] = pos;
         minMaxX = [Math.min(pos[0], minMaxX[0]), Math.max(pos[0], minMaxX[1])]
         minMaxY = [Math.min(pos[1], minMaxY[0]), Math.max(pos[1], minMaxY[1])]
@@ -55,7 +55,7 @@ export default class Network {
       this.svg.transition()
         .ease(d3.easePolyInOut)
         .duration(800)
-        .attr("viewBox", [this.limits[this.levelGeo[this.currentGeo]]])
+        .attr("viewBox", [0,0,600,600])
 
       var circles = this.svg.selectAll('airports')
         .data(localairports)
