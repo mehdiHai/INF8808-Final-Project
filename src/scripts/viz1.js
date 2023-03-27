@@ -161,7 +161,7 @@ const showTooltipTop = function(m, d) {
     .duration(100)
   tooltip
     .style("opacity", 1)
-    .html(d[0] + ": " + d[1])
+    .html(d[0] + ": " + d[1] + " vols")
     .style("left", (m.x+30) + "px")
     .style("top", (m.y+30) + "px")
     .style('width', null)
