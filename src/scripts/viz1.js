@@ -38,6 +38,7 @@ function displayTopBucket(topBucket, heightScale) {
     .append('g')
     .attr('class', 'topCompany')
     .append('rect')
+    .attr('class', 'bucket-tile')
     .attr('y', function(c, index) {
       let y = BUCKET_HEIGHT;
       for(let i =0; i <= index; i++){
@@ -106,6 +107,7 @@ function displayBottomBucket(bottomBucket, heightScale) {
     .style('text-align', 'center')
     .attr('class', 'bottomCompany')
     .append('rect')
+    .attr('class', 'bucket-tile')
     .attr('y', function(c, index) {
       return BUCKET_HEIGHT - height;
     })
@@ -142,7 +144,7 @@ function createHeightScale (topCompanies) {
 }
 
 function setTooltips(){
-  d3.select("#viz1")
+  d3.select("body")
     .append("div")
     .style("opacity", 0)
     .attr("class", "tooltip")
@@ -155,8 +157,7 @@ function setTooltips(){
 
 const showTooltipTop = function(m, d) {
   console.log(m)
-  console.log(d)
-  const tooltip = d3.select('#viz1').select('.tooltip');
+  const tooltip = d3.select('body').select('.tooltip');
   tooltip
     .transition()
     .duration(100)
@@ -164,29 +165,29 @@ const showTooltipTop = function(m, d) {
     .style("opacity", 1)
     .html(d[0] + ": " + d[1] + " vols")
     .style("left", (m.x+30) + "px")
-    .style("top", (m.y+30) + "px")
+    .style("top", (m.pageY +30) + "px")
     .style('width', null)
 
 }
 const showTooltipBottom = function(m, d) {
-  const tooltip = d3.select('#viz1').select('.tooltip');
+  const tooltip = d3.select('body').select('.tooltip');
 
   tooltip
     .style("opacity", 1)
     .html("Prochaines 5 plus grandes compagnies: <br>" + d )
     .style("left", (m.x+30) + "px")
-    .style("top", (m.y+30) + "px")
+    .style("top", (m.pageY+30) + "px")
     .style('width', '300px')
 }
 const moveTooltip = function(m) {
-  console.log(m)
-  const tooltip = d3.select('#viz1').select('.tooltip');
+  
+  const tooltip = d3.select('body').select('.tooltip');
   tooltip
     .style("left", (m.x+30) + "px")
-    .style("top", (m.y+30) + "px")
+    .style("top", (m.pageY +30) + "px")
 }
 const hideTooltip = function() {
-  const tooltip = d3.select('#viz1').select('.tooltip');
+  const tooltip = d3.select('body').select('.tooltip');
   tooltip
     .style("opacity", 0)
 }
