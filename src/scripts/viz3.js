@@ -1,77 +1,87 @@
+class SankeyDiagram {
+  constructor(selector, data) {
+    this.selector = selector;
+    this.data = data;
+    this.width = 500;
+    this.height = 500;
+    this.svg = d3.select(this.selector)
+      .append("svg")
+      .attr("width", this.width)
+      .attr("height", this.height);
+    this.sankey = d3.sankey()
+      .nodeWidth(15)
+      .nodePadding(10)
+      .size([this.width, this.height]);
+    this.graph = this.sankey({
+      nodes: this.data.nodes,
+      links: this.data.links
+    });
+  }
 
-/**
- * Sets the domain and range of the X scale.
- *
- * @param {*} scale The x scale
- * @param {object[]} data The data to be used
- * @param {number} width The width of the graph
- */
-export function updateGroupXScale (scale, data, width) {
-  
-  scale.domain(data.map(d => d.Act)).range([0, width])
+  // function to draw links between categories
+
+  drawLinks() {
+    this.svg.append("g")
+      .attr("stroke", "#000")
+      .selectAll("path")
+      .data(this.graph.links)
+      .join("path")
+      .attr("d", d3.sankeyLinkHorizontal())
+      .attr("stroke-width", d => Math.max(1, d.width))
+      .classed("link", true);
+  }
+
+    // function to draw links between categories
+
+  drawNodes() {
+    const node = this.svg.append("g")
+      .attr("stroke", "#000")
+      .selectAll(".node")
+      .data(this.graph.nodes)
+      .join("g")
+      .classed("node", true)
+      .attr("transform", d => `translate(${d.x},${d.y})`);
+
+    node.append("rect")
+      .attr("height", d => d.dy)
+      .attr("width", this.sankey.nodeWidth())
+      .attr("fill", "#aaa")
+      .attr("stroke", "#000");
+
+    node.append("text")
+      .attr("x", -6)
+      .attr("y", d => d.dy / 2)
+      .attr("dy", "0.35em")
+      .attr("text-anchor", "end")
+      .text(d => d.name)
+      .filter(d => d.x < this.width / 2)
+      .attr("x", 6 + this.sankey.nodeWidth())
+      .attr("text-anchor", "start");
+  }
+
+  drawDiagram() {
+    this.drawLinks();
+    this.drawNodes();
+  }
 }
 
-/**
- * Sets the domain and range of the Y scale.
- *
- * @param {*} scale The Y scale
- * @param {object[]} data The data to be used
- * @param {number} height The height of the graph
- */
-export function updateYScale (scale, data, height) {
-  
-  var maxLine = 0
-  data.forEach( (act) => act.Players.forEach( (player) => maxLine = Math.max(player.Count, maxLine)))
+// Pseudo code to which we need to attach the real dataset
 
-  scale.domain([0, maxLine]).range([height, 0])
-}
+const data = {
+  nodes: [
+    {name: "Company"},
+    {name: "Type"},
+    {name: "Service"},
+    {name: "Time Period"}
+  ],
+  links: [
+    {source: 0, target: 1, value: 50},
+    {source: 0, target: 2, value: 30},
+    {source: 1, target: 2, value: 20},
+    {source: 1, target: 3, value: 30},
+    {source: 2, target: 3, value: 10}
+  ]
+};
 
-/**
- * Creates the groups for the grouped bar chart and appends them to the graph.
- * Each group corresponds to an act.
- *
- * @param {object[]} data The data to be used
- * @param {*} x The graph's x scale
- */
-export function createGroups (data, x) {
-  
-  d3.select('#graph-g')
-    .selectAll('.group')
-    .data(data)
-    .join('g')
-    .attr('class', 'group')
-    .attr('transform', data => 'translate(' + x(data.Act) + ')')
-}
-
-/**
- * Draws the bars inside the groups
- *
- * @param {*} y The graph's y scale
- * @param {*} xSubgroup The x scale to use to position the rectangles in the groups
- * @param {string[]} players The names of the players, each corresponding to a bar in each group
- * @param {number} height The height of the graph
- * @param {*} color The color scale for the bars
- * @param {*} tip The tooltip to show when each bar is hovered and hide when it's not
- */
-export function drawBars (y, xSubgroup, players, height, color, tip) {
-
-  d3.select('#graph-g')
-    .selectAll('.group')
-    .selectAll('rect')
-    .data((actData) => {
-      var val = actData.Players.map((playerData) => {
-        playerData.Act = actData.Act
-        return playerData
-      })
-      return val
-    })
-    .enter()
-    .append('rect')
-    .attr('x', (playerData) => xSubgroup(playerData.Player))
-    .attr('y', (playerData) => y(playerData.Count))
-    .attr('width', xSubgroup(players[1]) - xSubgroup(players[0]))
-    .attr('height', (playerData) => height - y(playerData.Count))
-    .attr('fill', (playerData) => color(playerData.Player))
-    .on('mouseover', tip.show)
-    .on('mouseout', tip.hide)
-}
+const diagram = new SankeyDiagram("#chart", data);
+diagram.drawDiagram();
