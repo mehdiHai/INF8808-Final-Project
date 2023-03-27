@@ -60,8 +60,9 @@ function drawBigWaffle() {
 
   const waffles = [];
   const max = chartData.length; 
-  let index = 0, curr = 1, 
-      accu = Math.round(chartData[0][0]), waffle = [];
+  let index = 0, curr = 1;
+  const accu = Math.round(chartData[0][0])
+  const waffle = [];
   
   for (let y = 9; y >= 0; y--)
     for (let x = 0; x < 10; x ++) {
@@ -91,7 +92,8 @@ function drawBigWaffle() {
   const cells = g.append("g")
     .selectAll('rect')
     .data(d => d)
-    .join('rect')
+    .enter()
+    .append('rect')
     .attr("fill", d => d.index === -1 ? "#ddd" : color(d.index));
 
   cells.attr("x", d => waffleScale(d.x))

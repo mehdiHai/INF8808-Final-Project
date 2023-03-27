@@ -10,5 +10,5 @@ d3.csv('./volsQuebec2022.csv').then(function (data) {
     buckets.displayBucketGraph(5);
     buckets.setUpSlider();
     
-    waffles.drawWaffles(biggestCompaniesFlights, companiesAircrafts);
+    waffles.drawWaffles(preprocess.getCompaniesFlightArray(), preprocess.getCompaniesAircraftsMap(data));
 })

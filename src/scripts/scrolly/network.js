@@ -96,7 +96,6 @@ export default class Network {
   displayFlights() {
     
     var readFlights = function (localflights) {
-
       this.svg.selectAll('flights')
         .data(localflights)
         .join('line')
