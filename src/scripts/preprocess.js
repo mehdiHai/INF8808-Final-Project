@@ -36,29 +36,30 @@ function getCompaniesFlightCount() {
   return sortedCompanies
 }
 
-export function getCompaniesAircraftsMap(data) {
-    const aircrafts = new Map();
+export function getCompaniesAircraftsMap(aircraftsData) {
+  const aircrafts = new Map();
 
-    data.forEach((d) => {
-        let opName = d.opérateur;
+  aircraftsData.forEach((d) => {
+      let opName = d.company;
 
-        if (opName == "" || opName == "NULL") return;
+      if (opName == "" || opName == "NULL") return;
 
-        if (!aircrafts.get(opName)) {
-            if (opName)
-            aircrafts.set(opName, new Map());
-        }
+      if (!aircrafts.get(opName)) {
+          if (opName)
+          aircrafts.set(opName, new Map());
+      }
 
-        let type = d.type == '' || d.type == 'NULL' ? 'Inconnu' : d.type;
+      let type = d.type == '' || d.type == 'NULL' ? 'Inconnu' : d.type;
 
-        if (!aircrafts.get(opName).get(type)) {
-            aircrafts.get(opName).set(type, 1);
-        }
+      if (!aircrafts.get(opName).get(type)) {
+          aircrafts.get(opName).set(type, 1);
+      }
 
-        else {
-            aircrafts.get(opName).set(type, aircrafts.get(opName).get(type) + 1);
-        }
-    })
+      else {
+          aircrafts.get(opName).set(type, aircrafts.get(opName).get(type) + 1);
+      }
+  })
 
-    return aircrafts;
+  return aircrafts;
+  
 }
