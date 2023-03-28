@@ -56,7 +56,7 @@ function drawOtherCompaniesWaffle() {
 	drawWaffle(data, svg);
 }
 
-function drawTopCompaniesWaffle() {
+function drawTopCompaniesWaffles() {
 	const waffleGroup = d3
 		.select("#viz4")
 		.append("div")
@@ -66,10 +66,6 @@ function drawTopCompaniesWaffle() {
 		const svg = d3.select("#waffleGroup").append("svg").attr("id", company);
 		drawWaffle(waffleify(company), svg);
 	});
-}
-
-function drawTopCompanyWaffle(data) {
-	console.log(data);
 }
 
 function waffleify(data) {
