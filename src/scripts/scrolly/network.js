@@ -84,7 +84,7 @@ export default class Network {
           .attr('stroke-width', '.4')
         // .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 1)' : (this.ccolor[d.continent] + ' 1)'))
 
-        return self.tooltip.showTooltipTop(m, ["Aeroport", 1])
+        return self.tooltip.showTooltipMap(m, [data.airport, data.sub, data.freq])
       })
         .on("mouseleave", function (e) {
           d3.select(this)
