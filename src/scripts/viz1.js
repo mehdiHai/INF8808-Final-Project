@@ -23,7 +23,7 @@ export function setUpSlider(){
   var	slider=document.getElementById("slider");
 	var sliderValue=document.getElementById("slider-value");
 	sliderValue.innerHTML=slider.value;
-	slider.onchange=function(){
+	slider.oninput=function(){
 		sliderValue.innerHTML=this.value;
     d3.select('#topSVG').selectAll('*').remove();
     d3.select('#bottomSVG').selectAll('*').remove();
