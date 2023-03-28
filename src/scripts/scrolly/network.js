@@ -82,7 +82,7 @@ export default class Network {
         d3.select(this)
           .attr("r", d => Math.log(d.freq + 1) / 3)
           .attr('stroke-width', '.4')
-        // .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 1)' : (this.ccolor[d.continent] + ' 1)'))
+          //.style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 1)' : (this.ccolor[d.continent] + ' 1)'))
 
         return self.tooltip.showTooltipAirport(m, [data.airport, data.sub, data.freq])
       })
@@ -142,12 +142,14 @@ export default class Network {
       readFlights.bind(this))
   }
 
-  removeAirports() {
+  removeAirports(db = true) {
     this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
 
-    this.svg.transition()
-      .duration(1000)
-      .attr("viewBox", this.limits[this.levelGeo[this.currentGeo] - 1])
+    if (db) {
+      this.svg.transition()
+        .duration(1000)
+        .attr("viewBox", this.limits[this.levelGeo[this.currentGeo] - 1])
+    }
 
     this.svg.selectAll('circle.' + this.currentGeo)
       .transition()
