@@ -64,7 +64,7 @@ function handleStepExit(response) {
     }
 }
 
-function init() {
+export function init() {
 
     handleResize();
     scroller
@@ -75,8 +75,4 @@ function init() {
         })
         .onStepExit(handleStepExit)
         .onStepEnter(handleStepEnter);
-        
 }
-
-
-init();

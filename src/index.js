@@ -2,6 +2,7 @@
 
 import * as buckets from './scripts/viz1.js'
 import * as preprocess from './scripts/preprocess.js'
+import {init} from './scripts/scrolly.js'
 
 export let data = [];
 
@@ -14,3 +15,5 @@ Promise.all([
     buckets.displayBucketGraph(5);
     buckets.setUpSlider();
 })
+
+init()

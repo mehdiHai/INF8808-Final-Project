@@ -1,10 +1,11 @@
 import d3Tip from 'd3-tip'
 import * as preprocess from './preprocess.js'
+import Tooltip from './tooltip.js'
 
 const BUCKET_HEIGHT = 300;
 const BUCKET_WIDTH = 200;
 
-
+let tooltip = new Tooltip();
 
 export function displayBucketGraph(topCompanyNumber) {
   const companiesFlightArray = preprocess.getCompaniesFlightArray();
@@ -16,7 +17,6 @@ export function displayBucketGraph(topCompanyNumber) {
   setUpSlider()
   displayTopBucket(topBucket, heightScale);
   displayBottomBucket(bottomBucket, heightScale);
-  setTooltips(); 
 }
 
 export function setUpSlider(){
@@ -56,14 +56,14 @@ function displayTopBucket(topBucket, heightScale) {
     .on("mouseover", function(m, d) {
       d3.select(this)
         .attr('fill', 'rgb(124, 191, 78)')
-      return showTooltipTop(m, d) }
+      return tooltip.showTooltipTop(m, d) }
     )
-    .on("mousemove", moveTooltip )
+    .on("mousemove", tooltip.moveTooltip )
     .on("mouseleave", function() {
       d3.select(this)
         .attr('fill', 'rgb(75, 115, 47)')
 
-      return hideTooltip()
+      return tooltip.hideTooltip()
     } )
   d3.selectAll('.topCompany')
     .append('text')
@@ -120,12 +120,11 @@ function displayBottomBucket(bottomBucket, heightScale) {
     .attr('stroke', 'rgb(44, 42, 42)')
     .on("mouseover", function(m) { 
       d3.select(this).style('fill', 'rgb(96, 91, 91)')
-      
-      return showTooltipBottom(m, toolTipDisplay) })
-    .on("mousemove", moveTooltip )
+      return tooltip.showTooltipBottom(m, toolTipDisplay) })
+    .on("mousemove", tooltip.moveTooltip )
     .on("mouseleave", function() {
       d3.select(this).style('fill', 'rgb(59, 56, 56)')
-      return hideTooltip()
+      return tooltip.hideTooltip()
     } )
   d3.select('.bottomCompany').append('text').attr('y', function() {
       return BUCKET_HEIGHT - height/2;
@@ -142,52 +141,4 @@ function displayBottomBucket(bottomBucket, heightScale) {
 function createHeightScale (topCompanies) {
   const maxHeight = d3.sum(topCompanies, c => c[1])
   return d3.scaleLinear().domain([d3.min(topCompanies, function(d) {return d[1]}), maxHeight]).range([0, BUCKET_HEIGHT])
-}
-
-function setTooltips(){
-  d3.select("body")
-    .append("div")
-    .style("opacity", 0)
-    .attr("class", "tooltip")
-    .style("background-color", "black")
-    .style("border-radius", "5px")
-    .style("padding", "10px")
-    .style("color", "white")
-    .style('position', 'absolute')
-}
-
-const showTooltipTop = function(m, d) {
-  const tooltip = d3.select('body').select('.tooltip');
-  tooltip
-    .transition()
-    .duration(100)
-  tooltip
-    .style("opacity", 1)
-    .html(d[0] + ": " + d[1] + " vols")
-    .style("left", (m.x+30) + "px")
-    .style("top", (m.pageY +30) + "px")
-    .style('width', null)
-
-}
-const showTooltipBottom = function(m, d) {
-  const tooltip = d3.select('body').select('.tooltip');
-
-  tooltip
-    .style("opacity", 1)
-    .html("Prochaines 5 plus grandes compagnies: <br>" + d )
-    .style("left", (m.x+30) + "px")
-    .style("top", (m.pageY+30) + "px")
-    .style('width', '300px')
-}
-const moveTooltip = function(m) {
-  
-  const tooltip = d3.select('body').select('.tooltip');
-  tooltip
-    .style("left", (m.x+30) + "px")
-    .style("top", (m.pageY +30) + "px")
-}
-const hideTooltip = function() {
-  const tooltip = d3.select('body').select('.tooltip');
-  tooltip
-    .style("opacity", 0)
 }
