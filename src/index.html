@@ -1,52 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Sankey Diagram</title>
+    <title>Alluvial Diagram</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-
-      .sankey {
-        opacity: 0.5;
-      }
-
-      .sankey .link {
-        stroke-opacity: 0.5;
-      }
-
-      .sankey .node rect {
-        fill-opacity: 0.5;
-      }
-
-      .sankey .selected {
-        opacity: 1;
-      }
-
-      .sankey .selected rect {
-        fill: blue;
-        fill-opacity: 1;
-      }
-
-      .sankey .selected .link {
-        stroke: blue;
-        stroke-opacity: 1;
-      }
-
-      .sankey .node text {
-        font-size: 12px;
-        font-weight: bold;
-        text-shadow: 1px 1px #fff;
-      }
+        .link {
+            fill: none;
+            stroke: #000;
+            stroke-opacity: 0.2;
+        }
+        .node {
+            font: 10px sans-serif;
+        }
     </style>
-  </head>
-  <body>
-    <div id="chart"></div>
-    <script src="https://d3js.org/d3.v7.js"></script>
-    <script src="https://unpkg.com/d3-sankey@0"></script>
-    <script src="index.js"></script>
-  </body>
+</head>
+<body>
+    <svg width="960" height="500"></svg>
+    <script src="./scripts/alluvial.js"></script>
+</body>
 </html>
