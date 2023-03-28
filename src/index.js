@@ -1,14 +1,20 @@
 import * as waffles from './scripts/viz4.js'
 import * as buckets from './scripts/viz1.js'
 import * as preprocess from './scripts/preprocess.js'
+import {init} from './scripts/scrolly.js'
 
 export let data = [];
 
-d3.csv('./volsQuebec2022.csv').then(function (data) {
-    preprocess.setData(data);
-
+Promise.all([
+    d3.csv('./WORLD/flightsWORLD.csv'),
+    d3.csv('./CA/flightsCA.csv'),
+    d3.csv('./QC/flightsQC.csv')
+]).then( function(files) {
+    
+    preprocess.setData(files[0].concat(files[1], files[2]));
     buckets.displayBucketGraph(5);
     buckets.setUpSlider();
-    
     waffles.drawWaffles(preprocess.getCompaniesFlightArray(), preprocess.getCompaniesAircraftsMap(data));
 })
+
+init()

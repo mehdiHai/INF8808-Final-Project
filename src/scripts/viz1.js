@@ -1,8 +1,10 @@
 import * as preprocess from './preprocess.js'
+import Tooltip from './tooltip.js'
 
 const BUCKET_HEIGHT = 300;
 const BUCKET_WIDTH = 200;
 
+let tooltip = new Tooltip();
 
 
 export function displayBucketGraph(topCompanyNumber) {
@@ -14,14 +16,13 @@ export function displayBucketGraph(topCompanyNumber) {
   setUpSlider()
   displayTopBucket(topBucket, heightScale);
   displayBottomBucket(bottomBucket, heightScale);
-  setTooltips(); 
 }
 
 export function setUpSlider(){
   var	slider=document.getElementById("slider");
 	var sliderValue=document.getElementById("slider-value");
 	sliderValue.innerHTML=slider.value;
-	slider.onchange=function(){
+	slider.oninput=function(){
 		sliderValue.innerHTML=this.value;
     d3.select('#topSVG').selectAll('*').remove();
     d3.select('#bottomSVG').selectAll('*').remove();
@@ -37,6 +38,7 @@ function displayTopBucket(topBucket, heightScale) {
     .append('g')
     .attr('class', 'topCompany')
     .append('rect')
+    .attr('class', 'bucket-tile')
     .attr('y', function(c, index) {
       let y = BUCKET_HEIGHT;
       for(let i =0; i <= index; i++){
@@ -53,14 +55,14 @@ function displayTopBucket(topBucket, heightScale) {
     .on("mouseover", function(m, d) {
       d3.select(this)
         .attr('fill', 'rgb(124, 191, 78)')
-      return showTooltipTop(m, d) }
+      return tooltip.showTooltipTop(m, d) }
     )
-    .on("mousemove", moveTooltip )
+    .on("mousemove", function(m) { return tooltip.moveTooltip(m) })
     .on("mouseleave", function() {
       d3.select(this)
         .attr('fill', 'rgb(75, 115, 47)')
 
-      return hideTooltip()
+      return tooltip.hideTooltip()
     } )
   d3.selectAll('.topCompany')
     .append('text')
@@ -80,7 +82,7 @@ function displayTopBucket(topBucket, heightScale) {
     .style('user-select', 'none')
     .text(function(c) {
       const height = heightScale(c[1]);
-      if(height > 20){
+      if(height > 22){
         return c[0];
       }
       else if (height > 7) {
@@ -105,6 +107,7 @@ function displayBottomBucket(bottomBucket, heightScale) {
     .style('text-align', 'center')
     .attr('class', 'bottomCompany')
     .append('rect')
+    .attr('class', 'bucket-tile')
     .attr('y', function(c, index) {
       return BUCKET_HEIGHT - height;
     })
@@ -116,12 +119,11 @@ function displayBottomBucket(bottomBucket, heightScale) {
     .attr('stroke', 'rgb(44, 42, 42)')
     .on("mouseover", function(m) { 
       d3.select(this).style('fill', 'rgb(96, 91, 91)')
-      
-      return showTooltipBottom(m, toolTipDisplay) })
-    .on("mousemove", moveTooltip )
+      return tooltip.showTooltipBottom(m, toolTipDisplay) })
+    .on("mousemove", function(m) { return tooltip.moveTooltip(m) })
     .on("mouseleave", function() {
       d3.select(this).style('fill', 'rgb(59, 56, 56)')
-      return hideTooltip()
+      return tooltip.hideTooltip()
     } )
   d3.select('.bottomCompany').append('text').attr('y', function() {
       return BUCKET_HEIGHT - height/2;
@@ -138,54 +140,4 @@ function displayBottomBucket(bottomBucket, heightScale) {
 function createHeightScale (topCompanies) {
   const maxHeight = d3.sum(topCompanies, c => c[1])
   return d3.scaleLinear().domain([d3.min(topCompanies, function(d) {return d[1]}), maxHeight]).range([0, BUCKET_HEIGHT])
-}
-
-function setTooltips(){
-  d3.select("#viz1")
-    .append("div")
-    .style("opacity", 0)
-    .attr("class", "tooltip")
-    .style("background-color", "black")
-    .style("border-radius", "5px")
-    .style("padding", "10px")
-    .style("color", "white")
-    .style('position', 'absolute')
-}
-
-const showTooltipTop = function(m, d) {
-  console.log(m)
-  console.log(d)
-  const tooltip = d3.select('#viz1').select('.tooltip');
-  tooltip
-    .transition()
-    .duration(100)
-  tooltip
-    .style("opacity", 1)
-    .html(d[0] + ": " + d[1] + " vols")
-    .style("left", (m.x+30) + "px")
-    .style("top", (m.y+30) + "px")
-    .style('width', null)
-
-}
-const showTooltipBottom = function(m, d) {
-  const tooltip = d3.select('#viz1').select('.tooltip');
-
-  tooltip
-    .style("opacity", 1)
-    .html("Prochaines 5 plus grandes compagnies: <br>" + d )
-    .style("left", (m.x+30) + "px")
-    .style("top", (m.y+30) + "px")
-    .style('width', '300px')
-}
-const moveTooltip = function(m) {
-  console.log(m)
-  const tooltip = d3.select('#viz1').select('.tooltip');
-  tooltip
-    .style("left", (m.x+30) + "px")
-    .style("top", (m.y+30) + "px")
-}
-const hideTooltip = function() {
-  const tooltip = d3.select('#viz1').select('.tooltip');
-  tooltip
-    .style("opacity", 0)
 }

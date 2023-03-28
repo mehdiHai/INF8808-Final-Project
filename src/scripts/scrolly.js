@@ -8,6 +8,8 @@ var figure = scrolly.select("figure");
 var article = scrolly.select("article");
 var step = article.selectAll(".step");
 
+var figureHeight = 4 * window.innerHeight / 5;
+
 // initialize the scrollama
 var scroller = scrollama();
 
@@ -17,8 +19,6 @@ var svg = d3.select('#viz2')
 function handleResize() {
     var stepH = Math.floor(window.innerHeight * 0.75);
     step.style("height", stepH + "px");
-
-    var figureHeight = 4 * window.innerHeight / 5;
     var figureMarginTop = (window.innerHeight - figureHeight) / 2;
 
     figure.style("height", figureHeight + "px")
@@ -27,11 +27,17 @@ function handleResize() {
     scroller.resize();
 }
 
-var network = new Network(svg);
+
+var fig_rat = d3.select("figure").node().getBoundingClientRect()
+
+console.log(fig_rat.width/figureHeight)
+
+
+var network = new Network(svg, fig_rat.width/figureHeight);
 // scrollama event handlers
 function handleStepEnter(response) {
     if (response.direction === 'down') {
-        if (response.index%2 === 0) {
+        if (response.index%2 === 0 && response.index !== 6) {
             network.displayAirports()
         }
         if (response.index%2 === 1) {
@@ -58,7 +64,7 @@ function handleStepExit(response) {
     }
 }
 
-function init() {
+export function init() {
 
     handleResize();
     scroller
@@ -69,8 +75,4 @@ function init() {
         })
         .onStepExit(handleStepExit)
         .onStepEnter(handleStepEnter);
-        
 }
-
-
-init();
