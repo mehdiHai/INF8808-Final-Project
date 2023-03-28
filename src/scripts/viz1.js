@@ -156,7 +156,6 @@ function setTooltips(){
 }
 
 const showTooltipTop = function(m, d) {
-  console.log(m)
   const tooltip = d3.select('body').select('.tooltip');
   tooltip
     .transition()
