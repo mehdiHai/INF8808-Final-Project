@@ -1,129 +1,152 @@
-import { values } from "d3";
+let data = [];
+let flightData = new Set();
+let sankeyData = new Set();
 
-
-/**
- * Sanitizes the names from the data in the "Player" column.
- *
- * Ensures each word in the name begins with an uppercase letter followed by lowercase letters.
- *
- * @param {object[]} data The dataset with unsanitized names
- * @returns {object[]} The dataset with properly capitalized names
- */
-export function cleanNames (data) {
-  data.map(cleanRow)
-  return data
+export function setData(d) {
+  data = d;
 }
 
+export function getData() {
+  return [...data];
+}
 
-/**
- * Sanitizes the names from the data in the "Player" column.
- *
- * Ensures each word in the name begins with an uppercase letter followed by lowercase letters with memorization.
- *
- * @param {object[]} row A row of the dataset with unsanitized names
- * @returns {object[]} The row with properly capitalized names
+ /**
+ * Takes the raw data and creates a set containing only the values airline, duration, departureTime, and flightRange.
  */
-let convert_dict = {};
+export function processFlightData() {
+  data.forEach((d) => {
+    let flight = { airline: getAirline(d), duration: getDuration(d), departureTime: getDepartureTime(d), flightRange: getFlightRange(d) };
+    flightData.add(flight);
+  });
+  console.log('PROCESSED FLIGHT DATA');
+  console.log(flightData);
+}
 
-function cleanRow(row) {
-  
-  if ( !(row.Player in convert_dict)) {
-    convert_dict[row.Player] = row.Player.split(/(\s+)/) // separation by blank
-    .filter(item => item.trim()) // delete string with a single blank
-    .reduce( (prev, item) => prev + " " + item[0] + item.slice(1).toLowerCase(), "") // change cases
-    .slice(1); // remove first character : a blank
+ /**
+ * Returns the airline (opérateur) of a flight.
+ *
+ * @param {object} d The raw data
+ * @returns {string} The airline (opérateur) of a flight
+ */
+function getAirline(d) {
+  return d.opérateur;
+}
+
+ /**
+ * Calculates the duration of a flight : short, medium, or long.
+ *
+ * @param {object} d The raw data
+ * @returns {string} The duration of a flight : short, medium, or long
+ */
+function getDuration(d) {
+  let duration = '';
+  if (d.durée <= 180) {
+    duration = 'short';
+  } else if (d.durée >= 181 && d.durée <= 360) {
+    duration = 'medium';
+  } else {
+    duration = 'long';
   }
-  row.Player = convert_dict[row.Player];
-  return row;
+  return duration;
 }
 
-
 /**
- * Finds the names of the 5 players with the most lines in the play.
+ * Calculates the departure time of a flight : morning, afternoon, evening, or night.
  *
- * @param {object[]} data The dataset containing all the lines of the play
- * @returns {string[]} The names of the top 5 players with most lines
+ * @param {object} d The raw data
+ * @returns {string} The departure time of a flight : morning, afternoon, evening, or night
  */
-export function getTopPlayers (data) {
-
-  var list_players = [];
-  
-  d3.group(data, d => d.Player).forEach( (value, key) => list_players.push([key, value.length]));
-
-  return list_players.sort( (a, b) => b[1] - a[1]).slice(0, 5).map( (player) => player[0]);
-}
-
-
-/**
- * Transforms the data by nesting it, grouping by act and then by player, indicating the line count
- * for each player in each act.
- *
- * The resulting data structure ressembles the following :
- *
- * [
- *  { Act : ___,
- *    Players : [
- *     {
- *       Player : ___,
- *       Count : ___
- *     }, ...
- *    ]
- *  }, ...
- * ]
- *
- * The number of the act (starting at 1) follows the 'Act' key. The name of the player follows the
- * 'Player' key. The number of lines that player has in that act follows the 'Count' key.
- *
- * @param {object[]} data The dataset
- * @returns {object[]} The nested data set grouping the line count by player and by act
- */
-export function summarizeLines (data) {
-
-  let dico = [];
-    /**
-   * For an act, add the correct structure.
-   * Warning : depends of dict "dico"
-   * 
-   * @param {object[]} value
-   * @param {string[]} key
-   */
-  function createDict(value, act) {
-    var local_dico = {Act: act, Players: []};
-    value.forEach( (lines, name) => local_dico.Players.push({Player: name, Count: lines.length}));
-    dico.push(local_dico)
+function getDepartureTime(d) {
+  let dateTime = new Date (d.dateDébut)
+  let timeUTC = dateTime.toLocaleTimeString()
+  let departureTime = ''
+  if (dateTime.getHours() >= 10 && dateTime.getHours() < 16) {
+    departureTime = 'morning'
+  } else if (dateTime.getHours() >= 16 && dateTime.getHours() < 22) {
+    departureTime = 'afternoon'
+  } else if (dateTime.getHours() >= 22 && dateTime.getHours() < 2) {
+    departureTime = 'evening'
+  } else {
+    departureTime = 'night'
   }
-
-  d3.group(data, d => d.Act, d => d.Player).forEach(createDict);
-  
-  return dico;
+  return departureTime
 }
 
+/**
+ * Calculates the range of a flight : Québec, Canada, or International.
+ *
+ * @param {object} d The raw data
+ * @returns {string} The range of a flight : Québec, Canada, or International
+ */
+function getFlightRange(d) {
+  const quebecAirports = ["CYBG", "CYBC", "CYVB", "CYCL", "CYMT", "CYBC", "CYDR", "CYFE", "CYGP", "CYND", "CYGV", "CYGR", "CYGL", "CYLR", "CYLS", "CSE4", "CYBX", "CYMW", "CYNM", "CYYY", "CYMX", "CYUL", "CYNM", "CYQB", "CYXK", "CYRJ", "CYUY", "CYSG", "CYHU", "CYZV", "CYRQ", "CYVO", "CYSJ", "CYQM", "CYHZ", "CYQY", "CYDF", "CYJT", "CYMT", "CYFT", "CYGP", "CYQX", "CYGR", "CYBG", "CYZG", "CYVB", "CYAT", "CYBC", "CYDO", "CYVB", "CYND", "CYBX", "CYHH", "CYVB", "CYHR", "CYMT", "CYIO", "CYNA", "CYOH", "CYVO", "CYNO", "CYUY", "CYOC", "CYZS", "CYOO", "CYPR", "CYQU", "CYRB", "CYRT", "CYUT", "CYRB", "CYRI", "CYRV", "CYOY", "CYUL", "CYRV", "CYVP", "CYVO", "CYVO", "CYGL", "CYVC", "CYTL", "CYJT", "CYTH", "CYTR", "CYQD", "CYVB", "CYVB", "CYVL", "CYVO", "CYVB", "CYWK", "CYHY", "CYWP", "CYWV", "CYGL", "CYXC", "CYXX", "CYXY", "CYYB", "CYYC", "CYYF", "CYYG", "CYYH", "CYYJ", "CYYN", "CYYR", "CYYT", "CYYU", "CYYW", "CYYY", "CYZF", "CYZP", "CYZR", "CYZT", "CYZU", "CYZW", "CYZX"]
+  const startAirportIsQuebec = quebecAirports.includes(d.aérDépart)
+  const arrivalAirportIsQuebec = quebecAirports.includes(d.aérDestin)
+  const startAirportIsCanada = d.aérDépart.startsWith('C')
+  const arrivalAirportIsCanada = d.aérDestin.startsWith('C')
+  let flightRange = ''
+  if (startAirportIsQuebec && arrivalAirportIsQuebec) {
+    flightRange = 'Quebec'
+  }
+  else if (startAirportIsCanada || arrivalAirportIsCanada) {
+    flightRange = 'Canada'
+  }
+  else {
+    flightRange = 'International'
+  }
+  return flightRange
+}
 
 /**
- * For each act, replaces the players not in the top 5 with a player named 'Other',
- * whose line count corresponds to the sum of lines uttered in the act by players other
- * than the top 5 players.
+ * Defines the sankeyData (source, target, and value) necessary to link the nodes.
+ * Each airline is a node, as well as each flight duration, flight departure time, and flight range type.
  *
- * @param {object[]} data The dataset containing the count of lines of all players
- * @param {string[]} top The names of the top 5 players with the most lines in the play
- * @returns {object[]} The dataset with players not in the top 5 summarized as 'Other'
  */
-export function replaceOthers (data, top) {
+export function getSankeyData() {
+  let firstLinkCounts = {};
+  flightData.forEach((flight) => {
+    let key = flight.airline + "|" + flight.duration;
+    firstLinkCounts[key] = (firstLinkCounts[key] || 0) + 1;
+  });
 
-  /**
-   * Modifies a row of dataset to reduce data with 'Other' attribute.
-   * Warning : depends of top parameter
-   * 
-   * @param {object[]} value
-   * @param {string[]} key
-   */
-  function dataFilter(value, key) {
-    let ttCount = value.Players.filter( x => ! top.includes(x.Player)).reduce( (prec, player) => prec + player.Count, 0)
-    value.Players = value.Players.filter( x => top.includes(x.Player))
-    value.Players.push({Player: "Other", Count: ttCount})
-  }
+  // Create array of objects with airline, duration, and count
+  let airlineToDuration = Object.keys(firstLinkCounts).map((key) => {
+    let [airline, duration] = key.split("|");
+    return { airline, duration, count: firstLinkCounts[key] };
+  });
 
-  data.forEach(dataFilter);
-  
-  return data
+  sankeyData.add(airlineToDuration);
+
+  let secondLinkCounts = {};
+  flightData.forEach((flight) => {
+    let key = flight.duration + "|" + flight.departureTime;
+    secondLinkCounts[key] = (secondLinkCounts[key] || 0) + 1;
+  });
+
+  // Create array of objects with duration, departureTime, and count
+  let durationToDepartureTime = Object.keys(secondLinkCounts).map((key) => {
+    let [duration, departureTime] = key.split("|");
+    return { duration, departureTime, count: secondLinkCounts[key] };
+  });
+
+  sankeyData.add(durationToDepartureTime);
+
+  let thirdLinkCounts = {};
+  flightData.forEach((flight) => {
+    let key = flight.departureTime + "|" + flight.flightRange;
+    thirdLinkCounts[key] = (thirdLinkCounts[key] || 0) + 1;
+  });
+
+  // Create array of objects with departureTime, flightRange, and count
+  let departureTimeToFlightRange = Object.keys(thirdLinkCounts).map((key) => {
+    let [departureTime, flightRange] = key.split("|");
+    return { departureTime, flightRange, count: thirdLinkCounts[key] };
+  });
+
+  sankeyData.add(departureTimeToFlightRange);
+
+  console.log('SANKEY DATA');
+  console.log(sankeyData);
+
+  return sankeyData;
 }
