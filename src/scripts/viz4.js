@@ -7,7 +7,7 @@ export function drawWaffles(biggestCompaniesFlights, companiesAircrafts) {
 
 	setTooltip();
 	drawOtherCompaniesWaffle();
-	drawTopCompaniesWaffle();
+	drawTopCompaniesWaffles();
 }
 
 function separateBigFromOthers(biggestCompaniesFlights, companiesAircrafts) {
