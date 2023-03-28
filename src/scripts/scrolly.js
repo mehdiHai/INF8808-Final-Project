@@ -60,7 +60,7 @@ function handleStepEnter(response) {
 
 function handleStepExit(response) {
     if (response.direction === 'up' && response.index === 0) {
-        network.removeAirports();
+        network.removeAirports(false);
     }
 }
 

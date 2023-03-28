@@ -33,6 +33,16 @@ export default class Tooltip {
             .style('width', '300px')
     }
 
+    showTooltipAirport(m, d) {
+        this.element
+            .style("opacity", 0.7)
+            .html(d[0] + " ("+d[1]+")<br>"  + d[2] + " vols")
+            .style("left", (m.x + 30) + "px")
+            .style("top", (m.pageY + 30) + "px")
+            .style('width', null)
+
+    }
+
     moveTooltip(m) {
         this.element
             .style("left", (m.x + 30) + "px")
