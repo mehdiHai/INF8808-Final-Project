@@ -1,8 +1,10 @@
 import * as d3geoproj from 'd3-geo-projection';
+import Tooltip from '../tooltip';
 
 export default class Network {
 
-  constructor(svg, ratio=1) {
+  constructor(svg, ratio = 1) {
+    this.tooltip = new Tooltip()
     this.ratio = ratio
     // this.projection = d3geoproj.geoGuyou()
     // this.projection.rotate({ lat: 46.179336122399526, lon: 6.145677500934902 })
@@ -42,9 +44,9 @@ export default class Network {
         minMaxX = [Math.min(pos[0], minMaxX[0]), Math.max(pos[0], minMaxX[1])]
         minMaxY = [Math.min(pos[1], minMaxY[0]), Math.max(pos[1], minMaxY[1])]
         */
-        this.airportCode[item.airport] = [item.lat, item.lon/this.ratio]
+        this.airportCode[item.airport] = [item.lat, item.lon / this.ratio]
         minMaxX = [Math.min(parseFloat(item.lat), minMaxX[0]), Math.max(parseFloat(item.lat), minMaxX[1])]
-        minMaxY = [Math.min(parseFloat(item.lon/this.ratio), minMaxY[0]), Math.max(parseFloat(item.lon/this.ratio), minMaxY[1])]
+        minMaxY = [Math.min(parseFloat(item.lon / this.ratio), minMaxY[0]), Math.max(parseFloat(item.lon / this.ratio), minMaxY[1])]
         nb += 1;
       }
 
@@ -59,11 +61,12 @@ export default class Network {
       this.minMaxYGlobal = minMaxY
 
       var ratio2 = minMaxY[1] - minMaxY[0]
-      
+
       for (let item in this.airportCode) {
         this.airportCode[item].lon = this.airportCode[item].lon * (this.ratio / ratio2);
       }
-      
+
+      var self = this
 
       this.svg.transition()
         .ease(d3.easePolyInOut)
@@ -75,17 +78,20 @@ export default class Network {
         .data(localairports)
         .join('circle')
 
-      circles.on("mouseover", function (e) {
+      circles.on("mouseover", function (m, data) {
         d3.select(this)
           .attr("r", d => Math.log(d.freq + 1) / 3)
           .attr('stroke-width', '.4')
-          .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 1)' : (this.ccolor[d.continent] + ' 1)'))
+        // .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 1)' : (this.ccolor[d.continent] + ' 1)'))
+
+        return self.tooltip.showTooltipTop(m, ["Aeroport", 1])
       })
-        .on("mouseout", function (e) {
+        .on("mouseleave", function (e) {
           d3.select(this)
             .attr("r", d => Math.log(d.freq + 1) / 4)
             .attr('stroke-width', '.1')
-            .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 0.6)' : (this.ccolor[d.continent] + ' 0.6)'))
+          //.style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 0.6)' : (this.ccolor[d.continent] + ' 0.6)'))
+          return self.tooltip.hideTooltip()
         })
         .attr('stroke', 'black')
         .attr('stroke-width', '.1')
@@ -104,11 +110,11 @@ export default class Network {
 
     d3.csv(`./${this.currentGeo}/airports${this.currentGeo}.csv`).then(
       readAirports.bind(this))
- 
+
   }
 
   displayFlights() {
-    
+
     var readFlights = function (localflights) {
 
       this.svg.selectAll('flights')
