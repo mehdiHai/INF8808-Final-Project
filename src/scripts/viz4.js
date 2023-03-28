@@ -71,7 +71,6 @@ function drawOtherCompaniesWaffle() {
   let count = 0;
   for (var i = 0; i < dimensions.rows; i++) {
     for (var j = 0; j < dimensions.cols; j++) {
-      console.log("Sim" + waffles[count] )
       const category = waffles[count];
       svg.append("rect")
         .attr("x", j * dimensions.squareSize + (j-1)*dimensions.offset + dimensions.offset)
@@ -101,7 +100,6 @@ function drawOtherCompaniesWaffle() {
 
 function drawTopCompaniesWaffle() {
   biggestCompaniesAircrafts.forEach((company) => {
-    console.log(company)
   })
   // for (const companyAircrafts of biggestCompaniesAircrafts) {
   //   console.log(companyAircrafts.value);
@@ -110,7 +108,6 @@ function drawTopCompaniesWaffle() {
 }
 
 function drawTopCompanyWaffle(data) {
-  console.log(data);
 }
 
 function waffleify(data){
@@ -142,7 +139,6 @@ function setTooltip(){
 }
 
 const showTooltip = function(m, d) {
-  console.log(d)
   const tooltip = d3.select('#viz4').select('.tooltip');
   tooltip
     .transition()
