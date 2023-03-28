@@ -5,7 +5,9 @@ let otherCompaniesAircrafts = new Map();
 export function drawWaffles(biggestCompaniesFlights, companiesAircrafts) {
     separateBigFromOthers(biggestCompaniesFlights, companiesAircrafts);
 
-    drawBigWaffle();
+    setTooltip();
+    drawOtherCompaniesWaffle();
+    drawTopCompaniesWaffle();
 }
 
 function separateBigFromOthers (biggestCompaniesFlights, companiesAircrafts) {
@@ -25,88 +27,142 @@ function separateBigFromOthers (biggestCompaniesFlights, companiesAircrafts) {
     }
   }
 
-  console.log(otherCompaniesAircrafts);
 }
 
-function drawBigWaffle() {
-  // const svg = d3.select('#viz4')
-  //   .append('svg')
-  //   .style('cursor', 'default')
-  //   .attr('width', 500)
-  //   .attr('height', 500)
-  //   .selectAll('.waffle')
-  //   .data(otherCompaniesAircrafts)
-  //   .join('g')
-  //   .attr('class', 'waffle')
-  //   .attr('x', function (d, i) {
-  //     return (i % 10) * 500 / 10
-  //   })
-  //   .attr('y', function (d, i) {
-  //     return (i % 10) * 500 / 10
-  //   });
-  const sequence = (length) => Array.apply(null, {length: length}).map((d, i) => i);
-  const waffleScale = d3.scaleBand()
-    .domain(sequence(10))
-    .range([0, 600])
-    .padding(0.1)
-  const color = d3.scaleOrdinal(d3.schemeTableau10)
-    .domain(sequence(otherCompaniesAircrafts.length))
-  
-  const chartData =   [...otherCompaniesAircrafts.entries()]
-  const whole = true;
+function calculateWaffleDimensions(data, factor) {
   const width = 1024;
-  const height = 600;
-  const isRect = true;
+  const height = 500;
+  const squareSize = 20;
+  const offset = 5;
+  const total = data.reduce((acc, d) => acc + d.value, 0);;
+  const cols = Math.floor(Math.sqrt(total/factor * width / height));
+  const rows = Math.ceil(total/factor / cols);
+  return {
+    width: cols * squareSize + cols * offset,
+    height: rows * squareSize + rows * offset,
+    rows,
+    cols,
+    squareSize,
+    offset
+  };
+}
+
+
+function drawOtherCompaniesWaffle() {
+  const data = waffleify(otherCompaniesAircrafts);
+  
+  const domain = data.map((d) => {return d.category})
+
+  const factor = 100;
+  const colorScale = d3.scaleOrdinal().domain(domain).range(d3.schemeTableau10)
+  const dimensions = calculateWaffleDimensions(data, factor); 
+  const svg = d3.select("#waffleChart")
+    .attr('width', dimensions.width)
+    .attr('height', dimensions.height);
+  data.forEach((d) => {d.value = Math.round(d.value/factor)})
 
   const waffles = [];
-  const max = chartData.length; 
-  let index = 0, curr = 1;
-  const accu = Math.round(chartData[0][0])
-  const waffle = [];
+  data.forEach((d) => {
+    for(let i = 0; i< d.value; i++){
+      waffles.push(d.category)
+    }
+  })
+
+  let count = 0;
+  for (var i = 0; i < dimensions.rows; i++) {
+    for (var j = 0; j < dimensions.cols; j++) {
+      console.log("Sim" + waffles[count] )
+      const category = waffles[count];
+      svg.append("rect")
+        .attr("x", j * dimensions.squareSize + (j-1)*dimensions.offset + dimensions.offset)
+        .attr("y", i * dimensions.squareSize + (i-1)*dimensions.offset + dimensions.offset)
+        .attr("width", dimensions.squareSize)
+        .attr("height", dimensions.squareSize)
+        .style("fill", function () {
+          return colorScale(category)
+        })
+        .style('opacity', function() {
+          return category != undefined? 1: 0
+        })
+        .attr('stroke', 'black')
+        .on("mouseover", function(m) { 
+          d3.select(this).style('fill', 'rgb(96, 91, 91)')
+          return showTooltip(m, category) })
+        .on("mousemove", moveTooltip )
+        .on("mouseleave", function() {
+          d3.select(this).style('fill', 'rgb(59, 56, 56)')
+          return hideTooltip()
+        } )
+
+      count++;
+    }
+  }
+}
+
+function drawTopCompaniesWaffle() {
+  biggestCompaniesAircrafts.forEach((company) => {
+    console.log(company)
+  })
+  // for (const companyAircrafts of biggestCompaniesAircrafts) {
+  //   console.log(companyAircrafts.value);
+  //   drawTopCompanyWaffle(waffleify(biggestCompaniesAircrafts.get(companyAircrafts)));
+  // }
+}
+
+function drawTopCompanyWaffle(data) {
+  console.log(data);
+}
+
+function waffleify(data){
+  const newData = [];
+  newData.push({category: "Autre", value:0});
+  [...data.entries()].forEach((d) => {
+    if(d[1] < 100){
+      newData[0].value += d[1];
+    }
+    else {
+      newData.push({category: d[0], value: d[1]})
+    }
+  })
+
+  return newData;
+}
+
   
-  for (let y = 9; y >= 0; y--)
-    for (let x = 0; x < 10; x ++) {
-      if (curr > accu && index < max) {
-        let r = Math.round(chartData[++index][0]);
-        while(r === 0 && index < max) r = Math.round(chartData[++index][0]);
-        accu += r;
-      }
-      waffle.push({x, y, index});
-      curr++;
-    } 
-  waffles.push(waffle);
- 
-  console.log(waffles)
+function setTooltip(){
+  d3.select("#viz4")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "black")
+    .style("border-radius", "5px")
+    .style("padding", "10px")
+    .style("color", "white")
+    .style('position', 'absolute')
+}
 
-  const svg = d3.select('#waffleChart').attr("viewBox", [0, 0, width, height])
+const showTooltip = function(m, d) {
+  console.log(d)
+  const tooltip = d3.select('#viz4').select('.tooltip');
+  tooltip
+    .transition()
+    .duration(100)
+  tooltip
+    .style("opacity", 1)
+    .html(": " + d + " vols")
+    .style("left", (m.x+30) + "px")
+    .style("top", (m.y+30) + "px")
+    .style('width', null)
 
-  const g = svg
-      .selectAll('.waffle')
-      .data(waffles)
-      .enter()
-      .append("g")
-      .attr("class", "waffle");
-
-  const cellSize = waffleScale.bandwidth();
-  const half = cellSize / 2;
-  const cells = g.append("g")
-    .selectAll('rect')
-    .data(d => d)
-    .enter()
-    .append('rect')
-    .attr("fill", d => d.index === -1 ? "#ddd" : color(d.index));
-
-  cells.attr("x", d => waffleScale(d.x))
-    .attr("y", d => whole ?  0 : waffleScale(d.y))
-    .attr("rx", 3).attr("ry", 3)
-    .attr("width", cellSize).attr("height", cellSize)      
-
-  cells.transition()
-    .duration(d => d.y * 100)
-    .ease(d3.easeBounce)
-    .attr(isRect ? "y" : "cy", d => waffleScale(d.y) + (isRect ? 0 : half));
-    svg.transition().delay(550)
-
-  svg.node();
-    
+}
+const moveTooltip = function(m) {
+  const tooltip = d3.select('#viz4').select('.tooltip');
+  tooltip
+    .style("left", (m.x+30) + "px")
+    .style("top", (m.y+30) + "px")
+}
+const hideTooltip = function() {
+  const tooltip = d3.select('#viz4').select('.tooltip');
+  tooltip
+    .style("opacity", 0)
 }

@@ -1,4 +1,3 @@
-import d3Tip from 'd3-tip'
 import * as preprocess from './preprocess.js'
 
 const BUCKET_HEIGHT = 300;
