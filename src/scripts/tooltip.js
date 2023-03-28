@@ -25,6 +25,7 @@ export default class Tooltip {
     }
 
     showTooltipBottom(m, d) {
+        
         this.element
             .style("opacity", 1)
             .html("Prochaines 5 plus grandes compagnies: <br>" + d)
@@ -34,7 +35,7 @@ export default class Tooltip {
     }
 
     showTooltipAirport(m, d) {
-        
+
         this.element
             .style("opacity", 0.7)
             .html(d[0] + " ("+d[1]+")<br>"  + d[2] + " vols")
