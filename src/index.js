@@ -5,9 +5,12 @@ import * as preprocess from './scripts/preprocess.js'
 
 export let data = [];
 
-d3.csv('./volsQuebec2022.csv').then(function (data) {
-    preprocess.setData(data);
+Promise.all([
+    d3.csv('./WORLD/flightsWORLD.csv'),
+    d3.csv('./CA/flightsCA.csv'),
+    d3.csv('./QC/flightsQC.csv')
+]).then( function(files) {
+    preprocess.setData(files[0].concat(files[1], files[2]));
     buckets.displayBucketGraph(5);
     buckets.setUpSlider();
-
 })

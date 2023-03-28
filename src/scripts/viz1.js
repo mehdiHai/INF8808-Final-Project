@@ -11,6 +11,7 @@ export function displayBucketGraph(topCompanyNumber) {
   const heightScale = createHeightScale(companiesFlightArray);
   const bottomBucket = [...companiesFlightArray];
   const topBucket = bottomBucket.splice(0, topCompanyNumber);
+  console.log(companiesFlightArray)
 
   setUpSlider()
   displayTopBucket(topBucket, heightScale);
