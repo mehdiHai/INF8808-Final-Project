@@ -33,7 +33,7 @@ export default class Tooltip {
             .style('width', '300px')
     }
 
-    showTooltipMap(m, d) {
+    showTooltipAirport(m, d) {
         this.element
             .style("opacity", 0.7)
             .html(d[0] + " ("+d[1]+")<br>"  + d[2] + " vols")
