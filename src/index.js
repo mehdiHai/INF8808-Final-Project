@@ -11,6 +11,7 @@ Promise.all([
     d3.csv('./CA/flightsCA.csv'),
     d3.csv('./QC/flightsQC.csv')
 ]).then( function(files) {
+    
     preprocess.setData(files[0].concat(files[1], files[2]));
     buckets.displayBucketGraph(5);
     buckets.setUpSlider();

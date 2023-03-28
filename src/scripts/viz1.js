@@ -1,4 +1,3 @@
-import d3Tip from 'd3-tip'
 import * as preprocess from './preprocess.js'
 import Tooltip from './tooltip.js'
 
@@ -7,12 +6,12 @@ const BUCKET_WIDTH = 200;
 
 let tooltip = new Tooltip();
 
+
 export function displayBucketGraph(topCompanyNumber) {
   const companiesFlightArray = preprocess.getCompaniesFlightArray();
   const heightScale = createHeightScale(companiesFlightArray);
   const bottomBucket = [...companiesFlightArray];
   const topBucket = bottomBucket.splice(0, topCompanyNumber);
-  console.log(companiesFlightArray)
 
   setUpSlider()
   displayTopBucket(topBucket, heightScale);
@@ -58,7 +57,7 @@ function displayTopBucket(topBucket, heightScale) {
         .attr('fill', 'rgb(124, 191, 78)')
       return tooltip.showTooltipTop(m, d) }
     )
-    .on("mousemove", tooltip.moveTooltip )
+    .on("mousemove", function(m) { return tooltip.moveTooltip(m) })
     .on("mouseleave", function() {
       d3.select(this)
         .attr('fill', 'rgb(75, 115, 47)')
@@ -83,7 +82,7 @@ function displayTopBucket(topBucket, heightScale) {
     .style('user-select', 'none')
     .text(function(c) {
       const height = heightScale(c[1]);
-      if(height > 20){
+      if(height > 22){
         return c[0];
       }
       else if (height > 7) {
@@ -121,7 +120,7 @@ function displayBottomBucket(bottomBucket, heightScale) {
     .on("mouseover", function(m) { 
       d3.select(this).style('fill', 'rgb(96, 91, 91)')
       return tooltip.showTooltipBottom(m, toolTipDisplay) })
-    .on("mousemove", tooltip.moveTooltip )
+    .on("mousemove", function(m) { return tooltip.moveTooltip(m) })
     .on("mouseleave", function() {
       d3.select(this).style('fill', 'rgb(59, 56, 56)')
       return tooltip.hideTooltip()

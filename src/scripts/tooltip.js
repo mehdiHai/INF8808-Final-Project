@@ -1,5 +1,6 @@
 
 export default class Tooltip {
+    element;
 
     constructor() { 
         this.element = d3.select("body")
@@ -14,9 +15,6 @@ export default class Tooltip {
     }
 
     showTooltipTop(m, d) {
-        this.element
-            .transition()
-            .duration(100)
         this.element
             .style("opacity", 1)
             .html(d[0] + ": " + d[1] + " vols")
