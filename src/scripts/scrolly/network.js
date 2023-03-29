@@ -1,13 +1,11 @@
-import * as d3geoproj from 'd3-geo-projection';
 import Tooltip from '../tooltip';
+import { groupByMainCompanies } from '../preprocess.js';
 
 export default class Network {
 
   constructor(svg, ratio = 1) {
     this.tooltip = new Tooltip()
     this.ratio = ratio
-    // this.projection = d3geoproj.geoGuyou()
-    // this.projection.rotate({ lat: 46.179336122399526, lon: 6.145677500934902 })
     this.svg = svg;
     this.airportCode = {};
     this.levelGeo = { 1: "QC", 2: "CA", 3: "WORLD", 4: null, "QC": 1, "CA": 2, "WORLD": 3, null: 4 };
@@ -105,7 +103,7 @@ export default class Network {
         .attr("r", d => Math.log(d.freq + 1) / 4)
         .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 0.6)' : (this.ccolor[d.continent] + ' 0.6)'))
 
-        
+
       if (this.currentGeo === "WORLD") {
 
         var circlesTooltips = this.svg.selectAll('airports')
@@ -138,9 +136,8 @@ export default class Network {
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
     }
 
-    d3.csv(`./${this.currentGeo}/airports${this.currentGeo}.csv`).then(
-      readAirports.bind(this))
-
+    d3.csv(`./${this.currentGeo}/airports${this.currentGeo}.csv`)
+      .then(readAirports.bind(this))
   }
 
   displayFlights() {
@@ -161,15 +158,16 @@ export default class Network {
         .duration(800)
         .attr('x2', d => this.airportCode[d.airportOut][0])
         .attr('y2', d => this.airportCode[d.airportOut][1])
-        .style('stroke', 'rgba(0, 0, 0, 0.1)')
+        .style('stroke', d => (d.company === "OTHERS")? 'rgba(255, 0, 0, 0.02)': 'rgba(0, 0, 0, 0.2)')
 
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
       this.svg.selectAll('circle').raise()
     }
 
     this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
-    d3.csv(`./${this.currentGeo}/flights${this.currentGeo}.csv`).then(
-      readFlights.bind(this))
+    d3.csv(`./${this.currentGeo}/flights${this.currentGeo}.csv`)
+      .then(groupByMainCompanies)
+      .then(readFlights.bind(this))
   }
 
   removeAirports(db = true) {
