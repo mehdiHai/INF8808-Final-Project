@@ -82,7 +82,7 @@ export default class Network {
         d3.select(this)
           .attr("r", d => Math.log(d.freq + 1) / 3)
           .attr('stroke-width', '.4')
-          //.style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 1)' : (this.ccolor[d.continent] + ' 1)'))
+        //.style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 1)' : (this.ccolor[d.continent] + ' 1)'))
 
         return self.tooltip.showTooltipAirport(m, [data.airport, data.sub, data.freq])
       })
@@ -95,7 +95,7 @@ export default class Network {
         })
         .attr('stroke', 'black')
         .attr('stroke-width', '.1')
-        .attr('class', this.currentGeo, d => d.continent)
+        .attr('class', d => this.currentGeo + " " + d.continent + " " + d.airport)
         .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
         .attr("r", 0)
         .transition()
@@ -104,6 +104,36 @@ export default class Network {
         .duration(800)
         .attr("r", d => Math.log(d.freq + 1) / 4)
         .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 0.6)' : (this.ccolor[d.continent] + ' 0.6)'))
+
+        
+      if (this.currentGeo === "WORLD") {
+
+        var circlesTooltips = this.svg.selectAll('airports')
+          .data(localairports)
+          .join('circle')
+
+        circlesTooltips.attr("r", d => Math.max(10, Math.log(d.freq + 1) / 4))
+          .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
+          .attr("opacity", 0)
+          .on("mouseover", function (m, data) {
+            d3.select("." + data.airport).attr("r", Math.log(data.freq + 1) / 3)
+              .attr('stroke-width', '.4')
+            return self.tooltip.showTooltipAirport(m, [data.airport, data.sub, data.freq])
+          })
+          .on("mouseleave", function (m, data) {
+            d3.select("." + data.airport).attr("r", d => Math.log(d.freq + 1) / 4)
+              .attr('stroke-width', '.1')
+            return self.tooltip.hideTooltip()
+          })
+      }
+
+
+
+
+
+
+
+
 
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
     }
