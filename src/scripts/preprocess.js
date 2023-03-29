@@ -1,6 +1,6 @@
 let data = [];
-let flightData = new Set();
-let sankeyData = new Set();
+let flightData = [];
+let sankeyData = [];
 
 export function setData(d) {
   data = d;
@@ -16,7 +16,7 @@ export function getData() {
 export function processFlightData() {
   data.forEach((d) => {
     let flight = { airline: getAirline(d), duration: getDuration(d), departureTime: getDepartureTime(d), flightRange: getFlightRange(d) };
-    flightData.add(flight);
+    flightData.push(flight);
   });
   console.log('PROCESSED FLIGHT DATA');
   console.log(flightData);
@@ -103,50 +103,20 @@ function getFlightRange(d) {
  *
  */
 export function getSankeyData() {
-  let firstLinkCounts = {};
-  flightData.forEach((flight) => {
-    let key = flight.airline + "|" + flight.duration;
-    firstLinkCounts[key] = (firstLinkCounts[key] || 0) + 1;
+  const countFlights = flightData.reduce((counts, flight) => {
+    const key = JSON.stringify({ airline: flight.airline, duration: flight.duration, departureTime: flight.departureTime, flightRange: flight.flightRange });
+    counts[key] = (counts[key] || 0) + 1;
+    return counts;
+  }, {});
+  
+  const result = Object.keys(countFlights).map((key) => {
+    const { airline, duration, departureTime, flightRange } = JSON.parse(key);
+    const count = countFlights[key];
+    return { airline, duration, departureTime, flightRange, count };
   });
-
-  // Create array of objects with airline, duration, and count
-  let airlineToDuration = Object.keys(firstLinkCounts).map((key) => {
-    let [airline, duration] = key.split("|");
-    return { airline, duration, count: firstLinkCounts[key] };
-  });
-
-  sankeyData.add(airlineToDuration);
-
-  let secondLinkCounts = {};
-  flightData.forEach((flight) => {
-    let key = flight.duration + "|" + flight.departureTime;
-    secondLinkCounts[key] = (secondLinkCounts[key] || 0) + 1;
-  });
-
-  // Create array of objects with duration, departureTime, and count
-  let durationToDepartureTime = Object.keys(secondLinkCounts).map((key) => {
-    let [duration, departureTime] = key.split("|");
-    return { duration, departureTime, count: secondLinkCounts[key] };
-  });
-
-  sankeyData.add(durationToDepartureTime);
-
-  let thirdLinkCounts = {};
-  flightData.forEach((flight) => {
-    let key = flight.departureTime + "|" + flight.flightRange;
-    thirdLinkCounts[key] = (thirdLinkCounts[key] || 0) + 1;
-  });
-
-  // Create array of objects with departureTime, flightRange, and count
-  let departureTimeToFlightRange = Object.keys(thirdLinkCounts).map((key) => {
-    let [departureTime, flightRange] = key.split("|");
-    return { departureTime, flightRange, count: thirdLinkCounts[key] };
-  });
-
-  sankeyData.add(departureTimeToFlightRange);
 
   console.log('SANKEY DATA');
-  console.log(sankeyData);
+  console.log(result);
 
-  return sankeyData;
+  return result;
 }
