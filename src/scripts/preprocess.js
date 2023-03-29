@@ -82,13 +82,13 @@ function getFlightRange(d) {
   const quebecAirports = ["CYBG", "CYBC", "CYVB", "CYCL", "CYMT", "CYBC", "CYDR", "CYFE", "CYGP", "CYND", "CYGV", "CYGR", "CYGL", "CYLR", "CYLS", "CSE4", "CYBX", "CYMW", "CYNM", "CYYY", "CYMX", "CYUL", "CYNM", "CYQB", "CYXK", "CYRJ", "CYUY", "CYSG", "CYHU", "CYZV", "CYRQ", "CYVO", "CYSJ", "CYQM", "CYHZ", "CYQY", "CYDF", "CYJT", "CYMT", "CYFT", "CYGP", "CYQX", "CYGR", "CYBG", "CYZG", "CYVB", "CYAT", "CYBC", "CYDO", "CYVB", "CYND", "CYBX", "CYHH", "CYVB", "CYHR", "CYMT", "CYIO", "CYNA", "CYOH", "CYVO", "CYNO", "CYUY", "CYOC", "CYZS", "CYOO", "CYPR", "CYQU", "CYRB", "CYRT", "CYUT", "CYRB", "CYRI", "CYRV", "CYOY", "CYUL", "CYRV", "CYVP", "CYVO", "CYVO", "CYGL", "CYVC", "CYTL", "CYJT", "CYTH", "CYTR", "CYQD", "CYVB", "CYVB", "CYVL", "CYVO", "CYVB", "CYWK", "CYHY", "CYWP", "CYWV", "CYGL", "CYXC", "CYXX", "CYXY", "CYYB", "CYYC", "CYYF", "CYYG", "CYYH", "CYYJ", "CYYN", "CYYR", "CYYT", "CYYU", "CYYW", "CYYY", "CYZF", "CYZP", "CYZR", "CYZT", "CYZU", "CYZW", "CYZX"]
   const startAirportIsQuebec = quebecAirports.includes(d.aérDépart)
   const arrivalAirportIsQuebec = quebecAirports.includes(d.aérDestin)
-  const startAirportIsCanada = d.aérDépart.startsWith('C')
-  const arrivalAirportIsCanada = d.aérDestin.startsWith('C')
+  const startAirportIsCanada = d.aérDépart.startsWith('CY')
+  const arrivalAirportIsCanada = d.aérDestin.startsWith('CY')
   let flightRange = ''
   if (startAirportIsQuebec && arrivalAirportIsQuebec) {
     flightRange = 'Quebec'
   }
-  else if (startAirportIsCanada || arrivalAirportIsCanada) {
+  else if (startAirportIsCanada && arrivalAirportIsCanada) {
     flightRange = 'Canada'
   }
   else {
@@ -103,20 +103,87 @@ function getFlightRange(d) {
  *
  */
 export function getSankeyData() {
+  // assume that 'data' is the array of objects containing airline, duration, departureTime, and flightRange
+
+  // count objects with same airline and duration
+  const airlineDurationCounts = {};
+  flightData.forEach(d => {
+    const key = `${d.airline}_${d.duration}`;
+    if (!airlineDurationCounts[key]) {
+      airlineDurationCounts[key] = 0;
+    }
+    airlineDurationCounts[key]++;
+  });
+
+  // count objects with same duration and departureTime
+  const durationDepartureCounts = {};
+  flightData.forEach(d => {
+    const key = `${d.duration}_${d.departureTime}`;
+    if (!durationDepartureCounts[key]) {
+      durationDepartureCounts[key] = 0;
+    }
+    durationDepartureCounts[key]++;
+  });
+
+  // count objects with same departureTime and flightRange
+  const departureFlightCounts = {};
+  flightData.forEach(d => {
+    const key = `${d.departureTime}_${d.flightRange}`;
+    if (!departureFlightCounts[key]) {
+      departureFlightCounts[key] = 0;
+    }
+    departureFlightCounts[key]++;
+  });
+
+  // create array of objects with source, target, and count attributes
+  const links = [];
+  Object.keys(airlineDurationCounts).forEach(key => {
+    const [airline, duration] = key.split('_');
+    const source = airline;
+    const target = duration;
+    const count = airlineDurationCounts[key];
+    links.push({source, target, count});
+  });
+  Object.keys(durationDepartureCounts).forEach(key => {
+    const [duration, departureTime] = key.split('_');
+    const source = duration;
+    const target = departureTime;
+    const count = durationDepartureCounts[key];
+    links.push({source, target, count});
+  });
+  Object.keys(departureFlightCounts).forEach(key => {
+    const [departureTime, flightRange] = key.split('_');
+    const source = departureTime;
+    const target = flightRange;
+    const count = departureFlightCounts[key];
+    links.push({source, target, count});
+  });
+
+  console.log(links); // array of objects with source, target, and count attributes
+
+  return links;
+}
+
+/**
+ * Defines the alluvialData (airline, duration, departureTime, flightRange, and value) necessary to show the flow between all the nodes.
+ * Each airline is a node, as well as each flight duration, flight departure time, and flight range type.
+ *
+ */
+export function getAlluvialData() {
   const countFlights = flightData.reduce((counts, flight) => {
     const key = JSON.stringify({ airline: flight.airline, duration: flight.duration, departureTime: flight.departureTime, flightRange: flight.flightRange });
     counts[key] = (counts[key] || 0) + 1;
     return counts;
   }, {});
   
-  const result = Object.keys(countFlights).map((key) => {
+  const links = Object.keys(countFlights).map((key) => {
     const { airline, duration, departureTime, flightRange } = JSON.parse(key);
     const count = countFlights[key];
     return { airline, duration, departureTime, flightRange, count };
   });
 
-  console.log('SANKEY DATA');
-  console.log(result);
+  console.log('ALLUVIAL DATA');
+  console.log(links);
 
-  return result;
+  return links;
 }
