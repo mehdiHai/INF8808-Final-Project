@@ -1,35 +1,47 @@
-const NUMBER_OF_COMPANIES = 5;
+import * as preprocess from "./preprocess.js"
+import distinctColors from 'distinct-colors'
+
 const biggestCompaniesAircrafts = new Map();
 let otherCompaniesAircrafts = new Map();
+let colorScale = {}
+let factor = 5;
 
 export function drawWaffles(biggestCompaniesFlights, companiesAircrafts) {
 	separateBigFromOthers(biggestCompaniesFlights, companiesAircrafts);
 
+
 	setTooltip();
+	
 	drawOtherCompaniesWaffle();
 	drawTopCompaniesWaffles();
 }
 
 function separateBigFromOthers(biggestCompaniesFlights, companiesAircrafts) {
-	for (let i = 0; i < biggestCompaniesFlights.length; i++) {
-		const company = biggestCompaniesFlights[i][0];
-
-		if (i < NUMBER_OF_COMPANIES)
-			biggestCompaniesAircrafts.set(company, companiesAircrafts.get(company));
+	biggestCompaniesFlights.forEach((d, index) => {
+		if(index < preprocess.getTopCompaniesCount())
+			biggestCompaniesAircrafts.set(d[0], companiesAircrafts.get(d[0]))
 		else {
-			for (const typeCount of companiesAircrafts.get(company)) {
+			for (const typeCount of companiesAircrafts.get(d[0])) {
 				const name = typeCount[0];
 
 				if (!otherCompaniesAircrafts.get(name))
 					otherCompaniesAircrafts.set(name, 0);
-
 				otherCompaniesAircrafts.set(
 					name,
 					otherCompaniesAircrafts.get(name) + typeCount[1]
 				);
 			}
 		}
-	}
+	})
+}
+
+function createScale(data) {
+	const domain = data.map((d) => {
+		return d.category;
+	});
+	console.log()
+	colorScale = d3.scaleOrdinal().domain(domain).range(distinctColors({count: 12}));
+	addLegend(colorScale)
 }
 
 function calculateWaffleDimensions(data, factor) {
@@ -55,11 +67,12 @@ function calculateWaffleDimensions(data, factor) {
 function drawOtherCompaniesWaffle() {
 	const data = waffleify(otherCompaniesAircrafts);
 	const svg = d3.select("#viz4").append("svg").attr("id", "waffleChart");
+	createScale(data);
 	drawWaffle(data, svg);
 }
 
 function drawTopCompaniesWaffles() {
-	const waffleGroup = d3.select("#viz4")
+	d3.select("#viz4")
 		.append("div")
 		.attr("id", "waffleGroup");
 
@@ -71,25 +84,25 @@ function drawTopCompaniesWaffles() {
 
 function waffleify(data) {
 	const newData = [];
+	console.log(data)
 	newData.push({ category: "Autre", value: 0 });
 	[...data.entries()].forEach((d) => {
-		if (d[1] < 100) {
+		if (d[1] < factor) {
 			newData[0].value += d[1];
 		} else {
 			newData.push({ category: d[0], value: d[1] });
 		}
 	});
-
 	return newData;
 }
 
 function drawWaffle(data, svg) {
-	const domain = data.map((d) => {
-		return d.category;
-	});
-
-	const factor = 100;
-	const colorScale = d3.scaleOrdinal().domain(domain).range(d3.schemeTableau10);
+	// const domain = data.map((d) => {
+	// 	return d.category;
+	// });
+	console.log(data)
+	// const colorScale = d3.scaleOrdinal().domain(domain).range(d3.schemeTableau10);
+	// addLegend(colorScale)
 	const dimensions = calculateWaffleDimensions(data, factor);
 	svg.attr("width", dimensions.width).attr("height", dimensions.height);
 	data.forEach((d) => {
@@ -106,7 +119,6 @@ function drawWaffle(data, svg) {
 	let count = 0;
 	for (var i = 0; i < dimensions.rows; i++) {
 		for (var j = 0; j < dimensions.cols; j++) {
-			console.log("Sim" + waffles[count]);
 			const category = waffles[count];
 			svg.append("rect")
 				.attr(
@@ -131,12 +143,10 @@ function drawWaffle(data, svg) {
 				})
 				.attr("stroke", "black")
 				.on("mouseover", function (m) {
-					d3.select(this).style("fill", "rgb(96, 91, 91)");
 					return showTooltip(m, category);
 				})
 				.on("mousemove", moveTooltip)
 				.on("mouseleave", function () {
-					d3.select(this).style("fill", "rgb(59, 56, 56)");
 					return hideTooltip();
 				});
 
@@ -158,7 +168,6 @@ function setTooltip() {
 }
 
 const showTooltip = function (m, d) {
-	console.log(d);
 	const tooltip = d3.select("#viz4").select(".tooltip");
 	tooltip.transition().duration(100);
 	tooltip
@@ -176,3 +185,9 @@ const hideTooltip = function () {
 	const tooltip = d3.select("#viz4").select(".tooltip");
 	tooltip.style("opacity", 0);
 };
+
+function addLegend(scale) {
+	d3.select('#viz4').append('div').attr('class', 'legend')
+
+
+}

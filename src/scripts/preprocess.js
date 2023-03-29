@@ -1,5 +1,7 @@
 let data = [];
 let companiesFlightArray = [];
+let topCompaniesCount = 0;
+
 
 export function setData(newData) {
   data = newData
@@ -12,6 +14,15 @@ export function getData() {
 
 export function getCompaniesFlightArray(){
   return [...companiesFlightArray];
+}
+
+export function getTopCompaniesCount(){
+  return topCompaniesCount;
+}
+
+export function setTopCompaniesCount(count){
+  topCompaniesCount = count;
+  console.log(count)
 }
 
 function getCompaniesFlightCount() {

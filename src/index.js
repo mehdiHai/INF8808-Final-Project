@@ -11,7 +11,8 @@ Promise.all([
 ]).then( function(files) {
     
     preprocess.setData(files[0].concat(files[1], files[2]));
-    buckets.displayBucketGraph(5);
+    preprocess.setTopCompaniesCount(5);
+    buckets.displayBucketGraph();
     buckets.setUpSlider();
     waffles.drawWaffles(preprocess.getCompaniesFlightArray(), preprocess.getCompaniesAircraftsMap(files[3]));
 })
