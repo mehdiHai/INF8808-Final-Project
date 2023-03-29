@@ -95,7 +95,7 @@ export default class Network {
         })
         .attr('stroke', 'black')
         .attr('stroke-width', '.1')
-        .attr('class', /*this.currentGeo, d => d.continent,*/ d => d.airport)
+        .attr('class', d => this.currentGeo + " " + d.continent + " " + d.airport)
         .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
         .attr("r", 0)
         .transition()
@@ -105,15 +105,14 @@ export default class Network {
         .attr("r", d => Math.log(d.freq + 1) / 4)
         .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 0.6)' : (this.ccolor[d.continent] + ' 0.6)'))
 
-
-
+        
       if (this.currentGeo === "WORLD") {
 
         var circlesTooltips = this.svg.selectAll('airports')
           .data(localairports)
           .join('circle')
 
-        circlesTooltips.attr("r", d => Math.max(20 / Math.log(d.freq + 1), Math.log(d.freq + 1) / 4))
+        circlesTooltips.attr("r", d => Math.max(10, Math.log(d.freq + 1) / 4))
           .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
           .attr("opacity", 0)
           .on("mouseover", function (m, data) {
