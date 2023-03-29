@@ -38,8 +38,10 @@ function calculateWaffleDimensions(data, factor) {
 	const squareSize = 20;
 	const offset = 5;
 	const total = data.reduce((acc, d) => acc + d.value, 0);
-	const cols = Math.floor(Math.sqrt(((total / factor) * width) / height));
+	let cols = Math.floor(Math.sqrt(((total / factor) * width) / height));
+	if(cols === 0) cols = 1
 	const rows = Math.ceil(total / factor / cols);
+
 	return {
 		width: cols * squareSize + cols * offset,
 		height: rows * squareSize + rows * offset,
@@ -57,8 +59,7 @@ function drawOtherCompaniesWaffle() {
 }
 
 function drawTopCompaniesWaffles() {
-	const waffleGroup = d3
-		.select("#viz4")
+	const waffleGroup = d3.select("#viz4")
 		.append("div")
 		.attr("id", "waffleGroup");
 
@@ -107,8 +108,7 @@ function drawWaffle(data, svg) {
 		for (var j = 0; j < dimensions.cols; j++) {
 			console.log("Sim" + waffles[count]);
 			const category = waffles[count];
-			svg
-				.append("rect")
+			svg.append("rect")
 				.attr(
 					"x",
 					j * dimensions.squareSize +
