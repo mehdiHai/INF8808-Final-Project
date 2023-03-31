@@ -32,15 +32,19 @@ export default class Network {
 
       var nb = 0
       var minMaxX = d3.extent(localairports, d => parseFloat(d.lat))
-      var minMaxY = d3.extent(localairports, d => parseFloat(d.lon) / this.ratio)
+      var minMaxY = d3.extent(localairports, d => parseFloat(d.lon))
 
       for (const item of localairports) {
         this.airportCode[item.airport] = [item.lat, item.lon / this.ratio]
-         nb += 1;
+        nb += 1;
       }
 
       minMaxX = [Math.min(minMaxX[0] - 10, this.minMaxXGlobal[0]), Math.max(minMaxX[1] + 10, this.minMaxXGlobal[1])]
       minMaxY = [Math.min(minMaxY[0] - 10, this.minMaxYGlobal[0]), Math.max(minMaxY[1] + 10, this.minMaxYGlobal[1])]
+
+
+      console.log((minMaxX[1] - minMaxX[0]) / (minMaxY[1] - minMaxY[0]))
+
 
       if (this.limits[this.levelGeo[this.currentGeo]] === undefined) {
         this.limits[this.levelGeo[this.currentGeo]] = `${minMaxX[0]},${minMaxY[0]},${minMaxX[1] - minMaxX[0]},${minMaxY[1] - minMaxY[0]}`
@@ -103,6 +107,7 @@ export default class Network {
         circlesTooltips.attr("r", d => Math.max(8, self.scaleSize(d.freq)))
           .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
           .attr("opacity", 0)
+          .attr("class", d => this.currentGeo + " " + d.continent + " " + d.airport + " tooltipsCircle")
           .on("mouseover", function (m, data) {
             d3.select("." + data.airport)
               .attr("r", 1.5 * self.scaleSize(data.freq))
@@ -158,15 +163,33 @@ export default class Network {
 
     if (db) {
       this.svg.transition()
-      .duration(1000)
-      .attr("viewBox", this.limits[this.levelGeo[this.currentGeo] - 1])
-    }
+        .duration(1000)
+        .attr("viewBox", this.limits[this.levelGeo[this.currentGeo] - 1])
 
-    this.svg.selectAll('circle.' + this.currentGeo)
-      .transition()
-      .duration(1000)
-      .attr("r", 0)
-      .remove()
+      this.svg.selectAll('circle.' + this.currentGeo)
+        .transition()
+        .duration(1000)
+        .attr("r", 0)
+        .remove()
+
+    } else {
+      this.currentGeo = "QC";
+
+      ["WORLD", "CA", "QC"].forEach(lvl => {
+        console.log(lvl)
+        this.svg.selectAll('line.' + lvl)
+          .transition()
+          .duration(1000)
+          .style('stroke', 'rgba(0, 0, 0, 0.0)')
+          .remove()
+
+        this.svg.selectAll('circle.' + lvl)
+          .transition()
+          .duration(1000)
+          .attr("r", 0)
+          .remove()
+      });
+    }
   }
 
   removeFlights() {
