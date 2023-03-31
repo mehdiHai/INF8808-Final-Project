@@ -1,11 +1,12 @@
 let data = [];
 let companiesFlightArray = [];
 let topCompaniesCount = 0;
+let companiesAircrafts;
 
 
 export function setData(newData) {
   data = newData
-  companiesFlightArray = getCompaniesFlightCount();
+  companiesFlightArray = setCompaniesFlightCountArray();
 }
 
 export function getData() {
@@ -22,10 +23,13 @@ export function getTopCompaniesCount(){
 
 export function setTopCompaniesCount(count){
   topCompaniesCount = count;
-  console.log(count)
 }
 
-function getCompaniesFlightCount() {
+export function getCompaniesAircraftsMap() {
+  return companiesAircrafts;
+}
+
+function setCompaniesFlightCountArray() {
   const topCompanies = new Map()
   data.forEach((d) => {
     if(!topCompanies.get(d.company)) {
@@ -47,7 +51,7 @@ function getCompaniesFlightCount() {
   return sortedCompanies
 }
 
-export function getCompaniesAircraftsMap(aircraftsData) {
+export function setCompaniesAircraftsMap(aircraftsData) {
   const aircrafts = new Map();
 
   aircraftsData.forEach((d) => {
@@ -70,6 +74,7 @@ export function getCompaniesAircraftsMap(aircraftsData) {
           aircrafts.get(opName).set(type, aircrafts.get(opName).get(type) + 1);
       }
   })
+  companiesAircrafts = aircrafts;
 
   return aircrafts;
   

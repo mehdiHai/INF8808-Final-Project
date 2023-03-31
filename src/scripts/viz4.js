@@ -1,22 +1,34 @@
 import * as preprocess from "./preprocess.js"
 import distinctColors from 'distinct-colors'
 
-const biggestCompaniesAircrafts = new Map();
-let otherCompaniesAircrafts = new Map();
+let biggestCompaniesAircrafts;
+let otherCompaniesAircrafts;
 let colorScale = {}
 let factor = 5;
 
-export function drawWaffles(biggestCompaniesFlights, companiesAircrafts) {
-	separateBigFromOthers(biggestCompaniesFlights, companiesAircrafts);
-
-
+export function drawWaffles() {
+	separateBigFromOthers();
+	
 	setTooltip();
 	
 	drawOtherCompaniesWaffle();
 	drawTopCompaniesWaffles();
 }
 
-function separateBigFromOthers(biggestCompaniesFlights, companiesAircrafts) {
+export function modifyData() {
+	d3.select('#viz4').select('#waffleChart').remove();
+	d3.select('#viz4').select('#waffleGroup').remove();
+	separateBigFromOthers();
+	
+	drawOtherCompaniesWaffle();
+	drawTopCompaniesWaffles();
+}
+
+function separateBigFromOthers() {
+	const biggestCompaniesFlights = preprocess.getCompaniesFlightArray();
+	const companiesAircrafts = preprocess.getCompaniesAircraftsMap();
+	biggestCompaniesAircrafts = new Map();
+	otherCompaniesAircrafts = new Map();
 	biggestCompaniesFlights.forEach((d, index) => {
 		if(index < preprocess.getTopCompaniesCount())
 			biggestCompaniesAircrafts.set(d[0], companiesAircrafts.get(d[0]))
@@ -39,7 +51,6 @@ function createScale(data) {
 	const domain = data.map((d) => {
 		return d.category;
 	});
-	console.log()
 	colorScale = d3.scaleOrdinal().domain(domain).range(distinctColors({count: 12}));
 	addLegend(colorScale)
 }
@@ -77,7 +88,18 @@ function drawTopCompaniesWaffles() {
 		.attr("id", "waffleGroup");
 
 	biggestCompaniesAircrafts.forEach((company) => {
-		const svg = d3.select("#waffleGroup").append("svg").attr("id", company);
+		const svg = d3.select("#waffleGroup")
+		.append("svg")
+		.attr("id", company)
+		.style('margin', '20px')
+		.style('stroke', 'black')
+		.attr("style", "outline: 2px solid black;") 
+		.attr('style', 'background-color: gray;'+
+		'outline: 2px solid black;' +
+		'padding-left: 5px;' +
+		'padding-top: 5px;'
+		)
+
 		drawWaffle(waffleify(company), svg);
 	});
 }
@@ -97,14 +119,8 @@ function waffleify(data) {
 }
 
 function drawWaffle(data, svg) {
-	// const domain = data.map((d) => {
-	// 	return d.category;
-	// });
-	console.log(data)
-	// const colorScale = d3.scaleOrdinal().domain(domain).range(d3.schemeTableau10);
-	// addLegend(colorScale)
 	const dimensions = calculateWaffleDimensions(data, factor);
-	svg.attr("width", dimensions.width).attr("height", dimensions.height);
+	svg.attr("width", dimensions.width + dimensions.offset).attr("height", dimensions.height+2*dimensions.offset);
 	data.forEach((d) => {
 		d.value = Math.round(d.value / factor);
 	});

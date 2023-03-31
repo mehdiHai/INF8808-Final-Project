@@ -12,9 +12,10 @@ Promise.all([
     
     preprocess.setData(files[0].concat(files[1], files[2]));
     preprocess.setTopCompaniesCount(5);
+    preprocess.setCompaniesAircraftsMap(files[3])
     buckets.displayBucketGraph();
     buckets.setUpSlider();
-    waffles.drawWaffles(preprocess.getCompaniesFlightArray(), preprocess.getCompaniesAircraftsMap(files[3]));
+    waffles.drawWaffles();
 })
 
 init()

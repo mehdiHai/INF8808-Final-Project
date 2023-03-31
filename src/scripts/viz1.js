@@ -1,5 +1,6 @@
 import * as preprocess from './preprocess.js'
 import Tooltip from './tooltip.js'
+import * as waffle from './viz4.js'
 
 const BUCKET_HEIGHT = 300;
 const BUCKET_WIDTH = 200;
@@ -28,6 +29,7 @@ export function setUpSlider(){
     d3.select('#topSVG').selectAll('*').remove();
     d3.select('#bottomSVG').selectAll('*').remove();
     displayBucketGraph(this.value);
+    waffle.modifyData();
 	}
 }
 
