@@ -76,7 +76,7 @@ export default class Network {
           d3.select(this)
             .attr("r", d => 1.5 * self.scaleSize(d.freq))
             .attr('stroke-width', '.4')
-          return self.tooltip.showTooltipAirport(m, [data.airport, data.sub, data.freq])
+          return self.tooltip.showTooltipAirport(m, [data.airport, data.country, data.city, data.freq])
         })
           .on("mouseleave", function (e) {
             d3.select(this)
@@ -112,7 +112,7 @@ export default class Network {
             d3.select("." + data.airport)
               .attr("r", 1.5 * self.scaleSize(data.freq))
               .attr('stroke-width', '.4')
-            return self.tooltip.showTooltipAirport(m, [data.airport, data.sub, data.freq])
+            return self.tooltip.showTooltipAirport(m, [data.airport, data.country, data.city, data.freq])
           })
           .on("mouseleave", function (m, data) {
             d3.select("." + data.airport).attr("r", d => Math.log(d.freq + 1) / 4)
@@ -176,7 +176,6 @@ export default class Network {
       this.currentGeo = "QC";
 
       ["WORLD", "CA", "QC"].forEach(lvl => {
-        console.log(lvl)
         this.svg.selectAll('line.' + lvl)
           .transition()
           .duration(1000)
