@@ -32,7 +32,7 @@ export default class Network {
 
       var nb = 0
       var minMaxX = d3.extent(localairports, d => parseFloat(d.lat))
-      var minMaxY = d3.extent(localairports, d => parseFloat(d.lon))
+      var minMaxY = d3.extent(localairports, d => parseFloat(d.lon) / this.ratio)
 
       for (const item of localairports) {
         this.airportCode[item.airport] = [item.lat, item.lon / this.ratio]
