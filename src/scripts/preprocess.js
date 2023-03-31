@@ -16,7 +16,7 @@ export function getCompaniesFlightArray() {
 }
 
 export function resizeTopCompagnies(bottomBucket, topCompanyNumber) {
-  topCompaniesSet = new Set();
+  topCompaniesSet.clear();
   let selection = bottomBucket.splice(0, topCompanyNumber);
   selection.forEach(d => topCompaniesSet.add(d[0]))
   return selection;

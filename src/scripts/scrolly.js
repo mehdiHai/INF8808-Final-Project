@@ -32,7 +32,6 @@ var fig_rat = d3.select("figure").node().getBoundingClientRect()
 
 console.log(fig_rat.width/figureHeight)
 
-
 var network = new Network(svg, fig_rat.width/figureHeight);
 // scrollama event handlers
 function handleStepEnter(response) {

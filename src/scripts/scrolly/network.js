@@ -31,14 +31,12 @@ export default class Network {
     var readAirports = function (localairports) {
 
       var nb = 0
-      var minMaxX = [1E100, -1E100]
-      var minMaxY = [1E100, -1E100]
+      var minMaxX = d3.extent(localairports, d => parseFloat(d.lat))
+      var minMaxY = d3.extent(localairports, d => parseFloat(d.lon) / this.ratio)
 
       for (const item of localairports) {
         this.airportCode[item.airport] = [item.lat, item.lon / this.ratio]
-        minMaxX = [Math.min(parseFloat(item.lat), minMaxX[0]), Math.max(parseFloat(item.lat), minMaxX[1])]
-        minMaxY = [Math.min(parseFloat(item.lon / this.ratio), minMaxY[0]), Math.max(parseFloat(item.lon / this.ratio), minMaxY[1])]
-        nb += 1;
+         nb += 1;
       }
 
       minMaxX = [Math.min(minMaxX[0] - 10, this.minMaxXGlobal[0]), Math.max(minMaxX[1] + 10, this.minMaxXGlobal[1])]
@@ -102,7 +100,7 @@ export default class Network {
           .data(localairports)
           .join('circle')
 
-        circlesTooltips.attr("r", d => Math.max(10, self.scaleSize(d.freq)))
+        circlesTooltips.attr("r", d => Math.max(8, self.scaleSize(d.freq)))
           .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
           .attr("opacity", 0)
           .on("mouseover", function (m, data) {
@@ -160,8 +158,8 @@ export default class Network {
 
     if (db) {
       this.svg.transition()
-        .duration(1000)
-        .attr("viewBox", this.limits[this.levelGeo[this.currentGeo] - 1])
+      .duration(1000)
+      .attr("viewBox", this.limits[this.levelGeo[this.currentGeo] - 1])
     }
 
     this.svg.selectAll('circle.' + this.currentGeo)
