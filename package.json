@@ -1,21 +1,27 @@
 {
-  "name": "tp2",
-  "version": "1.0.1",
-  "description": "TP pour le cours INF8808.",
+  "name": "Dataviz aéronautique",
+  "version": "0.2.0",
+  "description": "Bilan de l'aviation au Québec",
   "main": "src/index.js",
   "scripts": {
     "build": "parcel build ./src/index.html",
     "start": "parcel ./src/index.html --log-level=2 --port=8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Olivia Gélinas",
+  "author": "",
   "license": "UNLICENSED",
   "dependencies": {
     "@types/d3-tip": "^3.5.5",
     "d3": "^7.6.1",
+    "d3-ease": "^3.0.1",
+    "d3-geo": "^3.1.0",
+    "d3-geo-projection": "^4.0.0",
     "d3-tip": "^0.9.1",
+    "distinct-colors": "^3.0.0",
+    "intersection-observer": "^0.12.2",
     "parcel-bundler": "^1.12.4",
-    "parcel-plugin-static-files-copy": "^2.4.3"
+    "parcel-plugin-static-files-copy": "^2.4.3",
+    "scrollama": "^3.2.0"
   },
   "devDependencies": {
     "eslint": "^7.4.0",

@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Aviation au Québec</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="./scripts/scrolly/style.css" />
+	<link rel="stylesheet" href="./assets/style.css" />
 </head>
-  <body>
-    <svg width="960" height="500"></svg>
-    <script src="./index.js"></script>
-  </body>
+
+<body>
+	<main>
+		<section id="intro">
+			<h1 class="intro__hed">L'aviation au Québec</h1>
+			<p class="intro__dek">
+				Etat des lieux du transport aérien au Québec en 2022
+			</p>
+		</section>
+
+
+		<div class="viz" id="viz1">
+			<div id="slider-value"></div>
+			<input type="range" min="1" max="15" value="5" class="slider" id="slider">
+			<div class="bucket-container">
+				<div class="hublot left-hublot">
+					<div class="hublot-lid">
+						<div class="hublot-handle"></div>
+					</div>
+				</div>
+				<div class="bucket" id="topBucket">
+					<div class="border-bucket">
+						<svg id="topSVG"></svg>
+					</div>
+				</div>
+				<div class="bucket" id="bottomBucket">
+					<svg id="bottomSVG"></svg>
+				</div>
+				<div class="hublot right-hublot">
+					<div class="hublot-lid">
+						<div class="hublot-handle"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section id="scrolly">
+			<article>
+				<div class="step" data-step="1">
+					<p>STEP 1</p>
+				</div>
+				<div class="step" data-step="2">
+					<p>STEP 2</p>
+				</div>
+				<div class="step" data-step="3">
+					<p>STEP 3</p>
+				</div>
+				<div class="step" data-step="4">
+					<p>STEP 4</p>
+				</div>
+				<div class="step" data-step="5">
+					<p>STEP 5</p>
+				</div>
+				<div class="step" data-step="6">
+					<p>STEP 6</p>
+				</div>
+				<div class="step" data-step="7">
+					<p>STEP 7</p>
+				</div>
+			</article>
+
+			<figure class="viz" id="viz2"></figure>
+		</section>
+
+
+		<div class="viz" id="viz3"></div>
+		<div class="viz" id="viz4"></div>
+	</main>
+
+	<!-- <div class='debug'></div> -->
+	<script type="text/javascript" src="https://d3js.org/d3.v7.js"></script>
+	<script src="https://unpkg.com/scrollama@3.2.0/build/scrollama.js"></script>
+  <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+
+	<script src="index.js"></script>
+	<script src="./scripts/viz3.js"></script>
+</body>
+
 </html>
