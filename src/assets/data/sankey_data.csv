@@ -1,0 +1,305 @@
+source,target,count
+,short,39809
+AIR CANADA,long,5414
+KLM,long,281
+FEDEX,short,1168
+SUNWING,medium,722
+CARGOJET,short,1572
+AIR CANADA,short,15081
+NULL,short,5607
+,medium,5600
+AIR CANADA,medium,10047
+JAZZ,short,15489
+DELTA,short,2893
+LUFTHANSA,long,526
+AIRFRANS,long,980
+SKYWEST,short,742
+TRANSAT,long,1119
+QATARI,long,447
+NULL,medium,1719
+TURKAIR,long,66
+AIR PORTUGAL,long,213
+Encore,short,2492
+UPS,short,470
+WESTJET,short,455
+KALITTA,short,109
+Maple,short,4880
+AUSTRIAN,long,277
+TUNAIR,long,147
+BOMBARDIER,medium,192
+PORTER AIR,short,4573
+AIR TRANSAT,short,1046
+SWISS,long,370
+AIR ALGERIE,long,317
+AMERICAN,short,1562
+FLAIR,short,442
+,long,1650
+AIR WISCONSIN,short,708
+BRICKYARD,short,1154
+AIR TRANSAT,medium,1089
+NULL,long,728
+AIR INUIT,short,1965
+Envoy,short,1508
+AIR BRAVO,short,429
+ROUGE,medium,371
+ACEY,short,348
+FLAIR,medium,439
+SPEEDBIRD,long,192
+BOMBARDIER,short,284
+UNITED,short,1051
+JAZZ,medium,422
+ROUGE,short,741
+SUNWING,short,674
+PASCAN,short,445
+AIR TRANSAT,long,1261
+SPEEDBIRD,medium,126
+COPA,short,95
+AEROMEXICO,medium,358
+SUNWING,long,100
+WESTJET,long,1
+HELI CZECH,short,5
+TRANSAT,medium,385
+BOMBARDIER,long,24
+COPA,long,41
+HELI CZECH,medium,3
+WESTJET,medium,615
+DELTA,medium,2
+EMPRESS,short,616
+AIR SHUTTLE,short,80
+TRANSAT,short,283
+AIRSPRINT,short,677
+AIRFRANS,medium,236
+KLM,medium,42
+EXECJET,short,515
+AIR PORTUGAL,medium,45
+JORDANIAN,long,169
+CARGOJET,long,36
+OZWEST,short,135
+GATEWAY,short,379
+JAZZ,long,4
+FLIGHTCRAFT,short,119
+SKYTRAVEL,short,68
+CARGOJET,medium,132
+SWISSAIR,long,50
+AIR INUIT,medium,21
+ALLEGIANT,medium,12
+SAINT-PIERRE,short,85
+AIR BRAVO,medium,59
+FLIGHTCRAFT,medium,90
+ARKEFLY,medium,115
+MORNINGSTAR,short,433
+PASCAN,medium,48
+COPA,medium,175
+AMERICAN,medium,537
+ARKEFLY,short,101
+BUFFALO AIR,short,1
+SAINT-PIERRE,medium,11
+IRAQI,long,2
+AIR CANADA ,short,180
+PRIORITY AIR,short,8
+EXECJET,medium,45
+EAGLE FLIGHT,short,228
+TOMSON,short,94
+AIRSPRINT,medium,46
+TOMSON,long,11
+ROYALAIR MAROC,long,409
+FLIGHTCRAFT,long,2
+ANTONOV BUREAU,long,4
+TOMSON,medium,73
+JORDANIAN,short,171
+Air System,short,56
+EIFEL,short,2
+ROUGE,long,18
+PROPAIR,short,75
+SKYTRAVEL,medium,69
+CHARTRIGHT,short,212
+Stingray,short,8
+BERRY,short,50
+ALLEGIANT,short,13
+AEROMEXICO,short,4
+AIRFRANS,short,14
+AEROMEXICO,long,31
+VOLGA-DNEPR,long,2
+AIRSPRINT,long,1
+SHAMROCK,long,1
+SPEEDBIRD,short,6
+KLM,short,3
+PRIORITY AIR,medium,2
+LINDBERGH,short,10
+SHAMROCK,medium,1
+UKRAINE ALLIANCE,medium,4
+BOREK AIR,short,7
+CHARTRIGHT,medium,14
+ROYALAIR MAROC,medium,43
+AIR BRAVO,long,2
+ARKEFLY,long,19
+KALITTA,medium,1
+TURKISH,long,170
+FRENCH AIR FORCE,medium,1
+AIR PORTUGAL,short,1
+CONNIE,short,111
+SYNCRUDE,short,32
+UNITED EUROPEAN,short,2
+BERRY,medium,4
+PORTER AIR,medium,4
+EUROCAT,short,1
+GIANT,short,21
+EUROCAT,medium,1
+Air System,medium,6
+Stingray,medium,2
+VISTA,long,4
+ROYALAIR MAROC,short,19
+AIRBALTIC,long,2
+AERONAVES TSM,short,4
+SNOWCAP,long,1
+SUN COUNTRY,short,46
+CASTLE,short,17
+SNOWCAP,short,1
+GULFSTREAM TEST,short,2
+WORLDGATE,short,1
+WORLDGATE,long,1
+WORLDWIDE,short,4
+VISTA,short,7
+WORLDWIDE,medium,2
+PIEDMONT,short,320
+WORLDWIDE,long,1
+GOODSPEED,short,2
+SKYWEST,medium,2
+VISTA,medium,3
+AIR INUIT,long,2
+EXECJET,long,6
+GRAY BIRD,short,7
+SYNCRUDE,medium,2
+Red Stripe,short,6
+ARAB WINGS,medium,1
+ARAB WINGS,short,1
+MERMAID,short,3
+HUNGARIAN AIRFORCE,long,2
+GLACIER,short,20
+NAV CAN,short,5
+HUNGARIAN AIRFORCE,short,2
+PROPAIR,long,3
+Encore,medium,4
+UPS,medium,1
+Maple,medium,965
+WATERSKI,short,122
+ICEAIR,medium,22
+AIR CANADA ,medium,40
+SWISS AMBULANCE,short,1
+SWISS AMBULANCE,long,1
+JETFLITE,medium,1
+JETFLITE,long,5
+SWISSAIR,medium,1
+SKYTRAVEL,long,107
+GRAY BIRD,long,1
+MOONRAKER,long,8
+CORPORATE,short,11
+MOONRAKER,medium,1
+NATIONAL CARGO,medium,2
+MOONRAKER,short,2
+MERMAID,long,2
+NAV CAN,medium,3
+TUNAIR,medium,1
+LUFTHANSA,short,3
+GERMAN AIR FORCE,short,4
+GERMAN AIR FORCE,long,7
+SUN COUNTRY,medium,4
+HOPA-JET,medium,1
+FINNAIR,long,108
+HOPA-JET,short,1
+CASTLE,medium,1
+FLEXJET,short,5
+CORSAIR,long,133
+UNIJET-ROCKBAND,short,2
+ATHABASKA,short,6
+SEABORNE,short,48
+GIANT,medium,1
+CARGOLUX,long,2
+WATERSKI,medium,1
+QATARI,short,5
+SILK WEST,long,1
+SILK WEST,short,6
+FINNAIR,short,5
+AIR AZORES,short,11
+EUROCAT,long,2
+DURANGO JET,medium,1
+Novajet,short,2
+OPTIONS,short,2
+ENERGY,short,2
+CHRONOS,short,3
+CHARTRIGHT,long,1
+EASTCOAST JET,short,2
+SILK WEST,medium,1
+QATARI,medium,2
+SERTA,medium,2
+PROPAIR,medium,1
+FLEXJET,long,1
+AIR WISCONSIN,medium,1
+ICEAIR,short,4
+ICEAIR,long,22
+AMERICAN,long,3
+Compass Rose,short,12
+EMPRESS,medium,4
+AIR CHIEF,medium,1
+HORIZON AIR,short,8
+LINEAS CARDINAL,short,2
+AIR AZORES,long,4
+AIR CHIEF,long,1
+AVANTI AIR,short,2
+HELI CZECH,long,2
+CORPORATE,medium,1
+ASTANALINE,long,1
+VOLUNTEER,short,4
+ABEX,short,2
+ASTANALINE,short,1
+LUXWING,long,2
+CREE,short,134
+Air Hamburg,long,4
+Air Hamburg,short,4
+AIR ROYAL,short,3
+AIR CENTRAL,short,11
+PENINSULA,medium,3
+AIR CHIEF,short,3
+AFR442,long,1
+AFR442,medium,1
+JET USA,short,4
+JET SPEED,short,2
+C-GJKI,short,2
+CONAIR-CANADA,short,1
+SILVER ARROWS,long,2
+AIR ROYAL,medium,1
+BLACKBIRD,short,1
+BLACKBIRD,medium,2
+BOEING,short,4
+CZECH AIR FORCE,short,1
+CZECH AIR FORCE,long,1
+PENINSULA,short,3
+TUNAIR,short,1
+CREE,medium,1
+CORSAIR,medium,1
+Encore,long,1
+GERMAN AIR FORCE,medium,1
+short,evening,21850
+long,evening,3461
+medium,evening,5063
+short,night,9582
+long,night,4834
+medium,night,2604
+long,morning,5523
+short,morning,39855
+medium,morning,8230
+short,afternoon,42230
+medium,afternoon,9115
+long,afternoon,1712
+evening,International,20799
+evening,Quebec,2068
+evening,Canada,7507
+night,Quebec,925
+night,International,12010
+night,Canada,4085
+morning,International,38068
+morning,Quebec,4449
+morning,Canada,11091
+afternoon,International,36969
+afternoon,Canada,11523
+afternoon,Quebec,4565
