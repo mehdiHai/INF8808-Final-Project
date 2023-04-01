@@ -1,0 +1,1084 @@
+airline,duration,departureTime,flightRange,count
+,short,evening,International,4772
+AIR CANADA,long,evening,International,1731
+KLM,long,evening,International,108
+FEDEX,short,evening,International,176
+SUNWING,medium,evening,International,119
+CARGOJET,short,evening,International,119
+AIR CANADA,short,evening,International,1176
+NULL,short,evening,International,710
+,medium,evening,International,660
+AIR CANADA,medium,evening,Quebec,466
+AIR CANADA,medium,evening,International,1527
+JAZZ,short,evening,International,1542
+JAZZ,short,evening,Canada,1347
+NULL,short,evening,Canada,216
+DELTA,short,evening,International,717
+,short,evening,Canada,1010
+LUFTHANSA,long,evening,International,228
+AIR CANADA,short,evening,Canada,1829
+AIR CANADA,medium,evening,Canada,548
+AIRFRANS,long,evening,International,168
+JAZZ,short,night,Quebec,138
+SKYWEST,short,night,International,20
+TRANSAT,long,night,International,403
+JAZZ,short,night,International,907
+DELTA,short,night,International,65
+AIR CANADA,medium,night,Canada,227
+,medium,night,International,307
+NULL,short,night,International,235
+NULL,short,night,Canada,149
+QATARI,long,night,International,426
+AIR CANADA,long,night,International,1531
+NULL,medium,night,International,257
+TURKAIR,long,night,International,34
+AIR PORTUGAL,long,night,International,84
+Encore,short,night,International,19
+AIR CANADA,short,night,Canada,690
+UPS,short,night,International,258
+AIR CANADA,short,night,International,529
+CARGOJET,short,night,International,328
+AIRFRANS,long,night,International,197
+WESTJET,short,night,Canada,174
+CARGOJET,short,night,Canada,695
+AIR CANADA,medium,night,Quebec,62
+KALITTA,short,night,International,17
+Maple,short,night,Canada,230
+AUSTRIAN,long,night,International,137
+TUNAIR,long,morning,International,30
+JAZZ,short,morning,Quebec,269
+JAZZ,short,morning,International,2853
+AIR CANADA,short,morning,International,1746
+TRANSAT,long,morning,International,407
+Maple,short,morning,International,1686
+AIR CANADA,short,morning,Canada,2776
+BOMBARDIER,medium,morning,International,39
+PORTER AIR,short,morning,Canada,1350
+,short,morning,International,11562
+AIR TRANSAT,short,morning,International,139
+AIR CANADA,long,morning,International,1766
+DELTA,short,morning,International,1177
+SWISS,long,morning,International,195
+Maple,short,morning,Canada,82
+NULL,short,morning,International,1324
+AIR ALGERIE,long,morning,International,78
+AMERICAN,short,morning,International,728
+FLAIR,short,morning,Canada,175
+,long,morning,Quebec,76
+SKYWEST,short,morning,International,234
+WESTJET,short,morning,Canada,186
+,medium,morning,International,1663
+AIR WISCONSIN,short,morning,International,317
+SUNWING,medium,morning,International,268
+BRICKYARD,short,morning,International,485
+AIRFRANS,long,morning,International,334
+AIR CANADA,medium,morning,International,2088
+PORTER AIR,short,morning,International,119
+AIR TRANSAT,medium,morning,International,276
+AIR CANADA,medium,morning,Quebec,579
+,medium,morning,Quebec,214
+NULL,long,morning,Quebec,71
+AIR CANADA,medium,morning,Canada,500
+JAZZ,short,morning,Canada,1905
+NULL,medium,morning,International,349
+NULL,short,morning,Canada,333
+Encore,short,morning,Canada,732
+AIR INUIT,short,morning,International,612
+Envoy,short,morning,International,599
+Maple,short,afternoon,International,1828
+JAZZ,short,afternoon,International,3912
+AIR TRANSAT,medium,afternoon,International,314
+AIR BRAVO,short,afternoon,International,135
+ROUGE,medium,afternoon,International,144
+NULL,short,afternoon,Canada,345
+SUNWING,medium,afternoon,International,279
+,short,afternoon,International,12630
+ACEY,short,afternoon,International,107
+Encore,short,afternoon,Canada,758
+AIR TRANSAT,short,afternoon,International,286
+FLAIR,medium,afternoon,International,49
+AIR CANADA,medium,afternoon,International,1834
+Maple,short,afternoon,Canada,27
+SPEEDBIRD,long,afternoon,International,150
+AIR CANADA,short,afternoon,Canada,2739
+BOMBARDIER,short,afternoon,International,36
+AIR CANADA,medium,afternoon,Canada,1030
+AIRFRANS,long,afternoon,International,281
+PORTER AIR,short,afternoon,International,130
+,short,afternoon,Canada,2161
+UNITED,short,afternoon,International,376
+Envoy,short,afternoon,International,743
+,medium,afternoon,International,1711
+JAZZ,medium,afternoon,Quebec,121
+DELTA,short,afternoon,International,930
+AIR CANADA,short,afternoon,International,2212
+AIR WISCONSIN,short,afternoon,International,291
+AIR CANADA,medium,afternoon,Quebec,580
+NULL,medium,afternoon,International,436
+JAZZ,short,afternoon,Canada,1710
+PORTER AIR,short,afternoon,Canada,1375
+FLAIR,medium,afternoon,Canada,128
+AIR INUIT,short,afternoon,International,525
+AMERICAN,short,afternoon,International,371
+TUNAIR,long,afternoon,International,62
+NULL,short,afternoon,International,1755
+ROUGE,short,afternoon,International,218
+SUNWING,short,afternoon,International,113
+AIR TRANSAT,medium,evening,International,198
+NULL,medium,evening,International,221
+PASCAN,short,evening,International,80
+SWISS,long,evening,International,62
+PORTER AIR,short,evening,Canada,919
+AMERICAN,short,evening,International,409
+,short,evening,Quebec,446
+FLAIR,short,evening,International,10
+Encore,short,evening,Canada,569
+PORTER AIR,short,evening,International,57
+AUSTRIAN,long,evening,International,128
+Maple,short,evening,International,803
+AIR WISCONSIN,short,evening,International,96
+AIR ALGERIE,long,evening,International,34
+BRICKYARD,short,evening,International,236
+AIR TRANSAT,long,evening,International,222
+JAZZ,short,evening,Quebec,148
+FLAIR,medium,evening,Canada,72
+PORTER AIR,short,night,Canada,18
+AIR TRANSAT,short,night,International,34
+BOMBARDIER,short,night,International,6
+SPEEDBIRD,medium,night,International,113
+COPA,short,night,International,14
+,short,night,International,1656
+AEROMEXICO,medium,night,International,170
+AIR CANADA,medium,night,International,606
+AIR TRANSAT,long,morning,International,401
+SUNWING,long,morning,Quebec,62
+AIR TRANSAT,long,morning,Quebec,109
+WESTJET,long,morning,Canada,1
+ROUGE,medium,morning,International,141
+TURKAIR,long,morning,International,32
+,short,morning,Quebec,1154
+HELI CZECH,short,morning,International,5
+TRANSAT,medium,morning,International,149
+KLM,long,morning,International,160
+BOMBARDIER,long,morning,Quebec,14
+COPA,long,morning,International,29
+AIR CANADA,long,morning,Quebec,163
+BOMBARDIER,short,morning,International,28
+AIR BRAVO,short,morning,International,153
+AEROMEXICO,medium,morning,International,139
+LUFTHANSA,long,morning,International,258
+Encore,short,morning,International,67
+ACEY,short,morning,International,155
+HELI CZECH,medium,afternoon,International,2
+AIR CANADA,long,afternoon,International,197
+FLAIR,short,afternoon,International,41
+AIR PORTUGAL,long,afternoon,International,25
+SKYWEST,short,afternoon,International,306
+WESTJET,medium,afternoon,Quebec,372
+DELTA,medium,afternoon,International,1
+EMPRESS,short,afternoon,International,251
+KALITTA,short,afternoon,International,81
+CARGOJET,short,afternoon,Canada,17
+AIR SHUTTLE,short,afternoon,International,34
+,short,afternoon,Quebec,1447
+BOMBARDIER,medium,afternoon,International,26
+NULL,medium,afternoon,Canada,88
+FLAIR,short,afternoon,Canada,89
+NULL,short,afternoon,Quebec,244
+CARGOJET,short,afternoon,International,118
+TRANSAT,short,afternoon,International,63
+AIRSPRINT,short,afternoon,Canada,142
+AIR SHUTTLE,short,evening,International,29
+FLAIR,short,evening,Canada,25
+AIRSPRINT,short,evening,Canada,57
+AIR INUIT,short,evening,International,618
+WESTJET,medium,evening,Quebec,47
+AIRFRANS,medium,evening,International,105
+KLM,medium,evening,International,41
+EMPRESS,short,evening,International,122
+EXECJET,short,evening,International,76
+LUFTHANSA,long,night,International,28
+NULL,medium,night,Canada,51
+ACEY,short,night,International,20
+JAZZ,short,night,Canada,339
+SUNWING,short,night,International,54
+AIRFRANS,medium,night,International,99
+AIR PORTUGAL,medium,night,International,45
+EXECJET,short,night,International,19
+FEDEX,short,night,International,470
+CARGOJET,short,morning,Canada,77
+JORDANIAN,long,morning,International,5
+UPS,short,morning,International,55
+,short,morning,Canada,2087
+FEDEX,short,morning,International,182
+CARGOJET,long,morning,International,31
+,long,morning,International,497
+OZWEST,short,morning,International,29
+SUNWING,short,morning,International,155
+BOMBARDIER,short,morning,Canada,23
+GATEWAY,short,afternoon,International,80
+OZWEST,short,afternoon,International,61
+Encore,short,afternoon,International,55
+JAZZ,short,afternoon,Quebec,419
+AIRSPRINT,short,afternoon,International,173
+JAZZ,long,afternoon,International,2
+PASCAN,short,afternoon,International,134
+TRANSAT,medium,afternoon,International,153
+AIR BRAVO,short,evening,International,70
+SUNWING,short,evening,International,144
+GATEWAY,short,evening,International,81
+AIR TRANSAT,short,evening,International,208
+FLIGHTCRAFT,short,evening,International,25
+AIRSPRINT,short,evening,International,41
+SKYTRAVEL,short,evening,International,8
+AIR INUIT,short,night,International,31
+SUNWING,medium,night,International,45
+BRICKYARD,short,night,International,31
+AIR TRANSAT,medium,night,International,111
+JORDANIAN,long,night,International,163
+,short,night,Quebec,219
+AMERICAN,short,night,International,53
+,short,night,Canada,665
+AIR TRANSAT,long,night,International,515
+NULL,short,morning,Quebec,207
+CARGOJET,short,morning,International,155
+CARGOJET,medium,morning,International,118
+SWISSAIR,long,morning,International,27
+SUNWING,short,morning,Canada,95
+AIRSPRINT,short,morning,Canada,100
+AIR INUIT,short,morning,Quebec,93
+AIRSPRINT,short,morning,International,114
+FLIGHTCRAFT,short,morning,International,50
+AIR INUIT,medium,morning,International,6
+JAZZ,medium,morning,Quebec,102
+ALLEGIANT,medium,morning,International,5
+EMPRESS,short,morning,International,227
+BRICKYARD,short,afternoon,International,398
+SAINT-PIERRE,short,afternoon,International,33
+ALLEGIANT,medium,afternoon,International,7
+FLIGHTCRAFT,short,afternoon,International,40
+AIR BRAVO,medium,afternoon,International,34
+JAZZ,medium,afternoon,International,33
+AIR INUIT,short,afternoon,Quebec,28
+WESTJET,short,afternoon,Canada,39
+,long,afternoon,International,228
+AIRFRANS,medium,afternoon,International,32
+NULL,short,evening,Quebec,71
+UNITED,short,evening,International,218
+JAZZ,medium,evening,International,52
+SWISSAIR,long,evening,International,10
+WESTJET,short,evening,Canada,42
+FLIGHTCRAFT,medium,evening,International,13
+SKYWEST,short,evening,International,180
+TUNAIR,long,evening,International,5
+NULL,long,night,International,208
+NULL,short,night,Quebec,18
+ARKEFLY,medium,night,International,5
+GATEWAY,short,night,International,26
+SUNWING,short,night,Canada,81
+Maple,short,night,International,152
+MORNINGSTAR,short,night,Canada,276
+NULL,long,morning,International,259
+MORNINGSTAR,short,morning,Canada,15
+PASCAN,medium,morning,International,19
+AIR BRAVO,medium,morning,International,17
+SUNWING,long,morning,Canada,5
+COPA,medium,morning,International,112
+GATEWAY,short,morning,International,192
+Maple,short,afternoon,Quebec,18
+AMERICAN,medium,afternoon,International,225
+COPA,medium,afternoon,International,3
+EXECJET,short,afternoon,International,229
+ARKEFLY,medium,afternoon,International,44
+FLIGHTCRAFT,medium,afternoon,International,42
+,medium,afternoon,Canada,284
+NULL,long,afternoon,Quebec,14
+TRANSAT,medium,evening,International,48
+ARKEFLY,short,evening,International,27
+AEROMEXICO,medium,evening,International,20
+,medium,evening,Canada,117
+BUFFALO AIR,short,night,International,1
+PASCAN,short,night,International,19
+PASCAN,short,morning,International,158
+UNITED,short,morning,International,434
+FEDEX,short,morning,Canada,117
+BOMBARDIER,long,afternoon,Quebec,6
+ARKEFLY,short,afternoon,International,26
+SAINT-PIERRE,medium,afternoon,International,10
+JAZZ,medium,afternoon,Canada,39
+AIR BRAVO,short,afternoon,Quebec,17
+OZWEST,short,evening,International,43
+IRAQI,long,evening,International,2
+SAINT-PIERRE,short,evening,International,25
+ROUGE,medium,evening,International,69
+FEDEX,short,evening,Canada,110
+COPA,short,evening,International,72
+JORDANIAN,long,evening,International,1
+,medium,night,Canada,89
+FLAIR,short,night,Canada,4
+AIR CANADA ,short,night,Canada,13
+,long,night,International,521
+EXECJET,short,morning,International,154
+PRIORITY AIR,short,afternoon,International,7
+PASCAN,short,afternoon,Quebec,21
+AIR CANADA ,short,afternoon,International,62
+EXECJET,medium,afternoon,International,21
+EAGLE FLIGHT,short,afternoon,International,58
+AIR TRANSAT,short,evening,Canada,230
+AIR BRAVO,short,evening,Quebec,14
+EAGLE FLIGHT,short,evening,International,70
+AIRSPRINT,short,night,Canada,12
+ARKEFLY,medium,morning,International,39
+TOMSON,short,morning,Canada,23
+AIRSPRINT,medium,morning,Quebec,3
+TOMSON,long,morning,Canada,1
+AIR CANADA ,short,morning,International,58
+FLIGHTCRAFT,medium,morning,International,27
+NULL,medium,morning,Quebec,94
+,medium,afternoon,Quebec,211
+UPS,short,afternoon,International,12
+ROYALAIR MAROC,long,afternoon,International,214
+FLIGHTCRAFT,long,afternoon,Quebec,2
+AIRSPRINT,medium,afternoon,International,12
+ARKEFLY,medium,evening,International,27
+AIR CANADA ,short,evening,International,35
+TOMSON,short,evening,Canada,4
+ROYALAIR MAROC,long,evening,International,5
+ANTONOV BUREAU,long,night,International,3
+TOMSON,medium,morning,International,30
+AIR BRAVO,short,morning,Quebec,22
+AIRSPRINT,medium,morning,International,22
+TOMSON,medium,afternoon,International,33
+LUFTHANSA,long,afternoon,International,12
+PASCAN,medium,afternoon,International,21
+AIR INUIT,short,evening,Canada,15
+TOMSON,medium,evening,International,9
+,long,evening,International,218
+PASCAN,short,evening,Quebec,7
+UPS,short,evening,International,144
+NULL,medium,evening,Canada,45
+ACEY,short,evening,International,66
+TOMSON,short,night,International,6
+MORNINGSTAR,short,night,International,15
+AIR CANADA,short,morning,Quebec,525
+PASCAN,short,morning,Quebec,18
+AIR INUIT,short,morning,Canada,18
+BOMBARDIER,medium,morning,Quebec,72
+EAGLE FLIGHT,short,morning,International,96
+AIR INUIT,short,afternoon,Canada,9
+,long,afternoon,Quebec,58
+JORDANIAN,short,afternoon,International,38
+ANTONOV BUREAU,long,afternoon,International,1
+SUNWING,short,evening,Canada,13
+ROUGE,short,evening,International,120
+COPA,medium,evening,International,60
+MORNINGSTAR,short,evening,International,73
+JORDANIAN,short,evening,International,36
+EMPRESS,short,night,International,6
+AIR BRAVO,short,night,International,9
+ROUGE,short,morning,International,242
+Air System,short,evening,International,7
+TOMSON,short,night,Canada,20
+EIFEL,short,night,International,1
+EIFEL,short,morning,International,1
+AIR SHUTTLE,short,morning,International,15
+ROUGE,long,morning,Quebec,8
+EXECJET,medium,morning,International,19
+PROPAIR,short,morning,International,24
+BOMBARDIER,short,afternoon,Canada,6
+FEDEX,short,afternoon,International,85
+Air System,short,afternoon,International,30
+PASCAN,medium,evening,Quebec,2
+,long,evening,Canada,6
+AIR CANADA ,short,morning,Canada,7
+PROPAIR,short,morning,Quebec,2
+SKYTRAVEL,medium,morning,International,13
+CHARTRIGHT,short,morning,International,24
+Stingray,short,morning,International,4
+CHARTRIGHT,short,morning,Canada,36
+Stingray,short,afternoon,International,1
+AIR CANADA,long,afternoon,Quebec,14
+PROPAIR,short,evening,International,18
+BERRY,short,night,International,17
+PROPAIR,short,afternoon,International,19
+SUNWING,long,afternoon,Quebec,8
+AIRSPRINT,short,afternoon,Quebec,18
+AUSTRIAN,long,morning,International,12
+,long,morning,Canada,20
+ALLEGIANT,short,afternoon,International,6
+AEROMEXICO,short,evening,International,3
+AIRFRANS,short,evening,International,6
+UNITED,short,night,International,21
+AEROMEXICO,long,night,International,5
+VOLGA-DNEPR,long,morning,International,1
+SUNWING,long,morning,International,3
+AIRSPRINT,long,afternoon,Canada,1
+AIR CANADA,short,afternoon,Quebec,380
+AIR CANADA,short,evening,Quebec,237
+SPEEDBIRD,long,night,International,30
+ROYALAIR MAROC,long,night,International,190
+NULL,long,morning,Canada,7
+SHAMROCK,long,morning,International,1
+SPEEDBIRD,short,evening,International,5
+KLM,short,evening,Canada,1
+TOMSON,short,evening,International,12
+ROUGE,short,night,International,53
+VOLGA-DNEPR,long,night,International,1
+SPEEDBIRD,short,night,Canada,1
+TRANSAT,short,morning,Canada,3
+JAZZ,medium,morning,International,47
+CARGOJET,medium,afternoon,International,6
+NULL,medium,afternoon,Quebec,70
+PRIORITY AIR,medium,afternoon,International,1
+LINDBERGH,short,afternoon,International,5
+SUNWING,short,afternoon,Canada,15
+LINDBERGH,short,evening,International,3
+SHAMROCK,medium,evening,International,1
+Encore,short,night,Canada,104
+BOMBARDIER,short,night,Canada,11
+SUNWING,medium,morning,Canada,3
+COPA,short,morning,International,9
+TRANSAT,short,afternoon,Canada,43
+PASCAN,medium,afternoon,Quebec,2
+UKRAINE ALLIANCE,medium,morning,International,2
+ARKEFLY,short,morning,International,26
+Air System,short,afternoon,Quebec,4
+AIRSPRINT,medium,afternoon,Quebec,3
+BOMBARDIER,short,evening,International,19
+NULL,long,evening,International,120
+Stingray,short,night,International,3
+ARKEFLY,short,morning,Canada,8
+BOREK AIR,short,morning,Canada,3
+SUNWING,long,afternoon,International,3
+AIR INUIT,medium,afternoon,Canada,2
+BOREK AIR,short,afternoon,Canada,4
+CHARTRIGHT,short,afternoon,International,31
+AIR SHUTTLE,short,evening,Quebec,2
+CHARTRIGHT,short,evening,Canada,24
+BOMBARDIER,medium,evening,International,10
+AIR INUIT,short,night,Quebec,3
+AIR TRANSAT,short,afternoon,Canada,115
+ROUGE,long,afternoon,Quebec,10
+CHARTRIGHT,medium,afternoon,International,6
+AIR CANADA,short,night,Quebec,242
+PROPAIR,short,night,International,4
+ROYALAIR MAROC,medium,night,International,39
+CHARTRIGHT,short,night,Canada,15
+KLM,long,afternoon,International,9
+SPEEDBIRD,medium,evening,International,11
+KLM,long,night,International,4
+,medium,morning,Canada,142
+AIR BRAVO,long,afternoon,Quebec,1
+BERRY,short,afternoon,International,12
+BERRY,short,evening,International,7
+ARKEFLY,short,night,Canada,3
+AIR BRAVO,long,morning,International,1
+LINDBERGH,short,morning,International,2
+ARKEFLY,long,morning,Quebec,16
+,medium,evening,Quebec,147
+KALITTA,medium,night,International,1
+AIRSPRINT,short,morning,Quebec,3
+TURKISH,long,afternoon,International,1
+DELTA,short,night,Canada,4
+AIR INUIT,short,night,Canada,8
+TURKISH,long,morning,International,86
+BOMBARDIER,short,morning,Quebec,68
+AIR INUIT,medium,afternoon,International,11
+JORDANIAN,short,night,International,5
+ARKEFLY,long,morning,International,1
+TOMSON,short,morning,International,14
+FRENCH AIR FORCE,medium,evening,International,1
+AIR BRAVO,short,morning,Canada,4
+TRANSAT,short,evening,Quebec,4
+JAZZ,medium,night,International,1
+AIR PORTUGAL,short,evening,International,1
+CONNIE,short,night,International,64
+PASCAN,medium,morning,Quebec,2
+NULL,long,afternoon,International,36
+BOMBARDIER,short,evening,Canada,7
+ARKEFLY,short,night,International,7
+CONNIE,short,morning,International,44
+Air System,short,morning,International,11
+SYNCRUDE,short,afternoon,International,3
+UNITED EUROPEAN,short,afternoon,International,1
+UNITED EUROPEAN,short,evening,International,1
+SYNCRUDE,short,afternoon,Canada,11
+CHARTRIGHT,short,afternoon,Canada,69
+NULL,medium,evening,Quebec,40
+KALITTA,short,morning,International,2
+JAZZ,medium,morning,Canada,18
+UKRAINE ALLIANCE,medium,afternoon,International,1
+BERRY,medium,afternoon,International,3
+FEDEX,short,afternoon,Canada,2
+AIRSPRINT,short,evening,Quebec,11
+BOMBARDIER,medium,night,International,7
+Envoy,short,evening,International,148
+PORTER AIR,medium,afternoon,Quebec,2
+CONNIE,short,afternoon,International,2
+FLAIR,short,afternoon,Quebec,42
+KALITTA,short,evening,International,9
+MORNINGSTAR,short,night,Quebec,12
+NULL,long,afternoon,Canada,2
+PORTER AIR,short,afternoon,Quebec,124
+PRIORITY AIR,short,evening,International,1
+PRIORITY AIR,medium,night,International,1
+BERRY,short,morning,International,13
+AEROMEXICO,medium,afternoon,International,29
+ROUGE,short,evening,Canada,23
+EUROCAT,short,afternoon,Quebec,1
+Maple,short,evening,Quebec,22
+MORNINGSTAR,short,evening,Quebec,7
+EXECJET,short,evening,Quebec,1
+GIANT,short,evening,International,2
+GIANT,short,night,International,9
+EXECJET,short,afternoon,Canada,20
+BOMBARDIER,short,afternoon,Quebec,64
+EUROCAT,medium,evening,International,1
+CARGOJET,short,evening,Quebec,29
+ARKEFLY,short,evening,Canada,3
+ROUGE,medium,night,International,14
+AIR TRANSAT,short,afternoon,Quebec,4
+EAGLE FLIGHT,short,night,International,4
+NULL,medium,morning,Canada,47
+ALLEGIANT,short,morning,International,7
+Air System,medium,night,International,1
+TRANSAT,short,evening,Canada,66
+BERRY,medium,morning,International,1
+AIR BRAVO,medium,afternoon,Quebec,3
+Stingray,medium,night,International,1
+EXECJET,short,evening,Canada,6
+VISTA,long,evening,International,1
+NULL,long,evening,Canada,9
+BOMBARDIER,medium,afternoon,Quebec,38
+TRANSAT,short,evening,International,50
+AIRSPRINT,medium,evening,International,3
+AIRFRANS,short,night,International,1
+OZWEST,short,night,International,2
+CARGOJET,long,night,International,2
+AIR CANADA,long,evening,Canada,1
+MORNINGSTAR,short,evening,Canada,27
+ROYALAIR MAROC,short,afternoon,International,1
+AIRFRANS,short,evening,Canada,1
+CARGOJET,short,night,Quebec,9
+AIRBALTIC,long,morning,International,2
+TRANSAT,long,morning,Quebec,40
+Maple,short,evening,Canada,8
+AERONAVES TSM,short,morning,International,2
+SNOWCAP,long,morning,International,1
+ROUGE,short,morning,Canada,38
+SUN COUNTRY,short,morning,International,11
+CASTLE,short,afternoon,International,13
+SUN COUNTRY,short,afternoon,International,14
+SNOWCAP,short,afternoon,International,1
+FEDEX,short,night,Canada,21
+KLM,medium,night,International,1
+,medium,night,Quebec,55
+ROUGE,short,afternoon,Canada,27
+TRANSAT,short,night,International,9
+WESTJET,short,night,International,1
+TRANSAT,short,morning,International,34
+AIR CANADA,long,afternoon,Canada,3
+SUN COUNTRY,short,evening,International,9
+Stingray,medium,evening,International,1
+JAZZ,medium,evening,Canada,5
+SUN COUNTRY,short,night,International,10
+SKYWEST,short,afternoon,Quebec,2
+CHARTRIGHT,short,evening,International,5
+TRANSAT,short,night,Canada,3
+GIANT,short,morning,International,9
+WESTJET,short,morning,International,7
+TOMSON,short,afternoon,International,15
+GULFSTREAM TEST,short,morning,International,1
+GULFSTREAM TEST,short,evening,International,1
+WORLDGATE,short,afternoon,International,1
+WORLDGATE,long,evening,International,1
+AMERICAN,medium,evening,International,96
+WORLDWIDE,short,morning,International,3
+VISTA,short,afternoon,International,3
+WORLDWIDE,medium,afternoon,International,1
+EMPRESS,short,afternoon,Quebec,3
+FLIGHTCRAFT,short,afternoon,Quebec,1
+BOMBARDIER,short,evening,Quebec,16
+PIEDMONT,short,morning,International,145
+WORLDWIDE,long,morning,International,1
+GOODSPEED,short,morning,International,1
+PIEDMONT,short,afternoon,International,109
+GOODSPEED,short,afternoon,International,1
+SKYWEST,medium,afternoon,International,1
+VISTA,medium,afternoon,Canada,1
+AIR INUIT,long,afternoon,International,1
+CARGOJET,medium,evening,International,1
+TRANSAT,long,evening,International,240
+AMERICAN,medium,night,International,4
+AMERICAN,medium,morning,International,212
+EXECJET,long,morning,International,5
+TRANSAT,medium,night,International,31
+GRAY BIRD,short,afternoon,International,7
+FEDEX,short,evening,Quebec,4
+AIR BRAVO,short,night,Quebec,2
+AIR BRAVO,short,evening,Canada,1
+SYNCRUDE,short,evening,Canada,7
+TOMSON,long,morning,International,1
+BRICKYARD,short,morning,Canada,1
+FLAIR,short,evening,Quebec,2
+WESTJET,medium,evening,International,4
+AIR WISCONSIN,short,night,International,4
+SAINT-PIERRE,short,morning,International,27
+FLAIR,short,morning,International,11
+SYNCRUDE,medium,afternoon,International,1
+WESTJET,short,afternoon,Quebec,2
+AIR TRANSAT,short,night,Canada,15
+CHARTRIGHT,medium,night,International,1
+TURKISH,long,night,International,83
+QATARI,long,morning,International,3
+EXECJET,short,morning,Canada,5
+QATARI,long,evening,International,17
+,long,night,Canada,2
+Air System,medium,morning,International,4
+AIR PORTUGAL,long,morning,International,104
+PORTER AIR,medium,morning,Canada,1
+Air System,medium,afternoon,International,1
+Red Stripe,short,afternoon,International,4
+ARAB WINGS,medium,evening,International,1
+ROYALAIR MAROC,medium,evening,International,2
+Maple,short,morning,Quebec,1
+AEROMEXICO,long,afternoon,International,3
+CHARTRIGHT,short,afternoon,Quebec,3
+ARAB WINGS,short,afternoon,International,1
+SUNWING,short,evening,Quebec,1
+CHARTRIGHT,short,night,Quebec,1
+FLAIR,medium,morning,International,34
+FLAIR,short,morning,Quebec,43
+PASCAN,medium,evening,International,2
+CARGOJET,long,afternoon,International,2
+NULL,medium,night,Quebec,21
+AIR BRAVO,medium,morning,Quebec,2
+,long,afternoon,Canada,12
+MORNINGSTAR,short,afternoon,International,2
+ROUGE,short,evening,Quebec,4
+ROUGE,short,night,Quebec,1
+MERMAID,short,evening,International,1
+TOMSON,long,morning,Quebec,8
+TRANSAT,short,morning,Quebec,4
+EXECJET,medium,night,International,1
+Red Stripe,short,morning,International,2
+PASCAN,short,night,Quebec,2
+AIRFRANS,short,afternoon,International,3
+SWISSAIR,long,night,International,1
+HUNGARIAN AIRFORCE,long,morning,International,2
+PORTER AIR,short,morning,Quebec,296
+GLACIER,short,afternoon,Canada,1
+FLAIR,medium,night,Canada,74
+TOMSON,medium,night,International,1
+NAV CAN,short,afternoon,International,2
+AIR ALGERIE,long,afternoon,International,112
+SWISSAIR,long,afternoon,International,12
+VISTA,medium,evening,International,1
+HUNGARIAN AIRFORCE,short,morning,International,1
+PROPAIR,long,morning,Quebec,1
+Encore,medium,afternoon,Canada,1
+HUNGARIAN AIRFORCE,short,afternoon,International,1
+PORTER AIR,short,evening,Quebec,176
+UPS,medium,evening,International,1
+SYNCRUDE,short,morning,Canada,2
+SWISS,long,afternoon,International,112
+Maple,medium,afternoon,International,337
+AIR INUIT,short,evening,Quebec,5
+AIR ALGERIE,long,night,International,93
+SUNWING,long,afternoon,Canada,10
+SYNCRUDE,short,evening,International,2
+SPEEDBIRD,long,evening,International,12
+COPA,long,afternoon,International,12
+UKRAINE ALLIANCE,medium,night,International,1
+Envoy,short,night,International,18
+WATERSKI,short,morning,International,29
+WATERSKI,short,afternoon,International,92
+ICEAIR,medium,night,International,7
+AIR CANADA ,medium,afternoon,International,17
+TOMSON,long,afternoon,Canada,1
+WESTJET,medium,afternoon,International,2
+AEROMEXICO,long,evening,International,18
+ICEAIR,medium,morning,International,5
+SWISS AMBULANCE,short,night,International,1
+SWISS AMBULANCE,long,morning,International,1
+CARGOJET,short,afternoon,Quebec,14
+ICEAIR,medium,afternoon,International,10
+EXECJET,short,afternoon,Quebec,4
+PIEDMONT,short,evening,International,62
+VISTA,short,morning,International,2
+CARGOJET,short,morning,Quebec,1
+JETFLITE,medium,morning,International,1
+MORNINGSTAR,short,afternoon,Quebec,6
+PIEDMONT,short,night,International,4
+CHARTRIGHT,short,night,International,3
+JETFLITE,long,morning,International,3
+SKYTRAVEL,medium,afternoon,International,24
+SYNCRUDE,short,morning,International,4
+NAV CAN,short,morning,Canada,1
+EMPRESS,short,evening,Quebec,3
+CARGOJET,medium,night,Quebec,1
+SWISSAIR,medium,morning,International,1
+AIR CANADA,long,night,Quebec,7
+TUNAIR,long,night,International,50
+SKYTRAVEL,long,morning,Canada,2
+CONNIE,short,evening,International,1
+DELTA,medium,night,International,1
+GRAY BIRD,long,afternoon,International,1
+PORTER AIR,short,night,Quebec,6
+MOONRAKER,long,afternoon,International,3
+MOONRAKER,long,morning,International,5
+TRANSAT,long,afternoon,Quebec,6
+CORPORATE,short,afternoon,International,5
+TRANSAT,long,evening,Quebec,2
+CORPORATE,short,evening,International,1
+MOONRAKER,medium,afternoon,International,1
+NATIONAL CARGO,medium,morning,International,1
+GLACIER,short,afternoon,International,7
+NATIONAL CARGO,medium,evening,International,1
+EXECJET,medium,evening,International,4
+CARGOJET,long,evening,International,1
+FEDEX,short,night,Quebec,1
+CARGOJET,medium,night,International,1
+ROYALAIR MAROC,short,evening,International,17
+MOONRAKER,short,evening,International,1
+SYNCRUDE,medium,morning,Canada,1
+SUNWING,long,evening,Quebec,4
+BERRY,short,afternoon,Canada,1
+AIRSPRINT,short,night,International,6
+CARGOJET,medium,evening,Canada,1
+Maple,short,night,Quebec,23
+SKYTRAVEL,short,morning,Canada,2
+MERMAID,long,morning,International,1
+Maple,medium,morning,International,365
+Maple,medium,evening,International,131
+WESTJET,short,evening,Quebec,2
+SKYTRAVEL,long,morning,Quebec,2
+AIR TRANSAT,medium,evening,Canada,45
+Maple,medium,night,International,3
+MERMAID,short,morning,International,1
+AIR TRANSAT,medium,afternoon,Canada,44
+AIR TRANSAT,medium,evening,Quebec,24
+AIR TRANSAT,medium,afternoon,Quebec,31
+Air System,short,morning,Canada,1
+NAV CAN,medium,morning,International,1
+Encore,short,afternoon,Quebec,88
+Encore,short,evening,Quebec,72
+TUNAIR,medium,night,International,1
+CARGOJET,medium,morning,Canada,2
+CARGOJET,medium,afternoon,Canada,2
+SKYTRAVEL,medium,night,International,3
+ARKEFLY,short,evening,Quebec,1
+FLAIR,medium,evening,International,2
+CASTLE,short,morning,International,3
+Encore,short,evening,International,26
+JAZZ,medium,night,Canada,3
+CARGOJET,short,evening,Canada,10
+TRANSAT,long,afternoon,International,21
+GLACIER,short,night,International,8
+SUNWING,medium,night,Quebec,1
+LUFTHANSA,short,evening,International,2
+SKYTRAVEL,medium,evening,International,16
+ROUGE,medium,afternoon,Quebec,2
+ROUGE,short,night,Canada,11
+SUNWING,long,evening,Canada,3
+JAZZ,long,morning,Canada,2
+SKYTRAVEL,short,night,International,4
+TRANSAT,short,night,Quebec,4
+GERMAN AIR FORCE,short,evening,Canada,1
+WESTJET,medium,morning,Quebec,68
+GERMAN AIR FORCE,long,afternoon,International,1
+VISTA,short,evening,International,1
+SUN COUNTRY,medium,evening,International,1
+VISTA,long,night,International,3
+SKYTRAVEL,medium,afternoon,Canada,7
+,long,night,Quebec,8
+SKYTRAVEL,short,afternoon,Canada,10
+SKYTRAVEL,short,evening,Canada,19
+SKYTRAVEL,long,evening,International,29
+MOONRAKER,short,morning,International,1
+SKYTRAVEL,long,morning,International,44
+AIR TRANSAT,short,evening,Quebec,9
+SKYTRAVEL,short,afternoon,International,11
+ARKEFLY,long,afternoon,Canada,1
+AIRSPRINT,medium,afternoon,Canada,1
+WESTJET,medium,morning,International,5
+AIR TRANSAT,short,morning,Canada,6
+SUNWING,short,morning,Quebec,3
+SKYTRAVEL,long,night,International,27
+GLACIER,short,morning,International,2
+NAV CAN,medium,morning,Canada,2
+AIR CANADA ,medium,morning,International,14
+NAV CAN,short,afternoon,Canada,1
+HOPA-JET,medium,morning,International,1
+Maple,medium,morning,Canada,61
+JETFLITE,long,afternoon,International,2
+FINNAIR,long,afternoon,International,25
+Maple,medium,afternoon,Canada,64
+HOPA-JET,short,afternoon,International,1
+FINNAIR,long,night,International,38
+WESTJET,medium,night,Canada,23
+WESTJET,medium,morning,Canada,23
+JORDANIAN,short,afternoon,Canada,42
+CASTLE,medium,afternoon,International,1
+JORDANIAN,short,evening,Canada,49
+SKYTRAVEL,long,evening,Quebec,2
+CASTLE,short,evening,International,1
+FINNAIR,long,evening,International,19
+FLEXJET,short,morning,International,3
+Encore,medium,afternoon,International,1
+SPEEDBIRD,medium,afternoon,International,2
+WESTJET,medium,night,Quebec,71
+CORSAIR,long,morning,International,70
+WORLDWIDE,medium,morning,International,1
+AIR TRANSAT,long,afternoon,International,12
+FLEXJET,short,evening,International,1
+CORSAIR,long,night,International,10
+AIR CANADA ,short,night,International,3
+CORSAIR,long,evening,International,43
+UNIJET-ROCKBAND,short,morning,International,1
+ATHABASKA,short,morning,International,4
+FINNAIR,long,morning,International,26
+UNIJET-ROCKBAND,short,afternoon,International,1
+SEABORNE,short,night,Canada,23
+SEABORNE,short,night,International,25
+Encore,short,morning,Quebec,1
+AIR TRANSAT,medium,morning,Canada,8
+GIANT,medium,afternoon,International,1
+SKYTRAVEL,short,morning,International,12
+CORPORATE,short,afternoon,Canada,2
+AIR TRANSAT,medium,night,Canada,17
+AIR TRANSAT,medium,morning,Quebec,12
+CORPORATE,short,morning,International,2
+SKYTRAVEL,short,night,Canada,2
+AIR TRANSAT,medium,night,Quebec,9
+FLIGHTCRAFT,short,afternoon,Canada,1
+ROUGE,short,morning,Quebec,4
+AIR TRANSAT,long,afternoon,Quebec,2
+UNITED,short,night,Canada,2
+CARGOLUX,long,afternoon,International,1
+WATERSKI,medium,afternoon,International,1
+QATARI,short,afternoon,International,3
+SUNWING,long,night,Quebec,2
+SILK WEST,long,night,International,1
+CARGOLUX,long,night,International,1
+SILK WEST,short,morning,International,2
+FINNAIR,short,evening,International,4
+SILK WEST,short,night,International,3
+SYNCRUDE,short,night,Canada,2
+AIR AZORES,short,morning,International,11
+EUROCAT,long,morning,International,1
+DURANGO JET,medium,afternoon,International,1
+Air System,short,evening,Canada,1
+ROUGE,medium,afternoon,Canada,1
+Novajet,short,evening,Canada,2
+LUFTHANSA,short,evening,Canada,1
+EUROCAT,long,evening,International,1
+OPTIONS,short,evening,International,1
+FINNAIR,short,evening,Canada,1
+AIRFRANS,short,night,Canada,1
+JORDANIAN,short,night,Canada,1
+ENERGY,short,morning,International,2
+OPTIONS,short,morning,International,1
+CHRONOS,short,afternoon,International,2
+SUN COUNTRY,medium,afternoon,International,2
+CHARTRIGHT,long,evening,International,1
+FLIGHTCRAFT,medium,night,International,8
+CHRONOS,short,morning,International,1
+QATARI,long,afternoon,International,1
+SUN COUNTRY,medium,night,International,1
+EASTCOAST JET,short,morning,International,1
+EASTCOAST JET,short,afternoon,International,1
+PROPAIR,short,night,Quebec,2
+SILK WEST,short,afternoon,International,1
+QATARI,short,evening,International,1
+PORTER AIR,short,night,International,3
+SILK WEST,medium,night,International,1
+QATARI,medium,night,International,1
+AIR CANADA ,medium,morning,Canada,2
+Maple,medium,afternoon,Quebec,2
+AIR CANADA ,medium,afternoon,Canada,2
+GERMAN AIR FORCE,long,night,International,3
+QATARI,short,night,International,1
+QATARI,medium,morning,International,1
+WESTJET,short,afternoon,International,2
+Air System,short,morning,Quebec,2
+GERMAN AIR FORCE,long,evening,International,2
+AIR BRAVO,medium,evening,International,3
+PROPAIR,long,morning,International,2
+UPS,short,morning,Canada,1
+SERTA,medium,night,International,1
+FLIGHTCRAFT,short,morning,Canada,1
+PROPAIR,medium,morning,International,1
+EMPRESS,short,morning,Quebec,4
+PROPAIR,short,afternoon,Quebec,3
+GLACIER,short,evening,International,2
+BRICKYARD,short,afternoon,Canada,2
+SYNCRUDE,short,night,Quebec,1
+AERONAVES TSM,short,afternoon,International,1
+AERONAVES TSM,short,evening,International,1
+SERTA,medium,afternoon,International,1
+AIR CANADA ,medium,night,International,1
+FLEXJET,short,afternoon,International,1
+FLEXJET,long,afternoon,International,1
+Maple,medium,morning,Quebec,2
+AIR CANADA ,medium,evening,International,4
+PORTER AIR,medium,afternoon,International,1
+AIR CANADA,long,night,Canada,1
+FLAIR,medium,night,International,2
+CHARTRIGHT,medium,morning,International,3
+FLAIR,medium,morning,Canada,12
+AIR WISCONSIN,medium,morning,International,1
+NAV CAN,short,morning,International,1
+FLAIR,medium,afternoon,Quebec,38
+NULL,long,night,Quebec,2
+ICEAIR,short,evening,International,3
+ICEAIR,long,night,International,12
+AMERICAN,long,morning,International,2
+SKYTRAVEL,medium,morning,Canada,6
+ICEAIR,long,morning,International,9
+FLAIR,medium,evening,Quebec,26
+CHARTRIGHT,medium,afternoon,Quebec,2
+Compass Rose,short,evening,International,4
+ROYALAIR MAROC,short,night,International,1
+Compass Rose,short,morning,International,7
+WORLDWIDE,short,afternoon,International,1
+EMPRESS,medium,morning,International,1
+FLAIR,medium,morning,Quebec,1
+AIR CHIEF,medium,afternoon,Quebec,1
+HORIZON AIR,short,evening,International,1
+HORIZON AIR,short,morning,International,1
+LINEAS CARDINAL,short,morning,International,1
+AEROMEXICO,long,morning,International,5
+AIR AZORES,long,morning,International,3
+HORIZON AIR,short,afternoon,International,4
+AIR CHIEF,long,afternoon,International,1
+LINEAS CARDINAL,short,afternoon,International,1
+CHARTRIGHT,medium,evening,Quebec,1
+HORIZON AIR,short,evening,Quebec,1
+EMPRESS,medium,night,International,1
+HORIZON AIR,short,morning,Quebec,1
+AVANTI AIR,short,morning,International,2
+ICEAIR,long,afternoon,International,1
+AMERICAN,long,afternoon,International,1
+ATHABASKA,short,afternoon,Quebec,1
+AEROMEXICO,short,morning,International,1
+ROYALAIR MAROC,medium,afternoon,International,2
+HELI CZECH,long,morning,International,1
+CORSAIR,long,afternoon,International,10
+GERMAN AIR FORCE,short,morning,Quebec,1
+AIRSPRINT,medium,evening,Canada,1
+EMPRESS,medium,afternoon,International,1
+AIR INUIT,long,morning,Quebec,1
+CORPORATE,medium,afternoon,International,1
+FLIGHTCRAFT,short,night,International,1
+EXECJET,long,evening,International,1
+FLAIR,medium,night,Quebec,1
+TRANSAT,medium,afternoon,Quebec,1
+SUNWING,medium,afternoon,Canada,3
+TRANSAT,medium,evening,Quebec,1
+GERMAN AIR FORCE,short,afternoon,International,1
+HELI CZECH,medium,night,International,1
+ASTANALINE,long,morning,International,1
+AIR AZORES,long,afternoon,International,1
+WATERSKI,short,evening,International,1
+VOLUNTEER,short,morning,International,2
+VOLUNTEER,short,afternoon,International,2
+SKYTRAVEL,long,afternoon,International,1
+ABEX,short,morning,International,2
+ASTANALINE,short,afternoon,International,1
+Encore,short,night,Quebec,1
+LUXWING,long,night,International,1
+,long,evening,Quebec,4
+CHARTRIGHT,medium,evening,Canada,1
+PROPAIR,short,evening,Canada,2
+AMERICAN,short,evening,Canada,1
+PROPAIR,short,morning,Canada,1
+LUXWING,long,morning,International,1
+HELI CZECH,long,afternoon,International,1
+BRICKYARD,short,evening,Canada,1
+CREE,short,evening,Canada,4
+TRANSAT,medium,night,Canada,2
+CREE,short,morning,International,57
+Air Hamburg,long,morning,International,1
+AIRSPRINT,medium,morning,Canada,1
+CREE,short,afternoon,International,44
+Air Hamburg,short,evening,International,3
+AIR ROYAL,short,afternoon,International,2
+CREE,short,evening,International,17
+VISTA,medium,afternoon,International,1
+ICEAIR,short,night,International,1
+SUN COUNTRY,short,afternoon,Canada,2
+AIR CANADA ,short,morning,Quebec,1
+AIR CENTRAL,short,afternoon,International,4
+PENINSULA,medium,afternoon,International,1
+GERMAN AIR FORCE,long,morning,International,1
+PENINSULA,medium,morning,International,2
+GERMAN AIR FORCE,short,afternoon,Canada,1
+AIR CHIEF,short,morning,International,2
+SAINT-PIERRE,medium,morning,International,1
+AFR442,long,afternoon,International,1
+AFR442,medium,night,International,1
+AIR CHIEF,short,afternoon,International,1
+ARKEFLY,long,night,International,1
+BOMBARDIER,long,morning,International,1
+MERMAID,long,afternoon,International,1
+MERMAID,short,afternoon,Quebec,1
+AIR BRAVO,short,afternoon,Canada,2
+JET USA,short,morning,International,3
+VISTA,short,afternoon,Canada,1
+AIR CENTRAL,short,afternoon,Quebec,1
+JET USA,short,afternoon,International,1
+AIR CENTRAL,short,morning,International,3
+AIR CENTRAL,short,evening,Quebec,1
+KLM,short,afternoon,International,1
+AIR CENTRAL,short,morning,Canada,1
+SWISS,long,night,International,1
+AIR INUIT,medium,morning,Quebec,2
+Compass Rose,short,afternoon,International,1
+BOMBARDIER,long,night,International,3
+SUNWING,medium,afternoon,Quebec,1
+SUNWING,medium,evening,Canada,1
+JAZZ,medium,evening,Quebec,1
+JET SPEED,short,morning,International,1
+JET SPEED,short,afternoon,International,1
+GIANT,short,morning,Canada,1
+AIR CENTRAL,short,evening,International,1
+AIR CANADA ,short,evening,Quebec,1
+C-GJKI,short,morning,International,1
+CONAIR-CANADA,short,afternoon,Canada,1
+C-GJKI,short,afternoon,International,1
+SILVER ARROWS,long,morning,International,2
+AIR ROYAL,medium,afternoon,International,1
+BLACKBIRD,short,afternoon,International,1
+AIR ROYAL,short,evening,International,1
+SUNWING,medium,evening,Quebec,2
+CREE,short,night,International,1
+PASCAN,short,morning,Canada,4
+BLACKBIRD,medium,evening,International,2
+Air Hamburg,long,night,International,2
+BOEING,short,afternoon,International,2
+BOEING,short,afternoon,Canada,2
+CREE,short,afternoon,Quebec,4
+KLM,short,evening,International,1
+CORPORATE,short,night,International,1
+PASCAN,short,night,Canada,2
+CZECH AIR FORCE,short,night,Canada,1
+CZECH AIR FORCE,long,evening,International,1
+SKYWEST,medium,morning,International,1
+Encore,medium,morning,International,2
+PENINSULA,short,afternoon,International,1
+ATHABASKA,short,afternoon,International,1
+AIRFRANS,short,evening,Quebec,2
+TUNAIR,short,evening,International,1
+CREE,medium,afternoon,International,1
+CORSAIR,medium,evening,International,1
+PENINSULA,short,night,International,2
+CREE,short,afternoon,Canada,3
+CREE,short,morning,Canada,4
+Encore,long,morning,International,1
+CHARTRIGHT,short,morning,Quebec,1
+EXECJET,short,morning,Quebec,1
+EMPRESS,medium,afternoon,Canada,1
+Air Hamburg,short,afternoon,International,1
+Air Hamburg,long,evening,International,1
+GERMAN AIR FORCE,medium,morning,International,1
