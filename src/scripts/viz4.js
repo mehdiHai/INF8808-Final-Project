@@ -119,7 +119,6 @@ function waffleify(data) {
 	});
 	const autres = newData.splice(newData.findIndex((d) => { return d.category === "Autre"}), 1)
 	newData.sort((a, b) => b.value - a.value)
-	console.log(newData)
 	newData.push(autres[0])
 	return newData;
 }
@@ -206,11 +205,14 @@ function addLegend(scale) {
 	legendItems.append('rect')
 		.attr('width', 15)
 		.attr('height', 15)
+		.attr('margin-bottom', '3px')
 		.style('fill', d => colorScale(d));
 
 	legendItems.append('text')
 		.attr('x', 20)
-		.attr('y', 12)
+		.attr('y', 15)
+		.style('font-size', 'medium')
+		.style('fill', 'white')
 		.text(d => d);
 
 }

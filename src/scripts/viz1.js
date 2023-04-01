@@ -7,25 +7,26 @@ const BUCKET_WIDTH = 200;
 let tooltip = new Tooltip();
 
 
-export function displayBucketGraph(topCompanyNumber) {
+export function displayBucketGraph() {
   const companiesFlightArray = preprocess.getCompaniesFlightArray();
   const heightScale = createHeightScale(companiesFlightArray);
   const bottomBucket = [...companiesFlightArray];
-  const topBucket = preprocess.resizeTopCompagnies(bottomBucket, preprocess.getTopCompaniesCount());
+  const topBucket = bottomBucket.splice(0, preprocess.getTopCompaniesCount());
   setUpSlider()
   displayTopBucket(topBucket, heightScale);
   displayBottomBucket(bottomBucket, heightScale);
 }
 
-export function setUpSlider(){
-  var	slider=document.getElementById("slider");
-	var sliderValue=document.getElementById("slider-value");
-	sliderValue.innerHTML=slider.value;
-	slider.oninput=function(){
-		sliderValue.innerHTML=this.value;
-    d3.select('#topSVG').selectAll('*').remove();
-    d3.select('#bottomSVG').selectAll('*').remove();
-    displayBucketGraph();
+export function setUpSlider() {
+  var	slider=document.getElementById("slider")
+	var sliderValue=document.getElementById("slider-value")
+	sliderValue.innerHTML=slider.value
+	slider.oninput=function() {
+		sliderValue.innerHTML=this.value
+    d3.select('#topSVG').selectAll('*').remove()
+    d3.select('#bottomSVG').selectAll('*').remove()
+    preprocess.setTopCompaniesCount(this.value)
+    displayBucketGraph()
 	}
 }
 
