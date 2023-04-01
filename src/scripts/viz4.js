@@ -1,15 +1,18 @@
 import * as preprocess from "./preprocess.js"
 import distinctColors from 'distinct-colors'
+import Tooltip from "./tooltip.js"
+import { color } from "d3";
 
 let biggestCompaniesAircrafts;
 let otherCompaniesAircrafts;
 let colorScale = {}
 let factor = 5;
 
+let tooltip = new Tooltip();
+
+
 export function drawWaffles() {
 	separateBigFromOthers();
-	
-	setTooltip();
 	
 	drawOtherCompaniesWaffle();
 	drawTopCompaniesWaffles();
@@ -18,6 +21,8 @@ export function drawWaffles() {
 export function modifyData() {
 	d3.select('#viz4').select('#waffleChart').remove();
 	d3.select('#viz4').select('#waffleGroup').remove();
+	d3.select('#viz4').select('.legend').remove();
+
 	separateBigFromOthers();
 	
 	drawOtherCompaniesWaffle();
@@ -51,7 +56,7 @@ function createScale(data) {
 	const domain = data.map((d) => {
 		return d.category;
 	});
-	colorScale = d3.scaleOrdinal().domain(domain).range(distinctColors({count: 12}));
+	colorScale = d3.scaleOrdinal().domain(domain).range(distinctColors({count: 12}).reverse());
 	addLegend(colorScale)
 }
 
@@ -77,7 +82,9 @@ function calculateWaffleDimensions(data, factor) {
 
 function drawOtherCompaniesWaffle() {
 	const data = waffleify(otherCompaniesAircrafts);
-	const svg = d3.select("#viz4").append("svg").attr("id", "waffleChart");
+	const svg = d3.select("#viz4").append('div').attr('class', 'otherCompaniesWaffleContainer')
+		.append('div').attr('id', 'otherCompaniesWaffle')
+		.append("svg").attr("id", "waffleChart");
 	createScale(data);
 	drawWaffle(data, svg);
 }
@@ -89,16 +96,12 @@ function drawTopCompaniesWaffles() {
 
 	biggestCompaniesAircrafts.forEach((company) => {
 		const svg = d3.select("#waffleGroup")
+		.append('div')
+		.attr('class', 'bigCompanyWaffle')
 		.append("svg")
 		.attr("id", company)
-		.style('margin', '20px')
 		.style('stroke', 'black')
-		.attr("style", "outline: 2px solid black;") 
-		.attr('style', 'background-color: gray;'+
-		'outline: 2px solid black;' +
-		'padding-left: 5px;' +
-		'padding-top: 5px;'
-		)
+		
 
 		drawWaffle(waffleify(company), svg);
 	});
@@ -106,7 +109,6 @@ function drawTopCompaniesWaffles() {
 
 function waffleify(data) {
 	const newData = [];
-	console.log(data)
 	newData.push({ category: "Autre", value: 0 });
 	[...data.entries()].forEach((d) => {
 		if (d[1] < factor) {
@@ -115,6 +117,10 @@ function waffleify(data) {
 			newData.push({ category: d[0], value: d[1] });
 		}
 	});
+	const autres = newData.splice(newData.findIndex((d) => { return d.category === "Autre"}), 1)
+	newData.sort((a, b) => b.value - a.value)
+	console.log(newData)
+	newData.push(autres[0])
 	return newData;
 }
 
@@ -159,11 +165,14 @@ function drawWaffle(data, svg) {
 				})
 				.attr("stroke", "black")
 				.on("mouseover", function (m) {
-					return showTooltip(m, category);
+					if(category)
+						tooltip.showTooltipAirport(m, category);
+					else 
+						tooltip.hideTooltip();
 				})
-				.on("mousemove", moveTooltip)
-				.on("mouseleave", function () {
-					return hideTooltip();
+				.on("mousemove", function (m) {return tooltip.moveTooltip(m)})
+			svg.on("mouseleave", function () {
+					return tooltip.hideTooltip();
 				});
 
 			count++;
@@ -171,39 +180,37 @@ function drawWaffle(data, svg) {
 	}
 }
 
-function setTooltip() {
-	d3.select("#viz4")
-		.append("div")
-		.style("opacity", 0)
-		.attr("class", "tooltip")
-		.style("background-color", "black")
-		.style("border-radius", "5px")
-		.style("padding", "10px")
-		.style("color", "white")
-		.style("position", "absolute");
-}
 
-const showTooltip = function (m, d) {
-	const tooltip = d3.select("#viz4").select(".tooltip");
-	tooltip.transition().duration(100);
-	tooltip
-		.style("opacity", 1)
-		.html(": " + d + " vols")
-		.style("left", m.x + 30 + "px")
-		.style("top", m.y + 30 + "px")
-		.style("width", null);
-};
-const moveTooltip = function (m) {
-	const tooltip = d3.select("#viz4").select(".tooltip");
-	tooltip.style("left", m.x + 30 + "px").style("top", m.y + 30 + "px");
-};
-const hideTooltip = function () {
-	const tooltip = d3.select("#viz4").select(".tooltip");
-	tooltip.style("opacity", 0);
-};
 
 function addLegend(scale) {
-	d3.select('#viz4').append('div').attr('class', 'legend')
+	const legendContainer = d3.select('.otherCompaniesWaffleContainer')
+		.append('svg')
+		.attr('class', 'legend')
+		.attr('height', function() { 
+			return colorScale.domain().length * 25;
+		})
+		.attr('width', '110')
+		.attr('transform', 'translate(0, -100)')
+		.append('g')
+		.attr('class', 'legend-container')
+		.attr('transform', 'translate(10, 10)')
+		
 
+	const legendItems = legendContainer.selectAll('.legend-item')
+		.data(colorScale.domain())
+		.enter()
+		.append('g')
+		.attr('class', 'legend-item')
+		.attr('transform', (d, i) => `translate(0, ${i * 20})`);
+
+	legendItems.append('rect')
+		.attr('width', 15)
+		.attr('height', 15)
+		.style('fill', d => colorScale(d));
+
+	legendItems.append('text')
+		.attr('x', 20)
+		.attr('y', 12)
+		.text(d => d);
 
 }

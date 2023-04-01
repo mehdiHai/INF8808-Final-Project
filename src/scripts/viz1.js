@@ -2,8 +2,8 @@ import * as preprocess from './preprocess.js'
 import Tooltip from './tooltip.js'
 import * as waffle from './viz4.js'
 
-const BUCKET_HEIGHT = 300;
-const BUCKET_WIDTH = 200;
+const BUCKET_HEIGHT = 400;
+const BUCKET_WIDTH = 250;
 
 let tooltip = new Tooltip();
 
