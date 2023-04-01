@@ -30,9 +30,6 @@ export function getCompaniesAircraftsMap() {
   return companiesAircrafts;
 }
 
-export function getData() {
-  return [...data];
-}
 
 export function groupByMainCompanies(data) {
   let agg = new Map()
