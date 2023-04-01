@@ -13,7 +13,9 @@ window.onload = () => {
         d3.csv('./WORLD/flightsWORLD.csv'),
         d3.csv('./CA/flightsCA.csv'),
         d3.csv('./QC/flightsQC.csv'),
-        d3.csv('./aircrafts.csv')
+        d3.csv('./aircrafts.csv'),
+        d3.csv('./sankey_data.csv'),
+        d3.csv('./alluvial_data.csv')
     ]).then(function (files) {
         preprocess.setData(files[0].concat(files[1], files[2]));
         preprocess.setTopCompaniesCount(5);
