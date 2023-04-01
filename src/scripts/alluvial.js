@@ -1,5 +1,8 @@
-export function createAlluvialViz(d) {
-  let sankeyData = d;
+import * as preprocess from "./preprocess.js"
+
+
+export function createAlluvialViz() {
+  let sankeyData = preprocess.getSankeyData();
 
   console.log('DATA RECEIVED')
   console.log(sankeyData)
@@ -7,7 +10,9 @@ export function createAlluvialViz(d) {
   const width = 2000;
   const height = 2000;
   
-  const svg = d3.select("svg").attr("width", width).attr("height", height);
+  const svg = d3.select("#viz3")
+    .append("svg").attr("id", "alluvialChart")
+    .attr("width", width).attr("height", height);
   
   const sankey = d3
     .sankey()

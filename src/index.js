@@ -20,11 +20,13 @@ window.onload = () => {
     ]).then(function (files) {
         preprocess.setData(files[0].concat(files[1], files[2]));
         preprocess.setTopCompaniesCount(5);
+        preprocess.setSankeyData(files[4]);
+        preprocess.setAlluvialData(files[5]);
         buckets.displayBucketGraph();
         buckets.setUpSlider();
-        preprocess.setCompaniesAircraftsMap(files[3])
+        preprocess.setCompaniesAircraftsMap(files[3]);
         waffles.drawWaffles();
-        // alluvial.createAlluvialViz(sankeyData)
+        alluvial.createAlluvialViz();
     })
 
     init()

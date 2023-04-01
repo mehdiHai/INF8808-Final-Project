@@ -1,4 +1,6 @@
 let data = [];
+let sankeyData = [];
+let alluvialData = [];
 let companiesFlightArray = [];
 let topCompaniesCount = 0;
 let companiesAircrafts;
@@ -10,8 +12,25 @@ export function setData(newData) {
   companiesFlightArray = setCompaniesFlightCount();
 }
 
+export function setSankeyData(d) {
+  console.log(d)
+  sankeyData = d
+}
+
+export function setAlluvialData(d) {
+  alluvialData = d
+}
+
 export function getData() {
   return [...data];
+}
+
+export function getSankeyData() {
+  return [...sankeyData];
+}
+
+export function getAlluvialData() {
+  return [...alluvialData];
 }
 
 export function getCompaniesFlightArray() {
