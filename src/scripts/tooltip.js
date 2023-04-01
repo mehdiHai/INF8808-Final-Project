@@ -42,7 +42,6 @@ export default class Tooltip {
             .style("left", (m.x + 30) + "px")
             .style("top", (m.pageY + 30) + "px")
             .style('width', null)
-
     }
 
     moveTooltip(m) {

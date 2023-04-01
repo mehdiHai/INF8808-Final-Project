@@ -1,13 +1,11 @@
-import * as d3geoproj from 'd3-geo-projection';
 import Tooltip from '../tooltip';
+import { groupByMainCompanies } from '../preprocess.js';
 
 export default class Network {
 
   constructor(svg, ratio = 1) {
     this.tooltip = new Tooltip()
     this.ratio = ratio
-    // this.projection = d3geoproj.geoGuyou()
-    // this.projection.rotate({ lat: 46.179336122399526, lon: 6.145677500934902 })
     this.svg = svg;
     this.airportCode = {};
     this.levelGeo = { 1: "QC", 2: "CA", 3: "WORLD", 4: null, "QC": 1, "CA": 2, "WORLD": 3, null: 4 };
@@ -24,8 +22,8 @@ export default class Network {
     this.minMaxYGlobal = [1000000, 0];
   }
 
-  displayCpt() {
-    console.log(this.currentGeo);
+  scaleSize(data) {
+    return 2 * (parseFloat(data) / 10E4 + Math.log(data) / 5);
   }
 
   displayAirports() {
@@ -33,25 +31,20 @@ export default class Network {
     var readAirports = function (localairports) {
 
       var nb = 0
-      //var padding = [73.7407989502, -45.4706001282 + 45];
-      var minMaxX = [1E100, -1E100]
-      var minMaxY = [1E100, -1E100]
+      var minMaxX = d3.extent(localairports, d => parseFloat(d.lat))
+      var minMaxY = d3.extent(localairports, d => parseFloat(d.lon) / this.ratio)
 
       for (const item of localairports) {
-        /*
-        var pos = this.projection([parseFloat(item.lon) + padding[0], parseFloat(item.lat) + padding[1]]);
-        this.airportCode[item.airport] = pos;
-        minMaxX = [Math.min(pos[0], minMaxX[0]), Math.max(pos[0], minMaxX[1])]
-        minMaxY = [Math.min(pos[1], minMaxY[0]), Math.max(pos[1], minMaxY[1])]
-        */
         this.airportCode[item.airport] = [item.lat, item.lon / this.ratio]
-        minMaxX = [Math.min(parseFloat(item.lat), minMaxX[0]), Math.max(parseFloat(item.lat), minMaxX[1])]
-        minMaxY = [Math.min(parseFloat(item.lon / this.ratio), minMaxY[0]), Math.max(parseFloat(item.lon / this.ratio), minMaxY[1])]
         nb += 1;
       }
 
       minMaxX = [Math.min(minMaxX[0] - 10, this.minMaxXGlobal[0]), Math.max(minMaxX[1] + 10, this.minMaxXGlobal[1])]
       minMaxY = [Math.min(minMaxY[0] - 10, this.minMaxYGlobal[0]), Math.max(minMaxY[1] + 10, this.minMaxYGlobal[1])]
+
+
+      console.log((minMaxX[1] - minMaxX[0]) / (minMaxY[1] - minMaxY[0]))
+
 
       if (this.limits[this.levelGeo[this.currentGeo]] === undefined) {
         this.limits[this.levelGeo[this.currentGeo]] = `${minMaxX[0]},${minMaxY[0]},${minMaxX[1] - minMaxX[0]},${minMaxY[1] - minMaxY[0]}`
@@ -78,22 +71,22 @@ export default class Network {
         .data(localairports)
         .join('circle')
 
-      circles.on("mouseover", function (m, data) {
-        d3.select(this)
-          .attr("r", d => Math.log(d.freq + 1) / 3)
-          .attr('stroke-width', '.4')
-        //.style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 1)' : (this.ccolor[d.continent] + ' 1)'))
-
-        return self.tooltip.showTooltipAirport(m, [data.airport, data.sub, data.freq])
-      })
-        .on("mouseleave", function (e) {
+      if (this.currentGeo !== "WORLD") {
+        circles.on("mouseover", function (m, data) {
           d3.select(this)
-            .attr("r", d => Math.log(d.freq + 1) / 4)
-            .attr('stroke-width', '.1')
-          //.style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 0.6)' : (this.ccolor[d.continent] + ' 0.6)'))
-          return self.tooltip.hideTooltip()
+            .attr("r", d => 1.5 * self.scaleSize(d.freq))
+            .attr('stroke-width', '.4')
+          return self.tooltip.showTooltipAirport(m, [data.airport, data.country, data.city, data.freq])
         })
-        .attr('stroke', 'black')
+          .on("mouseleave", function (e) {
+            d3.select(this)
+              .attr("r", d => self.scaleSize(d.freq))
+              .attr('stroke-width', '.1')
+            return self.tooltip.hideTooltip()
+          })
+      }
+
+      circles.attr('stroke', 'black')
         .attr('stroke-width', '.1')
         .attr('class', d => this.currentGeo + " " + d.continent + " " + d.airport)
         .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
@@ -102,23 +95,24 @@ export default class Network {
         .ease(d3.easeCubicOut)
         .delay(function (d, i) { return 100 * i / nb; })
         .duration(800)
-        .attr("r", d => Math.log(d.freq + 1) / 4)
+        .attr("r", d => this.scaleSize(d.freq))
         .style('fill', d => (this.currentGeo == "QC") ? 'rgba(255, 0, 0, 0.6)' : (this.ccolor[d.continent] + ' 0.6)'))
 
-        
       if (this.currentGeo === "WORLD") {
 
         var circlesTooltips = this.svg.selectAll('airports')
           .data(localairports)
           .join('circle')
 
-        circlesTooltips.attr("r", d => Math.max(10, Math.log(d.freq + 1) / 4))
+        circlesTooltips.attr("r", d => Math.max(8, self.scaleSize(d.freq)))
           .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
           .attr("opacity", 0)
+          .attr("class", d => this.currentGeo + " " + d.continent + " " + d.airport + " tooltipsCircle")
           .on("mouseover", function (m, data) {
-            d3.select("." + data.airport).attr("r", Math.log(data.freq + 1) / 3)
+            d3.select("." + data.airport)
+              .attr("r", 1.5 * self.scaleSize(data.freq))
               .attr('stroke-width', '.4')
-            return self.tooltip.showTooltipAirport(m, [data.airport, data.sub, data.freq])
+            return self.tooltip.showTooltipAirport(m, [data.airport, data.country, data.city, data.freq])
           })
           .on("mouseleave", function (m, data) {
             d3.select("." + data.airport).attr("r", d => Math.log(d.freq + 1) / 4)
@@ -127,20 +121,11 @@ export default class Network {
           })
       }
 
-
-
-
-
-
-
-
-
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
     }
 
-    d3.csv(`./${this.currentGeo}/airports${this.currentGeo}.csv`).then(
-      readAirports.bind(this))
-
+    d3.csv(`./${this.currentGeo}/airports${this.currentGeo}.csv`)
+      .then(readAirports.bind(this))
   }
 
   displayFlights() {
@@ -154,21 +139,22 @@ export default class Network {
         .attr('y1', d => this.airportCode[d.airportIn][1])
         .attr('x2', d => this.airportCode[d.airportIn][0])
         .attr('y2', d => this.airportCode[d.airportIn][1])
-        .style('stroke-width', d => Math.log(d.number + 1) / 3)
+        .style('stroke-width', d => 2 * this.scaleSize(d.number))
         .transition()
         .ease(d3.easeCubicInOut)
         .duration(800)
         .attr('x2', d => this.airportCode[d.airportOut][0])
         .attr('y2', d => this.airportCode[d.airportOut][1])
-        .style('stroke', 'rgba(0, 0, 0, 0.1)')
+        .style('stroke', d => (d.company === "OTHERS") ? 'rgba(255, 0, 0, 0.02)' : 'rgba(0, 0, 0, 0.2)')
 
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
       this.svg.selectAll('circle').raise()
     }
 
     this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
-    d3.csv(`./${this.currentGeo}/flights${this.currentGeo}.csv`).then(
-      readFlights.bind(this))
+    d3.csv(`./${this.currentGeo}/flights${this.currentGeo}.csv`)
+      .then(groupByMainCompanies)
+      .then(readFlights.bind(this))
   }
 
   removeAirports(db = true) {
@@ -178,13 +164,30 @@ export default class Network {
       this.svg.transition()
         .duration(1000)
         .attr("viewBox", this.limits[this.levelGeo[this.currentGeo] - 1])
-    }
 
-    this.svg.selectAll('circle.' + this.currentGeo)
-      .transition()
-      .duration(1000)
-      .attr("r", 0)
-      .remove()
+      this.svg.selectAll('circle.' + this.currentGeo)
+        .transition()
+        .duration(1000)
+        .attr("r", 0)
+        .remove()
+
+    } else {
+      this.currentGeo = "QC";
+
+      ["WORLD", "CA", "QC"].forEach(lvl => {
+        this.svg.selectAll('line.' + lvl)
+          .transition()
+          .duration(1000)
+          .style('stroke', 'rgba(0, 0, 0, 0.0)')
+          .remove()
+
+        this.svg.selectAll('circle.' + lvl)
+          .transition()
+          .duration(1000)
+          .attr("r", 0)
+          .remove()
+      });
+    }
   }
 
   removeFlights() {

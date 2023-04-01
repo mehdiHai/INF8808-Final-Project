@@ -1,19 +1,17 @@
 import * as preprocess from './preprocess.js'
 import Tooltip from './tooltip.js'
-import * as waffle from './viz4.js'
 
-const BUCKET_HEIGHT = 400;
-const BUCKET_WIDTH = 250;
+const BUCKET_HEIGHT = 300;
+const BUCKET_WIDTH = 200;
 
 let tooltip = new Tooltip();
 
 
-export function displayBucketGraph() {
+export function displayBucketGraph(topCompanyNumber) {
   const companiesFlightArray = preprocess.getCompaniesFlightArray();
   const heightScale = createHeightScale(companiesFlightArray);
   const bottomBucket = [...companiesFlightArray];
-  const topBucket = bottomBucket.splice(0, preprocess.getTopCompaniesCount());
-
+  const topBucket = preprocess.resizeTopCompagnies(bottomBucket, preprocess.getTopCompaniesCount());
   setUpSlider()
   displayTopBucket(topBucket, heightScale);
   displayBottomBucket(bottomBucket, heightScale);
@@ -24,12 +22,10 @@ export function setUpSlider(){
 	var sliderValue=document.getElementById("slider-value");
 	sliderValue.innerHTML=slider.value;
 	slider.oninput=function(){
-    preprocess.setTopCompaniesCount(this.value);
 		sliderValue.innerHTML=this.value;
     d3.select('#topSVG').selectAll('*').remove();
     d3.select('#bottomSVG').selectAll('*').remove();
-    displayBucketGraph(this.value);
-    waffle.modifyData();
+    displayBucketGraph();
 	}
 }
 
@@ -96,12 +92,12 @@ function displayTopBucket(topBucket, heightScale) {
 }
 
 function displayBottomBucket(bottomBucket, heightScale) {
-  let flightTotal = d3.sum(bottomBucket, function(c) {return c[1]});
-  
-  const height = heightScale(flightTotal)
+  const height = heightScale(d3.sum(bottomBucket, function(c) {return c[1]}))
   let toolTipDisplay = ""
+  let flightTotal = 0;
   for(let i = 0; i < 5; i++){
     toolTipDisplay += (i+1) + '.' + ' ' + bottomBucket[i][0] + ': ' + bottomBucket[i][1] + ' vols <br>'
+    flightTotal += bottomBucket[i][1];
   }
   toolTipDisplay += '<br><b>Nombre total de vols: ' + flightTotal + ' vols</b>'
   d3.select("#bottomSVG")

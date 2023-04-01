@@ -28,12 +28,9 @@ function handleResize() {
 }
 
 
-var fig_rat = d3.select("figure").node().getBoundingClientRect()
+var fig_rat = d3.select("figure").node().getBoundingClientRect().width
 
-console.log(fig_rat.width/figureHeight)
-
-
-var network = new Network(svg, fig_rat.width/figureHeight);
+var network = new Network(svg, fig_rat/figureHeight);
 // scrollama event handlers
 function handleStepEnter(response) {
     if (response.direction === 'down') {
