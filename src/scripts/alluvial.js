@@ -1,30 +1,32 @@
 import * as preprocess from "./preprocess.js"
 
+let sankeyData = [];
+let alluvialData = [];
+
+const graph = {
+  nodes: [],
+  links: [],
+};
+
+const width = 2000;
+const height = 2000;
+
+const svg = d3.select("#viz3")
+  .append("svg").attr("id", "alluvialChart")
+  .attr("width", width).attr("height", height);
+
+const sankey = d3
+  .sankey()
+  .nodeSort(null)
+  .nodeWidth(15)
+  .nodePadding(10)
+  .size([width, height]);
 
 export function createAlluvialViz() {
-  let sankeyData = preprocess.getSankeyData();
+  sankeyData = preprocess.getSankeyData();
 
   console.log('DATA RECEIVED')
   console.log(sankeyData)
-  
-  const width = 2000;
-  const height = 2000;
-  
-  const svg = d3.select("#viz3")
-    .append("svg").attr("id", "alluvialChart")
-    .attr("width", width).attr("height", height);
-  
-  const sankey = d3
-    .sankey()
-    .nodeSort(null)
-    .nodeWidth(15)
-    .nodePadding(10)
-    .size([width, height]);
-  
-  const graph = {
-    nodes: [],
-    links: [],
-  };
   
   sankeyData.forEach((d) => {
     const sourceIndex = graph.nodes.findIndex(
@@ -64,7 +66,6 @@ export function createAlluvialViz() {
     .append("rect")
     .attr("height", (d) => d.y1 - d.y0)
     .attr("width", (d) => d.x1 - d.x0)
-    // .attr("fill", "gray");
     .style("fill", "#a52a2a");
   
   node
@@ -84,20 +85,17 @@ export function createAlluvialViz() {
     .join("g")
     .attr("stroke", "gray");
   
-    link
+  link
+    .attr("id", (d) => 'link-' + d.index)
     .append("path")
     .attr("d", d3.sankeyLinkHorizontal())
     .attr("stroke-width", (d) => Math.max(1, d.width))
     .on("mouseover", (event, d) => {
-      d3.select(event.currentTarget)
-        .attr("stroke-opacity", 1.0)
-        .attr("stroke-width", (d) => Math.max(1, d.width + 2));
+      showAlluvial(d.source.name, d.target.name);
     })
     .on("mouseout", (event, d) => {
-      d3.select(event.currentTarget)
-        .attr("stroke-opacity", 0.5)
-        .attr("stroke-width", (d) => Math.max(1, d.width));
-    });
+      resetAlluvial();
+    })
   
   link
     .append("title")
@@ -107,4 +105,60 @@ export function createAlluvialViz() {
     );
 }
 
+function showAlluvial(sourceName, targetName) {
+  console.log(sourceName);
+  console.log(targetName);
+  alluvialData = preprocess.getAlluvialData();
+  let filteredAlluvialData = []; 
+  let filteredSankeyData = []; 
 
+  // Filter the alluvialData to include only the relevant connections
+  alluvialData.forEach((d) => {
+    if (d['airline'] == sourceName || d['duration'] == sourceName || d['departureTime'] == sourceName || d['flightRange'] == sourceName) {
+      if (d['airline'] == targetName || d['duration'] == targetName || d['departureTime'] == targetName || d['flightRange'] == targetName) {
+        filteredAlluvialData.push(d);
+      }
+    }
+  });
+
+  console.log('FILTERED ALLUVIAL DATA');
+  console.log(filteredAlluvialData);
+
+  // Filter the sankeyData to include only the relevant connections
+  filteredAlluvialData.forEach((ad) => {
+    sankeyData.forEach((sd) => {
+      if (sd['source'] == ad['airline'] || sd['source'] == ad['duration'] || sd['source'] == ad['departureTime'] || sd['source'] == ad['flightRange']) {
+        if (sd['target'] == ad['airline'] || sd['target'] == ad['duration'] || sd['target'] == ad['departureTime'] || sd['target'] == ad['flightRange']) {
+          if (!filteredSankeyData.includes(sd)) filteredSankeyData.push(sd);
+        }
+      }
+    });
+  });
+
+  console.log('FILTERED SANKEY DATA');
+  console.log(filteredSankeyData);
+  
+  filteredSankeyData.forEach((d) => {
+    graph.links.forEach((link) => {
+      if (link['source'].name == d['source'] && link['target'].name == d['target']) {
+        console.log(link);
+        const linkToModify = d3.select("#link-" + link.index);
+        const linkPath = linkToModify.select("path");
+
+        linkPath.attr("stroke-opacity", 0.5)
+          .attr("stroke", "red")
+          .attr("stroke-width", (d) => Math.max(1, d.width + 2));
+      }
+    });
+  });
+}
+
+function resetAlluvial() {
+  graph.links.forEach((link) => {
+    const linkToModify = d3.select("#link-" + link.index);
+    const linkPath = linkToModify.select("path");
+    linkPath.attr("stroke", "gray")
+      .attr("stroke-opacity", 0.5)
+      .attr("stroke-width", (d) => Math.max(1, d.width));
+  });
+}
