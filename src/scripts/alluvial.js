@@ -134,14 +134,20 @@ function showAlluvial(sourceName, targetName) {
       }
     });
   });
-
-  console.log('FILTERED SANKEY DATA');
-  console.log(filteredSankeyData);
   
-  filteredSankeyData.forEach((d) => {
+  filteredSankeyData.forEach((sd) => {
+    let sum = 0;
+    filteredAlluvialData.forEach((ad) => {
+      if ((ad['airline'] == sd['source'] && ad['duration'] == sd['target']) ||
+          (ad['duration'] == sd['source'] && ad['departureTime'] == sd['target']) ||
+          (ad['departureTime'] == sd['source'] && ad['flightRange'] == sd['target'])) {
+        sum += parseInt(ad['count']);
+      }
+    });
+    sd['count'] = sum;
+
     graph.links.forEach((link) => {
-      if (link['source'].name == d['source'] && link['target'].name == d['target']) {
-        console.log(link);
+      if (link['source'].name == sd['source'] && link['target'].name == sd['target']) {
         const linkToModify = d3.select("#link-" + link.index);
         const linkPath = linkToModify.select("path");
 
@@ -151,6 +157,9 @@ function showAlluvial(sourceName, targetName) {
       }
     });
   });
+
+  console.log('FILTERED SANKEY DATA');
+  console.log(filteredSankeyData);
 }
 
 function resetAlluvial() {
