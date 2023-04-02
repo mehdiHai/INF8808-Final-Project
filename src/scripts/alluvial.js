@@ -150,10 +150,11 @@ function showAlluvial(sourceName, targetName) {
       if (link['source'].name == sd['source'] && link['target'].name == sd['target']) {
         const linkToModify = d3.select("#link-" + link.index);
         const linkPath = linkToModify.select("path");
+        const colorPercentage = sd['count']/link['value'];
 
         linkPath.attr("stroke-opacity", 0.5)
           .attr("stroke", "red")
-          .attr("stroke-width", (d) => Math.max(1, d.width + 2));
+          .attr("stroke-width", (d) => Math.max(1, d.width*colorPercentage));
       }
     });
   });
