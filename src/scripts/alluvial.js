@@ -24,9 +24,6 @@ const sankey = d3
 
 export function createAlluvialViz() {
   sankeyData = preprocess.getSankeyData();
-
-  console.log('DATA RECEIVED')
-  console.log(sankeyData)
   
   sankeyData.forEach((d) => {
     const sourceIndex = graph.nodes.findIndex(
@@ -49,8 +46,6 @@ export function createAlluvialViz() {
     });
   });
 
-  
-  console.log(graph)
   sankey(graph);
   
   const node = svg
@@ -106,8 +101,6 @@ export function createAlluvialViz() {
 }
 
 function showAlluvial(sourceName, targetName) {
-  console.log(sourceName);
-  console.log(targetName);
   alluvialData = preprocess.getAlluvialData();
   let filteredAlluvialData = []; 
   let filteredSankeyData = []; 
@@ -120,9 +113,6 @@ function showAlluvial(sourceName, targetName) {
       }
     }
   });
-
-  console.log('FILTERED ALLUVIAL DATA');
-  console.log(filteredAlluvialData);
 
   // Filter the sankeyData to include only the relevant connections
   filteredAlluvialData.forEach((ad) => {
@@ -158,9 +148,6 @@ function showAlluvial(sourceName, targetName) {
       }
     });
   });
-
-  console.log('FILTERED SANKEY DATA');
-  console.log(filteredSankeyData);
 }
 
 function resetAlluvial() {
