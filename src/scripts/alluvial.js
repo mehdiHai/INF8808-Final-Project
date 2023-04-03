@@ -8,12 +8,12 @@ const graph = {
   links: [],
 };
 
-const width = 2000;
+const width = 1000;
 const height = 2000;
 
 const svg = d3.select("#viz3")
   .append("svg").attr("id", "alluvialChart")
-  .attr("width", width).attr("height", height);
+  .attr("viewBox", "-200, 0, 1500, 1500")
 
 const sankey = d3
   .sankey()
