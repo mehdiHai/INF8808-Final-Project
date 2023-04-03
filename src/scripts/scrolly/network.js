@@ -42,10 +42,6 @@ export default class Network {
       minMaxX = [Math.min(minMaxX[0] - 10, this.minMaxXGlobal[0]), Math.max(minMaxX[1] + 10, this.minMaxXGlobal[1])]
       minMaxY = [Math.min(minMaxY[0] - 10, this.minMaxYGlobal[0]), Math.max(minMaxY[1] + 10, this.minMaxYGlobal[1])]
 
-
-      console.log((minMaxX[1] - minMaxX[0]) / (minMaxY[1] - minMaxY[0]))
-
-
       if (this.limits[this.levelGeo[this.currentGeo]] === undefined) {
         this.limits[this.levelGeo[this.currentGeo]] = `${minMaxX[0]},${minMaxY[0]},${minMaxX[1] - minMaxX[0]},${minMaxY[1] - minMaxY[0]}`
       }

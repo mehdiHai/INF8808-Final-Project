@@ -22,6 +22,23 @@ const sankey = d3
   .nodePadding(10)
   .size([width, height]);
 
+
+export function loadData(){
+  d3.select("#viz3").on("mouseover", null)
+  Promise.all([
+    d3.csv('./sankey_data.csv'),
+    d3.csv('./alluvial_data.csv')
+]).then(function (files) {
+    preprocess.setSankeyData(files[0]);
+    preprocess.setAlluvialData(files[1]);
+    createAlluvialViz();
+})
+}
+
+export function initAlluvial() {
+  d3.select("#viz3").on("mouseover", loadData)
+}
+
 export function createAlluvialViz() {
   sankeyData = preprocess.getSankeyData();
   

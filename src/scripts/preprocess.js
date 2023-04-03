@@ -13,6 +13,7 @@ export function setData(newData) {
 }
 
 export function setSankeyData(d) {
+
   sankeyData = d
 }
 
