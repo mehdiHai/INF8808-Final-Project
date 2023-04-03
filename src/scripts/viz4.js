@@ -10,6 +10,17 @@ let factor = 5;
 
 let tooltip = new Tooltip();
 
+export function loadData(){
+	d3.select("#viz4").on("mouseover", null)
+	d3.csv('./aircrafts.csv').then(function (files) {
+		preprocess.setCompaniesAircraftsMap(files);
+        drawWaffles();
+  })
+  }
+
+  export function initWaffle() {
+	d3.select("#viz4").on("mouseover", loadData)
+  }
 
 export function drawWaffles() {
 	separateBigFromOthers();
