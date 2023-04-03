@@ -9,11 +9,10 @@ let topCompaniesSet = new Set();
 
 export function setData(newData) {
   data = newData
-  companiesFlightArray = setCompaniesFlightCount();
+  companiesFlightArray = setCompaniesFlightCount(data);
 }
 
 export function setSankeyData(d) {
-  console.log(d)
   sankeyData = d
 }
 
@@ -74,7 +73,13 @@ export function groupByMainCompanies(data) {
   return new Promise((resolve, reject) => resolve(flyArray))
 }
 
-function setCompaniesFlightCount() {
+export function resizeTopCompagnies(bottomBucket) {
+  let selection = bottomBucket.splice(0,   topCompaniesCount);
+  selection.forEach(d => topCompaniesSet.add(d[0]))
+  return selection;
+}
+
+function setCompaniesFlightCount(data) {
   const topCompanies = new Map()
   data.forEach((d) => {
     if (!topCompanies.get(d.company)) {
@@ -86,7 +91,7 @@ function setCompaniesFlightCount() {
   })
   topCompanies.delete('NULL')
   topCompanies.delete('')
-
+  console.log(topCompanies)
   let numOthers = topCompanies.get("OTHERS")
   topCompanies.delete("OTHERS")
 

@@ -38,7 +38,7 @@ export default class Tooltip {
 
         this.element
             .style("opacity", 0.7)
-            .html(d)
+            .html(d[0] + "<br>" + d[2] + " - " + d[1] + "<br>"+ d[3] + " vols")
             .style("left", (m.x + 30) + "px")
             .style("top", (m.pageY + 30) + "px")
             .style('width', null)

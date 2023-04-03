@@ -11,7 +11,7 @@ export function displayBucketGraph() {
   const companiesFlightArray = preprocess.getCompaniesFlightArray();
   const heightScale = createHeightScale(companiesFlightArray);
   const bottomBucket = [...companiesFlightArray];
-  const topBucket = bottomBucket.splice(0, preprocess.getTopCompaniesCount());
+  const topBucket = preprocess.resizeTopCompagnies(bottomBucket);
   setUpSlider()
   displayTopBucket(topBucket, heightScale);
   displayBottomBucket(bottomBucket, heightScale);
