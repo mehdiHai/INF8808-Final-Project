@@ -22,8 +22,6 @@ export function setAlluvialData(data) {
 
 export function filterAlluvialData() {
   filteredAlluvialData = [];
-  console.log(companiesFlightArray)
-  console.log(topCompaniesCount)
 
   alluvialData.forEach(d => {
     let index = companiesFlightArray.findIndex(company => company[0] === d.airline);
@@ -137,7 +135,6 @@ export function getTopCompaniesCount(){
 }
 
 export function setTopCompaniesCount(count){
-  console.log(count)
   topCompaniesCount = count;
 }
 

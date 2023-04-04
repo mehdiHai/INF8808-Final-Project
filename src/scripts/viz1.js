@@ -1,5 +1,7 @@
 import * as preprocess from './preprocess.js'
 import * as alluvial from './alluvial.js'
+import * as waffle from './viz4.js'
+
 import Tooltip from './tooltip.js'
 
 const BUCKET_HEIGHT = 300;
@@ -30,6 +32,8 @@ export function setUpSlider() {
     preprocess.setTopCompaniesCount(this.value)
     displayBucketGraph()
     preprocess.filterAlluvialData()
+    waffle.modifyData();
+    
 	}
   alluvial.createAlluvialViz();
 }
