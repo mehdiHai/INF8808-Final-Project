@@ -3,34 +3,20 @@ import * as preprocess from "./preprocess.js"
 let sankeyData = [];
 let alluvialData = [];
 
-const graph = {
+let graph = {
   nodes: [],
   links: [],
 };
 
-const width = 1000;
-const height = 2000;
-
-const svg = d3.select("#viz3")
-  .append("svg").attr("id", "alluvialChart")
-  .attr("viewBox", "-200, 0, 1500, 1500")
-
-const sankey = d3
-  .sankey()
-  .nodeSort(null)
-  .nodeWidth(15)
-  .nodePadding(10)
-  .size([width, height]);
-
+const width = 1500;
+const height = 1000;
 
 export function loadData(){
   d3.select("#viz3").on("mouseover", null)
   Promise.all([
-    d3.csv('./sankey_data.csv'),
     d3.csv('./alluvial_data.csv')
 ]).then(function (files) {
-    preprocess.setSankeyData(files[0]);
-    preprocess.setAlluvialData(files[1]);
+    preprocess.setAlluvialData(files[0]);
     createAlluvialViz();
 })
 }
@@ -40,8 +26,29 @@ export function initAlluvial() {
 }
 
 export function createAlluvialViz() {
+
   sankeyData = preprocess.getSankeyData();
+
+  graph = {
+    nodes: [],
+    links: [],
+  };
+
+  d3.select("#alluvialChart").remove();
   
+  const svg = d3.select("#viz3")
+    .append("svg").attr("id", "alluvialChart")
+    .attr("width", width).attr("height", height);
+
+  const sankey = d3
+    .sankey()
+    .nodeSort(null)
+    .nodeWidth(15)
+    .nodePadding(10)
+    .size([width, height]);
+
+  console.log(graph)
+
   sankeyData.forEach((d) => {
     const sourceIndex = graph.nodes.findIndex(
       (node) => node.name === d.source
@@ -73,20 +80,33 @@ export function createAlluvialViz() {
     .append("g")
     .attr("class", "node")
     .attr("transform", (d) => `translate(${d.x0},${d.y0})`);
+
+  const lastNode = node.filter((d, i) => i === graph.nodes.length - 1);
+  const lastNodeHeight = lastNode.node().getBoundingClientRect().height;
+    
+  svg.attr("height", height + lastNodeHeight);
   
   node
     .append("rect")
     .attr("height", (d) => d.y1 - d.y0)
     .attr("width", (d) => d.x1 - d.x0)
+    .on("mouseover", (event, d) => {
+      showAlluvialNode(d.name);
+    })
+    .on("mouseout", (event, d) => {
+      resetAlluvial();
+    })
     .style("fill", "#a52a2a");
   
   node
     .append("text")
-    .attr("x", (d) => (d.x0 < width / 2 ? 6 : -6))
+    .attr("x", (d) => (d.x0 < width / 2 ? 25 : -10))
     .attr("y", (d) => (d.y1 - d.y0) / 2)
     .attr("dy", "0.35em")
+    .style("padding-top", 10)
     .attr("text-anchor", (d) => (d.x0 < width / 2 ? "start" : "end"))
-    .text((d) => d.name);
+    .text((d) => d.name)
+    .style("font-size", "18px");
   
   const link = svg
     .append("g")
@@ -103,7 +123,7 @@ export function createAlluvialViz() {
     .attr("d", d3.sankeyLinkHorizontal())
     .attr("stroke-width", (d) => Math.max(1, d.width))
     .on("mouseover", (event, d) => {
-      showAlluvial(d.source.name, d.target.name);
+      showAlluvialLink(d.source.name, d.target.name);
     })
     .on("mouseout", (event, d) => {
       resetAlluvial();
@@ -115,40 +135,99 @@ export function createAlluvialViz() {
       (d) =>
         `${d.source.name} → ${d.target.name}\n${d3.format(",.0f")(d.value)}`
     );
+
+  // Get the bounding box of all the g elements
+  const bbox = svg.select("g").node().getBBox();
+
+  // Set the viewBox attribute on the svg element
+  svg.attr("viewBox", `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
 }
 
-function showAlluvial(sourceName, targetName) {
-  alluvialData = preprocess.getAlluvialData();
-  let filteredAlluvialData = []; 
-  let filteredSankeyData = []; 
+function showAlluvialLink(sourceName, targetName) {
+  alluvialData = preprocess.getFilteredAlluvialData();
+  let alluvialToHighlight = []; 
+  let sankeyToHighlight = []; 
 
   // Filter the alluvialData to include only the relevant connections
   alluvialData.forEach((d) => {
     if (d['airline'] == sourceName || d['duration'] == sourceName || d['departureTime'] == sourceName || d['flightRange'] == sourceName) {
       if (d['airline'] == targetName || d['duration'] == targetName || d['departureTime'] == targetName || d['flightRange'] == targetName) {
-        filteredAlluvialData.push(d);
+        alluvialToHighlight.push(d);
       }
     }
   });
 
   // Filter the sankeyData to include only the relevant connections
-  filteredAlluvialData.forEach((ad) => {
+  alluvialToHighlight.forEach((ad) => {
     sankeyData.forEach((sd) => {
       if (sd['source'] == ad['airline'] || sd['source'] == ad['duration'] || sd['source'] == ad['departureTime'] || sd['source'] == ad['flightRange']) {
         if (sd['target'] == ad['airline'] || sd['target'] == ad['duration'] || sd['target'] == ad['departureTime'] || sd['target'] == ad['flightRange']) {
-          if (!filteredSankeyData.includes(sd)) filteredSankeyData.push(sd);
+          if (!sankeyToHighlight.includes(sd)) sankeyToHighlight.push(sd);
         }
       }
     });
   });
   
-  filteredSankeyData.forEach((sd) => {
+  sankeyToHighlight.forEach((sd) => {
     let sum = 0;
-    filteredAlluvialData.forEach((ad) => {
+    alluvialToHighlight.forEach((ad) => {
       if ((ad['airline'] == sd['source'] && ad['duration'] == sd['target']) ||
           (ad['duration'] == sd['source'] && ad['departureTime'] == sd['target']) ||
           (ad['departureTime'] == sd['source'] && ad['flightRange'] == sd['target'])) {
-        sum += parseInt(ad['count']);
+        sum += ad['count'];
+      }
+    });
+    sd['count'] = sum;
+
+    graph.links.forEach((link) => {
+      if (link['source'].name == sd['source'] && link['target'].name == sd['target']) {
+        const linkToModify = d3.select("#link-" + link.index);
+        const linkPath = linkToModify.select("path");
+        const colorPercentage = sd['count']/link['value'];
+
+        linkPath.attr("stroke-opacity", 0.5)
+          .attr("stroke", "red")
+          .attr("stroke-width", (d) => Math.max(1, d.width*colorPercentage));
+      }
+    });
+  });
+}
+
+function showAlluvialNode(nodeName) {
+  console.log('SHOW ALLUVIAL NODE')
+  alluvialData = preprocess.getFilteredAlluvialData();
+  let alluvialToHighlight = []; 
+  let sankeyToHighlight = []; 
+
+  // Filter the alluvialData to include only the relevant connections
+  alluvialData.forEach((d) => {
+    if (d['airline'] == nodeName || d['duration'] == nodeName || d['departureTime'] == nodeName || d['flightRange'] == nodeName) {
+      alluvialToHighlight.push(d);
+    }
+  });
+
+  console.log('ALLUVIAL TO HIGHLIGHT')
+  console.log(alluvialToHighlight)
+  console.log('SANKEY DATA')
+  console.log(sankeyData)
+
+  // Filter the sankeyData to include only the relevant connections
+  alluvialToHighlight.forEach((ad) => {
+    sankeyData.forEach((sd) => {
+      if ((sd['source'] == ad['airline'] && sd['target'] == ad['duration']) || (sd['source'] == ad['duration'] && sd['target'] == ad['departureTime']) ||
+         (sd['source'] == ad['departureTime'] && sd['target'] == ad['flightRange'])) {
+        if (!sankeyToHighlight.includes(sd)) sankeyToHighlight.push(sd);
+      }
+    });
+  });
+  
+  sankeyToHighlight.forEach((sd) => {
+    let sum = 0;
+    alluvialToHighlight.forEach((ad) => {
+      if ((ad['airline'] == sd['source'] && ad['duration'] == sd['target']) ||
+          (ad['duration'] == sd['source'] && ad['departureTime'] == sd['target']) ||
+          (ad['departureTime'] == sd['source'] && ad['flightRange'] == sd['target'])) {
+        sum += ad['count'];
       }
     });
     sd['count'] = sum;

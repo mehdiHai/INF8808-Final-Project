@@ -1,4 +1,5 @@
 import * as preprocess from './preprocess.js'
+import * as alluvial from './alluvial.js'
 import Tooltip from './tooltip.js'
 
 const BUCKET_HEIGHT = 300;
@@ -21,13 +22,16 @@ export function setUpSlider() {
   var	slider=document.getElementById("slider")
 	var sliderValue=document.getElementById("slider-value")
 	sliderValue.innerHTML=slider.value
+  preprocess.filterAlluvialData()
 	slider.oninput=function() {
 		sliderValue.innerHTML=this.value
     d3.select('#topSVG').selectAll('*').remove()
     d3.select('#bottomSVG').selectAll('*').remove()
     preprocess.setTopCompaniesCount(this.value)
     displayBucketGraph()
+    preprocess.filterAlluvialData()
 	}
+  alluvial.createAlluvialViz();
 }
 
 function displayTopBucket(topBucket, heightScale) {

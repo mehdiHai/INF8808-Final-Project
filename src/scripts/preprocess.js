@@ -1,6 +1,7 @@
 let data = [];
 let sankeyData = [];
 let alluvialData = [];
+let filteredAlluvialData = [];
 let companiesFlightArray = [];
 let topCompaniesCount = 0;
 let companiesAircrafts;
@@ -12,12 +13,103 @@ export function setData(newData) {
   companiesFlightArray = setCompaniesFlightCount(data);
 }
 
-export function setSankeyData(d) {
-  sankeyData = d
+export function setAlluvialData(data) {
+  alluvialData = [];
+  data.forEach(d => {
+    alluvialData.push({airline: d.airline, duration: d.duration, departureTime: d.departureTime, flightRange: d.flightRange, count: parseInt(d.count)});
+  });
 }
 
-export function setAlluvialData(d) {
-  alluvialData = d
+export function filterAlluvialData() {
+  filteredAlluvialData = [];
+  console.log(companiesFlightArray)
+  console.log(topCompaniesCount)
+
+  alluvialData.forEach(d => {
+    let index = companiesFlightArray.findIndex(company => company[0] === d.airline);
+    if (index >= 0 && index < topCompaniesCount) {
+      filteredAlluvialData.push(d);
+    } else {
+      let found = filteredAlluvialData.find(f => f.duration === d.duration && f.departureTime === d.departureTime && f.flightRange === d.flightRange && f.airline === 'OTHERS');
+      if (found) {
+        found.count += d.count;
+      } else {
+        filteredAlluvialData.push({airline: 'OTHERS', duration: d.duration, departureTime: d.departureTime, flightRange: d.flightRange, count: d.count});
+      }
+    }
+  });
+
+  let index = companiesFlightArray.findIndex(company => company === 'OTHERS');
+  if (index >= 0 && index < topCompaniesCount) {
+    let found = filteredAlluvialData.find(f => f.airline === 'OTHERS');
+    if (found) {
+      found.count += otherCount;
+    } else {
+      filteredAlluvialData.push({airline: 'OTHERS', duration: '', departureTime: '', flightRange: '', count: otherCount});
+    }
+  }
+
+  setSankeyData();
+}
+
+
+export function setSankeyData() {
+  // 'filteredAlluvialData' is the array of objects containing airline, duration, departureTime, and flightRange
+
+  sankeyData = [];
+  // count objects with same airline and duration
+  const airlineDurationCounts = {};
+  filteredAlluvialData.forEach(d => {
+    const key = `${d.airline}_${d.duration}`;
+    if (!airlineDurationCounts[key]) {
+      airlineDurationCounts[key] = 0;
+    }
+    airlineDurationCounts[key] += d.count;
+  });
+
+  // count objects with same duration and departureTime
+  const durationDepartureCounts = {};
+  filteredAlluvialData.forEach(d => {
+    const key = `${d.duration}_${d.departureTime}`;
+    if (!durationDepartureCounts[key]) {
+      durationDepartureCounts[key] = 0;
+    }
+    durationDepartureCounts[key] += d.count;
+  });
+
+  // count objects with same departureTime and flightRange
+  const departureFlightCounts = {};
+  filteredAlluvialData.forEach(d => {
+    const key = `${d.departureTime}_${d.flightRange}`;
+    if (!departureFlightCounts[key]) {
+      departureFlightCounts[key] = 0;
+    }
+    departureFlightCounts[key] += d.count;
+  });
+
+  Object.keys(airlineDurationCounts).forEach(key => {
+    const [airline, duration] = key.split('_');
+    const source = airline;
+    const target = duration;
+    const count = airlineDurationCounts[key];
+    sankeyData.push({source, target, count});
+  });
+  Object.keys(durationDepartureCounts).forEach(key => {
+    const [duration, departureTime] = key.split('_');
+    const source = duration;
+    const target = departureTime;
+    const count = durationDepartureCounts[key];
+    sankeyData.push({source, target, count});
+  });
+  Object.keys(departureFlightCounts).forEach(key => {
+    const [departureTime, flightRange] = key.split('_');
+    const source = departureTime;
+    const target = flightRange;
+    const count = departureFlightCounts[key];
+    sankeyData.push({source, target, count});
+  });
+
+  return sankeyData;
 }
 
 export function getData() {
@@ -32,6 +124,10 @@ export function getAlluvialData() {
   return [...alluvialData];
 }
 
+export function getFilteredAlluvialData() {
+  return [...filteredAlluvialData];
+}
+
 export function getCompaniesFlightArray() {
   return [...companiesFlightArray];
 }
@@ -41,6 +137,7 @@ export function getTopCompaniesCount(){
 }
 
 export function setTopCompaniesCount(count){
+  console.log(count)
   topCompaniesCount = count;
 }
 
@@ -91,7 +188,6 @@ function setCompaniesFlightCount(data) {
   })
   topCompanies.delete('NULL')
   topCompanies.delete('')
-  console.log(topCompanies)
   let numOthers = topCompanies.get("OTHERS")
   topCompanies.delete("OTHERS")
 
