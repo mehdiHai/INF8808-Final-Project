@@ -34,6 +34,55 @@ export default class Tooltip {
             .style('width', '300px')
     }
 
+
+    showTooltipLink(m, source, target, value, level) {
+        var text = "";
+
+        switch(level) {
+            case 0: 
+                text = `${value} vols ${target}-courriers<br>effectués par ${source}`
+                break;
+            case 1:
+                text = `${value} vols ${source}-courriers<br>effectués entre ${target}`
+                break;
+            case 2: 
+                text = `${value} vols effectués<br>entre ${source} de desserte ${target}`
+                break;
+        }
+
+        this.element
+            .style("opacity", 0.7)
+            .html(text)
+            .style("left", (m.x + 30) + "px")
+            .style("top", (m.pageY + 30) + "px")
+    }
+
+
+
+    showTooltipNode(m, name, value, level) {
+        var text = "";
+        switch(level) {
+            case 0: 
+                text = `${value} vols effectués par ${name}`
+                break;
+            case 1:
+                text = `${value} vols ${name}-courriers`
+                break;
+            case 2: 
+                text = `${value} vols effectués entre ${name}`
+                break;
+            default:
+                text = `${value} vols de desserte ${name}`
+                break;
+        }
+
+        this.element
+            .style("opacity", 0.7)
+            .html(text)
+            .style("left", (m.x + 30) + "px")
+            .style("top", (m.pageY + 30) + "px")
+    }
+
     showTooltipAirport(m, d) {
 
         this.element

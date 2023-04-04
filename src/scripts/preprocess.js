@@ -92,21 +92,21 @@ export function setSankeyData() {
     const source = airline;
     const target = duration;
     const count = airlineDurationCounts[key];
-    sankeyData.push({source, target, count});
+    sankeyData.push({source, target, count, level: 0});
   });
   Object.keys(durationDepartureCounts).forEach(key => {
     const [duration, departureTime] = key.split('_');
     const source = duration;
     const target = departureTime;
     const count = durationDepartureCounts[key];
-    sankeyData.push({source, target, count});
+    sankeyData.push({source, target, count, level: 1});
   });
   Object.keys(departureFlightCounts).forEach(key => {
     const [departureTime, flightRange] = key.split('_');
     const source = departureTime;
     const target = flightRange;
     const count = departureFlightCounts[key];
-    sankeyData.push({source, target, count});
+    sankeyData.push({source, target, count, level: 2});
   });
 
   return sankeyData;
