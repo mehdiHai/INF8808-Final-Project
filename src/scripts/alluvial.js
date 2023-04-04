@@ -11,14 +11,13 @@ let graph = {
 const width = 1500;
 const height = 1000;
 
-export function loadData(){
+export function loadData() {
   d3.select("#viz3").on("mouseover", null)
-  Promise.all([
-    d3.csv('./alluvial_data.csv')
-]).then(function (files) {
-    preprocess.setAlluvialData(files[0]);
-    createAlluvialViz();
-})
+  d3.csv('./alluvial_data.csv')
+    .then(files => {
+      preprocess.setAlluvialData(files[0]);
+      createAlluvialViz();
+    })
 }
 
 export function initAlluvial() {
@@ -29,40 +28,37 @@ export function createAlluvialViz() {
 
   sankeyData = preprocess.getSankeyData();
 
-  graph = {
-    nodes: [],
-    links: [],
-  };
+  graph.nodes = [];
+  graph.links = [];
 
   d3.select("#alluvialChart").remove();
-  
-  const svg = d3.select("#viz3")
-    .append("svg").attr("id", "alluvialChart")
-    .attr("width", width).attr("height", height);
 
-  const sankey = d3
-    .sankey()
+  const svg = d3.select("#viz3")
+    .append("svg")
+    .attr("id", "alluvialChart")
+    .attr("width", width)
+    .attr("height", height);
+
+  const sankey = d3.sankey()
     .nodeSort(null)
     .nodeWidth(15)
     .nodePadding(10)
     .size([width, height]);
 
-  console.log(graph)
-
-  sankeyData.forEach((d) => {
+  sankeyData.forEach(d => {
     const sourceIndex = graph.nodes.findIndex(
       (node) => node.name === d.source
     );
     const targetIndex = graph.nodes.findIndex(
       (node) => node.name === d.target
     );
-  
+
     const sourceNode = { name: d.source };
     const targetNode = { name: d.target };
-  
+
     if (sourceIndex === -1) graph.nodes.push(sourceNode);
     if (targetIndex === -1) graph.nodes.push(targetNode);
-  
+
     graph.links.push({
       source: sourceIndex === -1 ? sourceNode : graph.nodes[sourceIndex],
       target: targetIndex === -1 ? targetNode : graph.nodes[targetIndex],
@@ -71,43 +67,39 @@ export function createAlluvialViz() {
   });
 
   sankey(graph);
-  
-  const node = svg
-    .append("g")
+
+  const node = svg.append("g")
     .selectAll(".node")
     .data(graph.nodes)
     .enter()
     .append("g")
     .attr("class", "node")
-    .attr("transform", (d) => `translate(${d.x0},${d.y0})`);
+    .attr("transform", d => `translate(${d.x0},${d.y0})`);
 
   const lastNode = node.filter((d, i) => i === graph.nodes.length - 1);
   const lastNodeHeight = lastNode.node().getBoundingClientRect().height;
-    
+
   svg.attr("height", height + lastNodeHeight);
-  
-  node
-    .append("rect")
-    .attr("height", (d) => d.y1 - d.y0)
-    .attr("width", (d) => d.x1 - d.x0)
+
+  node.append("rect")
+    .attr("height", d => d.y1 - d.y0)
+    .attr("width", d => d.x1 - d.x0)
     .on("mouseover", (event, d) => {
       showAlluvialNode(d.name);
     })
-    .on("mouseout", (event, d) => {
-      resetAlluvial();
-    })
+    .on("mouseout", resetAlluvial)
     .style("fill", "#a52a2a");
-  
+
   node
     .append("text")
-    .attr("x", (d) => (d.x0 < width / 2 ? 25 : -10))
-    .attr("y", (d) => (d.y1 - d.y0) / 2)
+    .attr("x", d => d.x0 < width / 2 ? 25 : -10)
+    .attr("y", d => (d.y1 - d.y0) / 2)
     .attr("dy", "0.35em")
     .style("padding-top", 10)
-    .attr("text-anchor", (d) => (d.x0 < width / 2 ? "start" : "end"))
-    .text((d) => d.name)
+    .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
+    .text(d => d.name)
     .style("font-size", "18px");
-  
+
   const link = svg
     .append("g")
     .attr("fill", "none")
@@ -116,23 +108,21 @@ export function createAlluvialViz() {
     .data(graph.links)
     .join("g")
     .attr("stroke", "gray");
-  
+
   link
-    .attr("id", (d) => 'link-' + d.index)
+    .attr("id", d => 'link-' + d.index)
     .append("path")
     .attr("d", d3.sankeyLinkHorizontal())
-    .attr("stroke-width", (d) => Math.max(1, d.width))
+    .attr("stroke-width", d => Math.max(1, d.width))
     .on("mouseover", (event, d) => {
       showAlluvialLink(d.source.name, d.target.name);
     })
-    .on("mouseout", (event, d) => {
-      resetAlluvial();
-    })
-  
+    .on("mouseout", resetAlluvial)
+
   link
     .append("title")
     .text(
-      (d) =>
+      d =>
         `${d.source.name} → ${d.target.name}\n${d3.format(",.0f")(d.value)}`
     );
 
@@ -143,13 +133,40 @@ export function createAlluvialViz() {
   svg.attr("viewBox", `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
 }
 
+
+function highlightLinks(alluvialToHighlight, sankeyToHighlight) {
+  sankeyToHighlight.forEach(sd => {
+    let sum = 0;
+    alluvialToHighlight.forEach(ad => {
+      if ((ad['airline'] == sd['source'] && ad['duration'] == sd['target']) ||
+        (ad['duration'] == sd['source'] && ad['departureTime'] == sd['target']) ||
+        (ad['departureTime'] == sd['source'] && ad['flightRange'] == sd['target'])) {
+        sum += ad['count'];
+      }
+    });
+    sd['count'] = sum;
+
+    graph.links.forEach(link => {
+      if (link['source'].name == sd['source'] && link['target'].name == sd['target']) {
+        const linkToModify = d3.select("#link-" + link.index);
+        const linkPath = linkToModify.select("path");
+        const colorPercentage = sd['count'] / link['value'];
+
+        linkPath.attr("stroke-opacity", 0.5)
+          .attr("stroke", "red")
+          .attr("stroke-width", d => Math.max(1, d.width * colorPercentage));
+      }
+    });
+  });
+}
+
 function showAlluvialLink(sourceName, targetName) {
   alluvialData = preprocess.getFilteredAlluvialData();
-  let alluvialToHighlight = []; 
-  let sankeyToHighlight = []; 
+  let alluvialToHighlight = [];
+  let sankeyToHighlight = [];
 
   // Filter the alluvialData to include only the relevant connections
-  alluvialData.forEach((d) => {
+  alluvialData.forEach(d => {
     if (d['airline'] == sourceName || d['duration'] == sourceName || d['departureTime'] == sourceName || d['flightRange'] == sourceName) {
       if (d['airline'] == targetName || d['duration'] == targetName || d['departureTime'] == targetName || d['flightRange'] == targetName) {
         alluvialToHighlight.push(d);
@@ -158,8 +175,8 @@ function showAlluvialLink(sourceName, targetName) {
   });
 
   // Filter the sankeyData to include only the relevant connections
-  alluvialToHighlight.forEach((ad) => {
-    sankeyData.forEach((sd) => {
+  alluvialToHighlight.forEach(ad => {
+    sankeyData.forEach(sd => {
       if (sd['source'] == ad['airline'] || sd['source'] == ad['duration'] || sd['source'] == ad['departureTime'] || sd['source'] == ad['flightRange']) {
         if (sd['target'] == ad['airline'] || sd['target'] == ad['duration'] || sd['target'] == ad['departureTime'] || sd['target'] == ad['flightRange']) {
           if (!sankeyToHighlight.includes(sd)) sankeyToHighlight.push(sd);
@@ -167,37 +184,14 @@ function showAlluvialLink(sourceName, targetName) {
       }
     });
   });
-  
-  sankeyToHighlight.forEach((sd) => {
-    let sum = 0;
-    alluvialToHighlight.forEach((ad) => {
-      if ((ad['airline'] == sd['source'] && ad['duration'] == sd['target']) ||
-          (ad['duration'] == sd['source'] && ad['departureTime'] == sd['target']) ||
-          (ad['departureTime'] == sd['source'] && ad['flightRange'] == sd['target'])) {
-        sum += ad['count'];
-      }
-    });
-    sd['count'] = sum;
 
-    graph.links.forEach((link) => {
-      if (link['source'].name == sd['source'] && link['target'].name == sd['target']) {
-        const linkToModify = d3.select("#link-" + link.index);
-        const linkPath = linkToModify.select("path");
-        const colorPercentage = sd['count']/link['value'];
-
-        linkPath.attr("stroke-opacity", 0.5)
-          .attr("stroke", "red")
-          .attr("stroke-width", (d) => Math.max(1, d.width*colorPercentage));
-      }
-    });
-  });
+  highlightLinks(alluvialToHighlight, sankeyToHighlight);
 }
 
 function showAlluvialNode(nodeName) {
-  console.log('SHOW ALLUVIAL NODE')
   alluvialData = preprocess.getFilteredAlluvialData();
-  let alluvialToHighlight = []; 
-  let sankeyToHighlight = []; 
+  let alluvialToHighlight = [];
+  let sankeyToHighlight = [];
 
   // Filter the alluvialData to include only the relevant connections
   alluvialData.forEach((d) => {
@@ -206,52 +200,25 @@ function showAlluvialNode(nodeName) {
     }
   });
 
-  console.log('ALLUVIAL TO HIGHLIGHT')
-  console.log(alluvialToHighlight)
-  console.log('SANKEY DATA')
-  console.log(sankeyData)
-
   // Filter the sankeyData to include only the relevant connections
-  alluvialToHighlight.forEach((ad) => {
-    sankeyData.forEach((sd) => {
+  alluvialToHighlight.forEach(ad => {
+    sankeyData.forEach(sd => {
       if ((sd['source'] == ad['airline'] && sd['target'] == ad['duration']) || (sd['source'] == ad['duration'] && sd['target'] == ad['departureTime']) ||
-         (sd['source'] == ad['departureTime'] && sd['target'] == ad['flightRange'])) {
+        (sd['source'] == ad['departureTime'] && sd['target'] == ad['flightRange'])) {
         if (!sankeyToHighlight.includes(sd)) sankeyToHighlight.push(sd);
       }
     });
   });
-  
-  sankeyToHighlight.forEach((sd) => {
-    let sum = 0;
-    alluvialToHighlight.forEach((ad) => {
-      if ((ad['airline'] == sd['source'] && ad['duration'] == sd['target']) ||
-          (ad['duration'] == sd['source'] && ad['departureTime'] == sd['target']) ||
-          (ad['departureTime'] == sd['source'] && ad['flightRange'] == sd['target'])) {
-        sum += ad['count'];
-      }
-    });
-    sd['count'] = sum;
 
-    graph.links.forEach((link) => {
-      if (link['source'].name == sd['source'] && link['target'].name == sd['target']) {
-        const linkToModify = d3.select("#link-" + link.index);
-        const linkPath = linkToModify.select("path");
-        const colorPercentage = sd['count']/link['value'];
-
-        linkPath.attr("stroke-opacity", 0.5)
-          .attr("stroke", "red")
-          .attr("stroke-width", (d) => Math.max(1, d.width*colorPercentage));
-      }
-    });
-  });
+  highlightLinks(alluvialToHighlight, sankeyToHighlight);
 }
 
 function resetAlluvial() {
-  graph.links.forEach((link) => {
+  graph.links.forEach(link => {
     const linkToModify = d3.select("#link-" + link.index);
     const linkPath = linkToModify.select("path");
     linkPath.attr("stroke", "gray")
       .attr("stroke-opacity", 0.5)
-      .attr("stroke-width", (d) => Math.max(1, d.width));
+      .attr("stroke-width", d => Math.max(1, d.width));
   });
 }
