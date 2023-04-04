@@ -1,4 +1,5 @@
 import * as preprocess from "./preprocess.js"
+import Tooltip from "./tooltip.js";
 
 let sankeyData = [];
 let alluvialData = [];
@@ -10,6 +11,8 @@ let graph = {
 
 const width = 1500;
 const height = 1000;
+
+const tooltip = new Tooltip();
 
 export function loadData() {
   d3.select("#viz3").on("mouseover", null)
@@ -24,6 +27,26 @@ export function initAlluvial() {
   d3.select("#viz3").on("mouseover", loadData)
 }
 
+
+/* Ne correspond à rien 
+A MODIFIER
+*/
+function extractTimes(name) {
+  switch(name) {
+    case "matin":
+      return "4h-10h"
+    case "après-midi":
+      return "10h-16h"
+    case "soire":
+      return "16h-22h"
+    case "nuit":
+      return "22h-4h"
+    default:
+      return name
+  }
+}
+
+
 export function createAlluvialViz() {
 
   sankeyData = preprocess.getSankeyData();
@@ -36,8 +59,8 @@ export function createAlluvialViz() {
   const svg = d3.select("#viz3")
     .append("svg")
     .attr("id", "alluvialChart")
-    .attr("width", width)
-    .attr("height", height);
+    .attr("width", "70%")
+    .attr("height", "auto");
 
   const sankey = d3.sankey()
     .nodeSort(null)
@@ -63,6 +86,7 @@ export function createAlluvialViz() {
       source: sourceIndex === -1 ? sourceNode : graph.nodes[sourceIndex],
       target: targetIndex === -1 ? targetNode : graph.nodes[targetIndex],
       value: d.count,
+      level: d.level
     });
   });
 
@@ -86,6 +110,7 @@ export function createAlluvialViz() {
     .attr("width", d => d.x1 - d.x0)
     .on("mouseover", (event, d) => {
       showAlluvialNode(d.name);
+      return tooltip.showTooltipNode(event, extractTimes(d.name), d.value, d.layer)
     })
     .on("mouseout", resetAlluvial)
     .style("fill", "#a52a2a");
@@ -116,15 +141,9 @@ export function createAlluvialViz() {
     .attr("stroke-width", d => Math.max(1, d.width))
     .on("mouseover", (event, d) => {
       showAlluvialLink(d.source.name, d.target.name);
+      return tooltip.showTooltipLink(event, extractTimes(d.source.name), extractTimes(d.target.name), d.value, d.level)
     })
     .on("mouseout", resetAlluvial)
-
-  link
-    .append("title")
-    .text(
-      d =>
-        `${d.source.name} → ${d.target.name}\n${d3.format(",.0f")(d.value)}`
-    );
 
   // Get the bounding box of all the g elements
   const bbox = svg.select("g").node().getBBox();
