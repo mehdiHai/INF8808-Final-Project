@@ -13,13 +13,13 @@ var figureHeight = 4 * window.innerHeight / 5;
 // initialize the scrollama
 var scroller = scrollama();
 
-var svg = d3.select('#viz2')
+const svg = d3.select('#viz2')
     .append('svg')
 
 function handleResize() {
-    var stepH = Math.floor(window.innerHeight * 0.75);
+    const stepH = Math.floor(window.innerHeight * 0.75);
     step.style("height", stepH + "px");
-    var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+    const figureMarginTop = (window.innerHeight - figureHeight) / 2;
 
     figure.style("height", figureHeight + "px")
         .style("top", figureMarginTop + "px");
@@ -28,31 +28,27 @@ function handleResize() {
 }
 
 
-var fig_rat = d3.select("figure").node().getBoundingClientRect().width
+const figWidth = d3.select("figure")
+    .node()
+    .getBoundingClientRect()
+    .width
 
-var network = new Network(svg, fig_rat/figureHeight);
-// scrollama event handlers
+const network = new Network(svg, figWidth / figureHeight);
+
 function handleStepEnter(response) {
     if (response.direction === 'down') {
-        if (response.index%2 === 0 && response.index !== 6) {
+        if (response.index % 2 === 0 && response.index !== 6) {
             network.displayAirports()
-        }
-        if (response.index%2 === 1) {
+        } else if (response.index % 2 === 1) {
             network.displayFlights()
         }
     } else {
-        if ((response.index%2 === 1) && response.index !== 5) {
+        if ((response.index % 2 === 1) && response.index !== 5) {
             network.removeAirports()
-        }
-
-        if ((response.index%2 === 0) && response.index !== 6) {
+        } else if ((response.index % 2 === 0) && response.index !== 6) {
             network.removeFlights()
         }
     }
-    // add color to current step only
-    step.classed("is-active", function (d, i) {
-        return i === response.index;
-    });
 }
 
 function handleStepExit(response) {
@@ -61,7 +57,7 @@ function handleStepExit(response) {
     }
 }
 
-export function init() {
+export function initNetwork() {
 
     handleResize();
     scroller

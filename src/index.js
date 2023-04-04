@@ -2,7 +2,7 @@ import * as waffles from './scripts/viz4.js'
 import * as alluvial from './scripts/alluvial.js'
 import * as buckets from './scripts/viz1.js'
 import * as preprocess from './scripts/preprocess.js'
-import { init } from './scripts/scrolly.js'
+import * as network from './scripts/scrolly.js'
 
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
@@ -23,7 +23,7 @@ window.onload = () => {
         buckets.setUpSlider();
     })
 
-    init()
+    network.initNetwork()
     // alluvial.initAlluvial()
     waffles.initWaffle()
 };

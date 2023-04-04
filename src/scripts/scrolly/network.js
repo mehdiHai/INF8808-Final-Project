@@ -30,15 +30,12 @@ export default class Network {
 
     var readAirports = function (localairports) {
 
-      var nb = 0
+      var nb = localairports.length
       var minMaxX = d3.extent(localairports, d => parseFloat(d.lat))
       var minMaxY = d3.extent(localairports, d => parseFloat(d.lon) / this.ratio)
 
-      for (const item of localairports) {
-        this.airportCode[item.airport] = [item.lat, item.lon / this.ratio]
-        nb += 1;
-      }
-
+      localairports.forEach(item => this.airportCode[item.airport] = [ parseFloat(item.lat),  parseFloat(item.lon) / this.ratio])
+      
       minMaxX = [Math.min(minMaxX[0] - 10, this.minMaxXGlobal[0]), Math.max(minMaxX[1] + 10, this.minMaxXGlobal[1])]
       minMaxY = [Math.min(minMaxY[0] - 10, this.minMaxYGlobal[0]), Math.max(minMaxY[1] + 10, this.minMaxYGlobal[1])]
 
@@ -46,14 +43,7 @@ export default class Network {
         this.limits[this.levelGeo[this.currentGeo]] = `${minMaxX[0]},${minMaxY[0]},${minMaxX[1] - minMaxX[0]},${minMaxY[1] - minMaxY[0]}`
       }
 
-      this.minMaxXGlobal = minMaxX
-      this.minMaxYGlobal = minMaxY
-
-      var ratio2 = minMaxY[1] - minMaxY[0]
-
-      for (let item in this.airportCode) {
-        this.airportCode[item].lon = this.airportCode[item].lon * (this.ratio / ratio2);
-      }
+      this.minMaxXGlobal, this.minMaxYGlobal = minMaxX, minMaxY
 
       var self = this
 

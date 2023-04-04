@@ -120,7 +120,7 @@ function drawTopCompaniesWaffles() {
 
 function waffleify(data) {
 	const newData = [];
-	newData.push({ category: "Autre", value: 0 });
+	newData.push({ category: "Autres", value: 0 });
 	[...data.entries()].forEach((d) => {
 		if (d[1] < factor) {
 			newData[0].value += d[1];
