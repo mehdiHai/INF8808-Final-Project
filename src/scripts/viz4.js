@@ -1,7 +1,5 @@
 import * as preprocess from "./preprocess.js"
-import distinctColors from 'distinct-colors'
 import Tooltip from "./tooltip.js"
-import { color } from "d3";
 
 let biggestCompaniesAircrafts;
 let otherCompaniesAircrafts;
@@ -74,7 +72,7 @@ function createScale(data) {
 	const domain = data.map((d) => {
 		return d.category;
 	});
-	colorScale = d3.scaleOrdinal().domain(domain).range(distinctColors({count: 12}).reverse());
+	colorScale = d3.scaleOrdinal().domain(domain).range(d3.schemeCategory10);
 }
 
 function calculateWaffleDimensions(data, FACTOR) {
