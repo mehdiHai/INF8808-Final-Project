@@ -21,19 +21,19 @@ export function displayBucketGraph() {
 }
 
 export function setUpSlider() {
-  var	slider=document.getElementById("slider")
-	var sliderValue=document.getElementById("slider-value")
-	sliderValue.innerHTML=slider.value
+  const	slider=document.getElementById("slider")
+  const sliderValue=document.getElementById("slider-value")
+  sliderValue.innerHTML=slider.value
   preprocess.filterAlluvialData()
 	slider.oninput=function() {
-		sliderValue.innerHTML=this.value
-    d3.select('#topSVG').selectAll('*').remove()
-    d3.select('#bottomSVG').selectAll('*').remove()
-    preprocess.setTopCompaniesCount(this.value)
-    displayBucketGraph()
-    preprocess.filterAlluvialData()
-    if(preprocess.getCompaniesAircraftsMap().length != 0)
-      waffle.modifyData();
+      sliderValue.innerHTML=this.value
+      d3.select('#topSVG').selectAll('*').remove()
+      d3.select('#bottomSVG').selectAll('*').remove()
+      preprocess.setTopCompaniesCount(this.value)
+      displayBucketGraph()
+      preprocess.filterAlluvialData()
+      if(preprocess.getCompaniesAircraftsMap().length !== 0)
+        waffle.modifyData();
     
 	}
   alluvial.createAlluvialViz();
