@@ -166,11 +166,10 @@ function highlightLinks(alluvialToHighlight, sankeyToHighlight) {
     sd['count'] = sum;
 
     graph.links.forEach(link => {
+      const linkToModify = d3.select("#link-" + link.index);
+      const linkPath = linkToModify.select("path");
       if (link['source'].name == sd['source'] && link['target'].name == sd['target']) {
-        const linkToModify = d3.select("#link-" + link.index);
-        const linkPath = linkToModify.select("path");
         const colorPercentage = sd['count'] / link['value'];
-
         linkPath.attr("stroke-opacity", 0.5)
           .attr("stroke", "red")
           .attr("stroke-width", d => Math.max(1, d.width * colorPercentage));
@@ -186,19 +185,19 @@ function showAlluvialLink(sourceName, targetName) {
 
   // Filter the alluvialData to include only the relevant connections
   alluvialData.forEach(d => {
-    if (d['airline'] == sourceName || d['duration'] == sourceName || d['departureTime'] == sourceName || d['flightRange'] == sourceName) {
-      if (d['airline'] == targetName || d['duration'] == targetName || d['departureTime'] == targetName || d['flightRange'] == targetName) {
-        alluvialToHighlight.push(d);
-      }
+    const nameArray = [d['airline'], d['duration'], d['departureTime'], d['flightRange']]
+    if ( nameArray.includes(sourceName) && nameArray.includes(targetName)) {
+      alluvialToHighlight.push(d);
     }
   });
 
   // Filter the sankeyData to include only the relevant connections
   alluvialToHighlight.forEach(ad => {
+    const nameArray = [ad['airline'], ad['duration'], ad['departureTime'], ad['flightRange']]
     sankeyData.forEach(sd => {
-      if (sd['source'] == ad['airline'] || sd['source'] == ad['duration'] || sd['source'] == ad['departureTime'] || sd['source'] == ad['flightRange']) {
-        if (sd['target'] == ad['airline'] || sd['target'] == ad['duration'] || sd['target'] == ad['departureTime'] || sd['target'] == ad['flightRange']) {
-          if (!sankeyToHighlight.includes(sd)) sankeyToHighlight.push(sd);
+      if (nameArray.includes(sd['source']) && nameArray.includes(sd['target'])) {
+        if (!sankeyToHighlight.includes(sd)) {
+          sankeyToHighlight.push(sd);
         }
       }
     });
@@ -213,8 +212,9 @@ function showAlluvialNode(nodeName) {
   let sankeyToHighlight = [];
 
   // Filter the alluvialData to include only the relevant connections
-  alluvialData.forEach((d) => {
-    if (d['airline'] == nodeName || d['duration'] == nodeName || d['departureTime'] == nodeName || d['flightRange'] == nodeName) {
+  alluvialData.forEach(d => {
+    const nameArray = [d['airline'], d['duration'], d['departureTime'], d['flightRange']]
+    if (nameArray.includes(nodeName)) {
       alluvialToHighlight.push(d);
     }
   });
@@ -224,7 +224,9 @@ function showAlluvialNode(nodeName) {
     sankeyData.forEach(sd => {
       if ((sd['source'] == ad['airline'] && sd['target'] == ad['duration']) || (sd['source'] == ad['duration'] && sd['target'] == ad['departureTime']) ||
         (sd['source'] == ad['departureTime'] && sd['target'] == ad['flightRange'])) {
-        if (!sankeyToHighlight.includes(sd)) sankeyToHighlight.push(sd);
+        if (!sankeyToHighlight.includes(sd)) {
+          sankeyToHighlight.push(sd);
+        }
       }
     });
   });
