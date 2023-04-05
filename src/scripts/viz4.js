@@ -176,6 +176,7 @@ function drawWaffle(waffles, div, index) {
 
 
 function addLegend() {
+	d3.select('#viz4').append('br')
 	const legendContainer = d3.select('#viz4')
 		.append('svg')
 		.attr('class', 'legend')

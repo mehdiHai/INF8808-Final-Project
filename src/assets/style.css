@@ -168,8 +168,6 @@
 
 
 #viz4 .legend {
-    display: inline-block;
-    margin-right: 10px;
     /*background-color: gray;*/
     border: 2px solid black;
     padding-left: 5px;
@@ -208,7 +206,49 @@
 
 .waffleLabel {
     margin-bottom: 10px;
+    font-size: 1.25rem;
+
 }
+@media only screen and (max-width: 1500px) {
+    .block {
+        width: 15px;
+        height: 15px;
+        margin: 1.25px;
+        border-radius: 15%;
+    }
+    
+    .waffle {
+        display: flex;
+        flex-wrap: wrap;
+        width: 425px;
+    }
+
+    .waffleLabel {
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .block {
+        width: 10px;
+        height: 10px;
+        margin: 0.625px;
+        border-radius: 15%;
+    }
+    
+    .waffle {
+        display: flex;
+        flex-wrap: wrap;
+        width: 275px;
+    }
+
+    .waffleLabel {
+        margin-bottom: 10px;
+        font-size: 0.75rem;
+    }
+}
+
 
 #viz3 {
     padding-top: 50px;
