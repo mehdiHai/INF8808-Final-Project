@@ -176,11 +176,21 @@
 	padding-top: 10px;
 }
 
+#viz4 .title {
+    width: 80%;
+    transform:translate(10%,0);
+    margin-bottom: 100px;
+}
+
 .block {
     width: 20px;
     height: 20px;
     margin: 2.5px;
     border-radius: 15%;
+}
+
+.block:hover{
+    background-color: black;
 }
 
 .waffle {

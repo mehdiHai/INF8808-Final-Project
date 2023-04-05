@@ -95,8 +95,8 @@ export default class Tooltip {
     showTooltipAircrafts(m, d) {
 
         this.element
-            .style("opacity", 0.7)
-            .html(d)
+            .style("opacity", 1)
+            .html('Aéronef de type: ' + d.category + '<br>' + 'Quantité: ' + d.fraction + ' / ' + d.total)
             .style("left", (m.x + 30) + "px")
             .style("top", (m.pageY + 30) + "px")
     }

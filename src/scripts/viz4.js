@@ -11,9 +11,6 @@ const COLUMN_NUMBER = 25;
 const SQUARE_SIZE = 20;
 const INTERGAP_SPACE = 5;
 
-
-let otherCompaniesWaffleHeight;
-
 let tooltip = new Tooltip();
 
 export function loadData(){
@@ -112,9 +109,6 @@ function drawTopCompaniesWaffles() {
 		.append("div")
 		.attr('id', 'topWaffles')
 	
-
-	console.log(otherCompaniesWaffleHeight)
-
 	let index = 0;
 	biggestCompaniesAircrafts.forEach((companyMap, name) => {
 		const div = d3.select("#topWaffles")
@@ -145,15 +139,17 @@ function waffleify(data) {
 }
 
 function drawWaffle(data, div, index) {
+	let totalPark = 0;
 	data.forEach((d) => {
-		d.value = Math.round(d.value / FACTOR);
+		totalPark += d.value;
+		//d.value = Math.round(d.value / FACTOR);
 	});
 
 	const waffles = [];
 	data.forEach((d) => {
-		for (let i = 0; i < d.value; i++) {
+		for (let i = 0; i < Math.round(d.value / FACTOR); i++) {
 			if(d.category)
-			waffles.push(d.category);
+			waffles.push({category: d.category, fraction: d.value, total: totalPark});
 		}
 	});
 	div
@@ -162,15 +158,13 @@ function drawWaffle(data, div, index) {
 		.enter()
 		.append('div')
 		.attr('class', 'block')
-		.style('background-color', (d) => {return colorScale(d)})
-		.on("mouseover", function (m, category) {
-			if(category)
-				tooltip.showTooltipAircrafts(m, category);
-			else 
-				tooltip.hideTooltip();
+		.style('background-color', (d) => {return colorScale(d.category)})
+		.on("mouseover", function (m, d) {
+			tooltip.showTooltipAircrafts(m, d);
 		})
-		.on("mousemove", function (m) {return tooltip.moveTooltip(m)})
-	div.on("mouseleave", function () {
+		
+	div.on("mousemove", function (m) {return tooltip.moveTooltip(m)})
+		.on("mouseleave", function () {
 			return tooltip.hideTooltip();
 		});
 
