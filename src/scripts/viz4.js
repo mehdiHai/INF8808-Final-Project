@@ -12,16 +12,10 @@ const INTERGAP_SPACE = 5;
 let tooltip = new Tooltip();
 
 export function initWaffle() {
-	const loadChart = document.getElementById('step-7');
-	console.log(loadChart.offsetTop)
-	const loadChartTop = loadChart.offsetTop;
-
 	window.onscroll = function(){
 		var scrollPos = window.scrollY;
-		console.log(scrollPos)
 
 		if(scrollPos >= 6000){
-			console.log("Aircraft data loads now!");
 			window.onscroll = null;
 			d3.csv('./aircrafts.csv').then(function (files) {
 				preprocess.setCompaniesAircraftsMap(files);
