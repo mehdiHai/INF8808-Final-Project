@@ -124,39 +124,42 @@ function drawTopCompaniesWaffles() {
 
 function waffleify(data) {
 	const newData = [];
-	newData.push({ category: "Autres", value: 0 });
 	[...data.entries()].forEach((d) => {
-		if (d[1] < FACTOR) {
-			newData[0].value += d[1];
-		} else {
-			newData.push({ category: d[0], value: d[1] });
-		}
+		newData.push({ category: d[0], value: d[1] });
 	});
-	const autres = newData.splice(newData.findIndex((d) => { return d.category === "Autres"}), 1)
 	newData.sort((a, b) => b.value - a.value)
-	newData.push(autres[0])
-	return newData;
-}
+	let othersCount = 0;
+	if(newData.length > 8) {
+		for(let i = 8; i < newData.length; i++){
+			othersCount += newData[i].value;
+		}
+	}
+	newData.splice(8, newData.length - 8);
+	newData.push({ category: "Autres", value: othersCount })
 
-function drawWaffle(data, div, index) {
+
 	let totalPark = 0;
-	data.forEach((d) => {
+	newData.forEach((d) => {
 		totalPark += d.value;
-		//d.value = Math.round(d.value / FACTOR);
 	});
 
 	const waffles = [];
-	data.forEach((d) => {
+	newData.forEach((d) => {
 		for (let i = 0; i < Math.round(d.value / FACTOR); i++) {
-			if(d.category)
 			waffles.push({category: d.category, fraction: d.value, total: totalPark});
 		}
 	});
+
+	return waffles;
+}
+
+function drawWaffle(waffles, div, index) {
 	div
 		.selectAll('.block')
 		.data(waffles)
 		.enter()
 		.append('div')
+		.attr('background-image', 'url(\'img/plane-icon.png\')')
 		.attr('class', 'block')
 		.style('background-color', (d) => {return colorScale(d.category)})
 		.on("mouseover", function (m, d) {

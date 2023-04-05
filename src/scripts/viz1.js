@@ -32,7 +32,8 @@ export function setUpSlider() {
     preprocess.setTopCompaniesCount(this.value)
     displayBucketGraph()
     preprocess.filterAlluvialData()
-    waffle.modifyData();
+    if(preprocess.getCompaniesAircraftsMap().length != 0)
+      waffle.modifyData();
     
 	}
   alluvial.createAlluvialViz();

@@ -4,7 +4,7 @@ let alluvialData = [];
 let filteredAlluvialData = [];
 let companiesFlightArray = [];
 let topCompaniesCount = 0;
-let companiesAircrafts;
+let companiesAircrafts = [];
 
 let topCompaniesSet = new Set();
 

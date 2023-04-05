@@ -189,10 +189,6 @@
     border-radius: 15%;
 }
 
-.block:hover{
-    background-color: black;
-}
-
 .waffle {
     display: flex;
     flex-wrap: wrap;
