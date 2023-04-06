@@ -154,6 +154,13 @@ export function createAlluvialViz() {
 
 
 function highlightLinks(alluvialToHighlight, sankeyToHighlight) {
+
+
+  graph.links.forEach(link => {
+    const linkPath = d3.select("#link-" + link.index + " path");
+    linkPath.attr("stroke-width", 0);
+  });
+
   sankeyToHighlight.forEach(sd => {
     let sum = 0;
     alluvialToHighlight.forEach(ad => {
@@ -166,8 +173,7 @@ function highlightLinks(alluvialToHighlight, sankeyToHighlight) {
     sd['count'] = sum;
 
     graph.links.forEach(link => {
-      const linkToModify = d3.select("#link-" + link.index);
-      const linkPath = linkToModify.select("path");
+      const linkPath =  d3.select("#link-" + link.index + " path");
       if (link['source'].name == sd['source'] && link['target'].name == sd['target']) {
         const colorPercentage = sd['count'] / link['value'];
         linkPath.attr("stroke-opacity", 0.5)
@@ -236,8 +242,7 @@ function showAlluvialNode(nodeName) {
 
 function resetAlluvial() {
   graph.links.forEach(link => {
-    const linkToModify = d3.select("#link-" + link.index);
-    const linkPath = linkToModify.select("path");
+    const linkPath =  d3.select("#link-" + link.index + " path");
     linkPath.attr("stroke", "gray")
       .attr("stroke-opacity", 0.5)
       .attr("stroke-width", d => Math.max(1, d.width));

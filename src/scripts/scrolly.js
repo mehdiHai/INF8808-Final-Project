@@ -1,16 +1,14 @@
 import scrollama from "scrollama";
 import Network from "./scrolly/network.js";
 
-// using d3 for convenience
-var main = d3.select("main");
-var scrolly = main.select("#scrolly");
+var scrolly = d3.select("#scrolly");
 var figure = scrolly.select("figure");
 var article = scrolly.select("article");
 var step = article.selectAll(".step");
 
 var figureHeight = 4 * window.innerHeight / 5;
 
-// initialize the scrollama
+// Initialise le scrolly-telling
 var scroller = scrollama();
 
 const svg = d3.select('#viz2')
@@ -24,7 +22,7 @@ const figWidth = d3.select("figure")
 const network = new Network(svg, figWidth / figureHeight);
 
 /**
- * Gere l'affichage des différents phases de la construction du réseau
+ * Gère l'affichage des différents phases de la construction du réseau
  * @param {*} response phase du scrolling
  */
 function handleStepEnter(response) {

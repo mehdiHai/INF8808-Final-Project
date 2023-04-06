@@ -40,6 +40,14 @@ export default class Network {
     return 2 * (parseFloat(val) / 10E4 + Math.log(val) / 5);
   }
 
+  /**
+   * Met à jour le status géographique courant 
+   * @param {*} val valeur d'incrément
+   */
+  updateCurrentState(val) {
+    this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + val];
+  }
+
 
   /**
    * Affiche les différents aéroports d'un niveau 
@@ -52,7 +60,7 @@ export default class Network {
       var nb = localairports.length
       var minMaxX = d3.extent(localairports, d => parseFloat(d.lat))
       var minMaxY = d3.extent(localairports, d => parseFloat(d.lon) / this.ratio)
-
+      // Mise à jour des données selon les dimensions de l'écran disponible
       localairports.forEach(item => this.airportCode[item.airport] = [ parseFloat(item.lat),  parseFloat(item.lon) / this.ratio])
       
       minMaxX = [Math.min(minMaxX[0] - 10, this.minMaxXGlobal[0]), Math.max(minMaxX[1] + 10, this.minMaxXGlobal[1])]
@@ -72,6 +80,7 @@ export default class Network {
         .attr("viewBox", this.limits[this.levelGeo[this.currentGeo]])
         .attr("transform-box", "content-box")
 
+      // Gestion de l'affichage
       var circles = this.svg.selectAll('airports')
         .data(localairports)
         .join('circle')
@@ -91,6 +100,7 @@ export default class Network {
           })
       }
 
+      // Affichage des cercles visibles
       circles.attr('stroke', 'black')
         .attr('stroke-width', '.1')
         .attr('class', d => this.currentGeo + " " + d.continent + " " + d.airport)
@@ -109,6 +119,7 @@ export default class Network {
           .data(localairports)
           .join('circle')
 
+        // Création des cercles d'interaction, plus larges
         circlesTooltips.attr("r", d => Math.max(8, self.scaleSize(d.freq)))
           .attr("transform", d => `translate(${this.airportCode[d.airport]})`)
           .attr("opacity", 0)
@@ -126,7 +137,7 @@ export default class Network {
           })
       }
 
-      this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
+      this.updateCurrentState(1)
     }
 
     d3.csv(`./${this.currentGeo}/airports${this.currentGeo}.csv`)
@@ -156,11 +167,11 @@ export default class Network {
         .attr('y2', d => this.airportCode[d.airportOut][1])
         .style('stroke', d => (d.company === "OTHERS") ? 'rgba(255, 0, 0, 0.02)' : 'rgba(0, 0, 0, 0.2)')
 
-      this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
+      this.updateCurrentState(1)
       this.svg.selectAll('circle').raise()
     }
 
-    this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
+    this.updateCurrentState(-1)
     d3.csv(`./${this.currentGeo}/flights${this.currentGeo}.csv`)
       .then(preprocess.groupByMainCompanies)
       .then(readFlights.bind(this))
@@ -172,7 +183,7 @@ export default class Network {
    * @param {boolean} firstTransition permière transition
    */
   removeAirports(firstTransition = false) {
-    this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
+    this.updateCurrentState(-1)
 
     if (!firstTransition) {
       this.svg.transition()
@@ -186,6 +197,7 @@ export default class Network {
         .remove()
 
     } else {
+      // Efface l'ensemble des données
       this.currentGeo = "QC";
 
       ["WORLD", "CA", "QC"].forEach(lvl => {
