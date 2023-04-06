@@ -15,7 +15,7 @@ export function initWaffle() {
 	window.onscroll = function(){
 		var scrollPos = window.scrollY;
 
-		if(scrollPos >= 6000){
+		if(scrollPos >= 4000){
 			window.onscroll = null;
 			d3.csv('./aircrafts.csv').then(function (files) {
 				preprocess.setCompaniesAircraftsMap(files);

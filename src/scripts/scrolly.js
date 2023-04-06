@@ -16,18 +16,6 @@ var scroller = scrollama();
 const svg = d3.select('#viz2')
     .append('svg')
 
-function handleResize() {
-    const stepH = Math.floor(window.innerHeight * 0.75);
-    step.style("height", stepH + "px");
-    const figureMarginTop = (window.innerHeight - figureHeight) / 2;
-
-    figure.style("height", figureHeight + "px")
-        .style("top", figureMarginTop + "px");
-
-    scroller.resize();
-}
-
-
 const figWidth = d3.select("figure")
     .node()
     .getBoundingClientRect()
@@ -35,6 +23,10 @@ const figWidth = d3.select("figure")
 
 const network = new Network(svg, figWidth / figureHeight);
 
+/**
+ * Gere l'affichage des différents phases de la construction du réseau
+ * @param {*} response phase du scrolling
+ */
 function handleStepEnter(response) {
     if (response.direction === 'down') {
         if (response.index % 2 === 0 && response.index !== 6) {
@@ -51,12 +43,35 @@ function handleStepEnter(response) {
     }
 }
 
+/**
+* Redimensionne la visualisation à la taille de l'écran
+*/
+function handleResize() {
+    const stepH = Math.floor(window.innerHeight * 0.75);
+    step.style("height", stepH + "px");
+    const figureMarginTop = (window.innerHeight - figureHeight) / 2;
+
+    figure.style("height", figureHeight + "px")
+        .style("top", figureMarginTop + "px");
+
+    scroller.resize();
+}
+
+/**
+ * Efface l'ensemble des données lors de la sortie 
+ * du scrolly-telling par le haut
+ * @param {*} response phase du scrolling
+ */
 function handleStepExit(response) {
     if (response.direction === 'up' && response.index === 0) {
-        network.removeAirports(false);
+        network.removeAirports(true);
     }
 }
 
+
+/**
+ * Initialise la création du réseau
+ */
 export function initNetwork() {
 
     handleResize();

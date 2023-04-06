@@ -1,8 +1,18 @@
 import Tooltip from '../tooltip';
-import { groupByMainCompanies } from '../preprocess.js';
+import * as preprocess from '../preprocess.js';
 
+/**
+ * Création d'un objet Network
+ * @param {*} svg balise du DOM contenant le graphique généré
+ * @param {integer} ratio rapport long/larg de la taille disponible
+ */
 export default class Network {
 
+/**
+ * Création d'un objet Network
+ * @param {*} svg balise du DOM contenant le graphique généré
+ * @param {integer} ratio rapport long/larg de la taille disponible
+ */
   constructor(svg, ratio = 1) {
     this.tooltip = new Tooltip()
     this.ratio = ratio
@@ -22,10 +32,19 @@ export default class Network {
     this.minMaxYGlobal = [1000000, 0];
   }
 
-  scaleSize(data) {
-    return 2 * (parseFloat(data) / 10E4 + Math.log(data) / 5);
+  /**
+   * Affiche les différents aéroports d'un niveau 
+   * @param {*} val valeur subissant la transformation
+   */
+  scaleSize(val) {
+    return 2 * (parseFloat(val) / 10E4 + Math.log(val) / 5);
   }
 
+
+  /**
+   * Affiche les différents aéroports d'un niveau 
+   * donné selon l'état interne du système.
+   */
   displayAirports() {
 
     var readAirports = function (localairports) {
@@ -114,6 +133,10 @@ export default class Network {
       .then(readAirports.bind(this))
   }
 
+  /**
+   * Affiche les différents vols d'un niveau 
+   * donné selon l'état interne du système.
+   */
   displayFlights() {
 
     var readFlights = function (localflights) {
@@ -139,14 +162,19 @@ export default class Network {
 
     this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
     d3.csv(`./${this.currentGeo}/flights${this.currentGeo}.csv`)
-      .then(groupByMainCompanies)
+      .then(preprocess.groupByMainCompanies)
       .then(readFlights.bind(this))
   }
 
-  removeAirports(db = true) {
+  /**
+   * Supprime les différents aéroports d'un niveau 
+   * donnée selon l'état interne du système.
+   * @param {boolean} firstTransition permière transition
+   */
+  removeAirports(firstTransition = false) {
     this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
 
-    if (db) {
+    if (!firstTransition) {
       this.svg.transition()
         .duration(1000)
         .attr("viewBox", this.limits[this.levelGeo[this.currentGeo] - 1])
@@ -176,6 +204,10 @@ export default class Network {
     }
   }
 
+  /**
+   * Supprime les différents vols d'un niveau 
+   * donnée selon l'état interne du système.
+   */
   removeFlights() {
     this.svg.selectAll('line.' + this.levelGeo[this.levelGeo[this.currentGeo] - 1])
       .transition()
