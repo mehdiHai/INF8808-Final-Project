@@ -1,6 +1,6 @@
 ,airline,duration,departureTime,flightRange,count
-0,AIR CANADA,court,soire,International,1712
-1,AIR CANADA,long,soire,International,1727
+0,JAZZ AVIATION LP,court,matin,Quebec,295
+1,AIR CANADA,moyen,après-midi,Canada,1039
 2,OTHERS,long,soire,International,909
 3,OTHERS,court,soire,International,6346
 4,SUNWING AIRLINES INC.,moyen,soire,International,204
@@ -39,7 +39,7 @@
 37,SKY REGIONAL AIRLINES INC. /LIGNES AÉRIENNES SKY REGIONAL INC.,court,nuit,Canada,279
 38,AIR CANADA,moyen,nuit,Canada,267
 39,OTHERS,long,matin,International,1651
-40,JAZZ AVIATION LP,court,matin,Quebec,295
+40,AIR CANADA,court,soire,International,1712
 41,JAZZ AVIATION LP,court,matin,International,3044
 42,AIR GEORGIAN LIMITED,court,matin,International,467
 43,AIR TRANSAT,long,matin,International,1075
@@ -85,7 +85,7 @@
 83,OTHERS,long,après-midi,International,985
 84,AVIATION STARLINK INC.,court,après-midi,International,220
 85,AIR CANADA,court,après-midi,Canada,2694
-86,AIR CANADA,moyen,après-midi,Canada,1039
+86,AIR CANADA,long,soire,International,1727
 87,AIR FRANCE,long,après-midi,International,308
 88,PORTER AIRLINES INC.,court,après-midi,International,130
 89,OTHERS,court,après-midi,Canada,2264

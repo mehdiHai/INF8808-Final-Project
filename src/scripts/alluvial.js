@@ -68,12 +68,14 @@ export function createAlluvialViz() {
     .nodePadding(10)
     .size([width, height]);
 
+  console.log(sankeyData)
+
   sankeyData.forEach(d => {
     const sourceIndex = graph.nodes.findIndex(
-      (node) => node.name === d.source
+      node => node.name === d.source
     );
     const targetIndex = graph.nodes.findIndex(
-      (node) => node.name === d.target
+      node => node.name === d.target
     );
 
     const sourceNode = { name: d.source };
@@ -81,6 +83,9 @@ export function createAlluvialViz() {
 
     if (sourceIndex === -1) graph.nodes.push(sourceNode);
     if (targetIndex === -1) graph.nodes.push(targetNode);
+
+
+    
 
     graph.links.push({
       source: sourceIndex === -1 ? sourceNode : graph.nodes[sourceIndex],
@@ -90,6 +95,7 @@ export function createAlluvialViz() {
     });
   });
 
+  console.log(graph.nodes)
   sankey(graph);
 
   const node = svg.append("g")
