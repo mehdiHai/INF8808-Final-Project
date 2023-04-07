@@ -18,6 +18,8 @@ export function displayBucketGraph() {
   setUpSlider()
   displayTopBucket(topBucket, heightScale);
   displayBottomBucket(bottomBucket, heightScale);
+  setAnimation()
+
 }
 
 export function setUpSlider() {
@@ -149,4 +151,32 @@ function displayBottomBucket(bottomBucket, heightScale) {
 function createHeightScale (topCompanies) {
   const maxHeight = d3.sum(topCompanies, c => c[1])
   return d3.scaleLinear().domain([d3.min(topCompanies, function(d) {return d[1]}), maxHeight]).range([0, BUCKET_HEIGHT])
+}
+
+function setAnimation() {
+  const hublot = document.getElementById('right-hublot-cover');
+  const lid = document.getElementById('lid');
+  const handle = document.getElementById('handle');
+  let open = false;
+  document.getElementById('right-hublot').onclick = function () {
+    if(!open) {
+      hublot.classList.remove('closeLid');
+      lid.classList.remove('pullHandle');
+      handle.classList.remove('pullHandle');
+      hublot.classList.add('openLid');
+      lid.classList.add('liftHandle');
+      handle.classList.add('liftHandle');
+    }
+    else {
+      hublot.classList.remove('openLid');
+      lid.classList.remove('liftHandle');
+      handle.classList.remove('liftHandle');
+      hublot.classList.add('closeLid');
+      lid.classList.add('pullHandle');
+      handle.classList.add('pullHandle');
+
+    }
+    open = !open;
+    
+  }
 }

@@ -161,7 +161,7 @@ function waffleify(data) {
 	return waffles;
 }
 
-function drawWaffle(waffles, div, index) {
+function drawWaffle(waffles, div) {
 	div.selectAll('.block')
 		.data(waffles)
 		.enter()
@@ -173,7 +173,9 @@ function drawWaffle(waffles, div, index) {
 			tooltip.showTooltipAircrafts(m, d);
 		})
 
-	div.on("mousemove", tooltip.moveTooltip)
+	div.on("mousemove", function (m) { 
+			return tooltip.moveTooltip(m) 
+		})
 		.on("mouseleave", function () {
 			return tooltip.hideTooltip();
 		});

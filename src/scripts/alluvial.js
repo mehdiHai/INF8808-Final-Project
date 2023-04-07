@@ -118,6 +118,9 @@ export function createAlluvialViz() {
       showAlluvialNode(d.name);
       return tooltip.showTooltipNode(event, extractTimes(d.name), d.value, d.layer)
     })
+    .on("mousemove", function(event) {
+      return tooltip.moveTooltip(event)
+    })
     .on("mouseout", resetAlluvial)
     .style("fill", "#a52a2a");
 
@@ -184,7 +187,15 @@ function highlightLinks(alluvialToHighlight, sankeyToHighlight) {
         const colorPercentage = sd['count'] / link['value'];
         linkPath.attr("stroke-opacity", 0.5)
           .attr("stroke", "red")
-          .attr("stroke-width", d => Math.max(1, d.width * colorPercentage));
+          .attr("stroke-width", d => Math.max(1, d.width * colorPercentage))
+          .on("mousemove", function(event) {
+            return tooltip.moveTooltip(event)
+          })
+          .on("mouseout", function() {
+            resetAlluvial();
+            return tooltip.hideTooltip();
+          })
+          
       }
     });
   });
