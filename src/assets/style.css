@@ -1,3 +1,25 @@
+body {
+    background-color: #f3f3f3;
+}
+
+
+.articleText {
+    text-align: left;
+    font-family: Baskervville;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    text-indent: 20px;
+}
+
+.articleTitle {
+    text-align: left;
+    font-family: Baskervville;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+}
+
 .bucket{
     width: 201px;
     height: 301px;
@@ -158,14 +180,13 @@
   padding: 2px;
   background: rgba(70, 134, 146, 0.5);
 }
-#viz4 {
 
+#viz4 {
     width: 100%;
     text-align: center;
 	min-height: 300px;
 	margin: 100px auto;
 }
-
 
 #viz4 .legend {
     /*background-color: gray;*/

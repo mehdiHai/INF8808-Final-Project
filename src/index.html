@@ -5,6 +5,9 @@
 	<meta charset="utf-8" />
 	<title>Aviation au Québec</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./scripts/scrolly/style.css" />
 	<link rel="stylesheet" href="./assets/style.css" />
 </head>
@@ -45,34 +48,58 @@
 			</div>
 		</div>
 
-		
+
 		<div class="viz" id="viz3"></div>
 
 		<section id="scrolly">
 			<article>
 				<div class="step" data-step="1">
 					<p>TITLE 1</p>
-					Ceci constitue le texte lié au niveau Québec.
+					<div class="articleText">
+						Ceci constitue le texte lié au niveau Québec.
+					</div>
 				</div>
 				<div class="step" data-step="2">
 					<p>TITLE 2</p>
+					<div class="articleText">
+						Ceci constitue le texte lié au niveau mondial.
+						Il permet d'observer l'ensemble des vols partant ou arrivant au Québec.
+					</div>
 				</div>
 				<div class="step" data-step="3">
 					<p>TITLE 3</p>
+					<div class="articleText">
+						Ceci constitue le texte lié au niveau mondial.
+						Il permet d'observer l'ensemble des vols partant ou arrivant au Québec.
+					</div>
 				</div>
 				<div class="step" data-step="4">
 					<p>TITLE 4</p>
+					<div class="articleText">
+						Ceci constitue le texte lié au niveau mondial.
+						Il permet d'observer l'ensemble des vols partant ou arrivant au Québec.
+					</div>
 				</div>
 				<div class="step" data-step="5">
 					<p>TITLE 5</p>
+					<div class="articleText">
+						Ceci constitue le texte lié au niveau mondial.
+						Il permet d'observer l'ensemble des vols partant ou arrivant au Québec.
+					</div>
 				</div>
 				<div class="step" data-step="6">
 					<p>TITLE 6</p>
+					<div class="articleText">
+						Ceci constitue le texte lié au niveau mondial.
+						Il permet d'observer l'ensemble des vols partant ou arrivant au Québec.
+					</div>
 				</div>
 				<div class="step" data-step="7">
 					<p>TITLE 7</p>
-					Ceci constitue le texte lié au niveau mondial.
-					Il permet d'observer l'ensemble des vols partant ou arrivant au Québec.
+					<div class="articleText">
+						Ceci constitue le texte lié au niveau mondial.
+						Il permet d'observer l'ensemble des vols partant ou arrivant au Québec.
+					</div>
 				</div>
 			</article>
 
@@ -80,27 +107,37 @@
 				<div class="title">Répartition des vols depuis ou à destination du Québec</div>
 			</figure>
 		</section>
-		
+
+		<br>
+		<br>
 		<br>
 
+		<div class="articleTitre">
+			Un parc aéronautique dominé par les jets bimoteurs
+		</div>
+		<br>
+		<div class="articleText">
+			Ce graphique représente la totalité du parc aérien qui
+			effectue les vols au Québec. On y voit à droite tout les aéronefs en
+			fonction de chacune des grandes compagnies choisies à l'étape 1.
+			À gauche, on y voit le parc aérien combiné du reste des compagnies.
+			<br>
+			Il est important de noté que dans le graphique suivant, un bloc carré représente 5 avions,
+			en surpassant le nombre exact que représente la quantité de ce type d'avions par rapport à la totalité du
+			parc.
+			<br>
+			Finalement, les types d'avions tels L1J blablabla.
+		</div>
+
 		<div class="viz" id="viz4">
-			<div class="title" >Ce graphique représente la totalité du parc aérien qui 
-				effectue les vols au Québec. On y voit à droite tout les aéronefs en 
-				fonction de chacune des grandes compagnies choisies à l'étape 1. 
-				À gauche, on y voit le parc aérien combiné du reste des compagnies.
-				<br>
-				Il est important de noté que dans le graphique suivant, un bloc carré représente 5 avions, 
-				en surpassant le nombre exact que représente la quantité de ce type d'avions par rapport à la totalité du parc.
-				<br>
-				Finalement, les types d'avions tels L1J blablabla.
-			</div>
+
 		</div>
 	</main>
 
 	<!-- <div class='debug'></div> -->
 	<script type="text/javascript" src="https://d3js.org/d3.v7.js"></script>
 	<script src="https://unpkg.com/scrollama@3.2.0/build/scrollama.js"></script>
-  <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+	<script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
 
 	<script src="index.js"></script>
 </body>

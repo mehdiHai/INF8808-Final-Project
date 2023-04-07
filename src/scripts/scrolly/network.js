@@ -165,7 +165,7 @@ export default class Network {
         .duration(800)
         .attr('x2', d => this.airportCode[d.airportOut][0])
         .attr('y2', d => this.airportCode[d.airportOut][1])
-        .style('stroke', d => (d.company === "OTHERS") ? 'rgba(255, 0, 0, 0.02)' : 'rgba(0, 0, 0, 0.2)')
+        .style('stroke', d => (d.company !== "OTHERS") ? 'rgba(187, 40, 255, 0.2)' : 'rgba(0, 0, 0, 0.04)')
 
       this.updateCurrentState(1)
       this.svg.selectAll('circle').raise()

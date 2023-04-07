@@ -9,6 +9,10 @@ figure .title {
   padding: -1rem;
 } 
 
+.step .articleText {
+  padding: 0rem;
+}
+
 #scrolly {
   position: relative;
   display: -webkit-box;
@@ -56,12 +60,12 @@ figure p {
 }
 
 .step {
-  margin: 0 auto 2rem auto;
+  margin: 0;
 }
 
 .step p {
   text-align: center;
-  padding: 1rem;
+  padding: 0, 1rem;
   font-size: 1.5rem;
 }
 
