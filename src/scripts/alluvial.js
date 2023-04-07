@@ -60,7 +60,6 @@ export function createAlluvialViz() {
     .append("svg")
     .attr("id", "alluvialChart")
     .attr("width", "70%")
-    .attr("height", "auto");
 
   const sankey = d3.sankey()
     .nodeSort(null)
@@ -83,9 +82,6 @@ export function createAlluvialViz() {
 
     if (sourceIndex === -1) graph.nodes.push(sourceNode);
     if (targetIndex === -1) graph.nodes.push(targetNode);
-
-
-    
 
     graph.links.push({
       source: sourceIndex === -1 ? sourceNode : graph.nodes[sourceIndex],
