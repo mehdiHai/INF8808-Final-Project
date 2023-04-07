@@ -121,7 +121,10 @@ export function createAlluvialViz() {
     .on("mousemove", function(event) {
       return tooltip.moveTooltip(event)
     })
-    .on("mouseout", resetAlluvial)
+    .on("mouseout", function() {
+      tooltip.hideTooltip()
+      resetAlluvial()
+    })
     .style("fill", "#a52a2a");
 
   node
