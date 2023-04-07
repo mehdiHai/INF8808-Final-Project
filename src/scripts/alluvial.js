@@ -117,11 +117,15 @@ export function createAlluvialViz() {
     .on("mousemove", function(event) {
       return tooltip.moveTooltip(event)
     })
-    .on("mouseout", resetAlluvial)
+    .on("mouseout", function() {
+      tooltip.hideTooltip()
+      resetAlluvial()
+    })
     .style("fill", "#a52a2a");
 
   node
     .append("text")
+    .attr('class', 'alluvial-labels')
     .attr("x", d => d.x0 < width / 2 ? 25 : -10)
     .attr("y", d => (d.y1 - d.y0) / 2)
     .attr("dy", "0.35em")
