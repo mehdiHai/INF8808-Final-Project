@@ -207,6 +207,11 @@ body {
     width:300px;
 }
 
+.alluvial-labels {
+    pointer-events: none;
+    user-select: none;
+    
+}
 
 .slider {
     -webkit-appearance: none;

@@ -129,6 +129,7 @@ export function createAlluvialViz() {
 
   node
     .append("text")
+    .attr('class', 'alluvial-labels')
     .attr("x", d => d.x0 < width / 2 ? 25 : -10)
     .attr("y", d => (d.y1 - d.y0) / 2)
     .attr("dy", "0.35em")
