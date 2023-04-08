@@ -1,5 +1,6 @@
 import scrollama from "scrollama";
 import Network from "./scrolly/network.js";
+import Tooltip from './tooltip';
 
 // using d3 for convenience
 var main = d3.select("main");
@@ -15,6 +16,26 @@ var scroller = scrollama();
 
 const svg = d3.select('#viz2')
     .append('svg')
+
+
+var tooltip = new Tooltip("#viz2")
+const infoButton=d3.select('#viz2').select("#infoNetworkButton");
+infoButton.style("cursor","help")
+tooltip.createLegendNetwork(1)
+var infoButtion_siCliked=false
+infoButton.on("click", function () {
+    if(!infoButtion_siCliked){
+        infoButtion_siCliked=true;
+        return tooltip.showLegendNetwork(1);
+    }else{
+        infoButtion_siCliked=false;
+        return tooltip.hideTooltip();
+    }
+}).on("mouseover", function () {
+    infoButton.style("color","blue")
+}).on("mouseleave", function () {
+    infoButton.style("color","black")
+})
 
 function handleResize() {
     const stepH = Math.floor(window.innerHeight * 0.75);
