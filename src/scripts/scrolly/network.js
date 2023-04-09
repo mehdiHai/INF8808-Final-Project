@@ -5,6 +5,7 @@ export default class Network {
 
   constructor(svg, ratio = 1) {
     this.tooltip = new Tooltip()
+    this.tooltipLegend = new Tooltip("#viz2")
     this.ratio = ratio
     this.svg = svg;
     this.airportCode = {};
@@ -20,22 +21,59 @@ export default class Network {
     this.limits = [];
     this.minMaxXGlobal = [1000000, 0];
     this.minMaxYGlobal = [1000000, 0];
+
+    this.createLegend()
   }
 
   scaleSize(data) {
     return 2 * (parseFloat(data) / 10E4 + Math.log(data) / 5);
   }
 
+  createLegend() {
+    var self = this
+
+    self.tooltipLegend.createLegendNetwork()
+    var infoButtion_siCliked = false
+    d3.select("#infoNetworkButton")
+      .style("cursor", "help")
+      .on("click", function () {
+        infoButtion_siCliked = !infoButtion_siCliked;
+        if (infoButtion_siCliked) {
+          return self.tooltipLegend.showLegendNetwork();
+        } else {
+          return self.tooltipLegend.hideTooltip();
+        }
+      }).on("mouseover", function () {
+        d3.select(this).style("color", "blue")
+      }).on("mouseleave", function () {
+        d3.select(this).style("color", "black")
+      })
+  }
+
   displayAirports() {
 
     var readAirports = function (localairports) {
+
+      switch(this.currentGeo) {
+        case "QC":
+          this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "du Québec", 'rgba(255, 0, 0, 0.6)');
+          break;
+        case "CA":
+          this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "du Canada",  this.ccolor['America'] + '0.6)');
+          break;
+        case "WORLD":
+          for (let cont of ["Africa", "America", "Europe", "Asia", "Oceania"]) {
+            this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "de " + cont, this.ccolor[cont] + '0.6)');
+          }
+          break;
+      }
 
       var nb = localairports.length
       var minMaxX = d3.extent(localairports, d => parseFloat(d.lat))
       var minMaxY = d3.extent(localairports, d => parseFloat(d.lon) / this.ratio)
 
-      localairports.forEach(item => this.airportCode[item.airport] = [ parseFloat(item.lat),  parseFloat(item.lon) / this.ratio])
-      
+      localairports.forEach(item => this.airportCode[item.airport] = [parseFloat(item.lat), parseFloat(item.lon) / this.ratio])
+
       minMaxX = [Math.min(minMaxX[0] - 10, this.minMaxXGlobal[0]), Math.max(minMaxX[1] + 10, this.minMaxXGlobal[1])]
       minMaxY = [Math.min(minMaxY[0] - 10, this.minMaxYGlobal[0]), Math.max(minMaxY[1] + 10, this.minMaxYGlobal[1])]
 
@@ -145,6 +183,8 @@ export default class Network {
 
   removeAirports(db = true) {
     this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
+
+    this.tooltipLegend.delAirportLegendNetwork(this.currentGeo)
 
     if (db) {
       this.svg.transition()

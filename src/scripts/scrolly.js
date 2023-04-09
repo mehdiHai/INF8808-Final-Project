@@ -17,27 +17,8 @@ var scroller = scrollama();
 const svg = d3.select('#viz2')
     .append('svg')
 
-
-var tooltip = new Tooltip("#viz2")
-const infoButton=d3.select('#viz2').select("#infoNetworkButton");
-infoButton.style("cursor","help")
-tooltip.createLegendNetwork(1)
-var infoButtion_siCliked=false
-infoButton.on("click", function () {
-    if(!infoButtion_siCliked){
-        infoButtion_siCliked=true;
-        return tooltip.showLegendNetwork(1);
-    }else{
-        infoButtion_siCliked=false;
-        return tooltip.hideTooltip();
-    }
-}).on("mouseover", function () {
-    infoButton.style("color","blue")
-}).on("mouseleave", function () {
-    infoButton.style("color","black")
-})
-
 function handleResize() {
+
     const stepH = Math.floor(window.innerHeight * 0.75);
     step.style("height", stepH + "px");
     const figureMarginTop = (window.innerHeight - figureHeight) / 2;
@@ -48,13 +29,13 @@ function handleResize() {
     scroller.resize();
 }
 
-
 const figWidth = d3.select("figure")
     .node()
     .getBoundingClientRect()
     .width
 
 const network = new Network(svg, figWidth / figureHeight);
+network.createLegend()
 
 function handleStepEnter(response) {
     if (response.direction === 'down') {
