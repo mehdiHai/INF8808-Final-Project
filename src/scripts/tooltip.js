@@ -29,6 +29,7 @@ export default class Tooltip {
         const svg = d3.select("#infoNetwork")
             .append('svg')
             .attr("class", "legAirport_" + level)
+            .attr("height","40px")
 
         svg.append("circle")
             .attr("r", 10)
@@ -41,8 +42,31 @@ export default class Tooltip {
             .attr("y", 15)
     }
 
+    addFlightLegendNetwork(text, color) {
+        const svg = d3.select("#infoNetwork")
+            .append('svg')
+            .attr("class", "legFlight")
+            .attr("height","40px")
+
+        svg.append("rect")
+            .attr("width", 30)
+            .attr("height",20)
+            .attr("x", -5)
+            .attr("y", 0)
+            .attr("fill", color)
+
+        svg.append("text")
+            .text("Vols " + text)
+            .attr("x", 30)
+            .attr("y", 15)
+    }
+
     delAirportLegendNetwork(level) {
         d3.selectAll(".legAirport_" + level).remove()
+    }
+
+    delFlightLegendNetwork() {
+        d3.selectAll(".legFlight").remove()
     }
 
     createLegendNetwork() {

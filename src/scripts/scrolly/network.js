@@ -21,8 +21,9 @@ export default class Network {
     this.limits = [];
     this.minMaxXGlobal = [1000000, 0];
     this.minMaxYGlobal = [1000000, 0];
+    this.isFlightShow=false;
 
-    this.createLegend()
+    this.createLegend();
   }
 
   scaleSize(data) {
@@ -146,15 +147,32 @@ export default class Network {
       }
 
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
+
+      
+      if(this.isFlightShow){
+        this.tooltipLegend.delFlightLegendNetwork();
+        this.tooltipLegend.addFlightLegendNetwork("des principales compagnies", 'rgba(0, 0, 0, 0.2)');  
+        this.tooltipLegend.addFlightLegendNetwork("des autres compagnies", 'rgba(255, 0, 0, 0.2)');
+      }
     }
 
     d3.csv(`./${this.currentGeo}/airports${this.currentGeo}.csv`)
       .then(readAirports.bind(this))
+    
   }
 
   displayFlights() {
 
     var readFlights = function (localflights) {
+      if(!this.isFlightShow){
+        this.isFlightShow=true;
+        this.tooltipLegend.addFlightLegendNetwork("des principales compagnies", 'rgba(0, 0, 0, 0.2)');  
+        this.tooltipLegend.addFlightLegendNetwork("des autres compagnies", 'rgba(255, 0, 0, 0.2)');
+      }else{
+        this.tooltipLegend.delFlightLegendNetwork();
+        this.tooltipLegend.addFlightLegendNetwork("des principales compagnies", 'rgba(0, 0, 0, 0.2)');  
+        this.tooltipLegend.addFlightLegendNetwork("des autres compagnies", 'rgba(255, 0, 0, 0.2)');
+      }
       this.svg.selectAll('flights')
         .data(localflights)
         .join('line')
@@ -217,6 +235,10 @@ export default class Network {
   }
 
   removeFlights() {
+    if(this.levelGeo[this.levelGeo[this.currentGeo] - 1]==="QC"){
+      this.isFlightShow=true;
+      this.tooltipLegend.delFlightLegendNetwork();
+    }
     this.svg.selectAll('line.' + this.levelGeo[this.levelGeo[this.currentGeo] - 1])
       .transition()
       .duration(1000)
