@@ -26,47 +26,62 @@ export default class Tooltip {
     }
 
     addAirportLegendNetwork(level, text, color) {
-        const svg = d3.select("#infoNetwork")
+        const svg = this.element
+            .select("#legAirportsBlock")
             .append('svg')
             .attr("class", "legAirport_" + level)
-            .attr("height","40px")
+            .attr("height", "40px")
 
         svg.append("circle")
-            .attr("r", 10)
+            .transition()
+            .duration(300)
+            .attr("r", 9)
             .attr("cx", 10)
             .attr("cy", 10)
             .attr("fill", color)
+            .attr('stroke', 'black')
+            .attr('stroke-width', '1')
+
         svg.append("text")
+            .transition()
+            .duration(300)
             .text("Aéroport " + text)
             .attr("x", 30)
             .attr("y", 15)
     }
 
+    delFlightLegendNetwork() {
+        d3.selectAll(".legFlight").transition()
+            .duration(300).remove()
+    }
+
     addFlightLegendNetwork(text, color) {
-        const svg = d3.select("#infoNetwork")
-            .append('svg')
+        const svg = this.element.select("#legFlightsBlock").append('svg')
             .attr("class", "legFlight")
-            .attr("height","40px")
+            .attr("height", "40px")
 
         svg.append("rect")
+            .transition()
+            .duration(300)
             .attr("width", 30)
-            .attr("height",20)
+            .attr("height", 10)
             .attr("x", -5)
-            .attr("y", 0)
+            .attr("y", 5)
             .attr("fill", color)
 
         svg.append("text")
-            .text("Vols " + text)
+            .transition()
+            .duration(300)
+            .text(text)
             .attr("x", 30)
             .attr("y", 15)
     }
 
     delAirportLegendNetwork(level) {
-        d3.selectAll(".legAirport_" + level).remove()
-    }
-
-    delFlightLegendNetwork() {
-        d3.selectAll(".legFlight").remove()
+        d3.selectAll(".legAirport_" + level)
+            .transition()
+            .duration(300)
+            .remove()
     }
 
     createLegendNetwork() {
@@ -77,14 +92,28 @@ export default class Tooltip {
             .style('width', '300px')
             .style('height', '500px')
             .attr('id', 'infoNetwork')
-            //.attr("display","none")
             .style("opacity", 0)
+
+        this.element
+            .append("div")
+            .attr("id", "legFlightsBlock")
+
+        this.element
+            .append("div")
+            .attr("id", "legAirportsBlock")
     }
 
     showLegendNetwork() {
         this.element
+            .transition()
+            .duration(300)
             .style("opacity", 1)
             .style("display", "block")
+    }
+
+    hiddenLegendNetwork() {
+        this.element.style("display", "none")
+            .style("opacity", 0)
     }
 
     showTooltipBottom(m, d) {

@@ -35,7 +35,6 @@ const figWidth = d3.select("figure")
     .width
 
 const network = new Network(svg, figWidth / figureHeight);
-network.createLegend()
 
 function handleStepEnter(response) {
     if (response.direction === 'down') {

@@ -21,7 +21,7 @@ export default class Network {
     this.limits = [];
     this.minMaxXGlobal = [1000000, 0];
     this.minMaxYGlobal = [1000000, 0];
-    this.isFlightShow=false;
+    this.isFlightShow = false;
 
     this.createLegend();
   }
@@ -42,7 +42,7 @@ export default class Network {
         if (infoButtion_siCliked) {
           return self.tooltipLegend.showLegendNetwork();
         } else {
-          return self.tooltipLegend.hideTooltip();
+          return self.tooltipLegend.hiddenLegendNetwork();
         }
       }).on("mouseover", function () {
         d3.select(this).style("color", "blue")
@@ -55,16 +55,16 @@ export default class Network {
 
     var readAirports = function (localairports) {
 
-      switch(this.currentGeo) {
+      switch (this.currentGeo) {
         case "QC":
-          this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "du Québec", 'rgba(255, 0, 0, 0.6)');
+          this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "québécois", 'rgba(255, 0, 0, 0.6)');
           break;
         case "CA":
-          this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "du Canada",  this.ccolor['America'] + '0.6)');
+          this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "américain non québécois", this.ccolor['America'] + '0.6)');
           break;
         case "WORLD":
-          for (let cont of ["Africa", "America", "Europe", "Asia", "Oceania"]) {
-            this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "de " + cont, this.ccolor[cont] + '0.6)');
+          for (let cont of [["Africa", "africain"], ["Europe", "européen"], ["Asia", "asiatique"], ["Oceania", "océanien"]]) {
+            this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, cont[1], this.ccolor[cont[0]] + '0.6)');
           }
           break;
       }
@@ -148,31 +148,23 @@ export default class Network {
 
       this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] + 1];
 
-      
-      if(this.isFlightShow){
-        this.tooltipLegend.delFlightLegendNetwork();
-        this.tooltipLegend.addFlightLegendNetwork("des principales compagnies", 'rgba(0, 0, 0, 0.2)');  
-        this.tooltipLegend.addFlightLegendNetwork("des autres compagnies", 'rgba(255, 0, 0, 0.2)');
-      }
     }
 
     d3.csv(`./${this.currentGeo}/airports${this.currentGeo}.csv`)
       .then(readAirports.bind(this))
-    
+
   }
 
   displayFlights() {
 
     var readFlights = function (localflights) {
-      if(!this.isFlightShow){
-        this.isFlightShow=true;
-        this.tooltipLegend.addFlightLegendNetwork("des principales compagnies", 'rgba(0, 0, 0, 0.2)');  
-        this.tooltipLegend.addFlightLegendNetwork("des autres compagnies", 'rgba(255, 0, 0, 0.2)');
-      }else{
-        this.tooltipLegend.delFlightLegendNetwork();
-        this.tooltipLegend.addFlightLegendNetwork("des principales compagnies", 'rgba(0, 0, 0, 0.2)');  
-        this.tooltipLegend.addFlightLegendNetwork("des autres compagnies", 'rgba(255, 0, 0, 0.2)');
+
+      if (this.currentGeo == "QC") {
+        this.isFlightShow = true;
+        this.tooltipLegend.addFlightLegendNetwork("Vols des principales compagnies", 'rgba(0, 0, 0, 0.2)');
+        this.tooltipLegend.addFlightLegendNetwork("Autres vols", 'rgba(255, 0, 0, 0.2)');
       }
+
       this.svg.selectAll('flights')
         .data(localflights)
         .join('line')
@@ -202,9 +194,9 @@ export default class Network {
   removeAirports(db = true) {
     this.currentGeo = this.levelGeo[this.levelGeo[this.currentGeo] - 1];
 
-    this.tooltipLegend.delAirportLegendNetwork(this.currentGeo)
-
     if (db) {
+      this.tooltipLegend.delAirportLegendNetwork(this.currentGeo)
+
       this.svg.transition()
         .duration(1000)
         .attr("viewBox", this.limits[this.levelGeo[this.currentGeo] - 1])
@@ -216,9 +208,12 @@ export default class Network {
         .remove()
 
     } else {
+      // supprime l'ensemble des données affichées
       this.currentGeo = "QC";
 
       ["WORLD", "CA", "QC"].forEach(lvl => {
+        this.tooltipLegend.delAirportLegendNetwork(lvl)
+
         this.svg.selectAll('line.' + lvl)
           .transition()
           .duration(1000)
@@ -235,10 +230,12 @@ export default class Network {
   }
 
   removeFlights() {
-    if(this.levelGeo[this.levelGeo[this.currentGeo] - 1]==="QC"){
-      this.isFlightShow=true;
+
+    if (this.levelGeo[this.levelGeo[this.currentGeo] - 1] === "QC") {
+      this.isFlightShow = true;
       this.tooltipLegend.delFlightLegendNetwork();
     }
+
     this.svg.selectAll('line.' + this.levelGeo[this.levelGeo[this.currentGeo] - 1])
       .transition()
       .duration(1000)
