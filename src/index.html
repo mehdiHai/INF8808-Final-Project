@@ -28,7 +28,7 @@
 		<div class="articleText">
 			On commence d'abord par établir une distinction entre les « grandes » compagnies 
 			et les autres. Le nombre de compagnies qui feront parties des « grandes » compagnies 
-			est laissé à votre discrétion en fonction de ce que vous souhaitez observer. Ce choix 
+			est laissé à la discrétion de l'utilisateur en fonction de ce qu'il souhaite observer. Ce choix 
 			affectera les visualisations suivantes.
 		</div>
 
@@ -77,14 +77,9 @@
 		</div>
 		<br>
 		<div class="articleText">
-			Praesent semper, felis ut sodales facilisis, nisi quam dignissim purus, ac bibendum magna diam quis ante. 
-			Vivamus a ante congue, fringilla purus eu, condimentum tortor. Integer elementum ex sed auctor dignissim. 
-			Mauris orci eros, varius quis gravida sed, aliquam sit amet nulla. 
-			Nullam lacinia lorem arcu, eget molestie ligula laoreet at. 
-			Pellentesque eu nisl hendrerit, maximus velit non, pellentesque lorem. 
-			Vivamus accumsan ullamcorper faucibus. 
-			Praesent ut elit neque. 
-			Cras hendrerit lectus ornare venenatis sodales.
+			On s'attarde maintenant à la distribution spatio-temporelle des vols des plus grandes compagnies
+			et des autres. Il est possible de suivre un flux et sa décomposition dans les catégories qui suivent ou précèdent
+			en passant le curseur sur celui-ci.
 		</div>
 
 		<div class="viz" id="viz3"></div>
@@ -94,99 +89,57 @@
 		</div>
 		<br>
 		<div class="articleText">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-			Pellentesque ultrices nisl sed commodo scelerisque. 
-			Aenean eu feugiat dui. 
-			Nullam ac cursus justo, eget mollis ante. 
-			Nam sagittis, ipsum sed pretium fermentum, libero quam malesuada magna, sed dignissim mi massa vitae lacus. 
-			Praesent vel dapibus nisl. Integer luctus, orci non eleifend pellentesque, risus sapien faucibus orci, vitae fermentum tortor sem luctus enim. 
-			Donec finibus, orci sed viverra pellentesque, felis lectus aliquet diam, eget auctor justo velit sit amet quam. 
-			Fusce dictum volutpat elit, a consectetur ante eleifend nec.
+			La prochaine visualisation permettra de mieux percevoir la répartition du trafic aérien sur les diverses routes
+			aériennes, tout en faisant la distinction entre les vols des grandes compagnies et ceux des autres compagnies.
+			Elle permet également de mieux voir les régions plus ciblées que d'autres.
 		</div>
 		<br>
 		<section id="scrolly">
 			<article>
 				<div class="step" data-step="1">
-					<p>AEROPORTS QUEBECOIS</p>
+					<p>AÉROPORTS QUÉBÉCOIS</p>
+					<br>
 					<div class="articleText">
-						Quisque ac ex id velit consectetur accumsan. 
-						Curabitur scelerisque nibh a elementum venenatis. 
-						Vivamus bibendum elementum diam, vitae ultrices dui cursus ut. 
-						Nunc diam dui, venenatis sed nisi congue, eleifend sagittis neque. 
-						Donec placerat varius vestibulum. Proin finibus posuere bibendum. 
-						Sed et lorem sit amet sem fringilla placerat id in ligula. 
-						Curabitur a tincidunt ligula, eu condimentum quam. 
-						Aenean magna odio, consectetur ac est sed, pellentesque luctus est. 
-						Nunc pellentesque dolor eu libero mattis, id elementum purus sollicitudin. 
-						Nam nibh odio, sollicitudin eget metus in, posuere consectetur quam. 
-						Morbi tempus consectetur accumsan.
+						On trace d'abord un cercle pour chaque aéroport québécois. Le rayon
+						d'un cercle est directement proportionnel au nombre de vols associés à
+						l'aéroport en question. Il est imortant de noter que les cercles ne sont pas
+						représentés géographiquement, mais plutôt de sorte à mieux distinguer chaque point.
 					</div>
 				</div>
 				<div class="step" data-step="2">
-					<p>VOLS INTRA-QUEBEC</p>
+					<p>VOLS INTRA-QUÉBEC</p>
+					<br>
 					<div class="articleText">
-						Quisque ac ex id velit consectetur accumsan. 
-						Curabitur scelerisque nibh a elementum venenatis. 
-						Vivamus bibendum elementum diam, vitae ultrices dui cursus ut. 
-						Nunc diam dui, venenatis sed nisi congue, eleifend sagittis neque. 
-						Donec placerat varius vestibulum. Proin finibus posuere bibendum. 
-						Sed et lorem sit amet sem fringilla placerat id in ligula. 
-						Curabitur a tincidunt ligula, eu condimentum quam. 
-						Aenean magna odio, consectetur ac est sed, pellentesque luctus est. 
-						Nunc pellentesque dolor eu libero mattis, id elementum purus sollicitudin. 
-						Nam nibh odio, sollicitudin eget metus in, posuere consectetur quam. 
-						Morbi tempus consectetur accumsan. Proin quis molestie dui. 
+						On ajoute ensuite les vols provinciaux. La taille d'une ligne est
+						directement proportionnelle au nombre de vols effectués sur le trajet en question.
 					</div>
 				</div>
 				<div class="step" data-step="3">
-					<p>AEROPORTS CANADIENS</p>
+					<p>AÉROPORTS CANADIENS</p>
+					<br>
 					<div class="articleText">
-						Sed vel risus sollicitudin, rhoncus dui iaculis, lacinia libero. 
-						Etiam urna nulla, semper sit amet quam eu, hendrerit hendrerit ex. 
-						Phasellus consequat velit lorem, sit amet auctor nisl ullamcorper in. 
-						Donec ultrices faucibus mauris. Morbi eu quam luctus, ornare mauris vel, consequat neque. 
-						Donec felis ex, accumsan sed sollicitudin vitae, congue ut tortor. 
-						Donec cursus neque libero, eget ullamcorper magna rhoncus ac. 
-						Donec in ex venenatis, cursus sapien aliquam, tristique quam.
+						On dézoome, puis on ajoute les aéroports situés dans le reste du Canada.
 					</div>
 				</div>
 				<div class="step" data-step="4">
 					<p>VOLS INTRA-CANADA</p>
+					<br>
 					<div class="articleText">
-						Nullam vitae erat nibh. Suspendisse in tortor non nulla aliquam efficitur. 
-						Vivamus at mauris nibh. Pellentesque massa nisi, auctor id lobortis sed, lacinia non nunc. 
-						In sagittis pellentesque justo, sit amet consectetur dolor sollicitudin non. 
-						Integer a tellus vitae libero convallis egestas vitae vitae ligula. Curabitur nec metus nulla. 
-						Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-						Mauris consequat lacinia odio, non vehicula est eleifend sed. 
-						Vivamus congue ullamcorper congue.
+						De manière similaire, on trace les les trajets nationaux n'ayant pas été considérés auparavant.
 					</div>
 				</div>
 				<div class="step" data-step="5">
-					<p>AEROPORTS MONDIAUX</p>
+					<p>AÉROPORTS INTERNATIONAUX</p>
+					<br>
 					<div class="articleText">
-						Mauris sit amet augue non magna aliquet placerat sed eget diam. 
-						Morbi augue tellus, laoreet a feugiat et, pulvinar at justo. 
-						Aliquam non sagittis turpis. Suspendisse porttitor lacus eu malesuada rutrum. 
-						Aliquam non molestie urna. Donec ultrices imperdiet massa, et lobortis tellus condimentum nec. 
-						Nam maximus, lectus id accumsan elementum, dui elit ornare tortor, ut commodo quam justo at tellus. 
-						Aenean laoreet ex tortor, sit amet tempus eros consequat ut. 
-						Duis ac augue elementum, cursus felis ac, luctus turpis.
+						On poursuit avec l'ajout des aéroports restants. Ces aéroports ne font pas partie du Canada.
 					</div>
 				</div>
 				<div class="step" data-step="6">
-					<p>VOLS MONDIAUX</p>
+					<p>VOLS INTERNATIONAUX</p>
+					<br>
 					<div class="articleText">
-						Phasellus sit amet finibus purus, finibus vulputate massa. 
-						Vivamus eget porta quam. Integer egestas ac metus in ultricies. 
-						Nam egestas feugiat rhoncus. 
-						Nunc fermentum ullamcorper pretium. 
-						Morbi a urna augue. 
-						Vestibulum nec libero nulla. Ut sed lorem suscipit, varius quam eu, congue ipsum. 
-						Pellentesque bibendum urna augue, ut hendrerit leo commodo in. 
-						Fusce euismod eu augue in facilisis.
-						Nunc viverra congue justo quis pulvinar. 
-						Proin vulputate, dolor ut accumsan dapibus, arcu tortor varius turpis, ultrices egestas eros ipsum eu mi.
+						On termine avec le tracé des trajets internationaux.
 					</div>
 				</div>
 				<div class="step" data-step="7">
@@ -224,15 +177,12 @@
 		</div>
 
 		<div class="articleText">
-				Il est important de noter que, dans le graphique suivant, <b>1 bloc carré</b> représente <b>5 avions</b>,
+				Il est important de noter que, dans la visualisation précédente, <b>1 bloc carré</b> représente <b>5 avions</b>,
 				le nombre d'avions représenté est donc arrondi au multiple de 5 le plus proche.
-				<br>
-				<br>
-				Finalement, les types d'avions sont représenté par des codes de 3 caractères.
+				Finalement, les types d'avions sont représentés par des codes de 3 caractères.
 				Le premier caractère est une lettre qui représente le type d'aéronef <b>(L - Avion terrestre / H -
 					Hélicoptère)</b>,
-				le deuxième est un chiffre qui représente le <b>nombre de moteur</b> et une dernière lettre qui
-				représente
+				le deuxième est un chiffre qui représente le <b>nombre de moteurs</b> le dernier représente
 				le type de moteur <b>(J - Jet / T - Turbomoteur / P - Piston )</b>.
 		</div>
 		<br>
@@ -244,7 +194,7 @@
 	<script src="https://unpkg.com/scrollama@3.2.0/build/scrollama.js"></script>
 	<script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
 
-	<script src="index.js"></script>
+	<script type="module" src="index.js"></script>
 </body>
 
 </html>
