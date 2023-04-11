@@ -105,8 +105,6 @@ export function createAlluvialViz() {
   const lastNode = node.filter((d, i) => i === graph.nodes.length - 1);
   const lastNodeHeight = lastNode.node().getBoundingClientRect().height;
 
-  svg.attr("height", height + lastNodeHeight);
-
   node.append("rect")
     .attr("height", d => d.y1 - d.y0)
     .attr("width", d => d.x1 - d.x0)
