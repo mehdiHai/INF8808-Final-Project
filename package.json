@@ -3,10 +3,13 @@
   "version": "0.2.0",
   "description": "Bilan de l'aviation au Québec",
   "main": "src/index.js",
+  "homepage": "https://mehdihai.github.io/INF8808-Final-Project/",
   "scripts": {
     "build": "parcel build ./src/index.html",
     "start": "parcel ./src/index.html --log-level=2 --port=8080",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "UNLICENSED",
@@ -30,7 +33,8 @@
     "eslint-plugin-jsdoc": "^29.1.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^5.0.0"
   },
   "staticFiles": {
     "staticPath": [
