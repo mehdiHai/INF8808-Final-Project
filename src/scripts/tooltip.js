@@ -88,7 +88,7 @@ export default class Tooltip {
         this.element
             .style("background", "rgba(255,255,255,0.5)")
             .style("left", 3 + "px")
-            .style("top", 35 + "px")
+            .style("top", 60 + "px")
             .style('width', '300px')
             .style('height', '500px')
             .attr('id', 'infoNetwork')
@@ -96,11 +96,14 @@ export default class Tooltip {
 
         this.element
             .append("div")
-            .attr("id", "legFlightsBlock")
+            .attr("id", "legAirportsBlock")
+
+        this.element.append('br')
+        this.element.append('br')
 
         this.element
-            .append("div")
-            .attr("id", "legAirportsBlock")
+        .append("div")
+        .attr("id", "legFlightsBlock")
     }
 
     showLegendNetwork() {
@@ -181,8 +184,8 @@ export default class Tooltip {
         this.element
             .style("opacity", 0.7)
             .html(d[0] + "<br>" + d[2] + " - " + d[1] + "<br>"+ d[3] + " vols")
-            .style("left", ((m.x > window.innerWidth * 0.5) ? (m.x - 90) : (m.x + 30)) + "px")
-            .style("top", (m.pageY + 30) + "px")
+            .style("left", ((m.x > window.innerWidth * 0.5) ? (m.layerX - 90) : (m.layerX + 30)) + "px")
+            .style("top", (m.layerY + 20) + "px")
             .style("display", "block")
     }
 

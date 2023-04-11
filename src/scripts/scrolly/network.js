@@ -14,7 +14,7 @@ export default class Network {
  * @param {integer} ratio rapport long/larg de la taille disponible
  */
   constructor(svg, ratio = 1) {
-    this.tooltip = new Tooltip()
+    this.tooltip = new Tooltip("#viz2")
     this.tooltipLegend = new Tooltip("#viz2")
     this.ratio = ratio
     this.svg = svg;
