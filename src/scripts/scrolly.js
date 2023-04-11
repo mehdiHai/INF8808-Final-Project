@@ -1,4 +1,4 @@
-import scrollama from "scrollama";
+import scrollama from "../../node_modules/scrollama";
 import Network from "./scrolly/network.js";
 import Tooltip from './tooltip';
 
