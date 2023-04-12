@@ -101,7 +101,6 @@ function displayTopBucket(topBucket, heightScale) {
       }
       return ""
     })
-    .attr('dy', '0.35em')
     .attr('dy', function() {
       return this.textContent === '...' ? null : '0.35em'
     })
