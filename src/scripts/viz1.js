@@ -101,6 +101,7 @@ function displayTopBucket(topBucket, heightScale) {
       }
       return ""
     })
+    .attr('dy', '0.35em')
 }
 
 function displayBottomBucket(bottomBucket, heightScale) {
