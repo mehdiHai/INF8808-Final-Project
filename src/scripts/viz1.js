@@ -107,10 +107,12 @@ function displayBottomBucket(bottomBucket, heightScale) {
   const height = heightScale(d3.sum(bottomBucket, function(c) {return c[1]}))
   let toolTipDisplay = ""
   let flightTotal = 0;
-  for(let i = 0; i < 5; i++){
-    toolTipDisplay += (i+1) + '.' + ' ' + bottomBucket[i][0] + ': ' + bottomBucket[i][1] + ' vols <br>'
+  for (let i = 0; i < bottomBucket.length; i++) {
+    if (i < 5)
+      toolTipDisplay += (i+1) + '.' + ' ' + bottomBucket[i][0] + ': ' + bottomBucket[i][1] + ' vols <br>'
     flightTotal += bottomBucket[i][1];
   }
+
   toolTipDisplay += '<br><b>Nombre total de vols: ' + flightTotal + ' vols</b>'
   d3.select("#bottomSVG")
     .append('g')
