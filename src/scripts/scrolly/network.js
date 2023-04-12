@@ -110,14 +110,14 @@ export default class Network {
 
       switch (this.currentGeo) {
         case "QC":
-          this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "québécois", 'rgba(255, 0, 0, 0.6)');
+          this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "québécois", 'rgba(255, 0, 0, 0.6)', this.isFlightShow);
           break;
         case "CA":
-          this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "américain non québécois", this.ccolor['America'] + '0.6)');
+          this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "américain non québécois", this.ccolor['America'] + '0.6)', this.isFlightShow);
           break;
         case "WORLD":
           for (let cont of [["Africa", "africain"], ["Europe", "européen"], ["Asia", "asiatique"], ["Oceania", "océanien"]]) {
-            this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, cont[1], this.ccolor[cont[0]] + '0.6)');
+            this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, cont[1], this.ccolor[cont[0]] + '0.6)', this.isFlightShow);
           }
           break;
       }
@@ -221,8 +221,8 @@ export default class Network {
 
       if (this.currentGeo == "QC") {
         this.isFlightShow = true;
-        this.tooltipLegend.addFlightLegendNetwork("Vols des principales compagnies", 'rgba(0, 0, 0, 0.2)');
-        this.tooltipLegend.addFlightLegendNetwork("Autres vols", 'rgba(187, 40, 255, 0.2)');
+        this.tooltipLegend.addFlightLegendNetwork("Vols des principales compagnies", 'rgba(0, 0, 0, 0.2)', this.isFlightShow);
+        this.tooltipLegend.addFlightLegendNetwork("Autres vols", 'rgba(187, 40, 255, 0.2)', this.isFlightShow);
       }
 
       this.svg.selectAll('flights')

@@ -79,23 +79,6 @@ function createScale(data) {
 		.range(d3.schemeCategory10);
 }
 
-function calculateWaffleDimensions(data, FACTOR) {
-	const total = data.reduce((acc, d) => acc + d.value, 0);
-	// let cols = Math.floor(Math.sqrt(((total / FACTOR) * width) / height));
-	//if(cols === 0) cols = 1
-	const rows = Math.ceil(total / FACTOR / 25);
-	otherCompaniesWaffleHeight = rows * SQUARE_SIZE + rows * INTERGAP_SPACE;
-
-	return {
-		width: COLUMN_NUMBER * SQUARE_SIZE + COLUMN_NUMBER * INTERGAP_SPACE,
-		height: otherCompaniesWaffleHeight,
-		rows,
-		cols: COLUMN_NUMBER,
-		squareSize: SQUARE_SIZE,
-		offset: INTERGAP_SPACE,
-	};
-}
-
 function drawOtherCompaniesWaffle() {
 	const data = waffleify(otherCompaniesAircrafts);
 	const div = d3.select("#viz4")
@@ -118,6 +101,7 @@ function drawTopCompaniesWaffles() {
 		.append("div")
 		.attr('id', 'topWaffles')
 
+	console.log(biggestCompaniesAircrafts)
 	let index = 0;
 	biggestCompaniesAircrafts.forEach((companyMap, name) => {
 		const div = d3.select("#topWaffles")
