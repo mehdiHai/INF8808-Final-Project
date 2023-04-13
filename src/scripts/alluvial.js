@@ -41,6 +41,19 @@ function extractTimes(name) {
   }
 }
 
+function centerLevelTitles(level, titleWidth) {
+  const offset = titleWidth / 2;
+  switch(level) {
+    case "Compagnies":
+      return -offset;
+    case "Durée du vol":
+      return (width / 4)+ offset;
+    case "Temps de départ":
+      return (width / 2) + offset;
+    case "Portée du vol":
+      return width - offset;
+  }
+}
 
 export function createAlluvialViz() {
 
@@ -55,6 +68,25 @@ export function createAlluvialViz() {
     .append("svg")
     .attr("id", "alluvialChart")
     .attr("width", "70%")
+
+  const levels = ["Compagnies", "Durée du vol", "Temps de départ", "Portée du vol"];
+
+  const levelText = svg.selectAll(".level")
+    .data(levels)
+    .enter()
+    .append("text")
+    .attr("class", "level")
+    .text(d => d)
+    .style("font-size", "24px")
+    .style("font-weight", "bold")
+    .each(function(d) {
+      // Calculate the width of the text element
+      const titleWidth = this.getBBox().width;
+      // Center the text element
+      const x = centerLevelTitles(d, titleWidth);
+      console.log(d + " " + x)
+      d3.select(this).attr("x", x).attr("y", 30);
+    });
 
   const sankey = d3.sankey()
     .nodeSort(null)
@@ -86,16 +118,15 @@ export function createAlluvialViz() {
 
   sankey(graph);
 
-  const node = svg.append("g")
-    .selectAll(".node")
+  const sankeyGroup = svg.append("g")
+    .attr("transform", `translate(0, 50)`);
+
+  const node = sankeyGroup.selectAll(".node")
     .data(graph.nodes)
     .enter()
     .append("g")
     .attr("class", "node")
     .attr("transform", d => `translate(${d.x0},${d.y0})`);
-
-  const lastNode = node.filter((d, i) => i === graph.nodes.length - 1);
-  const lastNodeHeight = lastNode.node().getBoundingClientRect().height;
 
   node.append("rect")
     .attr("height", d => d.y1 - d.y0)
@@ -124,13 +155,13 @@ export function createAlluvialViz() {
     .text(d => d.name)
     .style("font-size", "18px");
 
-  const link = svg
+  const link = sankeyGroup.selectAll(".link")
+    .data(graph.links)
+    .enter()
     .append("g")
+    .attr("class", "link")
     .attr("fill", "none")
     .attr("stroke-opacity", 0.5)
-    .selectAll("g")
-    .data(graph.links)
-    .join("g")
     .attr("stroke", "gray");
 
   link
@@ -144,11 +175,12 @@ export function createAlluvialViz() {
     })
     .on("mouseout", resetAlluvial)
 
+    
   // Get the bounding box of all the g elements
   const bbox = svg.select("g").node().getBBox();
 
   // Set the viewBox attribute on the svg element
-  svg.attr("viewBox", `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
+  svg.attr("viewBox", `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height + 60 + levelText.node().getBBox().height}`);
 }
 
 
