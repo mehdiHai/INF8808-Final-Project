@@ -5,7 +5,6 @@ export default class Tooltip {
     constructor(attachElement = "body") {
         this.element = d3.select(attachElement)
             .append("div")
-            //.style("opacity", 0)
             .attr("class", "tooltip")
             .style("background-color", "black")
             .style("border-radius", "5px")
@@ -25,12 +24,13 @@ export default class Tooltip {
             .style("display", "block")
     }
 
-    addAirportLegendNetwork(level, text, color) {
+    addAirportLegendNetwork(level, text, color, status=false) {
         const svg = this.element
             .select("#legAirportsBlock")
             .append('svg')
             .attr("class", "legAirport_" + level)
             .attr("height", "40px")
+            .attr("visibility",  status ? "visible": "hidden")
 
         svg.append("circle")
             .transition()
@@ -51,14 +51,19 @@ export default class Tooltip {
     }
 
     delFlightLegendNetwork() {
-        d3.selectAll(".legFlight").transition()
-            .duration(300).remove()
+        d3.selectAll(".legFlight")
+            .transition()
+            .duration(300)
+            .remove()
     }
 
-    addFlightLegendNetwork(text, color) {
-        const svg = this.element.select("#legFlightsBlock").append('svg')
+    addFlightLegendNetwork(text, color, status=false) {
+        const svg = this.element
+            .select("#legFlightsBlock")
+            .append('svg')
             .attr("class", "legFlight")
             .attr("height", "40px")
+            .attr("visibility", status ? "visible": "hidden")
 
         svg.append("rect")
             .transition()
@@ -86,13 +91,12 @@ export default class Tooltip {
 
     createLegendNetwork() {
         this.element
-            .style("background", "rgba(255,255,255,0.5)")
-            .style("left", 3 + "px")
-            .style("top", 60 + "px")
-            .style('width', '300px')
-            .style('height', '500px')
-            .attr('id', 'infoNetwork')
-            .style("opacity", 0)
+            .style("background", "rgba(0,0,0,0.2)")
+            .style("left", "3px")
+            .style("top", "60px")
+            .style('width', "0px")
+            .style('height', "500px")
+            .attr('id', "infoNetwork")
 
         this.element
             .append("div")
@@ -102,21 +106,48 @@ export default class Tooltip {
         this.element.append('br')
 
         this.element
-        .append("div")
-        .attr("id", "legFlightsBlock")
+            .append("div")
+            .attr("id", "legFlightsBlock")
     }
 
     showLegendNetwork() {
         this.element
             .transition()
+            .ease(d3.easePolyInOut)
             .duration(300)
-            .style("opacity", 1)
             .style("display", "block")
+            .style("width", "300px")
+
+        this.element
+            .selectAll("* *")
+            .transition()
+            .delay(200)
+            .ease(d3.easePolyInOut)
+            .duration(300)
+            .attr("visibility", "visible")
+
     }
 
     hiddenLegendNetwork() {
-        this.element.style("display", "none")
-            .style("opacity", 0)
+        this.element
+            .transition()
+            .ease(d3.easePolyInOut)
+            .duration(300)
+            .style("width", "0px")
+
+        this.element
+            .transition()
+            .delay(200)
+            .duration(0)
+            .style("display", "none")
+
+        this.element
+            .selectAll("* *")
+            .transition()
+            .delay(100)
+            .ease(d3.easePolyInOut)
+            .duration(300)
+            .attr("visibility", "hidden")
     }
 
     showTooltipBottom(m, d) {

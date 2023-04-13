@@ -9,7 +9,9 @@ const BUCKET_WIDTH = 200;
 
 let tooltip = new Tooltip();
 
-
+/**
+ * Affichage des seaux
+ */
 export function displayBucketGraph() {
   const companiesFlightArray = preprocess.getCompaniesFlightArray();
   const heightScale = createHeightScale(companiesFlightArray);
@@ -22,6 +24,10 @@ export function displayBucketGraph() {
 
 }
 
+/**
+ * Mise à jour du slider des seaux et des visualisations
+ * subséquentes à ce changement
+ */
 export function setUpSlider() {
   const	slider=document.getElementById("slider")
   const sliderValue=document.getElementById("slider-value")
@@ -41,6 +47,11 @@ export function setUpSlider() {
   alluvial.createAlluvialViz();
 }
 
+/**
+ * Affiche le seau des plus grandes compagnies
+ * @param {*} topBucket	objet contenant une liste de compagnies et leur nombre total de vols
+ * @param {*} heightScale échelle d3 permettant de choisir la hauteur appropriée
+ */
 function displayTopBucket(topBucket, heightScale) {
   d3.select("#topSVG")
     .selectAll('.topCompany')
@@ -101,16 +112,26 @@ function displayTopBucket(topBucket, heightScale) {
       }
       return ""
     })
+    .attr('dy', function() {
+      return this.textContent === '...' ? null : '0.35em'
+    })
 }
 
+/**
+ * Affiche le seau des autres compagnies
+ * @param {*} bottomBucket	objet contenant une liste de compagnies et leur nombre total de vols
+ * @param {*} heightScale échelle d3 permettant de choisir la hauteur appropriée
+ */
 function displayBottomBucket(bottomBucket, heightScale) {
   const height = heightScale(d3.sum(bottomBucket, function(c) {return c[1]}))
   let toolTipDisplay = ""
   let flightTotal = 0;
-  for(let i = 0; i < 5; i++){
-    toolTipDisplay += (i+1) + '.' + ' ' + bottomBucket[i][0] + ': ' + bottomBucket[i][1] + ' vols <br>'
+  for (let i = 0; i < bottomBucket.length; i++) {
+    if (i < 5)
+      toolTipDisplay += (i+1) + '.' + ' ' + bottomBucket[i][0] + ': ' + bottomBucket[i][1] + ' vols <br>'
     flightTotal += bottomBucket[i][1];
   }
+
   toolTipDisplay += '<br><b>Nombre total de vols: ' + flightTotal + ' vols</b>'
   d3.select("#bottomSVG")
     .append('g')
@@ -148,11 +169,19 @@ function displayBottomBucket(bottomBucket, heightScale) {
     .text('Autres compagnies')
 }
 
+/**
+ * Crée l'échelle d3 qui permet de choisir la hauteur appropriée d'une compagnie dans un seau
+ * @param {*} topCompanies données pour lesquelles on crée une échelle de hauteur
+ * @returns {*} l'échelle en question
+ */
 function createHeightScale (topCompanies) {
   const maxHeight = d3.sum(topCompanies, c => c[1])
   return d3.scaleLinear().domain([d3.min(topCompanies, function(d) {return d[1]}), maxHeight]).range([0, BUCKET_HEIGHT])
 }
 
+/**
+ * Crée l'animation qui permet de lever et fermer le hublot contenant les noms des créateurs de ce projet
+ */
 function setAnimation() {
   const hublot = document.getElementById('right-hublot-cover');
   const lid = document.getElementById('lid');

@@ -23,11 +23,6 @@ export function loadData() {
     })
 }
 
-export function initAlluvial() {
-  d3.select("#viz3").on("mouseover", loadData)
-}
-
-
 /* Ne correspond à rien 
 A MODIFIER
 */
@@ -67,8 +62,6 @@ export function createAlluvialViz() {
     .nodePadding(10)
     .size([width, height]);
 
-  console.log(sankeyData)
-
   sankeyData.forEach(d => {
     const sourceIndex = graph.nodes.findIndex(
       node => node.name === d.source
@@ -91,7 +84,6 @@ export function createAlluvialViz() {
     });
   });
 
-  console.log(graph.nodes)
   sankey(graph);
 
   const node = svg.append("g")

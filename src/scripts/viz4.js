@@ -11,6 +11,9 @@ const INTERGAP_SPACE = 5;
 
 let tooltip = new Tooltip();
 
+/**
+ * Initialise la visualisation de gaufres
+ */
 export function initWaffle() {
 	window.onscroll = function () {
 		var scrollPos = window.scrollY;
@@ -25,6 +28,9 @@ export function initWaffle() {
 	}
 }
 
+/**
+ * Dessine toutes les gaufres
+ */
 export function drawWaffles() {
 	separateBigFromOthers();
 
@@ -34,6 +40,9 @@ export function drawWaffles() {
 
 }
 
+/**
+ * Fais une étape de preprocessing spécifique à la visualisation de gaufres, puis redessine les gaufres
+ */
 export function modifyData() {
 	const viz = d3.select('#viz4')
 	viz.select('#topWaffles').remove();
@@ -47,6 +56,9 @@ export function modifyData() {
 	addLegend();
 }
 
+/**
+ * Fais une étape de preprocessing spécifique à la visualisation de gaufres
+ */
 function separateBigFromOthers() {
 	const biggestCompaniesFlights = preprocess.getCompaniesFlightArray();
 	const companiesAircrafts = preprocess.getCompaniesAircraftsMap();
@@ -70,6 +82,10 @@ function separateBigFromOthers() {
 	})
 }
 
+/**
+ * Crée l'échelle de couleur des gaufres
+ * @param {*} data les données pour lesquelles on crée une échelle de couleurs
+ */
 function createScale(data) {
 	const domain = data.map((d) => {
 		return d.category;
@@ -79,23 +95,9 @@ function createScale(data) {
 		.range(d3.schemeCategory10);
 }
 
-function calculateWaffleDimensions(data, FACTOR) {
-	const total = data.reduce((acc, d) => acc + d.value, 0);
-	// let cols = Math.floor(Math.sqrt(((total / FACTOR) * width) / height));
-	//if(cols === 0) cols = 1
-	const rows = Math.ceil(total / FACTOR / 25);
-	otherCompaniesWaffleHeight = rows * SQUARE_SIZE + rows * INTERGAP_SPACE;
-
-	return {
-		width: COLUMN_NUMBER * SQUARE_SIZE + COLUMN_NUMBER * INTERGAP_SPACE,
-		height: otherCompaniesWaffleHeight,
-		rows,
-		cols: COLUMN_NUMBER,
-		squareSize: SQUARE_SIZE,
-		offset: INTERGAP_SPACE,
-	};
-}
-
+/**
+ * Dessine les gaufres des autres compagnies
+ */
 function drawOtherCompaniesWaffle() {
 	const data = waffleify(otherCompaniesAircrafts);
 	const div = d3.select("#viz4")
@@ -113,11 +115,15 @@ function drawOtherCompaniesWaffle() {
 
 }
 
+/**
+ * Dessine les gaufres des plus grandes compagnies
+ */
 function drawTopCompaniesWaffles() {
 	d3.select("#viz4")
 		.append("div")
 		.attr('id', 'topWaffles')
 
+	console.log(biggestCompaniesAircrafts)
 	let index = 0;
 	biggestCompaniesAircrafts.forEach((companyMap, name) => {
 		const div = d3.select("#topWaffles")
@@ -134,6 +140,11 @@ function drawTopCompaniesWaffles() {
 
 }
 
+/**
+ * Convertit les données de sorte à être manipulées plus facilement avec d3 par la suite
+ * @param {*} data données à convertir
+ * @returns {*} données converties
+ */
 function waffleify(data) {
 	const newData = [];
 	[...data.entries()].forEach((d) => {
@@ -161,6 +172,11 @@ function waffleify(data) {
 	return waffles;
 }
 
+/**
+ * Dessine une gaufre
+ * @param {*} waffles données pour lesquelles on veut créer une gaufre
+ * @param {*} div élément sur lequel on souhaite créer la gaufre
+ */
 function drawWaffle(waffles, div) {
 	div.selectAll('.block')
 		.data(waffles)
@@ -179,10 +195,11 @@ function drawWaffle(waffles, div) {
 		.on("mouseleave", function () {
 			return tooltip.hideTooltip();
 		});
-
 }
 
-
+/**
+ * Crée la légende pour les gaufres
+ */
 function addLegend() {
 	d3.select('#viz4').append('br')
 	const legendContainer = d3.select('#viz4')
