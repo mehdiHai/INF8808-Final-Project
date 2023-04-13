@@ -1,4 +1,4 @@
-let data = [];
+let bucketsData = [];
 let sankeyData = [];
 let alluvialData = [];
 let filteredAlluvialData = [];
@@ -8,18 +8,29 @@ let companiesAircrafts = [];
 
 let topCompaniesSet = new Set();
 
-export function setData(newData) {
-  data = newData
-  companiesFlightArray = setCompaniesFlightCount(data);
+/**
+ * Prépare les données pour la visualisation de seaux
+ * @param {*} newData données brutes initiales
+ */
+export function setBucketsData(newData) {
+  bucketsData = newData
+  setCompaniesFlightCount(bucketsData);
 }
 
-export function setAlluvialData(data) {
+/**
+ * Prépare les données pour le diagramme alluvial
+ * @param {*} newData données brutes initiales
+ */
+export function setAlluvialData(newData) {
   alluvialData = [];
-  data.forEach(d => {
+  newData.forEach(d => {
     alluvialData.push({airline: d.airline, duration: d.duration, departureTime: d.departureTime, flightRange: d.flightRange, count: parseInt(d.count)});
   });
 }
 
+/**
+ * Filtre les données pour le diagramme alluvial
+ */
 export function filterAlluvialData() {
   filteredAlluvialData = [];
 
@@ -106,12 +117,6 @@ export function setSankeyData() {
     const count = departureFlightCounts[key];
     sankeyData.push({source, target, count, level: 2});
   });
-
-  return sankeyData;
-}
-
-export function getData() {
-  return [...data];
 }
 
 export function getSankeyData() {
@@ -141,7 +146,6 @@ export function setTopCompaniesCount(count){
 export function getCompaniesAircraftsMap() {
   return companiesAircrafts;
 }
-
 
 export function groupByMainCompanies(data) {
   let agg = new Map()
@@ -173,6 +177,10 @@ export function resizeTopCompagnies(bottomBucket) {
   return selection;
 }
 
+/**
+ * Crée un dictionnaire qui fait la correspondance entre une compagnie et leur nombre total de vols
+ * @param {*} aircraftsData données brutes initiales
+ */
 function setCompaniesFlightCount(data) {
   const topCompanies = new Map()
   data.forEach((d) => {
@@ -188,12 +196,14 @@ function setCompaniesFlightCount(data) {
   let numOthers = topCompanies.get("OTHERS")
   topCompanies.delete("OTHERS")
 
-  let sortedCompanies = [...topCompanies.entries()].sort((a, b) => b[1] - a[1])
-
-  sortedCompanies.push(["OTHERS", numOthers])
-  return sortedCompanies
+  companiesFlightArray = [...topCompanies.entries()].sort((a, b) => b[1] - a[1])
+  companiesFlightArray.push(["OTHERS", numOthers])
 }
 
+/**
+ * Crée un dictionnaire qui fait la correspondance entre une compagnie et une liste de leurs types d'aéronef et leur compte
+ * @param {*} aircraftsData données brutes initiales
+ */
 export function setCompaniesAircraftsMap(aircraftsData) {
   const aircrafts = new Map();
 
@@ -218,7 +228,4 @@ export function setCompaniesAircraftsMap(aircraftsData) {
       }
   })
   companiesAircrafts = aircrafts;
-
-  return aircrafts;
-  
 }

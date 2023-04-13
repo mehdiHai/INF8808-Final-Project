@@ -1,12 +1,11 @@
 import * as waffles from './scripts/viz4.js'
-import * as alluvial from './scripts/alluvial.js'
 import * as buckets from './scripts/viz1.js'
 import * as preprocess from './scripts/preprocess.js'
 import * as network from './scripts/scrolly.js'
 
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
-  }
+}
 
 window.onload = () => {
 
@@ -16,7 +15,7 @@ window.onload = () => {
         d3.csv('./QC/flightsQC.csv'),
         d3.csv('./alluvial_data.csv')
     ]).then(function (files) {
-        preprocess.setData(files[0].concat(files[1], files[2]));
+        preprocess.setBucketsData(files[0].concat(files[1], files[2]));
         preprocess.setAlluvialData(files[3]);
         preprocess.setTopCompaniesCount(5);
         buckets.displayBucketGraph();
@@ -24,7 +23,6 @@ window.onload = () => {
     })
 
     network.initNetwork()
-    // alluvial.initAlluvial()
     waffles.initWaffle()
 };
 

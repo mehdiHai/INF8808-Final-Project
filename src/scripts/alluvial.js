@@ -23,11 +23,6 @@ export function loadData() {
     })
 }
 
-export function initAlluvial() {
-  d3.select("#viz3").on("mouseover", loadData)
-}
-
-
 /* Ne correspond à rien 
 A MODIFIER
 */

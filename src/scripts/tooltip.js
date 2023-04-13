@@ -5,7 +5,6 @@ export default class Tooltip {
     constructor(attachElement = "body") {
         this.element = d3.select(attachElement)
             .append("div")
-            //.style("opacity", 0)
             .attr("class", "tooltip")
             .style("background-color", "black")
             .style("border-radius", "5px")
