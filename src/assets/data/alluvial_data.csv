@@ -1,428 +1,428 @@
 ,airline,duration,departureTime,flightRange,count
-0,JAZZ AVIATION LP,court,matin,Quebec,295
-1,AIR CANADA,moyen,après-midi,Canada,1039
-2,OTHERS,long,soire,International,909
-3,OTHERS,court,soire,International,6346
-4,SUNWING AIRLINES INC.,moyen,soire,International,204
-5,CARGOJET AIRWAYS LTD.,court,soire,International,127
-6,OTHERS,moyen,soire,International,659
-7,AIR CANADA,moyen,soire,Quebec,463
-8,AIR CANADA,moyen,soire,International,1815
-9,JAZZ AVIATION LP,court,soire,International,1706
-10,JAZZ AVIATION LP,court,soire,Canada,1414
-11,AIR CANADA,court,soire,Canada,1779
-12,DELTA AIR LINES,court,soire,International,478
-13,OTHERS,court,soire,Canada,1171
-14,AIR GEORGIAN LIMITED,court,soire,International,254
-15,AIR CANADA,moyen,soire,Canada,544
-16,AIR FRANCE,long,soire,International,169
-17,JAZZ AVIATION LP,court,nuit,Quebec,141
-18,WELLS FARGO TRUST CO NA TRUSTEE,court,nuit,International,28
-19,AIR TRANSAT,long,nuit,International,1201
-20,JAZZ AVIATION LP,court,nuit,International,1014
-21,DELTA AIR LINES,court,nuit,International,89
-22,OTHERS,moyen,nuit,Canada,59
-23,OTHERS,moyen,nuit,International,769
-24,SUNWING AIRLINES INC.,court,nuit,International,89
-25,CARGOJET AIRWAYS LTD.,court,nuit,Canada,591
-26,OTHERS,long,nuit,International,1853
-27,AIR CANADA,long,nuit,International,1531
-28,AIR TRANSAT,moyen,nuit,International,209
-29,WESTJET ENCORE LTD.,court,nuit,International,19
-30,AIR CANADA,court,nuit,Canada,756
-31,OTHERS,court,nuit,International,2510
-32,AIR CANADA,court,nuit,International,648
-33,CARGOJET AIRWAYS LTD.,court,nuit,International,317
-34,AIR FRANCE,long,nuit,International,211
-35,WESTJET,court,nuit,Canada,171
-36,OTHERS,moyen,nuit,Quebec,28
-37,SKY REGIONAL AIRLINES INC.,court,nuit,Canada,279
-38,AIR CANADA,moyen,nuit,Canada,267
-39,OTHERS,long,matin,International,1651
-40,AIR CANADA,court,soire,International,1712
-41,JAZZ AVIATION LP,court,matin,International,3044
-42,AIR GEORGIAN LIMITED,court,matin,International,467
-43,AIR TRANSAT,long,matin,International,1075
-44,SKY REGIONAL AIRLINES INC.,court,matin,International,2080
-45,AIR CANADA,court,matin,Canada,2695
-46,OTHERS,moyen,matin,International,1692
-47,PORTER AIRLINES INC.,court,matin,Canada,1350
-48,OTHERS,court,matin,International,13625
-49,AIR TRANSAT,court,matin,International,269
-50,AIR CANADA,long,matin,International,1763
-51,DELTA AIR LINES,court,matin,International,931
-52,AIR CANADA,court,matin,International,2445
-53,SKY REGIONAL AIRLINES INC.,court,matin,Canada,108
-54,OTHERS,court,matin,Canada,2231
-55,AIR TRANSAT,long,matin,Quebec,187
-56,WELLS FARGO TRUST CO NA TRUSTEE,court,matin,International,424
-57,WESTJET,court,matin,Canada,169
-58,SUNWING AIRLINES INC.,moyen,matin,International,445
-59,AIR FRANCE,long,matin,International,345
-60,AIR CANADA,moyen,matin,International,2531
-61,PORTER AIRLINES INC.,court,matin,International,119
-62,AIR TRANSAT,moyen,matin,International,627
-63,OTHERS,moyen,matin,Quebec,296
-64,AIR GEORGIAN LIMITED,moyen,matin,Quebec,10
-65,AIR CANADA,moyen,matin,Canada,536
-66,JAZZ AVIATION LP,court,matin,Canada,1984
-67,WESTJET ENCORE LTD.,court,matin,Canada,751
-68,AIR CANADA,moyen,matin,Quebec,630
-69,BANK OF UTAH TRUSTEE,moyen,matin,International,91
-70,AMERICAN AIRLINES INC,court,matin,International,962
-71,SKY REGIONAL AIRLINES INC.,court,après-midi,International,2233
-72,JAZZ AVIATION LP,court,après-midi,International,4222
-73,AIR TRANSAT,moyen,après-midi,International,673
-74,OTHERS,court,après-midi,International,14708
-75,AIR CANADA,moyen,après-midi,International,2303
-76,AIRSPRINT INC.,court,après-midi,Canada,184
-77,SUNWING AIRLINES INC.,moyen,après-midi,International,483
-78,AIR CANADA,court,après-midi,International,2808
-79,SKYSERVICE BUSINESS AVIATION INC.,court,après-midi,International,380
-80,WESTJET ENCORE LTD.,court,après-midi,Canada,791
-81,OTHERS,moyen,après-midi,International,1642
-82,SKY REGIONAL AIRLINES INC.,court,après-midi,Canada,28
-83,OTHERS,long,après-midi,International,985
-84,AVIATION STARLINK INC.,court,après-midi,International,220
-85,AIR CANADA,court,après-midi,Canada,2694
-86,AIR CANADA,long,soire,International,1727
-87,AIR FRANCE,long,après-midi,International,308
-88,PORTER AIRLINES INC.,court,après-midi,International,130
-89,OTHERS,court,après-midi,Canada,2264
-90,REPUBLIC AIRWAYS INC,court,après-midi,International,573
-91,AMERICAN AIRLINES INC,court,après-midi,International,1021
-92,AIR FRANCE,moyen,après-midi,International,51
-93,JAZZ AVIATION LP,moyen,après-midi,Quebec,125
-94,DELTA AIR LINES,court,après-midi,International,715
-95,AIR GEORGIAN LIMITED,court,après-midi,International,548
-96,OTHERS,moyen,après-midi,Quebec,255
-97,JAZZ AVIATION LP,court,après-midi,Canada,1750
-98,PORTER AIRLINES INC.,court,après-midi,Canada,1375
-99,FLAIR AIRLINE,moyen,après-midi,Canada,164
-100,AIR TRANSAT,court,après-midi,International,491
-101,AIR CANADA,moyen,après-midi,Quebec,590
-102,AIRSPRINT INC.,court,après-midi,International,226
-103,SUNWING AIRLINES INC.,court,après-midi,International,188
-104,AIR TRANSAT,moyen,soire,International,342
-105,PORTER AIRLINES INC.,court,soire,Canada,919
-106,REPUBLIC AIRWAYS INC,court,soire,International,484
-107,SKYSERVICE BUSINESS AVIATION INC.,court,soire,International,136
-108,BANK OF UTAH TRUSTEE,court,soire,Quebec,12
-109,FLAIR AIRLINE,court,soire,International,16
-110,WESTJET ENCORE LTD.,court,soire,Canada,600
-111,PORTER AIRLINES INC.,court,soire,International,57
-112,SKY REGIONAL AIRLINES INC.,court,soire,International,980
-113,BANK OF UTAH TRUSTEE,court,soire,International,214
-114,OTHERS,court,soire,Quebec,480
-115,OTHERS,moyen,soire,Quebec,126
-116,AIR TRANSAT,long,soire,International,609
-117,SUNWING AIRLINES INC.,court,soire,International,256
-118,AMERICAN AIRLINES INC,court,soire,International,322
-119,JAZZ AVIATION LP,court,soire,Quebec,169
-120,FLAIR AIRLINE,moyen,soire,Canada,74
-121,AIR GEORGIAN LIMITED,court,nuit,Canada,11
-122,PORTER AIRLINES INC.,court,nuit,Canada,18
-123,OTHERS,court,nuit,Canada,844
-124,REPUBLIC AIRWAYS INC,court,nuit,International,27
-125,AIR CANADA,moyen,nuit,Quebec,80
-126,AIR CANADA,moyen,nuit,International,631
-127,SUNWING AIRLINES INC.,long,matin,Quebec,98
-128,AIR GEORGIAN LIMITED,court,matin,Canada,83
-129,OTHERS,long,matin,Quebec,101
-130,WESTJET,long,matin,Canada,1
-131,REPUBLIC AIRWAYS INC,court,matin,International,890
-132,SKYSERVICE BUSINESS AVIATION INC.,moyen,matin,International,84
-133,OTHERS,court,matin,Quebec,1269
-134,BANK OF UTAH TRUSTEE,court,matin,International,433
-135,AIR CANADA,long,matin,Quebec,185
-136,WESTJET ENCORE LTD.,court,matin,International,74
-137,AVIATION STARLINK INC.,moyen,après-midi,International,29
-138,AIR CANADA,long,après-midi,International,196
-139,FLAIR AIRLINE,court,après-midi,International,59
-140,WELLS FARGO TRUST CO NA TRUSTEE,court,après-midi,International,344
-141,WESTJET,moyen,après-midi,Quebec,377
-142,BANK OF UTAH TRUSTEE,court,après-midi,International,420
-143,DELTA AIR LINES,moyen,après-midi,International,1
-144,OTHERS,court,après-midi,Quebec,1455
-145,FLAIR AIRLINE,court,après-midi,Canada,129
-146,BANK OF UTAH TRUSTEE,court,après-midi,Quebec,57
-147,AVIATION STARLINK INC.,court,soire,International,96
-148,AIR TRANSAT,court,soire,Canada,399
-149,FLAIR AIRLINE,court,soire,Canada,25
-150,AIRSPRINT INC.,court,soire,Canada,74
-151,WESTJET,moyen,soire,Quebec,48
-152,AIR FRANCE,moyen,soire,International,109
-153,WELLS FARGO TRUST CO NA TRUSTEE,court,soire,International,271
-154,FLAIR AIRLINE,moyen,nuit,Canada,88
-155,JAZZ AVIATION LP,court,nuit,Canada,508
-156,AIR TRANSAT,court,nuit,International,90
-157,AIR FRANCE,moyen,nuit,International,108
-158,CARGOJET AIRWAYS LTD.,court,matin,Canada,69
-159,AVIATION STARLINK INC.,court,matin,Canada,125
-160,FLAIR AIRLINE,court,matin,Canada,213
-161,CARGOJET AIRWAYS LTD.,long,matin,International,29
-162,SKYSERVICE BUSINESS AVIATION INC.,long,matin,International,24
-163,SUNWING AIRLINES INC.,court,matin,International,259
-164,SKYSERVICE BUSINESS AVIATION INC.,court,matin,International,341
-165,WESTJET ENCORE LTD.,court,après-midi,International,56
-166,JAZZ AVIATION LP,court,après-midi,Quebec,519
-167,JAZZ AVIATION LP,long,après-midi,International,2
-168,OTHERS,moyen,après-midi,Canada,254
-169,AIR GEORGIAN LIMITED,court,après-midi,Canada,48
-170,AVIATION STARLINK INC.,court,après-midi,Quebec,31
-171,SKYSERVICE BUSINESS AVIATION INC.,moyen,soire,International,17
-172,AIR GEORGIAN LIMITED,court,soire,Canada,55
-173,AIR TRANSAT,court,soire,International,357
-174,AIRSPRINT INC.,court,soire,International,54
-175,OTHERS,court,nuit,Quebec,230
-176,AMERICAN AIRLINES INC,court,nuit,International,52
-177,CARGOJET AIRWAYS LTD.,court,matin,International,162
-178,CARGOJET AIRWAYS LTD.,moyen,matin,International,109
-179,SUNWING AIRLINES INC.,court,matin,Canada,158
-180,AIRSPRINT INC.,court,matin,Canada,129
-181,AIRSPRINT INC.,court,matin,International,159
-182,JAZZ AVIATION LP,moyen,matin,Quebec,104
-183,AVIATION STARLINK INC.,court,matin,International,199
-184,SKYSERVICE BUSINESS AVIATION INC.,moyen,après-midi,International,88
-185,CARGOJET AIRWAYS LTD.,court,après-midi,International,114
-186,AVIATION STARLINK INC.,court,après-midi,Canada,130
-187,SKYSERVICE BUSINESS AVIATION INC.,court,après-midi,Canada,129
-188,JAZZ AVIATION LP,moyen,après-midi,International,42
-189,AIR TRANSAT,court,après-midi,Canada,209
-190,JAZZ AVIATION LP,moyen,soire,International,60
-191,SUNWING AIRLINES INC.,moyen,nuit,International,68
-192,AIR GEORGIAN LIMITED,court,nuit,International,54
-193,SUNWING AIRLINES INC.,court,nuit,Canada,133
-194,SKY REGIONAL AIRLINES INC.,court,nuit,International,171
-195,SUNWING AIRLINES INC.,long,matin,Canada,11
-196,SKY REGIONAL AIRLINES INC.,court,après-midi,Quebec,19
-197,AMERICAN AIRLINES INC,moyen,après-midi,International,15
-198,FLAIR AIRLINE,moyen,après-midi,International,56
-199,AIR FRANCE,court,après-midi,International,14
-200,AIR TRANSAT,long,après-midi,Quebec,32
-201,OTHERS,moyen,soire,Canada,115
-202,OTHERS,long,après-midi,Quebec,36
-203,JAZZ AVIATION LP,moyen,après-midi,Canada,52
-204,AVIATION STARLINK INC.,court,soire,Canada,70
-205,FLAIR AIRLINE,court,nuit,Canada,5
-206,SKYSERVICE BUSINESS AVIATION INC.,court,soire,Canada,82
-207,AIRSPRINT INC.,court,nuit,Canada,17
-208,AIRSPRINT INC.,moyen,matin,Quebec,3
-209,AVIATION STARLINK INC.,long,matin,International,10
-210,WESTJET,court,après-midi,Canada,6
-211,AIRSPRINT INC.,moyen,après-midi,International,32
-212,SUNWING AIRLINES INC.,court,soire,Canada,25
-213,AIRSPRINT INC.,moyen,matin,International,39
-214,SKYSERVICE BUSINESS AVIATION INC.,long,soire,International,6
-215,BANK OF UTAH TRUSTEE,moyen,nuit,International,78
-216,AIR GEORGIAN LIMITED,court,matin,Quebec,34
-217,BANK OF UTAH TRUSTEE,moyen,soire,International,58
-218,BANK OF UTAH TRUSTEE,court,nuit,International,118
-219,SKYSERVICE BUSINESS AVIATION INC.,court,matin,Canada,136
-220,AVIATION STARLINK INC.,moyen,matin,International,16
-221,AIR GEORGIAN LIMITED,court,après-midi,Quebec,33
-222,BANK OF UTAH TRUSTEE,long,soire,Canada,4
-223,SKYSERVICE BUSINESS AVIATION INC.,court,nuit,Canada,16
-224,SUNWING AIRLINES INC.,long,matin,International,8
-225,AIR CANADA,long,après-midi,Quebec,45
-226,JAZZ AVIATION LP,moyen,matin,International,63
-227,AIR CANADA,court,après-midi,Quebec,481
-228,SUNWING AIRLINES INC.,long,après-midi,Quebec,8
-229,AIRSPRINT INC.,court,après-midi,Quebec,19
-230,AIRSPRINT INC.,moyen,soire,International,6
-231,OTHERS,long,matin,Canada,15
-232,AIR FRANCE,court,soire,International,7
-233,AVIATION STARLINK INC.,long,nuit,International,4
-234,AIR CANADA,court,matin,Quebec,639
-235,AIRSPRINT INC.,long,après-midi,Canada,1
-236,AIR CANADA,court,soire,Quebec,258
-237,SKYSERVICE BUSINESS AVIATION INC.,moyen,soire,Canada,4
-238,AIR GEORGIAN LIMITED,court,soire,Quebec,18
-239,AIR TRANSAT,long,matin,Canada,1
-240,AVIATION STARLINK INC.,court,nuit,International,34
-241,AIR TRANSAT,court,matin,Canada,12
-242,SKYSERVICE BUSINESS AVIATION INC.,court,matin,Quebec,39
-243,SUNWING AIRLINES INC.,court,après-midi,Canada,17
-244,BANK OF UTAH TRUSTEE,long,après-midi,International,3
-245,WESTJET ENCORE LTD.,court,nuit,Canada,109
-246,SKYSERVICE BUSINESS AVIATION INC.,court,nuit,International,28
-247,BANK OF UTAH TRUSTEE,court,nuit,Canada,91
-248,SUNWING AIRLINES INC.,moyen,matin,Canada,3
-249,AIR GEORGIAN LIMITED,long,matin,International,2
-250,AIRSPRINT INC.,moyen,après-midi,Quebec,3
-251,SUNWING AIRLINES INC.,long,après-midi,International,5
-252,BANK OF UTAH TRUSTEE,moyen,après-midi,International,91
-253,SKYSERVICE BUSINESS AVIATION INC.,long,nuit,International,5
-254,AIR CANADA,court,nuit,Quebec,248
-255,OTHERS,moyen,matin,Canada,109
-256,SKYSERVICE BUSINESS AVIATION INC.,court,après-midi,Quebec,29
-257,JAZZ AVIATION LP,moyen,soire,Quebec,2
-258,AIRSPRINT INC.,court,matin,Quebec,8
-259,FLAIR AIRLINE,court,matin,International,23
-260,AIR TRANSAT,court,soire,Quebec,17
-261,JAZZ AVIATION LP,moyen,nuit,International,1
-262,BANK OF UTAH TRUSTEE,court,après-midi,Canada,24
-263,BANK OF UTAH TRUSTEE,court,matin,Quebec,17
-264,CARGOJET AIRWAYS LTD.,court,après-midi,Canada,16
-265,AVIATION STARLINK INC.,moyen,soire,International,7
-266,BANK OF UTAH TRUSTEE,court,soire,Canada,7
-267,JAZZ AVIATION LP,moyen,matin,Canada,24
-268,BANK OF UTAH TRUSTEE,long,nuit,International,4
-269,AVIATION STARLINK INC.,court,matin,Quebec,31
-270,AIRSPRINT INC.,court,soire,Quebec,12
-271,PORTER AIRLINES INC.,moyen,après-midi,Quebec,2
-272,FLAIR AIRLINE,court,après-midi,Quebec,88
-273,SUNWING AIRLINES INC.,long,après-midi,Canada,15
-274,PORTER AIRLINES INC.,court,après-midi,Quebec,124
-275,SKY REGIONAL AIRLINES INC.,court,soire,Quebec,26
-276,AIR TRANSAT,long,après-midi,International,43
-277,CARGOJET AIRWAYS LTD.,court,soire,Quebec,25
-278,AVIATION STARLINK INC.,court,soire,Quebec,9
-279,WESTJET,court,soire,Canada,11
-280,OTHERS,long,soire,Canada,9
-281,AVIATION STARLINK INC.,court,nuit,Canada,19
-282,AIR FRANCE,court,nuit,International,1
-283,CARGOJET AIRWAYS LTD.,long,nuit,International,2
-284,AIR CANADA,long,soire,Canada,2
-285,AIR FRANCE,court,soire,Canada,1
-286,CARGOJET AIRWAYS LTD.,court,nuit,Quebec,8
-287,SKY REGIONAL AIRLINES INC.,court,soire,Canada,9
-288,SKYSERVICE BUSINESS AVIATION INC.,long,après-midi,International,13
-289,AVIATION STARLINK INC.,long,après-midi,International,2
-290,WESTJET,court,nuit,International,1
-291,SKYSERVICE BUSINESS AVIATION INC.,moyen,après-midi,Quebec,2
-292,AIR CANADA,long,après-midi,Canada,9
-293,JAZZ AVIATION LP,moyen,soire,Canada,5
-294,AIR TRANSAT,court,nuit,Canada,25
-295,AIR GEORGIAN LIMITED,court,nuit,Quebec,14
-296,CARGOJET AIRWAYS LTD.,moyen,soire,International,1
-297,AVIATION STARLINK INC.,long,soire,International,1
-298,BANK OF UTAH TRUSTEE,court,matin,Canada,11
-299,SKYSERVICE BUSINESS AVIATION INC.,court,soire,Quebec,16
-300,AMERICAN AIRLINES INC,moyen,matin,International,33
-301,FLAIR AIRLINE,court,soire,Quebec,3
-302,WESTJET,moyen,soire,International,4
-303,WESTJET,court,après-midi,Quebec,1
-304,BANK OF UTAH TRUSTEE,long,nuit,Canada,1
-305,AIR GEORGIAN LIMITED,moyen,matin,Canada,1
-306,PORTER AIRLINES INC.,moyen,matin,Canada,1
-307,SKYSERVICE BUSINESS AVIATION INC.,moyen,nuit,International,6
-308,SKY REGIONAL AIRLINES INC.,court,matin,Quebec,2
-309,SUNWING AIRLINES INC.,court,soire,Quebec,2
-310,SKYSERVICE BUSINESS AVIATION INC.,moyen,matin,Quebec,4
-311,FLAIR AIRLINE,moyen,matin,International,42
-312,FLAIR AIRLINE,court,matin,Quebec,80
-313,CARGOJET AIRWAYS LTD.,long,après-midi,International,2
-314,OTHERS,long,après-midi,Canada,5
-315,SKYSERVICE BUSINESS AVIATION INC.,moyen,après-midi,Canada,7
-316,WELLS FARGO TRUST CO NA TRUSTEE,moyen,soire,International,13
-317,WELLS FARGO TRUST CO NA TRUSTEE,moyen,matin,International,37
-318,AIR TRANSAT,court,matin,Quebec,4
-319,BANK OF UTAH TRUSTEE,moyen,après-midi,Canada,2
-320,PORTER AIRLINES INC.,court,matin,Quebec,296
-321,AMERICAN AIRLINES INC,moyen,soire,International,20
-322,AIRSPRINT INC.,long,matin,International,2
-323,WESTJET ENCORE LTD.,moyen,après-midi,Canada,1
-324,SKYSERVICE BUSINESS AVIATION INC.,moyen,soire,Quebec,3
-325,PORTER AIRLINES INC.,court,soire,Quebec,176
-326,AIR GEORGIAN LIMITED,moyen,matin,International,5
-327,SKY REGIONAL AIRLINES INC.,moyen,après-midi,International,408
-328,AVIATION STARLINK INC.,moyen,après-midi,Quebec,4
-329,BANK OF UTAH TRUSTEE,long,soire,International,6
-330,WESTJET,moyen,après-midi,International,2
-331,CARGOJET AIRWAYS LTD.,court,après-midi,Quebec,14
-332,CARGOJET AIRWAYS LTD.,court,matin,Quebec,1
-333,CARGOJET AIRWAYS LTD.,moyen,après-midi,International,4
-334,CARGOJET AIRWAYS LTD.,moyen,nuit,Quebec,1
-335,AIR CANADA,long,nuit,Quebec,7
-336,AIR GEORGIAN LIMITED,moyen,après-midi,Quebec,1
-337,AIR GEORGIAN LIMITED,moyen,soire,Quebec,1
-338,AIRSPRINT INC.,long,après-midi,International,1
-339,PORTER AIRLINES INC.,court,nuit,Quebec,6
-340,AIR TRANSAT,long,soire,Quebec,2
-341,AMERICAN AIRLINES INC,moyen,nuit,International,2
-342,BANK OF UTAH TRUSTEE,long,matin,Canada,1
-343,CARGOJET AIRWAYS LTD.,long,soire,International,1
-344,SUNWING AIRLINES INC.,long,soire,Quebec,8
-345,AIRSPRINT INC.,court,nuit,International,8
-346,CARGOJET AIRWAYS LTD.,moyen,soire,Canada,1
-347,AIR TRANSAT,moyen,soire,Canada,91
-348,SKY REGIONAL AIRLINES INC.,court,nuit,Quebec,27
-349,SKY REGIONAL AIRLINES INC.,moyen,matin,International,427
-350,AIR TRANSAT,moyen,après-midi,Canada,104
-351,SKY REGIONAL AIRLINES INC.,moyen,soire,International,154
-352,WESTJET ENCORE LTD.,court,soire,Quebec,74
-353,AIR TRANSAT,moyen,soire,Quebec,74
-354,SKYSERVICE BUSINESS AVIATION INC.,moyen,matin,Canada,6
-355,AIR TRANSAT,moyen,après-midi,Quebec,73
-356,SKY REGIONAL AIRLINES INC.,moyen,nuit,International,4
-357,WESTJET ENCORE LTD.,court,après-midi,Quebec,89
-358,CARGOJET AIRWAYS LTD.,moyen,matin,Canada,2
-359,CARGOJET AIRWAYS LTD.,moyen,après-midi,Canada,2
-360,FLAIR AIRLINE,moyen,matin,Canada,24
-361,WESTJET ENCORE LTD.,court,soire,International,26
-362,JAZZ AVIATION LP,moyen,nuit,Canada,3
-363,CARGOJET AIRWAYS LTD.,court,soire,Canada,10
-364,AIRSPRINT INC.,moyen,matin,Canada,3
-365,JAZZ AVIATION LP,long,matin,Canada,2
-366,AIR TRANSAT,court,nuit,Quebec,7
-367,SUNWING AIRLINES INC.,long,soire,Canada,4
-368,WESTJET,moyen,matin,Quebec,72
-369,SUNWING AIRLINES INC.,long,nuit,Quebec,10
-370,BANK OF UTAH TRUSTEE,court,nuit,Quebec,1
-371,SKYSERVICE BUSINESS AVIATION INC.,moyen,nuit,Canada,2
-372,BANK OF UTAH TRUSTEE,long,matin,International,4
-373,AIRSPRINT INC.,moyen,après-midi,Canada,1
-374,WESTJET,moyen,matin,International,5
-375,SUNWING AIRLINES INC.,court,matin,Quebec,9
-376,WELLS FARGO TRUST CO NA TRUSTEE,moyen,nuit,International,19
-377,SKY REGIONAL AIRLINES INC.,moyen,matin,Canada,65
-378,SKY REGIONAL AIRLINES INC.,moyen,après-midi,Canada,69
-379,AIR GEORGIAN LIMITED,moyen,après-midi,International,9
-380,WESTJET,moyen,nuit,Canada,24
-381,WESTJET,moyen,matin,Canada,24
-382,WESTJET ENCORE LTD.,moyen,après-midi,International,1
-383,WESTJET,moyen,nuit,Quebec,75
-384,AIR TRANSAT,moyen,nuit,Canada,43
-385,AIR TRANSAT,moyen,nuit,Quebec,34
-386,WESTJET ENCORE LTD.,court,matin,Quebec,1
-387,AIR TRANSAT,moyen,matin,Canada,31
-388,AIR TRANSAT,moyen,matin,Quebec,31
-389,REPUBLIC AIRWAYS INC,court,nuit,Canada,2
-390,AIR FRANCE,court,nuit,Canada,1
-391,PORTER AIRLINES INC.,court,nuit,International,3
-392,SKY REGIONAL AIRLINES INC.,moyen,après-midi,Quebec,2
-393,WELLS FARGO TRUST CO NA TRUSTEE,moyen,après-midi,International,6
-394,WESTJET,court,après-midi,International,1
-395,FLAIR AIRLINE,moyen,soire,International,1
-396,AIR CANADA,long,matin,Canada,6
-397,SKY REGIONAL AIRLINES INC.,moyen,matin,Quebec,2
-398,PORTER AIRLINES INC.,moyen,après-midi,International,1
-399,AIR CANADA,long,nuit,Canada,1
-400,AIR TRANSAT,long,nuit,Quebec,2
-401,FLAIR AIRLINE,moyen,nuit,International,2
-402,FLAIR AIRLINE,moyen,après-midi,Quebec,45
-403,FLAIR AIRLINE,moyen,soire,Quebec,38
-404,FLAIR AIRLINE,moyen,matin,Quebec,1
-405,AIR TRANSAT,court,après-midi,Quebec,5
-406,SKYSERVICE BUSINESS AVIATION INC.,moyen,nuit,Quebec,1
-407,WELLS FARGO TRUST CO NA TRUSTEE,long,après-midi,International,1
-408,SUNWING AIRLINES INC.,court,nuit,Quebec,1
-409,OTHERS,long,nuit,Canada,1
-410,AIRSPRINT INC.,moyen,soire,Canada,1
-411,FLAIR AIRLINE,moyen,nuit,Quebec,2
-412,SUNWING AIRLINES INC.,moyen,après-midi,Canada,3
-413,WESTJET ENCORE LTD.,court,nuit,Quebec,1
-414,AIRSPRINT INC.,long,matin,Canada,1
-415,REPUBLIC AIRWAYS INC,court,après-midi,Canada,1
-416,REPUBLIC AIRWAYS INC,court,soire,Canada,1
-417,WELLS FARGO TRUST CO NA TRUSTEE,long,soire,International,2
-418,SUNWING AIRLINES INC.,long,nuit,International,1
-419,SKYSERVICE BUSINESS AVIATION INC.,court,nuit,Quebec,1
-420,SUNWING AIRLINES INC.,moyen,après-midi,Quebec,1
-421,SUNWING AIRLINES INC.,moyen,soire,Canada,1
-422,SUNWING AIRLINES INC.,moyen,soire,Quebec,2
-423,OTHERS,long,soire,Quebec,2
-424,WESTJET ENCORE LTD.,moyen,matin,International,2
-425,AIR FRANCE,court,soire,Quebec,2
-426,WESTJET ENCORE LTD.,long,matin,International,1
+0,JAZZ AVIATION LP,Court,Matin,Quebec,295
+1,AIR CANADA,Moyen,Après-midi,Canada,1039
+2,AUTRES,Long,Soir,International,909
+3,AUTRES,Court,Soir,International,6346
+4,SUNWING AIRLINES INC.,Moyen,Soir,International,204
+5,CARGOJET AIRWAYS LTD.,Court,Soir,International,127
+6,AUTRES,Moyen,Soir,International,659
+7,AIR CANADA,Moyen,Soir,Quebec,463
+8,AIR CANADA,Moyen,Soir,International,1815
+9,JAZZ AVIATION LP,Court,Soir,International,1706
+10,JAZZ AVIATION LP,Court,Soir,Canada,1414
+11,AIR CANADA,Court,Soir,Canada,1779
+12,DELTA AIR LINES,Court,Soir,International,478
+13,AUTRES,Court,Soir,Canada,1171
+14,AIR GEORGIAN LIMITED,Court,Soir,International,254
+15,AIR CANADA,Moyen,Soir,Canada,544
+16,AIR FRANCE,Long,Soir,International,169
+17,JAZZ AVIATION LP,Court,Nuit,Quebec,141
+18,WELLS FARGO TRUST CO NA TRUSTEE,Court,Nuit,International,28
+19,AIR TRANSAT,Long,Nuit,International,1201
+20,JAZZ AVIATION LP,Court,Nuit,International,1014
+21,DELTA AIR LINES,Court,Nuit,International,89
+22,AUTRES,Moyen,Nuit,Canada,59
+23,AUTRES,Moyen,Nuit,International,769
+24,SUNWING AIRLINES INC.,Court,Nuit,International,89
+25,CARGOJET AIRWAYS LTD.,Court,Nuit,Canada,591
+26,AUTRES,Long,Nuit,International,1853
+27,AIR CANADA,Long,Nuit,International,1531
+28,AIR TRANSAT,Moyen,Nuit,International,209
+29,WESTJET ENCORE LTD.,Court,Nuit,International,19
+30,AIR CANADA,Court,Nuit,Canada,756
+31,AUTRES,Court,Nuit,International,2510
+32,AIR CANADA,Court,Nuit,International,648
+33,CARGOJET AIRWAYS LTD.,Court,Nuit,International,317
+34,AIR FRANCE,Long,Nuit,International,211
+35,WESTJET,Court,Nuit,Canada,171
+36,AUTRES,Moyen,Nuit,Quebec,28
+37,SKY REGIONAL AIRLINES INC.,Court,Nuit,Canada,279
+38,AIR CANADA,Moyen,Nuit,Canada,267
+39,AUTRES,Long,Matin,International,1651
+40,AIR CANADA,Court,Soir,International,1712
+41,JAZZ AVIATION LP,Court,Matin,International,3044
+42,AIR GEORGIAN LIMITED,Court,Matin,International,467
+43,AIR TRANSAT,Long,Matin,International,1075
+44,SKY REGIONAL AIRLINES INC.,Court,Matin,International,2080
+45,AIR CANADA,Court,Matin,Canada,2695
+46,AUTRES,Moyen,Matin,International,1692
+47,PORTER AIRLINES INC.,Court,Matin,Canada,1350
+48,AUTRES,Court,Matin,International,13625
+49,AIR TRANSAT,Court,Matin,International,269
+50,AIR CANADA,Long,Matin,International,1763
+51,DELTA AIR LINES,Court,Matin,International,931
+52,AIR CANADA,Court,Matin,International,2445
+53,SKY REGIONAL AIRLINES INC.,Court,Matin,Canada,108
+54,AUTRES,Court,Matin,Canada,2231
+55,AIR TRANSAT,Long,Matin,Quebec,187
+56,WELLS FARGO TRUST CO NA TRUSTEE,Court,Matin,International,424
+57,WESTJET,Court,Matin,Canada,169
+58,SUNWING AIRLINES INC.,Moyen,Matin,International,445
+59,AIR FRANCE,Long,Matin,International,345
+60,AIR CANADA,Moyen,Matin,International,2531
+61,PORTER AIRLINES INC.,Court,Matin,International,119
+62,AIR TRANSAT,Moyen,Matin,International,627
+63,AUTRES,Moyen,Matin,Quebec,296
+64,AIR GEORGIAN LIMITED,Moyen,Matin,Quebec,10
+65,AIR CANADA,Moyen,Matin,Canada,536
+66,JAZZ AVIATION LP,Court,Matin,Canada,1984
+67,WESTJET ENCORE LTD.,Court,Matin,Canada,751
+68,AIR CANADA,Moyen,Matin,Quebec,630
+69,BANK OF UTAH TRUSTEE,Moyen,Matin,International,91
+70,AMERICAN AIRLINES INC,Court,Matin,International,962
+71,SKY REGIONAL AIRLINES INC.,Court,Après-midi,International,2233
+72,JAZZ AVIATION LP,Court,Après-midi,International,4222
+73,AIR TRANSAT,Moyen,Après-midi,International,673
+74,AUTRES,Court,Après-midi,International,14708
+75,AIR CANADA,Moyen,Après-midi,International,2303
+76,AIRSPRINT INC.,Court,Après-midi,Canada,184
+77,SUNWING AIRLINES INC.,Moyen,Après-midi,International,483
+78,AIR CANADA,Court,Après-midi,International,2808
+79,SKYSERVICE BUSINESS AVIATION INC.,Court,Après-midi,International,380
+80,WESTJET ENCORE LTD.,Court,Après-midi,Canada,791
+81,AUTRES,Moyen,Après-midi,International,1642
+82,SKY REGIONAL AIRLINES INC.,Court,Après-midi,Canada,28
+83,AUTRES,Long,Après-midi,International,985
+84,AVIATION STARLINK INC.,Court,Après-midi,International,220
+85,AIR CANADA,Court,Après-midi,Canada,2694
+86,AIR CANADA,Long,Soir,International,1727
+87,AIR FRANCE,Long,Après-midi,International,308
+88,PORTER AIRLINES INC.,Court,Après-midi,International,130
+89,AUTRES,Court,Après-midi,Canada,2264
+90,REPUBLIC AIRWAYS INC,Court,Après-midi,International,573
+91,AMERICAN AIRLINES INC,Court,Après-midi,International,1021
+92,AIR FRANCE,Moyen,Après-midi,International,51
+93,JAZZ AVIATION LP,Moyen,Après-midi,Quebec,125
+94,DELTA AIR LINES,Court,Après-midi,International,715
+95,AIR GEORGIAN LIMITED,Court,Après-midi,International,548
+96,AUTRES,Moyen,Après-midi,Quebec,255
+97,JAZZ AVIATION LP,Court,Après-midi,Canada,1750
+98,PORTER AIRLINES INC.,Court,Après-midi,Canada,1375
+99,FLAIR AIRLINE,Moyen,Après-midi,Canada,164
+100,AIR TRANSAT,Court,Après-midi,International,491
+101,AIR CANADA,Moyen,Après-midi,Quebec,590
+102,AIRSPRINT INC.,Court,Après-midi,International,226
+103,SUNWING AIRLINES INC.,Court,Après-midi,International,188
+104,AIR TRANSAT,Moyen,Soir,International,342
+105,PORTER AIRLINES INC.,Court,Soir,Canada,919
+106,REPUBLIC AIRWAYS INC,Court,Soir,International,484
+107,SKYSERVICE BUSINESS AVIATION INC.,Court,Soir,International,136
+108,BANK OF UTAH TRUSTEE,Court,Soir,Quebec,12
+109,FLAIR AIRLINE,Court,Soir,International,16
+110,WESTJET ENCORE LTD.,Court,Soir,Canada,600
+111,PORTER AIRLINES INC.,Court,Soir,International,57
+112,SKY REGIONAL AIRLINES INC.,Court,Soir,International,980
+113,BANK OF UTAH TRUSTEE,Court,Soir,International,214
+114,AUTRES,Court,Soir,Quebec,480
+115,AUTRES,Moyen,Soir,Quebec,126
+116,AIR TRANSAT,Long,Soir,International,609
+117,SUNWING AIRLINES INC.,Court,Soir,International,256
+118,AMERICAN AIRLINES INC,Court,Soir,International,322
+119,JAZZ AVIATION LP,Court,Soir,Quebec,169
+120,FLAIR AIRLINE,Moyen,Soir,Canada,74
+121,AIR GEORGIAN LIMITED,Court,Nuit,Canada,11
+122,PORTER AIRLINES INC.,Court,Nuit,Canada,18
+123,AUTRES,Court,Nuit,Canada,844
+124,REPUBLIC AIRWAYS INC,Court,Nuit,International,27
+125,AIR CANADA,Moyen,Nuit,Quebec,80
+126,AIR CANADA,Moyen,Nuit,International,631
+127,SUNWING AIRLINES INC.,Long,Matin,Quebec,98
+128,AIR GEORGIAN LIMITED,Court,Matin,Canada,83
+129,AUTRES,Long,Matin,Quebec,101
+130,WESTJET,Long,Matin,Canada,1
+131,REPUBLIC AIRWAYS INC,Court,Matin,International,890
+132,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Matin,International,84
+133,AUTRES,Court,Matin,Quebec,1269
+134,BANK OF UTAH TRUSTEE,Court,Matin,International,433
+135,AIR CANADA,Long,Matin,Quebec,185
+136,WESTJET ENCORE LTD.,Court,Matin,International,74
+137,AVIATION STARLINK INC.,Moyen,Après-midi,International,29
+138,AIR CANADA,Long,Après-midi,International,196
+139,FLAIR AIRLINE,Court,Après-midi,International,59
+140,WELLS FARGO TRUST CO NA TRUSTEE,Court,Après-midi,International,344
+141,WESTJET,Moyen,Après-midi,Quebec,377
+142,BANK OF UTAH TRUSTEE,Court,Après-midi,International,420
+143,DELTA AIR LINES,Moyen,Après-midi,International,1
+144,AUTRES,Court,Après-midi,Quebec,1455
+145,FLAIR AIRLINE,Court,Après-midi,Canada,129
+146,BANK OF UTAH TRUSTEE,Court,Après-midi,Quebec,57
+147,AVIATION STARLINK INC.,Court,Soir,International,96
+148,AIR TRANSAT,Court,Soir,Canada,399
+149,FLAIR AIRLINE,Court,Soir,Canada,25
+150,AIRSPRINT INC.,Court,Soir,Canada,74
+151,WESTJET,Moyen,Soir,Quebec,48
+152,AIR FRANCE,Moyen,Soir,International,109
+153,WELLS FARGO TRUST CO NA TRUSTEE,Court,Soir,International,271
+154,FLAIR AIRLINE,Moyen,Nuit,Canada,88
+155,JAZZ AVIATION LP,Court,Nuit,Canada,508
+156,AIR TRANSAT,Court,Nuit,International,90
+157,AIR FRANCE,Moyen,Nuit,International,108
+158,CARGOJET AIRWAYS LTD.,Court,Matin,Canada,69
+159,AVIATION STARLINK INC.,Court,Matin,Canada,125
+160,FLAIR AIRLINE,Court,Matin,Canada,213
+161,CARGOJET AIRWAYS LTD.,Long,Matin,International,29
+162,SKYSERVICE BUSINESS AVIATION INC.,Long,Matin,International,24
+163,SUNWING AIRLINES INC.,Court,Matin,International,259
+164,SKYSERVICE BUSINESS AVIATION INC.,Court,Matin,International,341
+165,WESTJET ENCORE LTD.,Court,Après-midi,International,56
+166,JAZZ AVIATION LP,Court,Après-midi,Quebec,519
+167,JAZZ AVIATION LP,Long,Après-midi,International,2
+168,AUTRES,Moyen,Après-midi,Canada,254
+169,AIR GEORGIAN LIMITED,Court,Après-midi,Canada,48
+170,AVIATION STARLINK INC.,Court,Après-midi,Quebec,31
+171,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Soir,International,17
+172,AIR GEORGIAN LIMITED,Court,Soir,Canada,55
+173,AIR TRANSAT,Court,Soir,International,357
+174,AIRSPRINT INC.,Court,Soir,International,54
+175,AUTRES,Court,Nuit,Quebec,230
+176,AMERICAN AIRLINES INC,Court,Nuit,International,52
+177,CARGOJET AIRWAYS LTD.,Court,Matin,International,162
+178,CARGOJET AIRWAYS LTD.,Moyen,Matin,International,109
+179,SUNWING AIRLINES INC.,Court,Matin,Canada,158
+180,AIRSPRINT INC.,Court,Matin,Canada,129
+181,AIRSPRINT INC.,Court,Matin,International,159
+182,JAZZ AVIATION LP,Moyen,Matin,Quebec,104
+183,AVIATION STARLINK INC.,Court,Matin,International,199
+184,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Après-midi,International,88
+185,CARGOJET AIRWAYS LTD.,Court,Après-midi,International,114
+186,AVIATION STARLINK INC.,Court,Après-midi,Canada,130
+187,SKYSERVICE BUSINESS AVIATION INC.,Court,Après-midi,Canada,129
+188,JAZZ AVIATION LP,Moyen,Après-midi,International,42
+189,AIR TRANSAT,Court,Après-midi,Canada,209
+190,JAZZ AVIATION LP,Moyen,Soir,International,60
+191,SUNWING AIRLINES INC.,Moyen,Nuit,International,68
+192,AIR GEORGIAN LIMITED,Court,Nuit,International,54
+193,SUNWING AIRLINES INC.,Court,Nuit,Canada,133
+194,SKY REGIONAL AIRLINES INC.,Court,Nuit,International,171
+195,SUNWING AIRLINES INC.,Long,Matin,Canada,11
+196,SKY REGIONAL AIRLINES INC.,Court,Après-midi,Quebec,19
+197,AMERICAN AIRLINES INC,Moyen,Après-midi,International,15
+198,FLAIR AIRLINE,Moyen,Après-midi,International,56
+199,AIR FRANCE,Court,Après-midi,International,14
+200,AIR TRANSAT,Long,Après-midi,Quebec,32
+201,AUTRES,Moyen,Soir,Canada,115
+202,AUTRES,Long,Après-midi,Quebec,36
+203,JAZZ AVIATION LP,Moyen,Après-midi,Canada,52
+204,AVIATION STARLINK INC.,Court,Soir,Canada,70
+205,FLAIR AIRLINE,Court,Nuit,Canada,5
+206,SKYSERVICE BUSINESS AVIATION INC.,Court,Soir,Canada,82
+207,AIRSPRINT INC.,Court,Nuit,Canada,17
+208,AIRSPRINT INC.,Moyen,Matin,Quebec,3
+209,AVIATION STARLINK INC.,Long,Matin,International,10
+210,WESTJET,Court,Après-midi,Canada,6
+211,AIRSPRINT INC.,Moyen,Après-midi,International,32
+212,SUNWING AIRLINES INC.,Court,Soir,Canada,25
+213,AIRSPRINT INC.,Moyen,Matin,International,39
+214,SKYSERVICE BUSINESS AVIATION INC.,Long,Soir,International,6
+215,BANK OF UTAH TRUSTEE,Moyen,Nuit,International,78
+216,AIR GEORGIAN LIMITED,Court,Matin,Quebec,34
+217,BANK OF UTAH TRUSTEE,Moyen,Soir,International,58
+218,BANK OF UTAH TRUSTEE,Court,Nuit,International,118
+219,SKYSERVICE BUSINESS AVIATION INC.,Court,Matin,Canada,136
+220,AVIATION STARLINK INC.,Moyen,Matin,International,16
+221,AIR GEORGIAN LIMITED,Court,Après-midi,Quebec,33
+222,BANK OF UTAH TRUSTEE,Long,Soir,Canada,4
+223,SKYSERVICE BUSINESS AVIATION INC.,Court,Nuit,Canada,16
+224,SUNWING AIRLINES INC.,Long,Matin,International,8
+225,AIR CANADA,Long,Après-midi,Quebec,45
+226,JAZZ AVIATION LP,Moyen,Matin,International,63
+227,AIR CANADA,Court,Après-midi,Quebec,481
+228,SUNWING AIRLINES INC.,Long,Après-midi,Quebec,8
+229,AIRSPRINT INC.,Court,Après-midi,Quebec,19
+230,AIRSPRINT INC.,Moyen,Soir,International,6
+231,AUTRES,Long,Matin,Canada,15
+232,AIR FRANCE,Court,Soir,International,7
+233,AVIATION STARLINK INC.,Long,Nuit,International,4
+234,AIR CANADA,Court,Matin,Quebec,639
+235,AIRSPRINT INC.,Long,Après-midi,Canada,1
+236,AIR CANADA,Court,Soir,Quebec,258
+237,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Soir,Canada,4
+238,AIR GEORGIAN LIMITED,Court,Soir,Quebec,18
+239,AIR TRANSAT,Long,Matin,Canada,1
+240,AVIATION STARLINK INC.,Court,Nuit,International,34
+241,AIR TRANSAT,Court,Matin,Canada,12
+242,SKYSERVICE BUSINESS AVIATION INC.,Court,Matin,Quebec,39
+243,SUNWING AIRLINES INC.,Court,Après-midi,Canada,17
+244,BANK OF UTAH TRUSTEE,Long,Après-midi,International,3
+245,WESTJET ENCORE LTD.,Court,Nuit,Canada,109
+246,SKYSERVICE BUSINESS AVIATION INC.,Court,Nuit,International,28
+247,BANK OF UTAH TRUSTEE,Court,Nuit,Canada,91
+248,SUNWING AIRLINES INC.,Moyen,Matin,Canada,3
+249,AIR GEORGIAN LIMITED,Long,Matin,International,2
+250,AIRSPRINT INC.,Moyen,Après-midi,Quebec,3
+251,SUNWING AIRLINES INC.,Long,Après-midi,International,5
+252,BANK OF UTAH TRUSTEE,Moyen,Après-midi,International,91
+253,SKYSERVICE BUSINESS AVIATION INC.,Long,Nuit,International,5
+254,AIR CANADA,Court,Nuit,Quebec,248
+255,AUTRES,Moyen,Matin,Canada,109
+256,SKYSERVICE BUSINESS AVIATION INC.,Court,Après-midi,Quebec,29
+257,JAZZ AVIATION LP,Moyen,Soir,Quebec,2
+258,AIRSPRINT INC.,Court,Matin,Quebec,8
+259,FLAIR AIRLINE,Court,Matin,International,23
+260,AIR TRANSAT,Court,Soir,Quebec,17
+261,JAZZ AVIATION LP,Moyen,Nuit,International,1
+262,BANK OF UTAH TRUSTEE,Court,Après-midi,Canada,24
+263,BANK OF UTAH TRUSTEE,Court,Matin,Quebec,17
+264,CARGOJET AIRWAYS LTD.,Court,Après-midi,Canada,16
+265,AVIATION STARLINK INC.,Moyen,Soir,International,7
+266,BANK OF UTAH TRUSTEE,Court,Soir,Canada,7
+267,JAZZ AVIATION LP,Moyen,Matin,Canada,24
+268,BANK OF UTAH TRUSTEE,Long,Nuit,International,4
+269,AVIATION STARLINK INC.,Court,Matin,Quebec,31
+270,AIRSPRINT INC.,Court,Soir,Quebec,12
+271,PORTER AIRLINES INC.,Moyen,Après-midi,Quebec,2
+272,FLAIR AIRLINE,Court,Après-midi,Quebec,88
+273,SUNWING AIRLINES INC.,Long,Après-midi,Canada,15
+274,PORTER AIRLINES INC.,Court,Après-midi,Quebec,124
+275,SKY REGIONAL AIRLINES INC.,Court,Soir,Quebec,26
+276,AIR TRANSAT,Long,Après-midi,International,43
+277,CARGOJET AIRWAYS LTD.,Court,Soir,Quebec,25
+278,AVIATION STARLINK INC.,Court,Soir,Quebec,9
+279,WESTJET,Court,Soir,Canada,11
+280,AUTRES,Long,Soir,Canada,9
+281,AVIATION STARLINK INC.,Court,Nuit,Canada,19
+282,AIR FRANCE,Court,Nuit,International,1
+283,CARGOJET AIRWAYS LTD.,Long,Nuit,International,2
+284,AIR CANADA,Long,Soir,Canada,2
+285,AIR FRANCE,Court,Soir,Canada,1
+286,CARGOJET AIRWAYS LTD.,Court,Nuit,Quebec,8
+287,SKY REGIONAL AIRLINES INC.,Court,Soir,Canada,9
+288,SKYSERVICE BUSINESS AVIATION INC.,Long,Après-midi,International,13
+289,AVIATION STARLINK INC.,Long,Après-midi,International,2
+290,WESTJET,Court,Nuit,International,1
+291,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Après-midi,Quebec,2
+292,AIR CANADA,Long,Après-midi,Canada,9
+293,JAZZ AVIATION LP,Moyen,Soir,Canada,5
+294,AIR TRANSAT,Court,Nuit,Canada,25
+295,AIR GEORGIAN LIMITED,Court,Nuit,Quebec,14
+296,CARGOJET AIRWAYS LTD.,Moyen,Soir,International,1
+297,AVIATION STARLINK INC.,Long,Soir,International,1
+298,BANK OF UTAH TRUSTEE,Court,Matin,Canada,11
+299,SKYSERVICE BUSINESS AVIATION INC.,Court,Soir,Quebec,16
+300,AMERICAN AIRLINES INC,Moyen,Matin,International,33
+301,FLAIR AIRLINE,Court,Soir,Quebec,3
+302,WESTJET,Moyen,Soir,International,4
+303,WESTJET,Court,Après-midi,Quebec,1
+304,BANK OF UTAH TRUSTEE,Long,Nuit,Canada,1
+305,AIR GEORGIAN LIMITED,Moyen,Matin,Canada,1
+306,PORTER AIRLINES INC.,Moyen,Matin,Canada,1
+307,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Nuit,International,6
+308,SKY REGIONAL AIRLINES INC.,Court,Matin,Quebec,2
+309,SUNWING AIRLINES INC.,Court,Soir,Quebec,2
+310,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Matin,Quebec,4
+311,FLAIR AIRLINE,Moyen,Matin,International,42
+312,FLAIR AIRLINE,Court,Matin,Quebec,80
+313,CARGOJET AIRWAYS LTD.,Long,Après-midi,International,2
+314,AUTRES,Long,Après-midi,Canada,5
+315,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Après-midi,Canada,7
+316,WELLS FARGO TRUST CO NA TRUSTEE,Moyen,Soir,International,13
+317,WELLS FARGO TRUST CO NA TRUSTEE,Moyen,Matin,International,37
+318,AIR TRANSAT,Court,Matin,Quebec,4
+319,BANK OF UTAH TRUSTEE,Moyen,Après-midi,Canada,2
+320,PORTER AIRLINES INC.,Court,Matin,Quebec,296
+321,AMERICAN AIRLINES INC,Moyen,Soir,International,20
+322,AIRSPRINT INC.,Long,Matin,International,2
+323,WESTJET ENCORE LTD.,Moyen,Après-midi,Canada,1
+324,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Soir,Quebec,3
+325,PORTER AIRLINES INC.,Court,Soir,Quebec,176
+326,AIR GEORGIAN LIMITED,Moyen,Matin,International,5
+327,SKY REGIONAL AIRLINES INC.,Moyen,Après-midi,International,408
+328,AVIATION STARLINK INC.,Moyen,Après-midi,Quebec,4
+329,BANK OF UTAH TRUSTEE,Long,Soir,International,6
+330,WESTJET,Moyen,Après-midi,International,2
+331,CARGOJET AIRWAYS LTD.,Court,Après-midi,Quebec,14
+332,CARGOJET AIRWAYS LTD.,Court,Matin,Quebec,1
+333,CARGOJET AIRWAYS LTD.,Moyen,Après-midi,International,4
+334,CARGOJET AIRWAYS LTD.,Moyen,Nuit,Quebec,1
+335,AIR CANADA,Long,Nuit,Quebec,7
+336,AIR GEORGIAN LIMITED,Moyen,Après-midi,Quebec,1
+337,AIR GEORGIAN LIMITED,Moyen,Soir,Quebec,1
+338,AIRSPRINT INC.,Long,Après-midi,International,1
+339,PORTER AIRLINES INC.,Court,Nuit,Quebec,6
+340,AIR TRANSAT,Long,Soir,Quebec,2
+341,AMERICAN AIRLINES INC,Moyen,Nuit,International,2
+342,BANK OF UTAH TRUSTEE,Long,Matin,Canada,1
+343,CARGOJET AIRWAYS LTD.,Long,Soir,International,1
+344,SUNWING AIRLINES INC.,Long,Soir,Quebec,8
+345,AIRSPRINT INC.,Court,Nuit,International,8
+346,CARGOJET AIRWAYS LTD.,Moyen,Soir,Canada,1
+347,AIR TRANSAT,Moyen,Soir,Canada,91
+348,SKY REGIONAL AIRLINES INC.,Court,Nuit,Quebec,27
+349,SKY REGIONAL AIRLINES INC.,Moyen,Matin,International,427
+350,AIR TRANSAT,Moyen,Après-midi,Canada,104
+351,SKY REGIONAL AIRLINES INC.,Moyen,Soir,International,154
+352,WESTJET ENCORE LTD.,Court,Soir,Quebec,74
+353,AIR TRANSAT,Moyen,Soir,Quebec,74
+354,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Matin,Canada,6
+355,AIR TRANSAT,Moyen,Après-midi,Quebec,73
+356,SKY REGIONAL AIRLINES INC.,Moyen,Nuit,International,4
+357,WESTJET ENCORE LTD.,Court,Après-midi,Quebec,89
+358,CARGOJET AIRWAYS LTD.,Moyen,Matin,Canada,2
+359,CARGOJET AIRWAYS LTD.,Moyen,Après-midi,Canada,2
+360,FLAIR AIRLINE,Moyen,Matin,Canada,24
+361,WESTJET ENCORE LTD.,Court,Soir,International,26
+362,JAZZ AVIATION LP,Moyen,Nuit,Canada,3
+363,CARGOJET AIRWAYS LTD.,Court,Soir,Canada,10
+364,AIRSPRINT INC.,Moyen,Matin,Canada,3
+365,JAZZ AVIATION LP,Long,Matin,Canada,2
+366,AIR TRANSAT,Court,Nuit,Quebec,7
+367,SUNWING AIRLINES INC.,Long,Soir,Canada,4
+368,WESTJET,Moyen,Matin,Quebec,72
+369,SUNWING AIRLINES INC.,Long,Nuit,Quebec,10
+370,BANK OF UTAH TRUSTEE,Court,Nuit,Quebec,1
+371,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Nuit,Canada,2
+372,BANK OF UTAH TRUSTEE,Long,Matin,International,4
+373,AIRSPRINT INC.,Moyen,Après-midi,Canada,1
+374,WESTJET,Moyen,Matin,International,5
+375,SUNWING AIRLINES INC.,Court,Matin,Quebec,9
+376,WELLS FARGO TRUST CO NA TRUSTEE,Moyen,Nuit,International,19
+377,SKY REGIONAL AIRLINES INC.,Moyen,Matin,Canada,65
+378,SKY REGIONAL AIRLINES INC.,Moyen,Après-midi,Canada,69
+379,AIR GEORGIAN LIMITED,Moyen,Après-midi,International,9
+380,WESTJET,Moyen,Nuit,Canada,24
+381,WESTJET,Moyen,Matin,Canada,24
+382,WESTJET ENCORE LTD.,Moyen,Après-midi,International,1
+383,WESTJET,Moyen,Nuit,Quebec,75
+384,AIR TRANSAT,Moyen,Nuit,Canada,43
+385,AIR TRANSAT,Moyen,Nuit,Quebec,34
+386,WESTJET ENCORE LTD.,Court,Matin,Quebec,1
+387,AIR TRANSAT,Moyen,Matin,Canada,31
+388,AIR TRANSAT,Moyen,Matin,Quebec,31
+389,REPUBLIC AIRWAYS INC,Court,Nuit,Canada,2
+390,AIR FRANCE,Court,Nuit,Canada,1
+391,PORTER AIRLINES INC.,Court,Nuit,International,3
+392,SKY REGIONAL AIRLINES INC.,Moyen,Après-midi,Quebec,2
+393,WELLS FARGO TRUST CO NA TRUSTEE,Moyen,Après-midi,International,6
+394,WESTJET,Court,Après-midi,International,1
+395,FLAIR AIRLINE,Moyen,Soir,International,1
+396,AIR CANADA,Long,Matin,Canada,6
+397,SKY REGIONAL AIRLINES INC.,Moyen,Matin,Quebec,2
+398,PORTER AIRLINES INC.,Moyen,Après-midi,International,1
+399,AIR CANADA,Long,Nuit,Canada,1
+400,AIR TRANSAT,Long,Nuit,Quebec,2
+401,FLAIR AIRLINE,Moyen,Nuit,International,2
+402,FLAIR AIRLINE,Moyen,Après-midi,Quebec,45
+403,FLAIR AIRLINE,Moyen,Soir,Quebec,38
+404,FLAIR AIRLINE,Moyen,Matin,Quebec,1
+405,AIR TRANSAT,Court,Après-midi,Quebec,5
+406,SKYSERVICE BUSINESS AVIATION INC.,Moyen,Nuit,Quebec,1
+407,WELLS FARGO TRUST CO NA TRUSTEE,Long,Après-midi,International,1
+408,SUNWING AIRLINES INC.,Court,Nuit,Quebec,1
+409,AUTRES,Long,Nuit,Canada,1
+410,AIRSPRINT INC.,Moyen,Soir,Canada,1
+411,FLAIR AIRLINE,Moyen,Nuit,Quebec,2
+412,SUNWING AIRLINES INC.,Moyen,Après-midi,Canada,3
+413,WESTJET ENCORE LTD.,Court,Nuit,Quebec,1
+414,AIRSPRINT INC.,Long,Matin,Canada,1
+415,REPUBLIC AIRWAYS INC,Court,Après-midi,Canada,1
+416,REPUBLIC AIRWAYS INC,Court,Soir,Canada,1
+417,WELLS FARGO TRUST CO NA TRUSTEE,Long,Soir,International,2
+418,SUNWING AIRLINES INC.,Long,Nuit,International,1
+419,SKYSERVICE BUSINESS AVIATION INC.,Court,Nuit,Quebec,1
+420,SUNWING AIRLINES INC.,Moyen,Après-midi,Quebec,1
+421,SUNWING AIRLINES INC.,Moyen,Soir,Canada,1
+422,SUNWING AIRLINES INC.,Moyen,Soir,Quebec,2
+423,AUTRES,Long,Soir,Quebec,2
+424,WESTJET ENCORE LTD.,Moyen,Matin,International,2
+425,AIR FRANCE,Court,Soir,Quebec,2
+426,WESTJET ENCORE LTD.,Long,Matin,International,1
