@@ -1,5 +1,5 @@
-import * as waffles from './scripts/viz4.js'
-import * as buckets from './scripts/viz1.js'
+import * as waffles from './scripts/viz/waffles.js'
+import * as buckets from './scripts/viz/buckets.js'
 import * as preprocess from './scripts/preprocess.js'
 import * as network from './scripts/scrolly.js'
 

@@ -1,5 +1,5 @@
-import * as preprocess from "./preprocess.js"
-import Tooltip from "./tooltip.js"
+import * as preprocess from "../preprocess.js"
+import Tooltip from "../tooltip.js"
 
 let biggestCompaniesAircrafts;
 let otherCompaniesAircrafts;
@@ -123,7 +123,6 @@ function drawTopCompaniesWaffles() {
 		.append("div")
 		.attr('id', 'topWaffles')
 
-	console.log(biggestCompaniesAircrafts)
 	let index = 0;
 	biggestCompaniesAircrafts.forEach((companyMap, name) => {
 		const div = d3.select("#topWaffles")

@@ -166,10 +166,10 @@ export default class Tooltip {
 
         switch(level) {
             case 0: 
-                text = `${value} vols ${target}-courriers<br>effectués par ${source}`
+                text = `${value} vols ${target.toLowerCase()}-courriers<br>effectués par ${source}`
                 break;
             case 1:
-                text = `${value} vols ${source}-courriers<br>effectués entre ${target}`
+                text = `${value} vols ${source.toLowerCase()}-courriers<br>effectués entre ${target}`
                 break;
             case 2: 
                 text = `${value} vols effectués<br>entre ${source} de desserte ${target}`
@@ -193,7 +193,7 @@ export default class Tooltip {
                 text = `${value} vols effectués par ${name}`
                 break;
             case 1:
-                text = `${value} vols ${name}-courriers`
+                text = `${value} vols ${name.toLowerCase()}-courriers`
                 break;
             case 2: 
                 text = `${value} vols effectués entre ${name}`

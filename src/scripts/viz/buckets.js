@@ -1,8 +1,8 @@
-import * as preprocess from './preprocess.js'
+import * as preprocess from '../preprocess.js'
 import * as alluvial from './alluvial.js'
-import * as waffle from './viz4.js'
+import * as waffle from './waffles.js'
 
-import Tooltip from './tooltip.js'
+import Tooltip from '../tooltip.js'
 
 const BUCKET_HEIGHT = 300;
 const BUCKET_WIDTH = 200;

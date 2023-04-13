@@ -1,5 +1,5 @@
 import scrollama from "../../node_modules/scrollama";
-import Network from "./scrolly/network.js";
+import Network from "./viz/network.js";
 
 var scrolly = d3.select("#scrolly");
 var figure = scrolly.select("figure");
