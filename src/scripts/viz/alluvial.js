@@ -11,6 +11,7 @@ let graph = {
 
 const width = 1500;
 const height = 1000;
+const nodeWidth = 15;
 
 const tooltip = new Tooltip();
 
@@ -41,6 +42,20 @@ function extractTimes(name) {
   }
 }
 
+function centerLevelTitles(level, titleWidth) {
+  const titleOffset = titleWidth / 2;
+  const nodeOffset = nodeWidth / 2;
+  switch(level) {
+    case "Compagnies":
+      return nodeOffset - titleOffset;
+    case "Durée du vol":
+      return (width / 3) - titleOffset;
+    case "Temps de départ":
+      return (2 * width / 3) - titleOffset;
+    case "Portée du vol":
+      return width - titleOffset - nodeOffset;
+  }
+}
 
 export function createAlluvialViz() {
 
@@ -58,9 +73,25 @@ export function createAlluvialViz() {
 
   const sankey = d3.sankey()
     .nodeSort(null)
-    .nodeWidth(15)
+    .nodeWidth(nodeWidth)
     .nodePadding(10)
     .size([width, height]);
+
+  const levels = ["Compagnies", "Durée du vol", "Temps de départ", "Portée du vol"];
+
+  const levelText = svg.selectAll(".level")
+    .data(levels)
+    .enter()
+    .append("text")
+    .attr("class", "level")
+    .text(d => d)
+    .style("font-family", "Baskervville")
+    .style("font-size", "24px")
+    .each(function(d) {
+      const titleWidth = this.getBBox().width;
+      const x = centerLevelTitles(d, titleWidth);
+      d3.select(this).attr("x", x).attr("y", 30);
+    });
 
   sankeyData.forEach(d => {
     const sourceIndex = graph.nodes.findIndex(
@@ -86,16 +117,15 @@ export function createAlluvialViz() {
 
   sankey(graph);
 
-  const node = svg.append("g")
-    .selectAll(".node")
+  const sankeyGroup = svg.append("g")
+    .attr("transform", `translate(0, 50)`);
+
+  const node = sankeyGroup.selectAll(".node")
     .data(graph.nodes)
     .enter()
     .append("g")
     .attr("class", "node")
     .attr("transform", d => `translate(${d.x0},${d.y0})`);
-
-  const lastNode = node.filter((d, i) => i === graph.nodes.length - 1);
-  const lastNodeHeight = lastNode.node().getBoundingClientRect().height;
 
   node.append("rect")
     .attr("height", d => d.y1 - d.y0)
@@ -122,15 +152,16 @@ export function createAlluvialViz() {
     .style("padding-top", 10)
     .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
     .text(d => d.name)
+    .style("font-family", "Baskervville")
     .style("font-size", "18px");
 
-  const link = svg
+  const link = sankeyGroup.selectAll(".link")
+    .data(graph.links)
+    .enter()
     .append("g")
+    .attr("class", "link")
     .attr("fill", "none")
     .attr("stroke-opacity", 0.5)
-    .selectAll("g")
-    .data(graph.links)
-    .join("g")
     .attr("stroke", "gray");
 
   link
@@ -144,11 +175,12 @@ export function createAlluvialViz() {
     })
     .on("mouseout", resetAlluvial)
 
-  // Get the bounding box of all the g elements
   const bbox = svg.select("g").node().getBBox();
 
-  // Set the viewBox attribute on the svg element
-  svg.attr("viewBox", `${bbox.x} ${bbox.y} ${bbox.width} ${bbox.height}`);
+  const firstLevelWidth = d3.select('.level').node().getBBox().width;
+  const lastLevelWidth = d3.select('.level:nth-child(4)').node().getBBox().width;
+
+  svg.attr("viewBox", `${bbox.x - (firstLevelWidth / 2)} ${bbox.y} ${bbox.width + (firstLevelWidth / 2) + (lastLevelWidth / 2)} ${bbox.height + 60 + levelText.node().getBBox().height}`);
 }
 
 
