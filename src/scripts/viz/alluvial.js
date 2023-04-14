@@ -1,5 +1,11 @@
+//Import des modules nécessaires
+
 import * as preprocess from "../preprocess.js"
 import Tooltip from "../tooltip.js";
+
+
+//Initialisation des variables
+
 
 let sankeyData = [];
 let alluvialData = [];
@@ -15,6 +21,9 @@ const nodeWidth = 15;
 
 const tooltip = new Tooltip();
 
+//Fonction pour charger les données
+
+
 export function loadData() {
   d3.select("#viz3").on("mouseover", null)
   d3.csv('./alluvial_data.csv')
@@ -25,7 +34,8 @@ export function loadData() {
 }
 
 /* 
-  A ajuster
+  Fonction pour convertir les nomenclatures temps en intervalles de temps
+
 */
 function extractTimes(name) {
   switch(name) {
@@ -48,6 +58,8 @@ function extractTimes(name) {
   }
 }
 
+//Fonction pour centrer les titres des niveaux
+
 function centerLevelTitles(level, titleWidth) {
   const titleOffset = titleWidth / 2;
   const nodeOffset = nodeWidth / 2;
@@ -62,6 +74,8 @@ function centerLevelTitles(level, titleWidth) {
       return width - titleOffset - nodeOffset;
   }
 }
+
+//Fonction pour créer la visualisation Alluvial
 
 export function createAlluvialViz() {
 
@@ -189,6 +203,9 @@ export function createAlluvialViz() {
   svg.attr("viewBox", `${bbox.x - (firstLevelWidth / 2)} ${bbox.y} ${bbox.width + (firstLevelWidth / 2) + (lastLevelWidth / 2)} ${bbox.height + 60 + levelText.node().getBBox().height}`);
 }
 
+// Cette fonction prend deux tableaux en entrée : 
+// alluvialToHighlight - contenant les données de l'alluvial diagram à mettre en évidence
+// sankeyToHighlight - contenant les données du sankey diagram à mettre en évidence
 
 function highlightLinks(alluvialToHighlight, sankeyToHighlight) {
 

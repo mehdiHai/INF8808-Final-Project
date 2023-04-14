@@ -119,33 +119,68 @@ export function setSankeyData() {
   });
 }
 
+/**
+ * Renvoie les données du diagramme de Sankey sous forme de tableau
+ */
+
 export function getSankeyData() {
   return [...sankeyData];
 }
+
+/**
+ * Renvoie les données du diagramme alluvial sous forme de tableau
+ */
 
 export function getAlluvialData() {
   return [...alluvialData];
 }
 
+/**
+ * Renvoie les données du diagramme alluvial filtrées en fonction des sélections de l'utilisateur
+ */
+
 export function getFilteredAlluvialData() {
   return [...filteredAlluvialData];
 }
+
+/**
+ * Renvoie les données sur le nombre de vols par compagnie sous forme de tableau
+ */
 
 export function getCompaniesFlightArray() {
   return [...companiesFlightArray];
 }
 
+/**
+ * Renvoie le nombre de compagnies affichées dans le graphique en barres de gauche
+ */
+
 export function getTopCompaniesCount(){
   return topCompaniesCount;
 }
+
+/**
+ * Met à jour le nombre de compagnies affichées dans le graphique en barres de gauche
+ * @param {*} count nouveau nombre de compagnies à afficher
+ */
 
 export function setTopCompaniesCount(count){
   topCompaniesCount = count;
 }
 
+/**
+ * Renvoie un dictionnaire faisant correspondre chaque compagnie à la liste de ses types d'aéronefs et leur compte respectif
+ */
+
 export function getCompaniesAircraftsMap() {
   return companiesAircrafts;
 }
+
+/**
+ * Groupement des données en fonction des principales compagnies aériennes
+ * @param {*} data données à traiter
+ * @returns Promise pour un tableau d'objets avec les propriétés 'company', 'airportIn', 'airportOut' et 'number'
+ */
 
 export function groupByMainCompanies(data) {
   let agg = new Map()
@@ -170,6 +205,12 @@ export function groupByMainCompanies(data) {
   })
   return new Promise((resolve, reject) => resolve(flyArray))
 }
+
+/**
+ * Réduit le nombre de compagnies affichées dans le graphique en barres de gauche
+ * @param {*} bottomBucket tableau contenant toutes les compagnies triées par nombre de vols décroissant
+ * @returns tableau contenant les n premières compagnies triées par nombre de vols décroissant, où n est le nombre de compagnies souhaité à afficher
+ */
 
 export function resizeTopCompagnies(bottomBucket) {
   let selection = bottomBucket.splice(0,   topCompaniesCount);
