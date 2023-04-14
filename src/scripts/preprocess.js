@@ -39,22 +39,22 @@ export function filterAlluvialData() {
     if (index >= 0 && index < topCompaniesCount) {
       filteredAlluvialData.push(d);
     } else {
-      let found = filteredAlluvialData.find(f => f.duration === d.duration && f.departureTime === d.departureTime && f.flightRange === d.flightRange && f.airline === 'OTHERS');
+      let found = filteredAlluvialData.find(f => f.duration === d.duration && f.departureTime === d.departureTime && f.flightRange === d.flightRange && f.airline === 'AUTRES');
       if (found) {
         found.count += d.count;
       } else {
-        filteredAlluvialData.push({airline: 'OTHERS', duration: d.duration, departureTime: d.departureTime, flightRange: d.flightRange, count: d.count});
+        filteredAlluvialData.push({airline: 'AUTRES', duration: d.duration, departureTime: d.departureTime, flightRange: d.flightRange, count: d.count});
       }
     }
   });
 
-  let index = companiesFlightArray.findIndex(company => company === 'OTHERS');
+  let index = companiesFlightArray.findIndex(company => company === 'AUTRES');
   if (index >= 0 && index < topCompaniesCount) {
-    let found = filteredAlluvialData.find(f => f.airline === 'OTHERS');
+    let found = filteredAlluvialData.find(f => f.airline === 'AUTRES');
     if (found) {
       found.count += otherCount;
     } else {
-      filteredAlluvialData.push({airline: 'OTHERS', duration: '', departureTime: '', flightRange: '', count: otherCount});
+      filteredAlluvialData.push({airline: 'AUTRES', duration: '', departureTime: '', flightRange: '', count: otherCount});
     }
   }
 
