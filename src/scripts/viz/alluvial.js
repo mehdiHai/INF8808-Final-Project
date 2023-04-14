@@ -37,6 +37,12 @@ function extractTimes(name) {
       return "16h-22h"
     case "Nuit":
       return "22h-4h"
+    case "International":
+      return "internationale"
+    case "Quebec":
+      return "quebecoise"
+    case "Canada":
+      return "canadienne"
     default:
       return name
   }
