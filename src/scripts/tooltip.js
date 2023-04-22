@@ -91,7 +91,7 @@ export default class Tooltip {
 
     createLegendNetwork() {
         this.element
-            .style("background", "rgba(0,0,0,0.2)")
+            .style("background", "rgba(0,0,0,0.5)")
             .style("left", "3px")
             .style("top", "60px")
             .style('width', "0px")
@@ -214,7 +214,7 @@ export default class Tooltip {
     showTooltipAirport(m, d) {
         this.element
             .style("opacity", 0.7)
-            .html(d[0] + "<br>" + d[2] + " - " + d[1] + "<br>"+ d[3] + " vols")
+            .html(d[0] + "<br>" + d[2] + "<br>" + d[1] + "<br>"+ d[3] + " vols")
             .style("left", ((m.x > window.innerWidth * 0.5) ? (m.layerX - 90) : (m.layerX + 30)) + "px")
             .style("top", (m.layerY + 20) + "px")
             .style("display", "block")
