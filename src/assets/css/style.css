@@ -45,7 +45,7 @@ body {
 #viz1 {
     margin-top:50px;
     margin-bottom: 50px;
-    padding: 25px 0px 50px ;
+    padding: 10px 0px 50px ;
     text-align: center;
     user-select: none;
     width: 100%;
@@ -180,17 +180,22 @@ body {
     100% {}
 }
 
+#slider-label {
+    position:relative;
+    height: fit-content;
+    font-size:18px;
+    margin-bottom: 5px;
+}
 
 #slider-value{
     width: 40px;
     height: 30px;
-    margin-top: 10px;
     padding-top:2px;
     background-color: rgb(68, 114, 196);
     border: 2px solid black;
     position:relative;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     border-radius: 10%;
     color:white;
     font-size:20px;
