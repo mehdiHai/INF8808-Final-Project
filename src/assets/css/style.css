@@ -4,7 +4,7 @@ body {
 
 
 .articleText {
-    text-align: justify;
+    text-align: left;
     font-family: Baskervville;
     padding-left: 2rem;
     padding-right: 2rem;

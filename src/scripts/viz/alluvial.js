@@ -38,7 +38,7 @@ export function loadData() {
 
 */
 function extractTimes(name) {
-  switch(name) {
+  switch (name) {
     case "Matin":
       return "4h-10h"
     case "Après-midi":
@@ -63,7 +63,7 @@ function extractTimes(name) {
 function centerLevelTitles(level, titleWidth) {
   const titleOffset = titleWidth / 2;
   const nodeOffset = nodeWidth / 2;
-  switch(level) {
+  switch (level) {
     case "Compagnies":
       return nodeOffset - titleOffset;
     case "Durée du vol":
@@ -99,6 +99,7 @@ export function createAlluvialViz() {
 
   const levels = ["Compagnies", "Durée du vol", "Temps de départ", "Portée du vol"];
 
+
   const levelText = svg.selectAll(".level")
     .data(levels)
     .enter()
@@ -107,10 +108,11 @@ export function createAlluvialViz() {
     .text(d => d)
     .style("font-family", "Baskervville")
     .style("font-size", "24px")
-    .each(function(d) {
+    .each(function (d) {
       const titleWidth = this.getBBox().width;
-      const x = centerLevelTitles(d, titleWidth);
-      d3.select(this).attr("x", x).attr("y", 30);
+      d3.select(this)
+        .attr("x", centerLevelTitles(d, titleWidth))
+        .attr("y", 30);
     });
 
   sankeyData.forEach(d => {
@@ -154,10 +156,10 @@ export function createAlluvialViz() {
       showAlluvialNode(d.name);
       return tooltip.showTooltipNode(event, extractTimes(d.name), d.value, d.layer)
     })
-    .on("mousemove", function(event) {
+    .on("mousemove", function (event) {
       return tooltip.moveTooltip(event)
     })
-    .on("mouseout", function() {
+    .on("mouseout", function () {
       tooltip.hideTooltip()
       resetAlluvial()
     })
@@ -211,8 +213,8 @@ function highlightLinks(alluvialToHighlight, sankeyToHighlight) {
 
 
   graph.links.forEach(link => {
-    const linkPath = d3.select("#link-" + link.index + " path");
-    linkPath.attr("stroke-width", 0);
+    d3.select("#link-" + link.index + " path")
+    .attr("stroke-width", 0);
   });
 
   sankeyToHighlight.forEach(sd => {
@@ -227,20 +229,20 @@ function highlightLinks(alluvialToHighlight, sankeyToHighlight) {
     sd['count'] = sum;
 
     graph.links.forEach(link => {
-      const linkPath =  d3.select("#link-" + link.index + " path");
+      const linkPath = d3.select("#link-" + link.index + " path");
       if (link['source'].name == sd['source'] && link['target'].name == sd['target']) {
         const colorPercentage = sd['count'] / link['value'];
         linkPath.attr("stroke-opacity", 0.5)
           .attr("stroke", "red")
           .attr("stroke-width", d => Math.max(1, d.width * colorPercentage))
-          .on("mousemove", function(event) {
+          .on("mousemove", function (event) {
             return tooltip.moveTooltip(event)
           })
-          .on("mouseout", function() {
+          .on("mouseout", function () {
             resetAlluvial();
             return tooltip.hideTooltip();
           })
-          
+
       }
     });
   });
@@ -254,7 +256,7 @@ function showAlluvialLink(sourceName, targetName) {
   // Filter the alluvialData to include only the relevant connections
   alluvialData.forEach(d => {
     const nameArray = [d['airline'], d['duration'], d['departureTime'], d['flightRange']]
-    if ( nameArray.includes(sourceName) && nameArray.includes(targetName)) {
+    if (nameArray.includes(sourceName) && nameArray.includes(targetName)) {
       alluvialToHighlight.push(d);
     }
   });
@@ -304,8 +306,8 @@ function showAlluvialNode(nodeName) {
 
 function resetAlluvial() {
   graph.links.forEach(link => {
-    const linkPath =  d3.select("#link-" + link.index + " path");
-    linkPath.attr("stroke", "gray")
+    d3.select("#link-" + link.index + " path")
+      .attr("stroke", "gray")
       .attr("stroke-opacity", 0.5)
       .attr("stroke-width", d => Math.max(1, d.width));
   });

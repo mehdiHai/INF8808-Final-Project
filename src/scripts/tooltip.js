@@ -46,6 +46,8 @@ export default class Tooltip {
             .transition()
             .duration(300)
             .text("Aéroport " + text)
+            .attr("font-size", "15px")
+            .attr("font-weight", "500")
             .attr("x", 30)
             .attr("y", 15)
     }
@@ -78,6 +80,8 @@ export default class Tooltip {
             .transition()
             .duration(300)
             .text(text)
+            .attr("font-size", "15px")
+            .attr("font-weight", "500")
             .attr("x", 30)
             .attr("y", 15)
     }
@@ -91,9 +95,12 @@ export default class Tooltip {
 
     createLegendNetwork() {
         this.element
-            .style("background", "rgba(0,0,0,0.5)")
+            .style("background", "rgba(255,255,255,0.8)")
             .style("left", "3px")
             .style("top", "60px")
+            .style("border-right", "3px solid grey")
+            .style("border-bottom", "3px solid grey")
+            .style("border-top", "3px solid grey")
             .style('width', "0px")
             .style('height', "500px")
             .attr('id', "infoNetwork")

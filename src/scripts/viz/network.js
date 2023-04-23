@@ -116,7 +116,7 @@ export default class Network {
           this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, "américain non québécois", this.ccolor['America'] + '0.6)', this.isFlightShow);
           break;
         case "WORLD":
-          for (let cont of [["Africa", "africain"], ["Europe", "européen"], ["Asia", "asiatique"], ["Oceania", "océanien"]]) {
+          for (let cont of [["Africa", "africain"], ["Europe", "européen"], ["Asia", "asiatique"], ["Oceania", "océanique"]]) {
             this.tooltipLegend.addAirportLegendNetwork(this.currentGeo, cont[1], this.ccolor[cont[0]] + '0.6)', this.isFlightShow);
           }
           break;
