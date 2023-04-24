@@ -71,7 +71,7 @@ export default class Tooltip {
             .transition()
             .duration(300)
             .attr("width", 30)
-            .attr("height", 10)
+            .attr("height", 5)
             .attr("x", -5)
             .attr("y", 5)
             .attr("fill", color)
