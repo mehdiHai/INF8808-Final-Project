@@ -221,8 +221,8 @@ export default class Network {
 
       if (this.currentGeo == "QC") {
         this.isFlightShow = true;
-        this.tooltipLegend.addFlightLegendNetwork("Vols des principales compagnies", 'rgba(0, 0, 0, 0.3)', this.isFlightShow);
-        this.tooltipLegend.addFlightLegendNetwork("Autres vols", 'rgba(187, 40, 255, 0.3)', this.isFlightShow);
+        this.tooltipLegend.addFlightLegendNetwork("Vols des principales compagnies", 'rgba(187, 40, 255, 0.3)', this.isFlightShow);
+        this.tooltipLegend.addFlightLegendNetwork("Autres vols", 'rgba(0, 0, 0, 0.3)', this.isFlightShow);
       }
 
       this.svg.selectAll('flights')
