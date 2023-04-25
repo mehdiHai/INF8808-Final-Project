@@ -213,6 +213,7 @@ export function groupByMainCompanies(data) {
  */
 
 export function resizeTopCompagnies(bottomBucket) {
+  topCompaniesSet.clear()
   let selection = bottomBucket.splice(0,   topCompaniesCount);
   selection.forEach(d => topCompaniesSet.add(d[0]))
   return selection;
